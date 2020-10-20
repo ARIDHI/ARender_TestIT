@@ -10,7 +10,7 @@ import org.testng.ITestResult;
  * @author ARIDHI HICHEM
  *
  */
-public class MyRetry implements IRetryAnalyzer {
+public class MyRetry implements IRetryAnalyzer  {
 	 
 	  private int retryCount = 0;
 	  private static final int maxRetryCount = 2;
