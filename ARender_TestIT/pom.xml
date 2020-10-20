@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>ARender_TestIT</groupId>
+  <artifactId>ARender_TestIT</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+
+  <name>ARender_TestIT</name>
+  <description>A simple ARender_TestIT.</description>
+  <!-- FIXME change it to the project's website -->
+  <url>http://www.example.com</url>
+
+  <build>
+  <plugins>
+    <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>2.22.0</version>
+        <configuration>
+       
+          <suiteXmlFiles>
+            <suiteXmlFile>AXA__TesT.xml</suiteXmlFile>
+          </suiteXmlFiles>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+  
+   <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>1.7</maven.compiler.source>
+    <maven.compiler.target>1.7</maven.compiler.target>
+  </properties>
+  
+    <dependencies>
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>3.141.59</version>
+</dependency>
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.0.0</version>
+    <scope>test</scope>
+</dependency>
+
+<dependency>
+   <groupId>com.aventstack</groupId>
+   <artifactId>extentreports</artifactId>
+   <version>4.0.9</version>
+</dependency> 
+
+<dependency>
+    <groupId>commons-io</groupId>
+    <artifactId>commons-io</artifactId>
+    <version>2.6</version>
+</dependency>
+<!-- <dependency>
+  <groupId>com.relevantcodes</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>2.41.2</version>
+</dependency>  -->
+<dependency>
+    <groupId>io.github.bonigarcia</groupId>
+    <artifactId>webdrivermanager</artifactId>
+    <version>3.8.1</version> 
+</dependency>
+
+<dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-core</artifactId>
+    <version>2.13.2</version>
+</dependency> 
+<dependency>
+	<groupId>io.rest-assured</groupId>
+	<artifactId>scala-support</artifactId>
+	<version>3.1.1</version>
+	<scope>test</scope>
+</dependency>
+<dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+	<artifactId>log4j-api</artifactId>
+	<version>2.4</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi</artifactId>
+    <version>4.1.2</version>
+</dependency>
+<!-- Applitools SDK -->
+<dependency>
+    <groupId>com.applitools</groupId>
+    <artifactId>eyes-selenium-java3</artifactId>
+    <version>3.178.0</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/com.github.stephenc.monte/monte-screen-recorder -->
+<dependency>
+    <groupId>com.github.stephenc.monte</groupId>
+    <artifactId>monte-screen-recorder</artifactId>
+    <version>0.7.7.0</version>
+</dependency> 
+  </dependencies>
+
+</project>
