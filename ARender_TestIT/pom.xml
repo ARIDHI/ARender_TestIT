@@ -8,7 +8,7 @@
   <artifactId>ARender_TestIT</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
-  <name>ARender_TestIT</name>
+ <name>ARender_TestIT</name>
   <description>A simple ARender_TestIT.</description>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
@@ -22,7 +22,7 @@
         <configuration>
        
           <suiteXmlFiles>
-            <suiteXmlFile>AXA__TesT.xml</suiteXmlFile>
+            <suiteXmlFile>EndToEnd.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>
