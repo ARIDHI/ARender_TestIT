@@ -3,11 +3,11 @@
 <suite name="Auto__E2E">
 
 
-    <listeners>
+  <!--  <listeners>
 
    <listener class-name="pageObject.Extent_TestListeners"></listener>
    
-   </listeners> 
+   </listeners> --> 
 
   <test thread-count="5" name="Auto__E2E">
   
