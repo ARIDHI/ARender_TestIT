@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="Axa__Filnet_TesT.MP4_File___AXA__">
+        <methods>
+          <include name="Handle_freeHand___On_MP4" invocation-numbers="0"/>
+          <include name="Simple_Hide_Annotation_fonction_On_MP4" invocation-numbers="0"/>
+          <include name="Handle_FreeText___On_MP4" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="Handel_Polygone___On_MP4" invocation-numbers="0"/>
+          <include name="Handle_Underline___On_MP4" invocation-numbers="0"/>
+          <include name="MP4_File____Upload" invocation-numbers="0"/>
+          <include name="Handle_Arrow___On_MP4" invocation-numbers="0"/>
+          <include name="Handle_StickyNote___On_MP4" invocation-numbers="0"/>
+          <include name="Handle_polyline___On_MP4" invocation-numbers="0"/>
+          <include name="initialization"/>
+          <include name="Handle_Circle___On_MP4" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Axa__Filnet_TesT.MP4_File___AXA__ -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

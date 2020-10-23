@@ -3,19 +3,22 @@
 <suite name="Auto__E2E">
 
 
-<listeners>
+    <listeners>
+
    <listener class-name="pageObject.Extent_TestListeners"></listener>
-</listeners> 
+   
+   </listeners> 
 
   <test thread-count="5" name="Auto__E2E">
+  
     <classes>
-     <class name="End_To_End____Test.ARender_Full_Fonction___onSmall_file"/>
+<!--      <class name="End_To_End____Test.ARender_Full_Fonction___onSmall_file"/>
      
      <class name="End_To_End____Test.ARender_Full_Fonction___onBulky_file"/>
      
       <class name="End_To_End____Test.Navigater_Panel___Test"/>
       
-      <class name="End_To_End____Test.contextFonction____Test"/> 
+      <class name="End_To_End____Test.contextFonction____Test"/> --> 
       
       <class name="File_Management_____Testcases.Pdf_File___Full_RegressionTest"/>
      
@@ -23,7 +26,7 @@
       
       <class name="File_Management_____Testcases.Word_File___Full_RegressionTest"/>
       
-       <class name="File_Management_____Testcases.GIF_File___Full_RegressionTest"/>
+     <!--   <class name="File_Management_____Testcases.GIF_File___Full_RegressionTest"/> -->
        
       <class name="File_Management_____Testcases.PPT_File___FullRegressionTest"/>
           
@@ -37,11 +40,7 @@
       
       <class name="File_Management_____Testcases.Tiff_File___Full_RegressionTest"/>
      
-      
-       
-     
-      
-    <!--  <class name="File_Management_____Testcases.Zip_File___FullRegressionTest"/> -->  
+      <class name="File_Management_____Testcases.Zip_File___FullRegressionTest"/> 
       
     </classes>
   </test> <!-- Auto__E2E -->
