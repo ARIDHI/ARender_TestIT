@@ -4,9 +4,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 import pageObject.ARender____FactoryPage;
-import pageObject.HanlerBasePage;
+import pageObject.HandlerBasePage;
 
-public class logIn___Alfresco extends  HanlerBasePage implements ARender____FactoryPage {
+public class logIn___Alfresco extends  HandlerBasePage implements ARender____FactoryPage {
 	
 	public logIn___Alfresco(WebDriver driver) {
 		super(driver);

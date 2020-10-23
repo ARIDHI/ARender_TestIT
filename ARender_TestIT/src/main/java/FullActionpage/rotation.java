@@ -7,13 +7,13 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 import pageObject.ARender____FactoryPage;
-import pageObject.HanlerBasePage;
+import pageObject.HandlerBasePage;
 
 /**
  * @author ARIDHI HICHEM
  *
  */
-public class rotation extends HanlerBasePage implements ARender____FactoryPage{
+public class rotation extends HandlerBasePage implements ARender____FactoryPage{
 
 	public rotation(WebDriver driver) {
 		super(driver);

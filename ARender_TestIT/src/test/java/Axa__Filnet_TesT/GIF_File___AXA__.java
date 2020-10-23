@@ -12,6 +12,7 @@ import java.util.List;
 import org.openqa.selenium.WebElement;
 
 import FullActionpage.SavePageAndQuit;
+import FullActionpage.deleteActionPage;
 import FullActionpage.refreshPage;
 import annotationHandler.PolygoneannotationHandler;
 import annotationHandler.StickyNoteAnnotationHandler;
@@ -27,7 +28,7 @@ import annotationHandler.polylineAnnotationHandler;
 import fileHandler.AFileUploadBase;
 import pageObject.ARender____FactoryPage;
 import pageObject.File____FactoryPage;
-import pageObject.HanlerBasePage;
+import pageObject.HandlerBasePage;
 
 /**
  * @author ARIDHI HICHEM
@@ -73,21 +74,21 @@ public class GIF_File___AXA__  extends pageObject.TestBase implements ARender___
 	   * @throws InterruptedException
 	   */
 		@Test (priority = 2,  enabled= true)
-		public void Handle_StickyNote___On_Gif (Method method) throws InterruptedException{ page.getInstance(StickyNoteAnnotationHandler.class).doDrowSticky();
+		public void Handle_StickyNote___On_Gif (Method method) throws InterruptedException{ page.getInstance(StickyNoteAnnotationHandler.class).drowNote();
 	    // TODO Check notification message is not wrong
 		// TODO Check annotation is displayed 
 	    // TODO Check style barre is displayed 
 		try {
-		    Assert.assertEquals(page.getInstance(HanlerBasePage.class).getNotificationMsg(notificationmsg),"Prêt pour la création d'annotation : Text");
-		    Assert.assertTrue(page.getInstance(HanlerBasePage.class).isDisplayed(StickyeannotationDisplayed),"ERROR ACCURRED : STICKYNOTE IS NOT DIPLAYDED");
-		    Assert.assertTrue(page.getInstance(HanlerBasePage.class).isDisplayed(styleBarre),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED");   
-		    page.getInstance(StickyNoteAnnotationHandler.class).doStylestickynote();
+		    Assert.assertEquals(page.getInstance(HandlerBasePage.class).getNotificationMsg(notificationmsg),"Prêt pour la création d'annotation : Text");
+		    Assert.assertTrue(page.getInstance(HandlerBasePage.class).isDisplayed(StickyeannotationDisplayed),"ERROR ACCURRED : STICKYNOTE IS NOT DIPLAYDED");
+		    Assert.assertTrue(page.getInstance(HandlerBasePage.class).isDisplayed(styleBarre),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED");   
+		   
 	    	}
 		catch(Exception e) {
 			e.printStackTrace();
 		}    
 		finally { 
-		    page.getInstance(annotationdrawBase.class).doDrop();
+		    page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 	            }	
         }
 		/**
@@ -101,15 +102,15 @@ public class GIF_File___AXA__  extends pageObject.TestBase implements ARender___
 	 	// TODO Check annotation is displayed 
 	    // TODO Check style barre is displayed
 	    try {
-	        Assert.assertEquals(page.getInstance(HanlerBasePage.class).getNotificationMsg(notificationmsg),"Prêt pour la création d'annotation : Freetext");
-	        Assert.assertTrue(page.getInstance(HanlerBasePage.class).isDisplayed(styleBarre),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED");
+	        Assert.assertEquals(page.getInstance(HandlerBasePage.class).getNotificationMsg(notificationmsg),"Prêt pour la création d'annotation : Freetext");
+	        Assert.assertTrue(page.getInstance(HandlerBasePage.class).isDisplayed(styleBarre),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED");
 	        page.getInstance(freeTextAnnotationHandler.class).doStylefreetext();
 	            }
 		catch(Exception e) {
 			e.printStackTrace();
 		}    
 		finally { 
-		       page.getInstance(annotationdrawBase.class).doDrop();
+		       page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 	            }	
 		}
 		/**
@@ -123,16 +124,16 @@ public class GIF_File___AXA__  extends pageObject.TestBase implements ARender___
 	    // TODO Check annotation is displayed 
 	    // TODO Check style barre is displayed
 		try {
-		    Assert.assertEquals(page.getInstance(HanlerBasePage.class).getNotificationMsg(notificationmsg),"Prêt pour la création d'annotation : Circle");
+		    Assert.assertEquals(page.getInstance(HandlerBasePage.class).getNotificationMsg(notificationmsg),"Prêt pour la création d'annotation : Circle");
 		    Assert.assertEquals(page.getInstance(annotationdrawBase.class).getEllipses(), 1,"ERROR ACCURRED : CICRLE IS NOT DIPLAYDED");
-		    Assert.assertTrue(page.getInstance(HanlerBasePage.class).isDisplayed(styleBarre),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED"); 
+		    Assert.assertTrue(page.getInstance(HandlerBasePage.class).isDisplayed(styleBarre),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED"); 
 	        page.getInstance(circleAnnotationHandler.class).doStylecircle();
 		}
 	    catch(Exception e) {
 				e.printStackTrace();
 			}    
 	   finally { 
-			    page.getInstance(annotationdrawBase.class).doDrop();
+			    page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 		        }	
 		}     
 		/**
@@ -146,16 +147,16 @@ public class GIF_File___AXA__  extends pageObject.TestBase implements ARender___
 	    // TODO Check annotation is displayed 
 	    // TODO Check style barre is displayed
 		try {
-		    Assert.assertEquals(page.getInstance(HanlerBasePage.class).getNotificationMsg(notificationmsg),"Prêt pour la création d'annotation : Line");
+		    Assert.assertEquals(page.getInstance(HandlerBasePage.class).getNotificationMsg(notificationmsg),"Prêt pour la création d'annotation : Line");
 		    Assert.assertNotEquals(page.getInstance(annotationdrawBase.class).getAllPathfill(), 0,"ERROR ACCURRED : ARROW IS NOT DIPLAYDED");
-		    Assert.assertTrue(page.getInstance(HanlerBasePage.class).isDisplayed(styleBarre),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED"); 
+		    Assert.assertTrue(page.getInstance(HandlerBasePage.class).isDisplayed(styleBarre),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED"); 
 		    page.getInstance(arrowAnnotationHandler.class).doStylearrow();
 		}
 	    catch(Exception e) {
 				e.printStackTrace();
 			}    
 	   finally { 
-			    page.getInstance(annotationdrawBase.class).doDrop();
+			    page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 		        }	
 		} 
 		/**
@@ -169,16 +170,16 @@ public class GIF_File___AXA__  extends pageObject.TestBase implements ARender___
 	    // TODO Check annotation is displayed 
 	    // TODO Check style barre is displayed
 		try {
-		    Assert.assertEquals(page.getInstance(HanlerBasePage.class).getNotificationMsg(notificationmsg),"Prêt pour la création d'annotation : Square");
+		    Assert.assertEquals(page.getInstance(HandlerBasePage.class).getNotificationMsg(notificationmsg),"Prêt pour la création d'annotation : Square");
 		    Assert.assertNotEquals(page.getInstance(annotationdrawBase.class).getPathfill(), 0,"ERROR ACCURRED : UNDERLINE IS NOT DIPLAYDED");
-		    Assert.assertTrue(page.getInstance(HanlerBasePage.class).isDisplayed(styleBarre),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED"); 
+		    Assert.assertTrue(page.getInstance(HandlerBasePage.class).isDisplayed(styleBarre),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED"); 
 		     page.getInstance(UnderLineHandler.class).doStyleunderLine();
 		}
 	    catch(Exception e) {
 				e.printStackTrace();
 			}    
 	   finally { 
-			    page.getInstance(annotationdrawBase.class).doDrop();
+			    page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 		        }	
 		}      
 		/**
@@ -192,16 +193,16 @@ public class GIF_File___AXA__  extends pageObject.TestBase implements ARender___
 	    // TODO Check annotation is displayed 
 	    // TODO Check style barre is displayed
 		try {
-		    Assert.assertEquals(page.getInstance(HanlerBasePage.class).getNotificationMsg(notificationmsg),"Prêt pour la création d'annotation : Ink");
+		    Assert.assertEquals(page.getInstance(HandlerBasePage.class).getNotificationMsg(notificationmsg),"Prêt pour la création d'annotation : Ink");
 		    Assert.assertNotEquals(page.getInstance(annotationdrawBase.class).getAllPathfill(), 0,"ERROR ACCURRED : FREEHAND IS NOT DIPLAYDED");
-		    Assert.assertTrue(page.getInstance(HanlerBasePage.class).isDisplayed(styleBarre),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED"); 
+		    Assert.assertTrue(page.getInstance(HandlerBasePage.class).isDisplayed(styleBarre),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED"); 
 	        page.getInstance(freeHandAnnotationtHandler.class).doStylefreehand();
 		}
 	    catch(Exception e) {
 				e.printStackTrace();
 			}    
 	   finally { 
-			    page.getInstance(annotationdrawBase.class).doDrop();
+			    page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 		        }	
 		}   
 		/**
@@ -215,16 +216,16 @@ public class GIF_File___AXA__  extends pageObject.TestBase implements ARender___
 	    // TODO Check annotation is displayed 
 	    // TODO Check style barre is displayed
 		try {
-		    Assert.assertEquals(page.getInstance(HanlerBasePage.class).getNotificationMsg(notificationmsg),"Prêt pour la création d'annotation : Polyline");
+		    Assert.assertEquals(page.getInstance(HandlerBasePage.class).getNotificationMsg(notificationmsg),"Prêt pour la création d'annotation : Polyline");
 		    Assert.assertNotEquals(page.getInstance(annotationdrawBase.class).getAllPathfill(), 0,"ERROR ACCURRED : POLYLINE IS NOT DIPLAYDED");
-		    Assert.assertTrue(page.getInstance(HanlerBasePage.class).isDisplayed(styleBarre),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED"); 
+		    Assert.assertTrue(page.getInstance(HandlerBasePage.class).isDisplayed(styleBarre),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED"); 
 	        page.getInstance(polylineAnnotationHandler.class).doStylepolyline();
 		}
 	    catch(Exception e) {
 				e.printStackTrace();
 			}    
 	   finally { 
-			    page.getInstance(annotationdrawBase.class).doDrop();
+			    page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 		       }	
 		}  
 		/**
@@ -238,16 +239,16 @@ public class GIF_File___AXA__  extends pageObject.TestBase implements ARender___
 	    // TODO Check annotation is displayed 
 	    // TODO Check style barre is displayed
 		try {
-		    Assert.assertEquals(page.getInstance(HanlerBasePage.class).getNotificationMsg(notificationmsg),"Prêt pour la création d'annotation : Polygon");
+		    Assert.assertEquals(page.getInstance(HandlerBasePage.class).getNotificationMsg(notificationmsg),"Prêt pour la création d'annotation : Polygon");
 		    Assert.assertNotEquals(page.getInstance(annotationdrawBase.class).getAllPathfill(), 0,"ERROR ACCURRED : POLYGONE IS NOT DIPLAYDED");
-		    Assert.assertTrue(page.getInstance(HanlerBasePage.class).isDisplayed(styleBarre),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED");
+		    Assert.assertTrue(page.getInstance(HandlerBasePage.class).isDisplayed(styleBarre),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED");
 	        page.getInstance(polylineAnnotationHandler.class).doStylepolyline();
 		}
 	    catch(Exception e) {
 				e.printStackTrace();
 			}    
 	   finally { 
-			    page.getInstance(annotationdrawBase.class).doDrop();
+			    page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 		       }	
 		} 
 		 @Test (priority = 10 ,enabled= true)

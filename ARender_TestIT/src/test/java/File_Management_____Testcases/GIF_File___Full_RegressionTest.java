@@ -10,6 +10,7 @@ import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import FullActionpage.deleteActionPage;
 import annotationHandler.PolygoneannotationHandler;
 import annotationHandler.StickyNoteAnnotationHandler;
 import annotationHandler.StumpAnnotaionHandler;
@@ -23,7 +24,7 @@ import annotationHandler.polylineAnnotationHandler;
 import fileHandler.AFileUploadBase;
 import pageObject.ARender____FactoryPage;
 import pageObject.File____FactoryPage;
-import pageObject.HanlerBasePage;
+import pageObject.HandlerBasePage;
 
 /**
  * @author ARIDHI HICHEM
@@ -60,20 +61,20 @@ public class GIF_File___Full_RegressionTest  extends pageObject.TestBase impleme
 	   * @throws InterruptedException
 	   */
 		@Test (priority = 2,  dependsOnMethods = { "Upload_Gif" })
-		public void Handle_StickyNote___On_Gif (Method method) throws InterruptedException{ page.getInstance(StickyNoteAnnotationHandler.class).doDrowSticky();
+		public void Handle_StickyNote___On_Gif (Method method) throws InterruptedException{ page.getInstance(StickyNoteAnnotationHandler.class).drowNote();
 	    // TODO Check notification message is not wrong
 		// TODO Check annotation is displayed 
 	    // TODO Check style barre is displayed 
 		try {
-		    Assert.assertTrue(page.getInstance(HanlerBasePage.class).isDisplayed(StickyeannotationDisplayed),"ERROR ACCURRED : STICKYNOTE IS NOT DIPLAYDED");
-		    Assert.assertTrue(page.getInstance(HanlerBasePage.class).isDisplayed(styleBarre),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED");   
-		    page.getInstance(StickyNoteAnnotationHandler.class).doStylestickynote();
+		    Assert.assertTrue(page.getInstance(HandlerBasePage.class).isDisplayed(StickyeannotationDisplayed),"ERROR ACCURRED : STICKYNOTE IS NOT DIPLAYDED");
+		    Assert.assertTrue(page.getInstance(HandlerBasePage.class).isDisplayed(styleBarre),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED");   
+		   
 	    	}
 		catch(Exception e) {
 			e.printStackTrace();
 		}    
 		finally { 
-		    page.getInstance(annotationdrawBase.class).doDrop();
+		      page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 		    page.builder.moveToElement(page.findElement(VDragger))
 		    .click(page.findElement(dropDown))
 		    .build().perform();
@@ -90,14 +91,14 @@ public class GIF_File___Full_RegressionTest  extends pageObject.TestBase impleme
 	 	// TODO Check annotation is displayed 
 	    // TODO Check style barre is displayed
 	    try {
-	        Assert.assertTrue(page.getInstance(HanlerBasePage.class).isDisplayed(styleBarre),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED");
+	        Assert.assertTrue(page.getInstance(HandlerBasePage.class).isDisplayed(styleBarre),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED");
 	        page.getInstance(freeTextAnnotationHandler.class).doStylefreetext();
 	            }
 		catch(Exception e) {
 			e.printStackTrace();
 		}    
 		finally { 
-		       page.getInstance(annotationdrawBase.class).doDrop();
+		         page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 		       page.builder.moveToElement(page.findElement(VDragger))
 			    .click(page.findElement(dropDown))
 			    .build().perform();
@@ -123,7 +124,7 @@ public class GIF_File___Full_RegressionTest  extends pageObject.TestBase impleme
 				e.printStackTrace();
 			}    
 	   finally { 
-			    page.getInstance(annotationdrawBase.class).doDrop();
+			      page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 			    page.builder.moveToElement(page.findElement(VDragger))
 			    .click(page.findElement(dropDown))
 			    .build().perform();
@@ -141,14 +142,14 @@ public class GIF_File___Full_RegressionTest  extends pageObject.TestBase impleme
 	    // TODO Check style barre is displayed
 		try {
 		    Assert.assertNotEquals(page.getInstance(annotationdrawBase.class).getAllPathfill(), 0,"ERROR ACCURRED : ARROW IS NOT DIPLAYDED");
-		    Assert.assertTrue(page.getInstance(HanlerBasePage.class).isDisplayed(styleBarre),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED"); 
+		    Assert.assertTrue(page.getInstance(HandlerBasePage.class).isDisplayed(styleBarre),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED"); 
 		    page.getInstance(arrowAnnotationHandler.class).doStylearrow();
 		}
 	    catch(Exception e) {
 				e.printStackTrace();
 			}    
 	   finally { 
-			    page.getInstance(annotationdrawBase.class).doDrop();
+			      page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 			    page.builder.moveToElement(page.findElement(VDragger))
 			    .click(page.findElement(dropDown))
 			    .build().perform();
@@ -166,14 +167,14 @@ public class GIF_File___Full_RegressionTest  extends pageObject.TestBase impleme
 	    // TODO Check style barre is displayed
 		try {
 		    Assert.assertNotEquals(page.getInstance(annotationdrawBase.class).getPathfill(), 0,"ERROR ACCURRED : UNDERLINE IS NOT DIPLAYDED");
-		    Assert.assertTrue(page.getInstance(HanlerBasePage.class).isDisplayed(styleBarre),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED"); 
+		    Assert.assertTrue(page.getInstance(HandlerBasePage.class).isDisplayed(styleBarre),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED"); 
 		     page.getInstance(UnderLineHandler.class).doStyleunderLine();
 		}
 	    catch(Exception e) {
 				e.printStackTrace();
 			}    
 	   finally { 
-			    page.getInstance(annotationdrawBase.class).doDrop();
+			      page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 			    page.builder.moveToElement(page.findElement(VDragger))
 			    .click(page.findElement(dropDown))
 			    .build().perform();
@@ -191,14 +192,14 @@ public class GIF_File___Full_RegressionTest  extends pageObject.TestBase impleme
 	    // TODO Check style barre is displayed
 		try {
 		    Assert.assertNotEquals(page.getInstance(annotationdrawBase.class).getAllPathfill(), 0,"ERROR ACCURRED : FREEHAND IS NOT DIPLAYDED");
-		    Assert.assertTrue(page.getInstance(HanlerBasePage.class).isDisplayed(styleBarre),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED"); 
+		    Assert.assertTrue(page.getInstance(HandlerBasePage.class).isDisplayed(styleBarre),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED"); 
 	        page.getInstance(freeHandAnnotationtHandler.class).doStylefreehand();
 		}
 	    catch(Exception e) {
 				e.printStackTrace();
 			}    
 	   finally { 
-			    page.getInstance(annotationdrawBase.class).doDrop();
+			      page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 			    page.builder.moveToElement(page.findElement(VDragger))
 			    .click(page.findElement(dropDown))
 			    .build().perform();
@@ -216,14 +217,14 @@ public class GIF_File___Full_RegressionTest  extends pageObject.TestBase impleme
 	    // TODO Check style barre is displayed
 		try {
 		    Assert.assertNotEquals(page.getInstance(annotationdrawBase.class).getAllPathfill(), 0,"ERROR ACCURRED : POLYLINE IS NOT DIPLAYDED");
-		    Assert.assertTrue(page.getInstance(HanlerBasePage.class).isDisplayed(styleBarre),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED"); 
+		    Assert.assertTrue(page.getInstance(HandlerBasePage.class).isDisplayed(styleBarre),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED"); 
 	        page.getInstance(polylineAnnotationHandler.class).doStylepolyline();
 		}
 	    catch(Exception e) {
 				e.printStackTrace();
 			}    
 	   finally { 
-			    page.getInstance(annotationdrawBase.class).doDrop();
+		   page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 			    page.builder.moveToElement(page.findElement(VDragger))
 			    .click(page.findElement(dropDown))
 			    .build().perform();
@@ -241,14 +242,14 @@ public class GIF_File___Full_RegressionTest  extends pageObject.TestBase impleme
 	    // TODO Check style barre is displayed
 		try {
 		    Assert.assertNotEquals(page.getInstance(annotationdrawBase.class).getAllPathfill(), 0,"ERROR ACCURRED : POLYGONE IS NOT DIPLAYDED");
-		    Assert.assertTrue(page.getInstance(HanlerBasePage.class).isDisplayed(styleBarre),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED");
+		    Assert.assertTrue(page.getInstance(HandlerBasePage.class).isDisplayed(styleBarre),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED");
 	        page.getInstance(polylineAnnotationHandler.class).doStylepolyline();
 		}
 	    catch(Exception e) {
 				e.printStackTrace();
 			}    
 	   finally { 
-			    page.getInstance(annotationdrawBase.class).doDrop();
+		   page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 			    page.builder.moveToElement(page.findElement(VDragger))
 			    .click(page.findElement(dropDown))
 			    .build().perform();
@@ -390,7 +391,7 @@ public class GIF_File___Full_RegressionTest  extends pageObject.TestBase impleme
 			//TODO Draw an approved stamp
 			page.getInstance(PolygoneannotationHandler.class).doDrowpolygone();
 			//TODO Draw an draft stamp
-			page.getInstance(StickyNoteAnnotationHandler.class).doDrowSticky();
+			page.getInstance(StickyNoteAnnotationHandler.class).drowNote();
 		    
 			try {
 		

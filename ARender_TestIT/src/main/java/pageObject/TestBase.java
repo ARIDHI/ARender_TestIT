@@ -21,9 +21,6 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 
-
-
-
 /**
  * @author ARIDHI HICHEM
  *
@@ -32,7 +29,7 @@ public class TestBase {
  
 	public static WebDriver driver = null; 
 	public static Properties prop;
-	public static HanlerBasePage page;
+	public static HandlerBasePage page;
 	public static EventFiringWebDriver e_driver;
     public static ARenderListner webListner;
     public static ExtentHtmlReporter htmlReporter;
@@ -100,7 +97,7 @@ public class TestBase {
 	     driver.manage().timeouts().pageLoadTimeout(PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
 	     driver.manage().timeouts().implicitlyWait(IMPLICIT_WAIT, TimeUnit.SECONDS);
 	     driver.get(prop.getProperty("url"));
-	     page = new HanlerBasePage(driver);  
+	     page = new HandlerBasePage(driver);  
 	     
 	     }
 

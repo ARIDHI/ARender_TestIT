@@ -8,13 +8,13 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 import pageObject.ARender____FactoryPage;
-import pageObject.HanlerBasePage;
+import pageObject.HandlerBasePage;
 
 /**
- * @author Lenovo
+ * @author ARIDHI Hichem
  *
  */
-public class fullscreen extends HanlerBasePage implements ARender____FactoryPage{
+public class fullscreen extends HandlerBasePage implements ARender____FactoryPage{
 	/**
 	 * 
 	 * @param driver

@@ -12,6 +12,7 @@ import java.util.List;
 import org.openqa.selenium.WebElement;
 
 import FullActionpage.SavePageAndQuit;
+import FullActionpage.deleteActionPage;
 import FullActionpage.refreshPage;
 import annotationHandler.PolygoneannotationHandler;
 import annotationHandler.StickyNoteAnnotationHandler;
@@ -76,13 +77,13 @@ public class Tiff_File___AXA__  extends pageObject.TestBase implements ARender__
 		   */
 			@Test (priority = 2,  enabled= true)
 			public void Handle_StickyNote___On_tiff (Method method) throws InterruptedException{ 
-		    page.clickOnElement(annotationExplorerButtonFull);
-				  List <WebElement> elements = driver.findElements(delete);
-				  	   for (int i=0 ; i < elements.size() ; i++) {
-								elements.get(i).click(); }
-				  	 page.clickOnElement(ThumExplorerButton);      
-			Thread.sleep(500);	  	 
-				page.getInstance(StickyNoteAnnotationHandler.class).doDrowSticky();
+//		    page.clickOnElement(annotationExplorerButtonFull);
+//				  List <WebElement> elements = driver.findElements(delete);
+//				  	   for (int i=0 ; i < elements.size() ; i++) {
+//								elements.get(i).click(); }
+//				  	 page.clickOnElement(ThumExplorerButton);      
+//			Thread.sleep(500);	  	 
+				page.getInstance(StickyNoteAnnotationHandler.class).drowNote();
 			
 		    // TODO Check notification message is not wrong
 			// TODO Check annotation is displayed 
@@ -91,13 +92,13 @@ public class Tiff_File___AXA__  extends pageObject.TestBase implements ARender__
 			    Assert.assertTrue(page.findElement(StickyeannotationDisplayed).isDisplayed(),"ERROR ACCURRED : STICKYNOTE IS NOT DIPLAYDED");
 			    Assert.assertTrue(page.findElement(styleBarre).isDisplayed(),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED");   
 			    Assert.assertTrue(page.findElement(annotationViewIcon).isDisplayed(),"ERROR ACCURRED : VIEW ICON IS NOT DISPLAYED");	    
-			    page.getInstance(StickyNoteAnnotationHandler.class).doStylestickynote();
+			    
 		    	}
 			catch(Exception e) {
 				e.printStackTrace();
 			}    
 			finally { 
-			    page.getInstance(annotationdrawBase.class).doDrop();
+				page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 		            }	
 	        }
 			/**
@@ -119,7 +120,7 @@ public class Tiff_File___AXA__  extends pageObject.TestBase implements ARender__
 				e.printStackTrace();
 			}    
 			finally { 
-			       page.getInstance(annotationdrawBase.class).doDrop();
+			       page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 		            }	
 			}
 			/**
@@ -142,7 +143,7 @@ public class Tiff_File___AXA__  extends pageObject.TestBase implements ARender__
 					e.printStackTrace();
 				}    
 		   finally { 
-				    page.getInstance(annotationdrawBase.class).doDrop();
+				    page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 			        }	
 			}     
 			/**
@@ -165,7 +166,7 @@ public class Tiff_File___AXA__  extends pageObject.TestBase implements ARender__
 					e.printStackTrace();
 				}    
 		   finally { 
-				    page.getInstance(annotationdrawBase.class).doDrop();
+				    page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 			        }	
 			} 
 			/**
@@ -188,7 +189,7 @@ public class Tiff_File___AXA__  extends pageObject.TestBase implements ARender__
 					e.printStackTrace();
 				}    
 		   finally { 
-				    page.getInstance(annotationdrawBase.class).doDrop();
+				    page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 			        }	
 			}      
 			/**
@@ -211,7 +212,7 @@ public class Tiff_File___AXA__  extends pageObject.TestBase implements ARender__
 					e.printStackTrace();
 				}    
 		   finally { 
-				    page.getInstance(annotationdrawBase.class).doDrop();
+				    page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 			        }	
 			}   
 			/**
@@ -234,7 +235,7 @@ public class Tiff_File___AXA__  extends pageObject.TestBase implements ARender__
 					e.printStackTrace();
 				}    
 		   finally { 
-				    page.getInstance(annotationdrawBase.class).doDrop();
+				    page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 			       }	
 			}  
 			/**
@@ -257,7 +258,7 @@ public class Tiff_File___AXA__  extends pageObject.TestBase implements ARender__
 					e.printStackTrace();
 				}    
 		   finally { 
-				    page.getInstance(annotationdrawBase.class).doDrop();
+				    page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 			       }	
 			} 
 			 @Test (priority = 10 ,enabled= true)

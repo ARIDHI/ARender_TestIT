@@ -7,13 +7,13 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 import pageObject.ARender____FactoryPage;
-import pageObject.HanlerBasePage;
+import pageObject.HandlerBasePage;
 
 /**
  * @author Lenovo
  *
  */
-public class SavePageAndQuit extends HanlerBasePage implements ARender____FactoryPage {
+public class SavePageAndQuit extends HandlerBasePage implements ARender____FactoryPage {
 /**
  * 
  * @param driver

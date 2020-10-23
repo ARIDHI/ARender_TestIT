@@ -8,13 +8,14 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
 import pageObject.ARender____FactoryPage;
-import pageObject.HanlerBasePage;
+import pageObject.HandlerBasePage;
+
 
 /**
  * @author ARIDHI HICHEM
  *
  */
-public class SpecificStyle extends HanlerBasePage implements ARender____FactoryPage{
+public class SpecificStyle extends HandlerBasePage implements ARender____FactoryPage{
 
 	
 	public SpecificStyle(WebDriver driver) {

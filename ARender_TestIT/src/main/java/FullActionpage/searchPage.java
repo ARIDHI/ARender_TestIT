@@ -6,13 +6,13 @@ package FullActionpage;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import pageObject.ARender____FactoryPage;
-import pageObject.HanlerBasePage;
+import pageObject.HandlerBasePage;
 
 /**
  * @author Lenovo
  *
  */
-public class searchPage extends HanlerBasePage implements ARender____FactoryPage{
+public class searchPage extends HandlerBasePage implements ARender____FactoryPage{
 
 	public searchPage(WebDriver driver) {
 		super(driver);

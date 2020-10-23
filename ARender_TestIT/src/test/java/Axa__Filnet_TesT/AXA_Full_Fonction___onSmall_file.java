@@ -21,7 +21,7 @@ import FullActionpage.printPage;
 import FullActionpage.rotation;
 import pageObject.ARender____FactoryPage;
 import pageObject.File____FactoryPage;
-import pageObject.HanlerBasePage;
+import pageObject.HandlerBasePage;
 
 /**
  * @author ARIDHI Hichem
@@ -37,8 +37,7 @@ public class AXA_Full_Fonction___onSmall_file extends pageObject.TestBase implem
 	 */	 
   @Test(priority = 0 , alwaysRun = true ,enabled= true)
  public void Small_file____Upload (Method method) throws InterruptedException, IOException {
-	  driver.get("http://18.203.215.159:8080/arondor-arender-axa-war-4.0.9-2-rc1/?"
-		 		+ "bean=urlParserExternalAccessorProxy&id=%7B726198CD-7C1C-C2BA-8649-7405CBB00000%7D&objectStoreName=OS1&documentId=726198CD-7C1C-C2BA-8649-7405CBB00000");		
+	  driver.get("http://18.203.215.159:8080/arondor-arender-axa-war-4.1.0/?bean=urlParserExternalAccessorProxy&id=%7BB779AD7A-D8F9-CB0D-860A-74FE5D600000%7D&objectStoreName=OS1&documentId=B779AD7A-D8F9-CB0D-860A-74FE5D600000");		
 	 page.waitForElementPresent(thumbimage);
 		Thread.sleep(2000);
 			 page.clickOnElement(annotationExplorerButton);
@@ -152,7 +151,7 @@ public class AXA_Full_Fonction___onSmall_file extends pageObject.TestBase implem
 	  //TODO 
 	  page.getInstance(Zoom_In_Out.class).getZoomIn();  
 	  try {
-       Assert.assertTrue((page.getInstance(HanlerBasePage.class).getNotificationMsg(notificationmsg)).contains("Zoom Courant :") ,"error accurerd Test not ok");
+       Assert.assertTrue((page.getInstance(HandlerBasePage.class).getNotificationMsg(notificationmsg)).contains("Zoom Courant :") ,"error accurerd Test not ok");
 	  }
 	  catch(Exception e) {
   		  e.printStackTrace();
@@ -168,7 +167,7 @@ public class AXA_Full_Fonction___onSmall_file extends pageObject.TestBase implem
 	  //TODO
 	  page.getInstance(Zoom_In_Out.class).getZoomOut(); 
 	  try {
-       Assert.assertTrue((page.getInstance(HanlerBasePage.class).getNotificationMsg(notificationmsg)).contains("Zoom Courant :"),"error accurerd Test not ok");
+       Assert.assertTrue((page.getInstance(HandlerBasePage.class).getNotificationMsg(notificationmsg)).contains("Zoom Courant :"),"error accurerd Test not ok");
 	  }
 	  catch(Exception e) {
   		  e.printStackTrace();
@@ -184,14 +183,14 @@ public class AXA_Full_Fonction___onSmall_file extends pageObject.TestBase implem
 	  //TODO
 	  page.getInstance(Zoom_In_Out.class).ZoomInZone();  
 	  try {
-       Assert.assertTrue(page.getInstance(HanlerBasePage.class).getNotificationMsg(notificationmsg).contains("Zoom Courant :"),"error accurerd Test not ok");
+       Assert.assertTrue(page.getInstance(HandlerBasePage.class).getNotificationMsg(notificationmsg).contains("Zoom Courant :"),"error accurerd Test not ok");
 	  }
 	  catch(Exception e) {
   		  e.printStackTrace();
   	   }
   }
   /**
-   * @see HanlerBasePage.class
+   * @see HandlerBasePage.class
    * @see Zoom_In_Out.class
    * @throws InterruptedException
    */
@@ -200,11 +199,11 @@ public class AXA_Full_Fonction___onSmall_file extends pageObject.TestBase implem
 	  //TODO
 	  page.getInstance(Zoom_In_Out.class).getFullHeightButton();  
 	  try {
-       Assert.assertTrue(page.getInstance(HanlerBasePage.class).getNotificationMsg(notificationmsg).contains("Zoom Courant :"),"error accurerd Test not ok"); 
+       Assert.assertTrue(page.getInstance(HandlerBasePage.class).getNotificationMsg(notificationmsg).contains("Zoom Courant :"),"error accurerd Test not ok"); 
        page.getInstance(Zoom_In_Out.class).getFullWidthButton();
-       Assert.assertTrue(page.getInstance(HanlerBasePage.class).getNotificationMsg(notificationmsg).contains("Zoom Courant :"),"error accurerd Test not ok");
+       Assert.assertTrue(page.getInstance(HandlerBasePage.class).getNotificationMsg(notificationmsg).contains("Zoom Courant :"),"error accurerd Test not ok");
        page.getInstance(Zoom_In_Out.class).getFullPageButton();
-       Assert.assertTrue(page.getInstance(HanlerBasePage.class).getNotificationMsg(notificationmsg).contains("Zoom Courant :"),"error accurerd Test not ok");   
+       Assert.assertTrue(page.getInstance(HandlerBasePage.class).getNotificationMsg(notificationmsg).contains("Zoom Courant :"),"error accurerd Test not ok");   
 	  }
 	  catch(Exception e) {
   		  e.printStackTrace();
@@ -220,7 +219,7 @@ public class AXA_Full_Fonction___onSmall_file extends pageObject.TestBase implem
 	  //TODO
 	  page.getInstance(Zoom_In_Out.class).setZoomBox(); 
 	  try {   
-      Assert.assertEquals(page.getInstance(HanlerBasePage.class).getNotificationMsg(notificationmsg),"Zoom Courant :100.00%", "error accurerd Test not ok");
+      Assert.assertEquals(page.getInstance(HandlerBasePage.class).getNotificationMsg(notificationmsg),"Zoom Courant :100.00%", "error accurerd Test not ok");
 	  }
 	  catch(Exception e) {
   		  e.printStackTrace();

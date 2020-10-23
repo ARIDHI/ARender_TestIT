@@ -12,20 +12,20 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
 import pageObject.ARender____FactoryPage;
-import pageObject.HanlerBasePage;
+import pageObject.HandlerBasePage;
 
 
 
 /**
- * @author Lenovo
+ * @author ARIDHI Hichem
  *
  */
-public class Filtre___Fonction extends HanlerBasePage implements ARender____FactoryPage{
+public class filtreAction extends HandlerBasePage implements ARender____FactoryPage{
 	/**
 	 * 
 	 * @param driver
 	 */
-	public Filtre___Fonction(WebDriver driver) {
+	public filtreAction(WebDriver driver) {
 		super(driver);
 		// TODO Auto-generated constructor stub
 	}
@@ -35,7 +35,7 @@ public class Filtre___Fonction extends HanlerBasePage implements ARender____Fact
     */
 	public void HandleSticky() throws InterruptedException {
 		
-		 getInstance(annotationHandler.StickyNoteAnnotationHandler.class).doDrowSticky();
+		 getInstance(annotationHandler.StickyNoteAnnotationHandler.class).drowNote();
 		 Thread.sleep(500);
 
 		 try {
@@ -46,7 +46,7 @@ public class Filtre___Fonction extends HanlerBasePage implements ARender____Fact
 				e.printStackTrace();
 			 } 
 		 clickOnElement(cancelAnnotationButton); builder.sendKeys(Keys.ARROW_RIGHT).build().perform();		 
-		 getInstance(annotationHandler.StickyNoteAnnotationHandler.class).doDrowSticky();
+		 getInstance(annotationHandler.StickyNoteAnnotationHandler.class).drowNote();
 		 try {
 			 Select state = new Select(findElement(StickyeannotationDisplayed));
 			 state.selectByVisibleText("Terminé"); 

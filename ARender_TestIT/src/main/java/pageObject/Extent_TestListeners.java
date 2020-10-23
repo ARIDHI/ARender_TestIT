@@ -24,7 +24,6 @@ import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.Markup;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
 
-
 /**
  * @author ARIDHI HICHEM
  *
@@ -33,6 +32,7 @@ public class Extent_TestListeners  implements ITestListener {
    
 	private static ExtentReports extent = ExtentManager.createInstance();
 	private static ThreadLocal<ExtentTest> extentTest = new ThreadLocal<ExtentTest>();
+	
 	
 	@Override
 	public void onTestStart(ITestResult result) {
@@ -73,6 +73,7 @@ public class Extent_TestListeners  implements ITestListener {
 	    Markup m = MarkupHelper.createLabel(logText, ExtentColor.YELLOW);
 	    extentTest.get().log(Status.SKIP, m);
 	}
+	
 	@Override
 	public void onFinish(ITestContext context) {
 		if(extent != null) {

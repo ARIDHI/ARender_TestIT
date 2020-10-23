@@ -10,10 +10,11 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import FullActionpage.RightClick______List;
+import FullActionpage.deleteActionPage;
 import annotationHandler.annotationdrawBase;
 import pageObject.ARender____FactoryPage;
 import pageObject.File____FactoryPage;
-import pageObject.HanlerBasePage;
+import pageObject.HandlerBasePage;
 
 /**
  * @author ARIDHI HICHEM
@@ -25,20 +26,20 @@ public class AXA_contextFonction____Test extends pageObject.TestBase implements 
 	@Test(priority = 1 , alwaysRun = false ,enabled= true)
     public void context_Highlight___Test(Method method) throws InterruptedException, IOException {
 
-		driver.get("http://18.203.215.159:8080/arondor-arender-axa-war-4.1.0-rc0/?bean=urlParserExternalAccessorProxy&id=%7BE5D34741-8178-CE38-AF13-718852900000%7D&objectStoreName=OS1&documentId=E5D34741-8178-CE38-AF13-718852900000");		
+		driver.get("http://18.203.215.159:8080/arondor-arender-axa-war-4.1.0/?bean=urlParserExternalAccessorProxy&id=%7B28895431-343F-C345-8F8D-74FE5D600000%7D&objectStoreName=OS1&documentId=28895431-343F-C345-8F8D-74FE5D600000");		
 		  page.waitForElementPresent(thumbimage);
 			Thread.sleep(4000);
 	    page.getInstance(RightClick______List.class).contextHighlight();
  
 		try {
 			Assert.assertNotEquals(page.getInstance(annotationdrawBase.class).getPathfill(), 0,"ERROR ACCURRED : UNDERLINE IS NOT DIPLAYDED");
-		    Assert.assertTrue(page.getInstance(HanlerBasePage.class).isDisplayed(styleBarre),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED"); 
+		    Assert.assertTrue(page.getInstance(HandlerBasePage.class).isDisplayed(styleBarre),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED"); 
 		}
 		catch(Exception e) {
 			e.printStackTrace();
 		}
 		finally { 
-		    page.getInstance(annotationdrawBase.class).doDrop();
+		   page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 	        }	
 	}
 	/**
@@ -52,13 +53,13 @@ public class AXA_contextFonction____Test extends pageObject.TestBase implements 
 	
 		page.getInstance(RightClick______List.class).contextCrossed();
 		try {
-		    Assert.assertTrue(page.getInstance(HanlerBasePage.class).isDisplayed(styleBarre),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED"); 
+		    Assert.assertTrue(page.getInstance(HandlerBasePage.class).isDisplayed(styleBarre),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED"); 
 		}
 		catch(Exception e) {
 			e.printStackTrace();
 		}
 		finally { 
-		    page.getInstance(annotationdrawBase.class).doDrop();
+		   page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 	        }	
 	}
 	/**
@@ -73,13 +74,13 @@ public class AXA_contextFonction____Test extends pageObject.TestBase implements 
 		page.getInstance(RightClick______List.class).contextHighlighted();
 		try {
 			Assert.assertNotEquals(page.getInstance(annotationdrawBase.class).getPathfill(), 0,"ERROR ACCURRED : UNDERLINE IS NOT DIPLAYDED");
-		    Assert.assertTrue(page.getInstance(HanlerBasePage.class).isDisplayed(styleBarre),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED"); 
+		    Assert.assertTrue(page.getInstance(HandlerBasePage.class).isDisplayed(styleBarre),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED"); 
 		}
 		catch(Exception e) {
 			e.printStackTrace();
 		}
 		finally { 
-		    page.getInstance(annotationdrawBase.class).doDrop();
+		   page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 	        }	
 	}
 	/**
@@ -93,13 +94,13 @@ public class AXA_contextFonction____Test extends pageObject.TestBase implements 
 	
 		page.getInstance(RightClick______List.class).contextHighlightZone();
 		try {
-		    Assert.assertTrue(page.getInstance(HanlerBasePage.class).isDisplayed(styleBarre),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED"); 
+		    Assert.assertTrue(page.getInstance(HandlerBasePage.class).isDisplayed(styleBarre),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED"); 
 		}
 		catch(Exception e) {
 			e.printStackTrace();
 		}
 		finally { 
-		    page.getInstance(annotationdrawBase.class).doDrop();
+		   page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 	        }	
 	}
 	/**
@@ -113,13 +114,13 @@ public class AXA_contextFonction____Test extends pageObject.TestBase implements 
 	
 		page.getInstance(RightClick______List.class).contextAddCircle();
 		try {
-		    Assert.assertTrue(page.getInstance(HanlerBasePage.class).isDisplayed(styleBarre),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED"); 
+		    Assert.assertTrue(page.getInstance(HandlerBasePage.class).isDisplayed(styleBarre),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED"); 
 		}
 		catch(Exception e) {
 			e.printStackTrace();
 		}
 		finally { 
-		    page.getInstance(annotationdrawBase.class).doDrop();
+		   page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 	        }	
 	}
 }

@@ -8,6 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import FullActionpage.deleteActionPage;
 import GED_____Base.logIn__Nuxio;
 import annotationHandler.StumpAnnotaionHandler;
 import annotationHandler.annotationdrawBase;
@@ -56,7 +57,7 @@ public class Nuxio__TesT__Excel extends pageObject.TestBase implements ARender__
 		e.printStackTrace();
 	}    
 	finally { 
-	    page.getInstance(annotationdrawBase.class).doDrop();
+	   page.getInstance(deleteActionPage.class).deleteFromStyleBar();
             }	
     }
 /**
@@ -79,7 +80,7 @@ public class Nuxio__TesT__Excel extends pageObject.TestBase implements ARender__
 		e.printStackTrace();
 	}    
 	finally { 
-	       page.getInstance(annotationdrawBase.class).doDrop();
+	      page.getInstance(deleteActionPage.class).deleteFromStyleBar();
             }	
 	}	
 	/**

@@ -19,7 +19,7 @@ import FullActionpage.rotation;
 import fileHandler.AFileUploadBase;
 import pageObject.ARender____FactoryPage;
 import pageObject.File____FactoryPage;
-import pageObject.HanlerBasePage;
+import pageObject.HandlerBasePage;
 
 /**
  * @author ARIDHI HICHEM
@@ -111,7 +111,7 @@ public class ARender_Full_Fonction___onBulky_file  extends pageObject.TestBase i
 		  //TODO 
 		  page.getInstance(Zoom_In_Out.class).getZoomIn();  
 		  try {
-	       Assert.assertTrue((page.getInstance(HanlerBasePage.class).getNotificationMsg(notificationmsg)).contains("Zoom Courant :") ,"error accurerd Test not ok");
+	       Assert.assertTrue((page.getInstance(HandlerBasePage.class).getNotificationMsg(notificationmsg)).contains("Zoom Courant :") ,"error accurerd Test not ok");
 		  }
 		  catch(Exception e) {
 	  		  e.printStackTrace();
@@ -127,7 +127,7 @@ public class ARender_Full_Fonction___onBulky_file  extends pageObject.TestBase i
 		  //TODO
 		  page.getInstance(Zoom_In_Out.class).getZoomOut(); 
 		  try {
-	       Assert.assertTrue((page.getInstance(HanlerBasePage.class).getNotificationMsg(notificationmsg)).contains("Zoom Courant :"),"error accurerd Test not ok");
+	       Assert.assertTrue((page.getInstance(HandlerBasePage.class).getNotificationMsg(notificationmsg)).contains("Zoom Courant :"),"error accurerd Test not ok");
 		  }
 		  catch(Exception e) {
 	  		  e.printStackTrace();
@@ -143,14 +143,14 @@ public class ARender_Full_Fonction___onBulky_file  extends pageObject.TestBase i
 		  //TODO
 		  page.getInstance(Zoom_In_Out.class).ZoomInZone();  
 		  try {
-	       Assert.assertTrue(page.getInstance(HanlerBasePage.class).getNotificationMsg(notificationmsg).contains("Zoom Courant :"),"error accurerd Test not ok");
+	       Assert.assertTrue(page.getInstance(HandlerBasePage.class).getNotificationMsg(notificationmsg).contains("Zoom Courant :"),"error accurerd Test not ok");
 		  }
 		  catch(Exception e) {
 	  		  e.printStackTrace();
 	  	   }
 	  }
 	  /**
-	   * @see HanlerBasePage.class
+	   * @see HandlerBasePage.class
 	   * @see Zoom_In_Out.class
 	   * @throws InterruptedException
 	   */
@@ -159,11 +159,11 @@ public class ARender_Full_Fonction___onBulky_file  extends pageObject.TestBase i
 		  //TODO
 		  page.getInstance(Zoom_In_Out.class).getFullHeightButton();  
 		  try {
-	       Assert.assertTrue(page.getInstance(HanlerBasePage.class).getNotificationMsg(notificationmsg).contains("Zoom Courant :"),"error accurerd Test not ok"); 
+	       Assert.assertTrue(page.getInstance(HandlerBasePage.class).getNotificationMsg(notificationmsg).contains("Zoom Courant :"),"error accurerd Test not ok"); 
 	       page.getInstance(Zoom_In_Out.class).getFullWidthButton();
-	       Assert.assertTrue(page.getInstance(HanlerBasePage.class).getNotificationMsg(notificationmsg).contains("Zoom Courant :"),"error accurerd Test not ok");
+	       Assert.assertTrue(page.getInstance(HandlerBasePage.class).getNotificationMsg(notificationmsg).contains("Zoom Courant :"),"error accurerd Test not ok");
 	       page.getInstance(Zoom_In_Out.class).getFullPageButton();
-	       Assert.assertTrue(page.getInstance(HanlerBasePage.class).getNotificationMsg(notificationmsg).contains("Zoom Courant :"),"error accurerd Test not ok");   
+	       Assert.assertTrue(page.getInstance(HandlerBasePage.class).getNotificationMsg(notificationmsg).contains("Zoom Courant :"),"error accurerd Test not ok");   
 		  }
 		  catch(Exception e) {
 	  		  e.printStackTrace();
@@ -179,7 +179,7 @@ public class ARender_Full_Fonction___onBulky_file  extends pageObject.TestBase i
 		  //TODO
 		  page.getInstance(Zoom_In_Out.class).setZoomBox(); 
 		  try {   
-	      Assert.assertEquals(page.getInstance(HanlerBasePage.class).getNotificationMsg(notificationmsg),"Zoom Courant :100.00%", "error accurerd Test not ok");
+	      Assert.assertEquals(page.getInstance(HandlerBasePage.class).getNotificationMsg(notificationmsg),"Zoom Courant :100.00%", "error accurerd Test not ok");
 		  }
 		  catch(Exception e) {
 	  		  e.printStackTrace();

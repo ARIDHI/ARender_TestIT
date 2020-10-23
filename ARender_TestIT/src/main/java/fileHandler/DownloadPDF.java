@@ -5,13 +5,13 @@ package fileHandler;
 
 import org.openqa.selenium.WebDriver;
 import pageObject.File____FactoryPage;
-import pageObject.HanlerBasePage;
+import pageObject.HandlerBasePage;
 
 /**
  * @author ARIDHI HICHEM
  *
  */
-public class DownloadPDF extends HanlerBasePage implements File____FactoryPage{
+public class DownloadPDF extends HandlerBasePage implements File____FactoryPage{
 /**
  * 
  * @param driver

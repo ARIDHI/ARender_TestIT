@@ -12,6 +12,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import FullActionpage.SavePageAndQuit;
+import FullActionpage.deleteActionPage;
 import FullActionpage.refreshPage;
 import annotationHandler.PolygoneannotationHandler;
 import annotationHandler.StickyNoteAnnotationHandler;
@@ -46,7 +47,7 @@ public class Png_File___AXA__  extends pageObject.TestBase implements ARender___
 	 */	 
 		@Test(priority = 1 , alwaysRun = true ,enabled= true)
 	    public void Png_File____Upload (Method method) throws InterruptedException, IOException {
-    	driver.get("http://18.203.215.159:8080/arondor-arender-axa-war-4.1.0-rc0/?bean=urlParserExternalAccessorProxy&id=%7BDE327055-2531-C400-A74C-718852A00001%7D&objectStoreName=OS1&documentId=DE327055-2531-C400-A74C-718852A00001");		
+    	driver.get("http://18.203.215.159:8080/arondor-arender-axa-war-4.1.0/?bean=urlParserExternalAccessorProxy&id=%7B5D18A4F9-ABE5-CAFA-8609-74FE64900000%7D&objectStoreName=OS1&documentId=5D18A4F9-ABE5-CAFA-8609-74FE64900000");		
 	  page.waitForElementPresent(thumbimage);
 		Thread.sleep(4000);
 		// TODO check notification message is not wrong
@@ -75,13 +76,13 @@ public class Png_File___AXA__  extends pageObject.TestBase implements ARender___
 		   */
 			@Test (priority = 2,  enabled= true)
 			public void Handle_StickyNote___On_png (Method method) throws InterruptedException{ 
-		    page.clickOnElement(annotationExplorerButtonFull);
-				  List <WebElement> elements = driver.findElements(delete);
-				  	   for (int i=0 ; i < elements.size() ; i++) {
-								elements.get(i).click(); }
-				  	 page.clickOnElement(ThumExplorerButton);      
-			Thread.sleep(500);	  	 
-				page.getInstance(StickyNoteAnnotationHandler.class).doDrowSticky();
+//		    page.clickOnElement(annotationExplorerButtonFull);
+//				  List <WebElement> elements = driver.findElements(delete);
+//				  	   for (int i=0 ; i < elements.size() ; i++) {
+//								elements.get(i).click(); }
+//				  	 page.clickOnElement(ThumExplorerButton);      
+//			Thread.sleep(500);	  	 
+				page.getInstance(StickyNoteAnnotationHandler.class).drowNote();
 			
 		    // TODO Check notification message is not wrong
 			// TODO Check annotation is displayed 
@@ -90,13 +91,13 @@ public class Png_File___AXA__  extends pageObject.TestBase implements ARender___
 			    Assert.assertTrue(page.findElement(StickyeannotationDisplayed).isDisplayed(),"ERROR ACCURRED : STICKYNOTE IS NOT DIPLAYDED");
 			    Assert.assertTrue(page.findElement(styleBarre).isDisplayed(),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED");   
 			    Assert.assertTrue(page.findElement(annotationViewIcon).isDisplayed(),"ERROR ACCURRED : VIEW ICON IS NOT DISPLAYED");	    
-			    page.getInstance(StickyNoteAnnotationHandler.class).doStylestickynote();
+			    
 		    	}
 			catch(Exception e) {
 				e.printStackTrace();
 			}    
 			finally { 
-			    page.getInstance(annotationdrawBase.class).doDrop();
+			    page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 		            }	
 	        }
 			/**
@@ -118,7 +119,7 @@ public class Png_File___AXA__  extends pageObject.TestBase implements ARender___
 				e.printStackTrace();
 			}    
 			finally { 
-			       page.getInstance(annotationdrawBase.class).doDrop();
+			       page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 		            }	
 			}
 			/**
@@ -141,7 +142,7 @@ public class Png_File___AXA__  extends pageObject.TestBase implements ARender___
 					e.printStackTrace();
 				}    
 		   finally { 
-				    page.getInstance(annotationdrawBase.class).doDrop();
+				    page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 			        }	
 			}     
 			/**
@@ -164,7 +165,7 @@ public class Png_File___AXA__  extends pageObject.TestBase implements ARender___
 					e.printStackTrace();
 				}    
 		   finally { 
-				    page.getInstance(annotationdrawBase.class).doDrop();
+				    page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 			        }	
 			} 
 			/**
@@ -187,7 +188,7 @@ public class Png_File___AXA__  extends pageObject.TestBase implements ARender___
 					e.printStackTrace();
 				}    
 		   finally { 
-				    page.getInstance(annotationdrawBase.class).doDrop();
+				    page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 			        }	
 			}      
 			/**
@@ -210,7 +211,7 @@ public class Png_File___AXA__  extends pageObject.TestBase implements ARender___
 					e.printStackTrace();
 				}    
 		   finally { 
-				    page.getInstance(annotationdrawBase.class).doDrop();
+				    page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 			        }	
 			}   
 			/**
@@ -233,7 +234,7 @@ public class Png_File___AXA__  extends pageObject.TestBase implements ARender___
 					e.printStackTrace();
 				}    
 		   finally { 
-				    page.getInstance(annotationdrawBase.class).doDrop();
+				    page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 			       }	
 			}  
 			/**
@@ -256,7 +257,7 @@ public class Png_File___AXA__  extends pageObject.TestBase implements ARender___
 					e.printStackTrace();
 				}    
 		   finally { 
-				    page.getInstance(annotationdrawBase.class).doDrop();
+				    page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 			       }	
 			} 
 			 @Test (priority = 10 ,enabled= true)

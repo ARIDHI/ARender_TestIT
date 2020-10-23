@@ -12,13 +12,13 @@ import org.openqa.selenium.WebElement;
 
 import pageObject.ARender____FactoryPage;
 import pageObject.File____FactoryPage;
-import pageObject.HanlerBasePage;
+import pageObject.HandlerBasePage;
 /**
  * 
  * @author ARIDHI HICHEM
  *
  */
-public class annotationdrawBase  extends  HanlerBasePage implements ARender____FactoryPage , File____FactoryPage{
+public class annotationdrawBase  extends  HandlerBasePage implements ARender____FactoryPage , File____FactoryPage{
 	/**
 	 * 
 	 * @param driver
@@ -49,15 +49,8 @@ public class annotationdrawBase  extends  HanlerBasePage implements ARender____F
 	   */
 	  public void doDraw (By locator) { findElement(annotationMenu).click(); getAnnotation(locator).click(); 
 	  builder.dragAndDropBy(findElement(drawLocationPath), 190, 127).build().perform(); }	  
-	  /**
-	   * 
-	   */
-	  public void doDrop () { findElement(deleteAnnotation).click();
-	  }
-	  /**
-	   * 
-	   * @return
-	   */
+	
+	  
 	  public int getEllipses() {
 		  List <WebElement> Ellipeses = findElements(ellipses);
 		  return Ellipeses.size();

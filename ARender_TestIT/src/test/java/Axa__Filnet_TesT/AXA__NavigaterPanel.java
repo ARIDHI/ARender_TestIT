@@ -10,11 +10,11 @@ import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import FullActionpage.Filtre___Fonction;
+import FullActionpage.filtreAction;
 import annotationHandler.hideAnnotationPage;
 import pageObject.ARender____FactoryPage;
 import pageObject.File____FactoryPage;
-import pageObject.HanlerBasePage;
+import pageObject.HandlerBasePage;
 
 /**
  * @author Lenovo
@@ -32,8 +32,7 @@ public class AXA__NavigaterPanel extends pageObject.TestBase implements ARender_
 	@Test (priority =1 , alwaysRun = true )
 	public void Filtre__On_Zip(Method method) throws InterruptedException {
 
-		driver.get("http://18.203.215.159:8080/arondor-arender-axa-war-4.0.9-2-rc1/?bean=urlParserExternalAccessorProxy&id="
-				+ "%7BE5D34741-8178-CE38-AF13-718852900000%7D&objectStoreName=OS1&documentId=E5D34741-8178-CE38-AF13-718852900000");		
+		driver.get("http://18.203.215.159:8080/arondor-arender-axa-war-4.1.0/?bean=urlParserExternalAccessorProxy&id=%7B28895431-343F-C345-8F8D-74FE5D600000%7D&objectStoreName=OS1&documentId=28895431-343F-C345-8F8D-74FE5D600000");		
 	    page.waitForElementPresent(thumbimage);
 		Thread.sleep(1000);
 		
@@ -46,14 +45,14 @@ public class AXA__NavigaterPanel extends pageObject.TestBase implements ARender_
 	            
 		
 		try {
-			page.getInstance(Filtre___Fonction.class).HandleAnno();page.getInstance(Filtre___Fonction.class).getFiltreOption();
+			page.getInstance(filtreAction.class).HandleAnno();page.getInstance(filtreAction.class).getFiltreOption();
 			Assert.assertTrue(page.getInstance(hideAnnotationPage.class).isDisplayed(filtrePannel),"ERROR ACCURRED : FILTRE PANNEL IS NOT DISPLAYED ;-( ");
-			page.getInstance(Filtre___Fonction.class).selectCircleFiltre();page.clickOnElement(filtreValidate);		
-			Assert.assertTrue(page.getInstance(Filtre___Fonction.class).isDisplayed(commentCircleIcon));
-			Assert.assertFalse(page.getInstance(Filtre___Fonction.class).isDisplayed(commentSquareIcon));
-			page.getInstance(Filtre___Fonction.class).selectToutFiltre();page.clickOnElement(filtreValidate);
-			Assert.assertTrue(page.getInstance(Filtre___Fonction.class).isDisplayed(commentCircleIcon));
-			Assert.assertTrue(page.getInstance(Filtre___Fonction.class).isDisplayed(commentSquareIcon));
+			page.getInstance(filtreAction.class).selectCircleFiltre();page.clickOnElement(filtreValidate);		
+			Assert.assertTrue(page.getInstance(filtreAction.class).isDisplayed(commentCircleIcon));
+			Assert.assertFalse(page.getInstance(filtreAction.class).isDisplayed(commentSquareIcon));
+			page.getInstance(filtreAction.class).selectToutFiltre();page.clickOnElement(filtreValidate);
+			Assert.assertTrue(page.getInstance(filtreAction.class).isDisplayed(commentCircleIcon));
+			Assert.assertTrue(page.getInstance(filtreAction.class).isDisplayed(commentSquareIcon));
 			Thread.sleep(500);
 		}
 		 catch(Exception e) {
@@ -84,20 +83,20 @@ public class AXA__NavigaterPanel extends pageObject.TestBase implements ARender_
 
 		// TODO Draw 2 sticky note 
 		try {
-			page.getInstance(Filtre___Fonction.class).HandleSticky();
-			Assert.assertEquals(page.getInstance(Filtre___Fonction.class).getcontentPanel(),2,"ERROR ACCURRED : No CONTENT PANEL EXIST !!");
+			page.getInstance(filtreAction.class).HandleSticky();
+			Assert.assertEquals(page.getInstance(filtreAction.class).getcontentPanel(),2,"ERROR ACCURRED : No CONTENT PANEL EXIST !!");
 		    }
 		 catch(Exception e) {
 				e.printStackTrace();
 			} 
 		try {
 			// TODO Open filtre pannel
-			page.getInstance(Filtre___Fonction.class).getFiltreOption();
+			page.getInstance(filtreAction.class).getFiltreOption();
 			Assert.assertTrue(page.getInstance(hideAnnotationPage.class).isDisplayed(filtrePannel),"ERROR ACCURRED : FILTRE PANNEL IS NOT DISPLAYED ;-( ");
 			//TODO Check switch Button Container "résolué" 
 			page.clickOnElement(switchButtonContainer);
-			Assert.assertEquals(page.getInstance(HanlerBasePage.class).getNotificationMsg(notificationmsg),"Filtrer par : Résolu", "ERROR ACCURRED :SWITCH BUTTON DOSENT WORK !!");
-			Assert.assertEquals(page.getInstance(Filtre___Fonction.class).getcontentPanel(),2,"ERROR ACCURRED :SWITCH BUTTON DOSENT WORK !!");
+			Assert.assertEquals(page.getInstance(HandlerBasePage.class).getNotificationMsg(notificationmsg),"Filtrer par : Résolu", "ERROR ACCURRED :SWITCH BUTTON DOSENT WORK !!");
+			Assert.assertEquals(page.getInstance(filtreAction.class).getcontentPanel(),2,"ERROR ACCURRED :SWITCH BUTTON DOSENT WORK !!");
 			page.clickOnElement(switchButtonContainer);;
 		}
 		catch(Exception e) {

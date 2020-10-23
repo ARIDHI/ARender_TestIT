@@ -11,13 +11,13 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
 import pageObject.ARender____FactoryPage;
-import pageObject.HanlerBasePage;
+import pageObject.HandlerBasePage;
 
 /**
  * @author ARIDHI HICHEM
  *
  */
-public class image_____ProcessinPage extends HanlerBasePage implements ARender____FactoryPage {
+public class image_____ProcessinPage extends HandlerBasePage implements ARender____FactoryPage {
 	  Actions  move = new Actions (driver);   
 
 	public image_____ProcessinPage(WebDriver driver) {

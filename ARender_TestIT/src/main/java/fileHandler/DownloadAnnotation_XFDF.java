@@ -2,13 +2,13 @@ package fileHandler;
 
 import org.openqa.selenium.WebDriver;
 import pageObject.File____FactoryPage;
-import pageObject.HanlerBasePage;
+import pageObject.HandlerBasePage;
 /**
  * 
  * @author ARIDHI HICHEM
  *
  */
-public class DownloadAnnotation_XFDF  extends HanlerBasePage implements File____FactoryPage{
+public class DownloadAnnotation_XFDF  extends HandlerBasePage implements File____FactoryPage{
 	
 	public DownloadAnnotation_XFDF(WebDriver driver) {
 		super(driver);

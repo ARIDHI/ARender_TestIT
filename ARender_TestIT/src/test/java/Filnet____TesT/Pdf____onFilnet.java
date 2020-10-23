@@ -10,6 +10,7 @@ import org.openqa.selenium.Keys;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import FullActionpage.deleteActionPage;
 import GED_____Base.log_In___fileNet;
 import annotationHandler.StickyNoteAnnotationHandler;
 import annotationHandler.UnderLineHandler;
@@ -19,7 +20,7 @@ import annotationHandler.circleAnnotationHandler;
 import annotationHandler.freeTextAnnotationHandler;
 import pageObject.ARender____FactoryPage;
 import pageObject.File____FactoryPage;
-import pageObject.HanlerBasePage;
+import pageObject.HandlerBasePage;
 
 public class Pdf____onFilnet  extends pageObject.TestBase implements ARender____FactoryPage, File____FactoryPage { 
 /**
@@ -69,21 +70,21 @@ public class Pdf____onFilnet  extends pageObject.TestBase implements ARender____
  * @throws InterruptedException
  */
 			@Test (priority = 2,  enabled= true)
-			public void Handle_StickyNote___OnPDF (Method method) throws InterruptedException{ page.getInstance(StickyNoteAnnotationHandler.class).doDrowSticky();
+			public void Handle_StickyNote___OnPDF (Method method) throws InterruptedException{ page.getInstance(StickyNoteAnnotationHandler.class).drowNote();
 		    // TODO Check notification message is not wrong
 			// TODO Check annotation is displayed 
 		    // TODO Check style barre is displayed 
 			try {
-			    Assert.assertEquals(page.getInstance(HanlerBasePage.class).getNotificationMsg(notificationmsg),"Prêt pour la création d'annotation : Text");
+			    Assert.assertEquals(page.getInstance(HandlerBasePage.class).getNotificationMsg(notificationmsg),"Prêt pour la création d'annotation : Text");
 //			    Assert.assertTrue(page.getElement(StickyeannotationDisplayed).isDisplayed(),"ERROR ACCURRED : STICKYNOTE IS NOT DIPLAYDED");
 			    Assert.assertTrue(page.findElement(styleBarre).isDisplayed(),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED");   
-			    page.getInstance(StickyNoteAnnotationHandler.class).doStylestickynote();
+			    page.getInstance(StickyNoteAnnotationHandler.class).drowNote();
 		    	}
 			catch(Exception e) {
 				e.printStackTrace();
 			}    
 			finally { 
-			    page.getInstance(annotationdrawBase.class).doDrop();
+				 page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 		            }	
 	        }
 			/**
@@ -97,15 +98,15 @@ public class Pdf____onFilnet  extends pageObject.TestBase implements ARender____
 		 	// TODO Check annotation is displayed 
 		    // TODO Check style barre is displayed
 		    try {
-		        Assert.assertEquals(page.getInstance(HanlerBasePage.class).getNotificationMsg(notificationmsg),"Prêt pour la création d'annotation : Freetext");
-		        Assert.assertTrue(page.getInstance(HanlerBasePage.class).isDisplayed(styleBarre),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED");
+		        Assert.assertEquals(page.getInstance(HandlerBasePage.class).getNotificationMsg(notificationmsg),"Prêt pour la création d'annotation : Freetext");
+		        Assert.assertTrue(page.getInstance(HandlerBasePage.class).isDisplayed(styleBarre),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED");
 		        page.getInstance(freeTextAnnotationHandler.class).doStylefreetext();
 		            }
 			catch(Exception e) {
 				e.printStackTrace();
 			}    
 			finally { 
-			       page.getInstance(annotationdrawBase.class).doDrop();
+				 page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 		            }	
 			}	
 			/**
@@ -119,16 +120,16 @@ public class Pdf____onFilnet  extends pageObject.TestBase implements ARender____
 		    // TODO Check annotation is displayed 
 		    // TODO Check style barre is displayed
 			try {
-			    Assert.assertEquals(page.getInstance(HanlerBasePage.class).getNotificationMsg(notificationmsg),"Prêt pour la création d'annotation : Circle");
+			    Assert.assertEquals(page.getInstance(HandlerBasePage.class).getNotificationMsg(notificationmsg),"Prêt pour la création d'annotation : Circle");
 			    Assert.assertEquals(page.getInstance(annotationdrawBase.class).getEllipses(), 1,"ERROR ACCURRED : CICRLE IS NOT DIPLAYDED");
-			    Assert.assertTrue(page.getInstance(HanlerBasePage.class).isDisplayed(styleBarre),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED"); 
+			    Assert.assertTrue(page.getInstance(HandlerBasePage.class).isDisplayed(styleBarre),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED"); 
 //		        page.getInstance(circleAnnotationHandler.class).doStylecircle();
 			}
 		    catch(Exception e) {
 					e.printStackTrace();
 				}    
 		   finally { 
-				    page.getInstance(annotationdrawBase.class).doDrop();
+			   page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 			        }	
 			}  
 			/**
@@ -142,16 +143,16 @@ public class Pdf____onFilnet  extends pageObject.TestBase implements ARender____
 		    // TODO Check annotation is displayed 
 		    // TODO Check style barre is displayed
 			try {
-			    Assert.assertEquals(page.getInstance(HanlerBasePage.class).getNotificationMsg(notificationmsg),"Prêt pour la création d'annotation : Line");
+			    Assert.assertEquals(page.getInstance(HandlerBasePage.class).getNotificationMsg(notificationmsg),"Prêt pour la création d'annotation : Line");
 			    Assert.assertNotEquals(page.getInstance(annotationdrawBase.class).getAllPathfill(), 0,"ERROR ACCURRED : ARROW IS NOT DIPLAYDED");
-			    Assert.assertTrue(page.getInstance(HanlerBasePage.class).isDisplayed(styleBarre),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED"); 
+			    Assert.assertTrue(page.getInstance(HandlerBasePage.class).isDisplayed(styleBarre),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED"); 
 //			    page.getInstance(arrowAnnotationHandler.class).doStylearrow();
 			}
 		    catch(Exception e) {
 					e.printStackTrace();
 				}    
 		   finally { 
-				    page.getInstance(annotationdrawBase.class).doDrop();
+			   page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 			        }	
 			} 
 			/**
@@ -165,16 +166,16 @@ public class Pdf____onFilnet  extends pageObject.TestBase implements ARender____
 		    // TODO Check annotation is displayed 
 		    // TODO Check style barre is displayed
 			try {
-			    Assert.assertEquals(page.getInstance(HanlerBasePage.class).getNotificationMsg(notificationmsg),"Prêt pour la création d'annotation : Square");
+			    Assert.assertEquals(page.getInstance(HandlerBasePage.class).getNotificationMsg(notificationmsg),"Prêt pour la création d'annotation : Square");
 			    Assert.assertNotEquals(page.getInstance(annotationdrawBase.class).getPathfill(), 0,"ERROR ACCURRED : UNDERLINE IS NOT DIPLAYDED");
-			    Assert.assertTrue(page.getInstance(HanlerBasePage.class).isDisplayed(styleBarre),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED"); 
+			    Assert.assertTrue(page.getInstance(HandlerBasePage.class).isDisplayed(styleBarre),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED"); 
 //			     page.getInstance(UnderLineHandler.class).doStyleunderLine();
 			}
 		    catch(Exception e) {
 					e.printStackTrace();
 				}    
 		   finally { 
-				    page.getInstance(annotationdrawBase.class).doDrop();
+			   page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 			        }	
 			}    
 }

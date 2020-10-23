@@ -6,13 +6,13 @@ package FullActionpage;
 import org.openqa.selenium.WebDriver;
 
 import pageObject.ARender____FactoryPage;
-import pageObject.HanlerBasePage;
+import pageObject.HandlerBasePage;
 
 /**
  * @author ARIDHI Hichem
  *
  */
-public class logoPage extends HanlerBasePage implements ARender____FactoryPage {
+public class logoPage extends HandlerBasePage implements ARender____FactoryPage {
 
 	public logoPage(WebDriver driver) {
 		super(driver);

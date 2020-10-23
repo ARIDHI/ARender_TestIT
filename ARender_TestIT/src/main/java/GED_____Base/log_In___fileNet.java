@@ -7,13 +7,13 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import pageObject.ARender____FactoryPage;
-import pageObject.HanlerBasePage;
+import pageObject.HandlerBasePage;
 
 /**
  * @author ARIDHI HICHEM
  *
  */
-public class log_In___fileNet extends  HanlerBasePage implements ARender____FactoryPage {
+public class log_In___fileNet extends  HandlerBasePage implements ARender____FactoryPage {
 
 	public log_In___fileNet(WebDriver driver) {
 		super(driver);

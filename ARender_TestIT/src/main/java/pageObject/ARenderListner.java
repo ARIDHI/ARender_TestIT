@@ -14,6 +14,7 @@ import org.openqa.selenium.support.events.WebDriverEventListener;
  *
  */
 public class ARenderListner implements WebDriverEventListener  {
+	
 	@Override
 	public void beforeNavigateTo(String url, WebDriver driver) {
 		System.out.println("[INFO: Before navigating to] " +url +"'");

@@ -9,11 +9,12 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import FullActionpage.RightClick______List;
+import FullActionpage.deleteActionPage;
 import annotationHandler.annotationdrawBase;
 import fileHandler.AFileUploadBase;
 import pageObject.ARender____FactoryPage;
 import pageObject.File____FactoryPage;
-import pageObject.HanlerBasePage;
+import pageObject.HandlerBasePage;
 
 /**
  * @author ARIDHI HICHEM
@@ -32,13 +33,13 @@ public class contextFonction____Test extends pageObject.TestBase implements ARen
  
 		try {
 			Assert.assertNotEquals(page.getInstance(annotationdrawBase.class).getPathfill(), 0,"ERROR ACCURRED : UNDERLINE IS NOT DIPLAYDED");
-		    Assert.assertTrue(page.getInstance(HanlerBasePage.class).isDisplayed(styleBarre),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED"); 
+		    Assert.assertTrue(page.getInstance(HandlerBasePage.class).isDisplayed(styleBarre),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED"); 
 		}
 		catch(Exception e) {
 			e.printStackTrace();
 		}
 		finally { 
-		    page.getInstance(annotationdrawBase.class).doDrop();
+ page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 	        }	
 	}
 	/**
@@ -52,13 +53,13 @@ public class contextFonction____Test extends pageObject.TestBase implements ARen
 	
 		page.getInstance(RightClick______List.class).contextCrossed();
 		try {
-		    Assert.assertTrue(page.getInstance(HanlerBasePage.class).isDisplayed(styleBarre),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED"); 
+		    Assert.assertTrue(page.getInstance(HandlerBasePage.class).isDisplayed(styleBarre),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED"); 
 		}
 		catch(Exception e) {
 			e.printStackTrace();
 		}
 		finally { 
-		    page.getInstance(annotationdrawBase.class).doDrop();
+ page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 	        }	
 	}
 	/**
@@ -73,13 +74,13 @@ public class contextFonction____Test extends pageObject.TestBase implements ARen
 		page.getInstance(RightClick______List.class).contextHighlighted();
 		try {
 			Assert.assertNotEquals(page.getInstance(annotationdrawBase.class).getPathfill(), 0,"ERROR ACCURRED : UNDERLINE IS NOT DIPLAYDED");
-		    Assert.assertTrue(page.getInstance(HanlerBasePage.class).isDisplayed(styleBarre),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED"); 
+		    Assert.assertTrue(page.getInstance(HandlerBasePage.class).isDisplayed(styleBarre),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED"); 
 		}
 		catch(Exception e) {
 			e.printStackTrace();
 		}
 		finally { 
-		    page.getInstance(annotationdrawBase.class).doDrop();
+ page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 	        }	
 	}
 	/**
@@ -93,13 +94,13 @@ public class contextFonction____Test extends pageObject.TestBase implements ARen
 	
 		page.getInstance(RightClick______List.class).contextHighlightZone();
 		try {
-		    Assert.assertTrue(page.getInstance(HanlerBasePage.class).isDisplayed(styleBarre),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED"); 
+		    Assert.assertTrue(page.getInstance(HandlerBasePage.class).isDisplayed(styleBarre),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED"); 
 		}
 		catch(Exception e) {
 			e.printStackTrace();
 		}
 		finally { 
-		    page.getInstance(annotationdrawBase.class).doDrop();
+ page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 	        }	
 	}
 	/**
@@ -113,13 +114,13 @@ public class contextFonction____Test extends pageObject.TestBase implements ARen
 	
 		page.getInstance(RightClick______List.class).contextAddCircle();
 		try {
-		    Assert.assertTrue(page.getInstance(HanlerBasePage.class).isDisplayed(styleBarre),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED"); 
+		    Assert.assertTrue(page.getInstance(HandlerBasePage.class).isDisplayed(styleBarre),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED"); 
 		}
 		catch(Exception e) {
 			e.printStackTrace();
 		}
 		finally { 
-		    page.getInstance(annotationdrawBase.class).doDrop();
+        page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 	        }	
 	}
 }

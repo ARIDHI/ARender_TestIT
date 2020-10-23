@@ -12,6 +12,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import FullActionpage.SavePageAndQuit;
+import FullActionpage.deleteActionPage;
 import FullActionpage.refreshPage;
 import annotationHandler.PolygoneannotationHandler;
 import annotationHandler.StickyNoteAnnotationHandler;
@@ -47,41 +48,38 @@ public class Excel_File___AXA__  extends pageObject.TestBase implements ARender_
 		@Test(priority = 1 , alwaysRun = true ,enabled= true)
 	    public void excel_File____Upload (Method method) throws InterruptedException, IOException {
 
-			driver.get("http://18.203.215.159:8080/arondor-arender-axa-war-4.1.0-rc0/?bean=urlParserExternalAccessorProxy&id=%7B95F5163B-1875-C217-8796-74FD7D700000%7D&objectStoreName=OS1&documentId=95F5163B-1875-C217-8796-74FD7D700000");		
-		    page.waitForElementPresent(thumbimage);
+			driver.get("http://18.203.215.159:8080/arondor-arender-axa-war-4.1.0/?bean=urlParserExternalAccessorProxy&id=%7BF066BBAF-65B4-C7AD-8535-74FE61900000%7D&objectStoreName=OS1&documentId=F066BBAF-65B4-C7AD-8535-74FE61900000");		
+		    page.waitForElementPresent(thumbimage).wait(15);
 			 Thread.sleep(5000);
 		// TODO check notification message is not wrong
 		// TODO check page container is not null
 	    // TODO check sub number of page is not null+
 		try {
-		    Assert.assertNotEquals(page.getInstance(AFileUploadBase.class).getFileContainer(),0, "error accurred file counter");
-		    Assert.assertNotEquals(page.getInstance(AFileUploadBase.class).getFileSubNum(),0, "error accurred file SubNum counter");
+			if(page.findElement(thumbimage).isDisplayed()) {
+		         Assert.assertNotEquals(page.getInstance(AFileUploadBase.class).getFileContainer(),0, "error accurred file counter");
+		         Assert.assertNotEquals(page.getInstance(AFileUploadBase.class).getFileSubNum(),0, "error accurred file SubNum counter");
+			   }
 			}
+		
 		catch(Exception e) {
 			e.printStackTrace();
 		    }
-//		finally { 
-//			 page.clickOnElement(annotationExplorerButton);
-//			  List <WebElement> elements = driver.findElements(delete);
-//			  	   for (int i=0 ; i < elements.size() ; i++) {
-//							elements.get(i).click(); }
-//			  	 page.clickOnElement(ThumExplorerButton); 
-//	            }	
        }
 		 /**
 		   * 
 		   * @param method
 		   * @throws InterruptedException
 		   */
-			@Test (priority = 2,  enabled= true)
+			@Test (priority = 2,  enabled= true ,dependsOnMethods="excel_File____Upload")
 			public void Handle_StickyNote___On_excel (Method method) throws InterruptedException{ 
-//		    page.clickOnElement(annotationExplorerButtonFull);
-//				  List <WebElement> elements = driver.findElements(delete);
-//				  	   for (int i=0 ; i < elements.size() ; i++) {
-//								elements.get(i).click(); }
-//				  	 page.clickOnElement(ThumExplorerButton);      
-//			Thread.sleep(500);	  	 
-				page.getInstance(StickyNoteAnnotationHandler.class).doDrowSticky();
+				
+		    page.clickOnElement(annotationExplorerButtonFull);
+				  List <WebElement> elements = driver.findElements(delete);
+				  	   for (int i=0 ; i < elements.size() ; i++) {
+								elements.get(i).click(); }
+				  	 page.clickOnElement(ThumExplorerButton);      
+			    Thread.sleep(500);	  	 
+				page.getInstance(StickyNoteAnnotationHandler.class).drowNote();
 			
 		    // TODO Check notification message is not wrong
 			// TODO Check annotation is displayed 
@@ -90,13 +88,13 @@ public class Excel_File___AXA__  extends pageObject.TestBase implements ARender_
 			    Assert.assertTrue(page.findElement(StickyeannotationDisplayed).isDisplayed(),"ERROR ACCURRED : STICKYNOTE IS NOT DIPLAYDED");
 			    Assert.assertTrue(page.findElement(styleBarre).isDisplayed(),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED");   
 			    Assert.assertTrue(page.findElement(annotationViewIcon).isDisplayed(),"ERROR ACCURRED : VIEW ICON IS NOT DISPLAYED");	    
-			    page.getInstance(StickyNoteAnnotationHandler.class).doStylestickynote();
+			    
 		    	}
 			catch(Exception e) {
 				e.printStackTrace();
 			}    
 			finally { 
-			    page.getInstance(annotationdrawBase.class).doDrop();
+			    page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 		            }	
 	        }
 			/**
@@ -118,7 +116,7 @@ public class Excel_File___AXA__  extends pageObject.TestBase implements ARender_
 				e.printStackTrace();
 			}    
 			finally { 
-			       page.getInstance(annotationdrawBase.class).doDrop();
+			       page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 		            }	
 			}
 			/**
@@ -141,7 +139,7 @@ public class Excel_File___AXA__  extends pageObject.TestBase implements ARender_
 					e.printStackTrace();
 				}    
 		   finally { 
-				    page.getInstance(annotationdrawBase.class).doDrop();
+				    page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 			        }	
 			}     
 			/**
@@ -164,7 +162,7 @@ public class Excel_File___AXA__  extends pageObject.TestBase implements ARender_
 					e.printStackTrace();
 				}    
 		   finally { 
-				    page.getInstance(annotationdrawBase.class).doDrop();
+				    page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 			        }	
 			} 
 			/**
@@ -187,7 +185,7 @@ public class Excel_File___AXA__  extends pageObject.TestBase implements ARender_
 					e.printStackTrace();
 				}    
 		   finally { 
-				    page.getInstance(annotationdrawBase.class).doDrop();
+				    page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 			        }	
 			}      
 			/**
@@ -210,7 +208,7 @@ public class Excel_File___AXA__  extends pageObject.TestBase implements ARender_
 					e.printStackTrace();
 				}    
 		   finally { 
-				    page.getInstance(annotationdrawBase.class).doDrop();
+				    page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 			        }	
 			}   
 			/**
@@ -233,7 +231,7 @@ public class Excel_File___AXA__  extends pageObject.TestBase implements ARender_
 					e.printStackTrace();
 				}    
 		   finally { 
-				    page.getInstance(annotationdrawBase.class).doDrop();
+				    page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 			       }	
 			}  
 			/**
@@ -256,7 +254,7 @@ public class Excel_File___AXA__  extends pageObject.TestBase implements ARender_
 					e.printStackTrace();
 				}    
 		   finally { 
-				    page.getInstance(annotationdrawBase.class).doDrop();
+				    page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 			       }	
 			} 
 			 @Test (priority = 10 ,enabled= true,timeOut = 6000)

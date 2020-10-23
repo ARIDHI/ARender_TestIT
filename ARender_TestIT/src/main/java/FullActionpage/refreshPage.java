@@ -3,14 +3,13 @@ package FullActionpage;
 import org.openqa.selenium.WebDriver;
 
 import pageObject.ARender____FactoryPage;
-import pageObject.HanlerBasePage;
-
+import pageObject.HandlerBasePage;
 /**
  * 
  * @author ARIDHI HICHEM
  *
  */
-public class refreshPage extends HanlerBasePage implements ARender____FactoryPage{
+public class refreshPage extends HandlerBasePage implements ARender____FactoryPage{
 /**
  * 
  * @param driver

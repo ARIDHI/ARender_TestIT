@@ -6,26 +6,25 @@ package File_Management_____Testcases;
 import java.io.IOException;
 import java.lang.reflect.Method;
 
-import org.openqa.selenium.Alert;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import FullActionpage.SavePageAndQuit;
-import FullActionpage.refreshPage;
+import FullActionpage.deleteActionPage;
 import annotationHandler.PolygoneannotationHandler;
 import annotationHandler.StickyNoteAnnotationHandler;
 import annotationHandler.UnderLineHandler;
-import annotationHandler.annotationdrawBase;
+import annotationHandler.approvedStampHandler;
 import annotationHandler.arrowAnnotationHandler;
 import annotationHandler.circleAnnotationHandler;
-import annotationHandler.freeHandAnnotationtHandler;
+import annotationHandler.draftStampHandler;
+import annotationHandler.freeStampHandler;
 import annotationHandler.freeTextAnnotationHandler;
-import annotationHandler.hideAnnotationPage;
 import annotationHandler.polylineAnnotationHandler;
+import annotationHandler.signatureStampHandler;
+import annotationHandler.urgentStampHandler;
 import fileHandler.AFileUploadBase;
 import pageObject.ARender____FactoryPage;
 import pageObject.File____FactoryPage;
-import pageObject.HanlerBasePage;
 
 /**
  * @author ARIDHI HICHEM
@@ -55,277 +54,150 @@ public class MP4_File___Full_RegressionTest  extends pageObject.TestBase impleme
 			e.printStackTrace();
 		    }
        }
-	  /**
-	   * 
-	   * @param method
-	   * @throws InterruptedException
-	   */
-		@Test (priority = 2,  enabled= true)
-		public void Handle_StickyNote___On_MP4 (Method method) throws InterruptedException{ page.getInstance(StickyNoteAnnotationHandler.class).doDrowSticky();
-	    // TODO Check notification message is not wrong
-		// TODO Check annotation is displayed 
-	    // TODO Check style barre is displayed 
+		@Test (priority = 2 , dependsOnMethods="MP4_File____Upload")
+		public void Handle_StickyNote___On_MP4(Method method) throws InterruptedException{ 
+		
 		try {
-		    Assert.assertEquals(page.getInstance(HanlerBasePage.class).getNotificationMsg(notificationmsg),"Prêt pour la création d'annotation : Text");
-		    Assert.assertTrue(page.getInstance(HanlerBasePage.class).isDisplayed(StickyeannotationDisplayed),"ERROR ACCURRED : STICKYNOTE IS NOT DIPLAYDED");
-		    Assert.assertTrue(page.getInstance(HanlerBasePage.class).isDisplayed(styleBarre),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED");   
-		    page.getInstance(StickyNoteAnnotationHandler.class).doStylestickynote();
-	    	}
-		catch(Exception e) {
-			e.printStackTrace();
-		}    
+			page.getInstance(StickyNoteAnnotationHandler.class).checkTestNote();
+		 }		
+		 finally { 		
+		    page.clickOnElement(stkRemove);
+	       }	
+        }		
+		@Test (priority = 3 , dependsOnMethods="MP4_File____Upload")	
+	    public void Handle_FreeText___On_MP4(Method method) throws InterruptedException { 
+    	 try {
+		 page.getInstance(freeTextAnnotationHandler.class).checkFreeTextTest();
+     	 }  
 		finally { 
-		    page.getInstance(annotationdrawBase.class).doDrop();
+			 page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 	            }	
-        }
-		/**
-		 * 
-		 * @param method
-		 * @throws InterruptedException
-		 */
-		@Test (priority = 3 ,enabled= true)	
-	    public void Handle_FreeText___On_MP4 (Method method) throws InterruptedException { page.getInstance(freeTextAnnotationHandler.class).doDrowfreetext(); 	
-	    // TODO Check notification message is not wrong
-	 	// TODO Check annotation is displayed 
-	    // TODO Check style barre is displayed
-	    try {
-	        Assert.assertEquals(page.getInstance(HanlerBasePage.class).getNotificationMsg(notificationmsg),"Prêt pour la création d'annotation : Freetext");
-	        Assert.assertTrue(page.getInstance(HanlerBasePage.class).isDisplayed(styleBarre),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED");
-	        page.getInstance(freeTextAnnotationHandler.class).doStylefreetext();
-	            }
-		catch(Exception e) {
-			e.printStackTrace();
-		}    
-		finally { 
-		       page.getInstance(annotationdrawBase.class).doDrop();
-	            }	
-		}
-		/**
-		 * 
-		 * @param method
-		 * @throws InterruptedException
-		 */
-		@Test(priority = 4 ,enabled= true)
-		public void Handle_Circle___On_MP4 (Method method) throws InterruptedException { page.getInstance(circleAnnotationHandler.class).doDrowcircle();	
-		// TODO Check notification message is not wrong
-	    // TODO Check annotation is displayed 
-	    // TODO Check style barre is displayed
-		try {
-		    Assert.assertEquals(page.getInstance(HanlerBasePage.class).getNotificationMsg(notificationmsg),"Prêt pour la création d'annotation : Circle");
-		    Assert.assertEquals(page.getInstance(annotationdrawBase.class).getEllipses(), 1,"ERROR ACCURRED : CICRLE IS NOT DIPLAYDED");
-		    Assert.assertTrue(page.getInstance(HanlerBasePage.class).isDisplayed(styleBarre),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED"); 
-	        page.getInstance(circleAnnotationHandler.class).doStylecircle();
-		}
-	    catch(Exception e) {
-				e.printStackTrace();
-			}    
-	   finally { 
-			    page.getInstance(annotationdrawBase.class).doDrop();
+		}			
+		@Test(priority = 4 , dependsOnMethods="MP4_File____Upload")
+		public void Handle_Circle___On_MP4(Method method) throws InterruptedException { 
+		  try {
+			 page.getInstance(circleAnnotationHandler.class).checkCircleTest();
+		     }				
+	     finally { 
+	    	  page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 		        }	
-		}     
-		/**
-		 * 
-		 * @param method
-		 * @throws InterruptedException
-		 */
-		@Test (priority = 5 ,enabled= true)
-		public void Handle_Arrow___On_MP4(Method method) throws InterruptedException { page.getInstance(arrowAnnotationHandler.class).doDrowArrow();
-		// TODO Check notification message is not wrong
-	    // TODO Check annotation is displayed 
-	    // TODO Check style barre is displayed
-		try {
-		    Assert.assertEquals(page.getInstance(HanlerBasePage.class).getNotificationMsg(notificationmsg),"Prêt pour la création d'annotation : Line");
-		    Assert.assertNotEquals(page.getInstance(annotationdrawBase.class).getAllPathfill(), 0,"ERROR ACCURRED : ARROW IS NOT DIPLAYDED");
-		    Assert.assertTrue(page.getInstance(HanlerBasePage.class).isDisplayed(styleBarre),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED"); 
-		    page.getInstance(arrowAnnotationHandler.class).doStylearrow();
-		}
-	    catch(Exception e) {
-				e.printStackTrace();
-			}    
-	   finally { 
-			    page.getInstance(annotationdrawBase.class).doDrop();
-		        }	
-		} 
-		/**
-		 * 
-		 * @param method
-		 * @throws InterruptedException
-		 */
-		@Test (priority = 6 ,enabled= true)
-		public void Handle_Underline___On_MP4(Method method) throws InterruptedException {page.getInstance(UnderLineHandler.class).doDrowUnderline();
-		// TODO Check notification message is not wrong
-	    // TODO Check annotation is displayed 
-	    // TODO Check style barre is displayed
-		try {
-		    Assert.assertEquals(page.getInstance(HanlerBasePage.class).getNotificationMsg(notificationmsg),"Prêt pour la création d'annotation : Square");
-		    Assert.assertNotEquals(page.getInstance(annotationdrawBase.class).getPathfill(), 0,"ERROR ACCURRED : UNDERLINE IS NOT DIPLAYDED");
-		    Assert.assertTrue(page.getInstance(HanlerBasePage.class).isDisplayed(styleBarre),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED"); 
-		     page.getInstance(UnderLineHandler.class).doStyleunderLine();
-		}
-	    catch(Exception e) {
-				e.printStackTrace();
-			}    
-	   finally { 
-			    page.getInstance(annotationdrawBase.class).doDrop();
-		        }	
-		}      
-		/**
-		 * 
-		 * @param method
-		 * @throws InterruptedException
-		 */
-		@Test (priority = 7 ,enabled= true)
-		public void Handle_freeHand___On_MP4(Method method) throws InterruptedException { page.getInstance(freeHandAnnotationtHandler.class).doDrowfreehand();
-		// TODO Check notification message is not wrong
-	    // TODO Check annotation is displayed 
-	    // TODO Check style barre is displayed
-		try {
-		    Assert.assertEquals(page.getInstance(HanlerBasePage.class).getNotificationMsg(notificationmsg),"Prêt pour la création d'annotation : Ink");
-		    Assert.assertNotEquals(page.getInstance(annotationdrawBase.class).getAllPathfill(), 0,"ERROR ACCURRED : FREEHAND IS NOT DIPLAYDED");
-		    Assert.assertTrue(page.getInstance(HanlerBasePage.class).isDisplayed(styleBarre),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED"); 
-	        page.getInstance(freeHandAnnotationtHandler.class).doStylefreehand();
-		}
-	    catch(Exception e) {
-				e.printStackTrace();
-			}    
-	   finally { 
-			    page.getInstance(annotationdrawBase.class).doDrop();
-		        }	
-		}   
-		/**
-		 * 
-		 * @param method
-		 * @throws InterruptedException
-		 */
-		@Test (priority = 8 ,enabled= true)
-		public void Handle_polyline___On_MP4(Method method) throws InterruptedException { page.getInstance(polylineAnnotationHandler.class).doDrowpolyline();	
-		// TODO Check notification message is not wrong
-	    // TODO Check annotation is displayed 
-	    // TODO Check style barre is displayed
-		try {
-		    Assert.assertEquals(page.getInstance(HanlerBasePage.class).getNotificationMsg(notificationmsg),"Prêt pour la création d'annotation : Polyline");
-		    Assert.assertNotEquals(page.getInstance(annotationdrawBase.class).getAllPathfill(), 0,"ERROR ACCURRED : POLYLINE IS NOT DIPLAYDED");
-		    Assert.assertTrue(page.getInstance(HanlerBasePage.class).isDisplayed(styleBarre),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED"); 
-	        page.getInstance(polylineAnnotationHandler.class).doStylepolyline();
-		}
-	    catch(Exception e) {
-				e.printStackTrace();
-			}    
-	   finally { 
-			    page.getInstance(annotationdrawBase.class).doDrop();
-		       }	
-		}  
-		/**
-		 * 
-		 * @param method
-		 * @throws InterruptedException
-		 */
-		@Test (priority = 9 ,enabled= true)
-		public void Handel_Polygone___On_MP4(Method method) throws InterruptedException { page.getInstance(PolygoneannotationHandler.class).doDrowpolygone();
-		// TODO Check notification message is not wrong
-	    // TODO Check annotation is displayed 
-	    // TODO Check style barre is displayed
-		try {
-		    Assert.assertEquals(page.getInstance(HanlerBasePage.class).getNotificationMsg(notificationmsg),"Prêt pour la création d'annotation : Polygon");
-		    Assert.assertNotEquals(page.getInstance(annotationdrawBase.class).getAllPathfill(), 0,"ERROR ACCURRED : POLYGONE IS NOT DIPLAYDED");
-		    Assert.assertTrue(page.getInstance(HanlerBasePage.class).isDisplayed(styleBarre),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED");
-	        page.getInstance(polylineAnnotationHandler.class).doStylepolyline();
-		}
-	    catch(Exception e) {
-				e.printStackTrace();
-			}    
-	   finally { 
-			    page.getInstance(annotationdrawBase.class).doDrop();
-		       }	
-		} 
-		/**
-		 * 
-		 * @param method
-		 * @throws InterruptedException
-		 */
-		@Test (priority = 10 ,enabled= true )
-		public void Handle_Stamp___On_MP4(Method method) throws InterruptedException {	    
-			//TODO Draw an approved stamp
-			page.getInstance(PolygoneannotationHandler.class).doDrowpolygone();
-			//TODO Draw an draft stamp
-			page.getInstance(StickyNoteAnnotationHandler.class).doDrowSticky();
-	    Thread.sleep(1000);
-	    
-	    
-		} 
-		/**
-		 * 
-		 * @throws InterruptedException
-		 */
-		@Test (priority =11 , alwaysRun = true )
-		public void Simple_Hide_Annotation_fonction_On_MP4(Method method) throws InterruptedException {
-			
-			driver.navigate().refresh();		
-			Alert alert =driver.switchTo().alert();		    
-			alert.accept();
-			page.getInstance(AFileUploadBase.class).doDownloadfile();
-			 page.findElement(PopupfileUpload).sendKeys(System.getProperty("user.dir")+"\\DocumentSource\\TestARender.mp4");
-	   try {
-		   page.getInstance(circleAnnotationHandler.class).doDrowcircle();
-		   page.getInstance(annotationdrawBase.class).clickOnElement(cancelAnnotationButton); 
-		   //TODO CLick to Hide annotation
-		   page.getInstance(hideAnnotationPage.class).showAnnotations();
-		   //TODO check hide button change icon
-		   Assert.assertTrue(page.getInstance(hideAnnotationPage.class).isDisplayed(hideAnnotation),"ERROR ACCURRED : HIDE ICONE IS NOT DISPLAYED ;-( ");
-		   //TODO CLick to Show annotation
-		   Thread.sleep(500);
-		   page.getInstance(hideAnnotationPage.class).hideAnnotations(); 
-		   //TODO check annotation present on file
-		   Assert.assertEquals(page.getInstance(annotationdrawBase.class).getEllipses(), 1, "ERROR ACCURRED : THE CIRCLE ANNOTATION IS NOT DISPLAYED ON THE FILE !!");
-		   Assert.assertTrue(page.getInstance(hideAnnotationPage.class).isDisplayed(showAnnotation),"ERROR ACCURRED : SHOW ICONE IS NOT DISPLAYED  ;-(");
-		   Thread.sleep(500);
-		   }
-	   catch(Exception e) {
-			e.printStackTrace();
-		} 
-	  }
-		/**
-		 * 
-		 * @throws InterruptedException
-		 */
-		@Test (priority =12 , alwaysRun = true )
-		public void Multiple_Hide_Annotation_fonction_OnJpeg(Method method) throws InterruptedException {
+		}     			
+		@Test (priority = 5 , dependsOnMethods="MP4_File____Upload")
+		public void Handle_Arrow___On_MP4(Method method) throws InterruptedException {
 			try {
-				page.getInstance(hideAnnotationPage.class).showAnnotations();
-				//TODO Draw a new annotation 
-				page.getInstance(UnderLineHandler.class).doDrowUnderline();
-				page.getInstance(annotationdrawBase.class).clickOnElement(cancelAnnotationButton);
-				//TODO check one annotation exist the second not
-		 		Assert.assertEquals(page.getInstance(annotationdrawBase.class).getPathfill(), 1, "ERROR ACCURRED : THE UNDERLINE ANNOTATION IS NOT DISPLAYED ON THE FILE !!");
-		 		Assert.assertEquals(page.getInstance(annotationdrawBase.class).getEllipsesNone(), 1, "ERROR ACCURRED : THE CIRCLE ANNOTATION MUST NOT BE DISPLAYED ON THE FILE !!");
-		 		//TODO click to save 
-		 		page.getInstance(SavePageAndQuit.class).getSaveClick();
-				//TODO check one annotation exist the second not
-		 		Thread.sleep(700);
-		 		Assert.assertEquals(page.getInstance(annotationdrawBase.class).getPathfill(), 1, "ERROR ACCURRED : THE UNDERLINE ANNOTATION IS NOT DISPLAYED ON THE FILE !!");
-		 		Assert.assertEquals(page.getInstance(annotationdrawBase.class).getEllipsesNone(), 1, "ERROR ACCURRED : THE CIRCLE ANNOTATION MUST NOT BE DISPLAYED ON THE FILE !!");
-				//TODO click to show annotation and check that two annotations is showen
-				page.getInstance(hideAnnotationPage.class).hideAnnotations();
-				Assert.assertEquals(page.getInstance(annotationdrawBase.class).getEllipses(), 1, "ERROR ACCURRED : THE CIRCLE ANNOTATION IS NOT DISPLAYED ON THE FILE !!");
-				Assert.assertEquals(page.getInstance(annotationdrawBase.class).getPathfill(), 1, "ERROR ACCURRED : THE UNDERLINE ANNOTATION IS NOT DISPLAYED ON THE FILE !!");
-				//TODO click to Hide annotation and check that two annotations is hided
-				Thread.sleep(1000);
-				page.getInstance(hideAnnotationPage.class).showAnnotations();
-				page.getInstance(refreshPage.class).getRefresh();
-				Assert.assertEquals(page.getInstance(annotationdrawBase.class).getEllipsesNone(), 1, "ERROR ACCURRED : THE CIRCLE ANNOTATION MUST NOT BE DISPLAYED ON THE FILE !!");
-				Assert.assertEquals(page.getInstance(annotationdrawBase.class).getPathFillNone(), 1, "ERROR ACCURRED : THE UNDERLINE ANNOTATION SHOULD NOT BE DISPLAYED ON THE FILE !!");
+				page.getInstance(arrowAnnotationHandler.class).CheckArrowTest();
+			 }
+	       finally { 
+	    	   page.getInstance(deleteActionPage.class).deleteFromStyleBar();
+		        }	
+		} 			
+		@Test (priority = 6  , dependsOnMethods="MP4_File____Upload")
+		public void Handle_Underline___On_MP4(Method method) throws InterruptedException {
+		  try {
+			  page.getInstance(UnderLineHandler.class).checkUnderLineTest();
+		  }    
+	      finally { 
+	    	  page.getInstance(deleteActionPage.class).deleteFromStyleBar();
+		        }	
+	     	}      			
+		@Test (priority = 7 , dependsOnMethods="MP4_File____Upload")
+		public void Handle_freeHand___On_MP4(Method method) throws InterruptedException { 
+		   try {
+			 page.getInstance(freeTextAnnotationHandler.class).checkFreeTextTest();
+		     }			
+	       finally { 
+	    	   page.getInstance(deleteActionPage.class).deleteFromStyleBar();
+		        }	
+		}   			
+		@Test (priority = 8 , dependsOnMethods="MP4_File____Upload")
+		public void Handle_polyline___On_MP4(Method method) throws InterruptedException { 
+		try {
+		    page.getInstance(polylineAnnotationHandler.class).checkPolylineTest();	
+		}			  
+	    finally { 
+	    	 page.getInstance(deleteActionPage.class).deleteFromStyleBar();
+		       }	
+		}  			
+		@Test (priority = 9 ,dependsOnMethods="MP4_File____Upload")
+		public void Handel_Polygone___On_MP4(Method method) throws InterruptedException { 
+        
+		try {
+        	page.getInstance(PolygoneannotationHandler.class).checkPolygoneTest();
+        }
+    	   finally { 
+    		   page.getInstance(deleteActionPage.class).deleteFromStyleBar();
+		       }	
+		} 		
+		 @Test (priority = 10 ,dependsOnMethods="MP4_File____Upload")
+			public void Urgent_Stamp___On_MP4() throws InterruptedException { 
+			try {
+				page.getInstance(urgentStampHandler.class).checkUrgentStamp();
+		    	}	  
+			 finally { 
+				page.getInstance(deleteActionPage.class).deleteFromExplorerThumb();
+				page.clickOnElement(thumbExplorerButton);
+			 }
+		   }
+			
+			@Test (priority = 11 , dependsOnMethods="MP4_File____Upload")
+			public void Approved_Stamp___On_MP4() throws InterruptedException  { 
+			try {
+				page.getInstance(approvedStampHandler.class).drawApprovedStamp();			
+			    }  
+			 finally { 
+				 page.getInstance(deleteActionPage.class).deleteFromExplorerThumb();
+				 page.clickOnElement(thumbExplorerButton);
+			 }
+		    	}
+			@Test (priority = 12 ,dependsOnMethods="MP4_File____Upload")
+			public void Draft_Stamp___On_MP4() throws InterruptedException  { 
+			 try {
+				 page.getInstance(draftStampHandler.class).checkDraftStampTest();
+				 }
+			 finally { 
+				 page.getInstance(deleteActionPage.class).deleteFromExplorerThumb();
+				 page.clickOnElement(thumbExplorerButton);
+			     }
+		    	}						
+			@Test (priority = 13 ,dependsOnMethods="MP4_File____Upload")
+			public void Signature_Stamp___On_MP4() throws InterruptedException  { 
+		     try {
+		    	 page.getInstance(signatureStampHandler.class).checkSignatureStampTest();
+		     }  
+			 finally { 
+				    page.getInstance(deleteActionPage.class).deleteFromExplorerThumb();
+				    page.clickOnElement(thumbExplorerButton);
+			     }     
+		    	}
+			@Test (priority = 14 ,dependsOnMethods="MP4_File____Upload")
+			public void Free_Stamp___On_MP4() throws InterruptedException  { 
+			   try {
+				   page.getInstance(freeStampHandler.class).checkFreeStamp();
+			   }
+			  finally { 
+					 page.getInstance(deleteActionPage.class).deleteFromExplorerThumb();
+					 page.clickOnElement(thumbExplorerButton);
+			     }	        
+		    	}
+			
+			
+			@Test (priority = 15 ,dependsOnMethods={"MP4_File____Upload","Handel_Polygone___On_MP4","Handle_StickyNote___On_MP4"})
+			public void delete__Anotation___On_MP4(Method method) throws InterruptedException {
+				
+				//TODO Draw an approved stamp
+				page.getInstance(PolygoneannotationHandler.class).doDrowpolygone();
+				//TODO Draw an draft stamp
+				page.getInstance(StickyNoteAnnotationHandler.class).drowNote();
+				
+			    
+				try {
+					page.getInstance(deleteActionPage.class).deleteFromExplorerThumb();			
+				  	 
+			  	Assert.assertTrue(page.findElement(sadEmptyIcon).isDisplayed(),"ERROR ACCURRED : ANNOTATION ARE DELETED");   		
 			}
-			 catch(Exception e) {
-					e.printStackTrace();
-				} 
-            }
-}
-/**
- * 
- * 
- * @version staging 1.35
- * @validate review by ARIDHI Hichem 
- * {@docRoot} c:/
- * 
- * 
- */
+			
+		   catch(Exception e) {
+			 e.printStackTrace();
+		  }
+	   }
+     }

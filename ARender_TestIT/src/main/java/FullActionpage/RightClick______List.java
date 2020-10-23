@@ -5,13 +5,13 @@ package FullActionpage;
 
 import org.openqa.selenium.WebDriver;
 import pageObject.ARender____FactoryPage;
-import pageObject.HanlerBasePage;
+import pageObject.HandlerBasePage;
 
 /**
  * @author ARIDHI HICHEM
  *
  */
-public class RightClick______List  extends HanlerBasePage implements ARender____FactoryPage {
+public class RightClick______List  extends HandlerBasePage implements ARender____FactoryPage {
 
 	public RightClick______List(WebDriver driver) {
 		super(driver);

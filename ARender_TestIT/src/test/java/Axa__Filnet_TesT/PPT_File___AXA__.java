@@ -12,6 +12,7 @@ import java.util.List;
 import org.openqa.selenium.WebElement;
 
 import FullActionpage.SavePageAndQuit;
+import FullActionpage.deleteActionPage;
 import FullActionpage.refreshPage;
 import annotationHandler.PolygoneannotationHandler;
 import annotationHandler.StickyNoteAnnotationHandler;
@@ -32,7 +33,7 @@ import fileHandler.DownloadDocumentwithAnnotationFDF;
 import fileHandler.DownloadPDF;
 import pageObject.ARender____FactoryPage;
 import pageObject.File____FactoryPage;
-import pageObject.HanlerBasePage;
+import pageObject.HandlerBasePage;
 
 /**
  * @author ARIDHI HICHEM
@@ -47,14 +48,14 @@ public class PPT_File___AXA__ extends pageObject.TestBase implements ARender____
 	 */	 
 		@Test(priority = 1 , alwaysRun = true ,enabled= true)
 	    public void PPT_File____Upload (Method method) throws InterruptedException, IOException {
-			 driver.get("http://18.203.215.159:8080/arondor-arender-axa-war-4.1.0-rc0/?bean=urlParserExternalAccessorProxy&id=%7B70717923-077C-C9D9-8F25-718852A00000%7D&objectStoreName=OS1&documentId=70717923-077C-C9D9-8F25-718852A00000");		
+			 driver.get("http://18.203.215.159:8080/arondor-arender-axa-war-4.1.0/?bean=urlParserExternalAccessorProxy&id=%7B46995B9D-C0D0-C239-9F38-74FE5D600000%7D&objectStoreName=OS1&documentId=46995B9D-C0D0-C239-9F38-74FE5D600000");		
 			 page.waitForElementPresent(thumbimage);
 			 
 		// TODO check notification message is not wrong
 		// TODO check page container is not null
 	    // TODO check sub number of page is not null
 		try {
-		    Assert.assertEquals(page.getInstance(HanlerBasePage.class).getNotificationMsg(notificationmsg),"Document courant : HearingAidOpportunities.ppt", "error accurred file can not uploaded");
+		    Assert.assertEquals(page.getInstance(HandlerBasePage.class).getNotificationMsg(notificationmsg),"Document courant : HearingAidOpportunities.ppt", "error accurred file can not uploaded");
 		    Assert.assertNotEquals(page.getInstance(AFileUploadBase.class).getFileContainer(),0, "error accurred file counter");
 		    Assert.assertNotEquals(page.getInstance(AFileUploadBase.class).getFileSubNum(),0, "error accurred file SubNum counter");
 			}
@@ -82,13 +83,13 @@ public class PPT_File___AXA__ extends pageObject.TestBase implements ARender____
 		   */
 			@Test (priority = 2,  enabled= true)
 			public void Handle_StickyNote___On_ppt (Method method) throws InterruptedException{ 
-		    page.clickOnElement(annotationExplorerButtonFull);
-				  List <WebElement> elements = driver.findElements(delete);
-				  	   for (int i=0 ; i < elements.size() ; i++) {
-								elements.get(i).click(); }
-				  	 page.clickOnElement(ThumExplorerButton);      
-			Thread.sleep(500);	  	 
-				page.getInstance(StickyNoteAnnotationHandler.class).doDrowSticky();
+//		    page.clickOnElement(annotationExplorerButtonFull);
+//				  List <WebElement> elements = driver.findElements(delete);
+//				  	   for (int i=0 ; i < elements.size() ; i++) {
+//								elements.get(i).click(); }
+//				  	 page.clickOnElement(ThumExplorerButton);      
+//			Thread.sleep(500);	  	 
+				page.getInstance(StickyNoteAnnotationHandler.class).drowNote();
 			
 		    // TODO Check notification message is not wrong
 			// TODO Check annotation is displayed 
@@ -97,13 +98,13 @@ public class PPT_File___AXA__ extends pageObject.TestBase implements ARender____
 			    Assert.assertTrue(page.findElement(StickyeannotationDisplayed).isDisplayed(),"ERROR ACCURRED : STICKYNOTE IS NOT DIPLAYDED");
 			    Assert.assertTrue(page.findElement(styleBarre).isDisplayed(),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED");   
 			    Assert.assertTrue(page.findElement(annotationViewIcon).isDisplayed(),"ERROR ACCURRED : VIEW ICON IS NOT DISPLAYED");	    
-			    page.getInstance(StickyNoteAnnotationHandler.class).doStylestickynote();
+		
 		    	}
 			catch(Exception e) {
 				e.printStackTrace();
 			}    
 			finally { 
-			    page.getInstance(annotationdrawBase.class).doDrop();
+			   page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 		            }	
 	        }
 			/**
@@ -125,7 +126,7 @@ public class PPT_File___AXA__ extends pageObject.TestBase implements ARender____
 				e.printStackTrace();
 			}    
 			finally { 
-			       page.getInstance(annotationdrawBase.class).doDrop();
+			      page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 		            }	
 			}
 			/**
@@ -148,7 +149,7 @@ public class PPT_File___AXA__ extends pageObject.TestBase implements ARender____
 					e.printStackTrace();
 				}    
 		   finally { 
-				    page.getInstance(annotationdrawBase.class).doDrop();
+				   page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 			        }	
 			}     
 			/**
@@ -171,7 +172,7 @@ public class PPT_File___AXA__ extends pageObject.TestBase implements ARender____
 					e.printStackTrace();
 				}    
 		   finally { 
-				    page.getInstance(annotationdrawBase.class).doDrop();
+				   page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 			        }	
 			} 
 			/**
@@ -194,7 +195,7 @@ public class PPT_File___AXA__ extends pageObject.TestBase implements ARender____
 					e.printStackTrace();
 				}    
 		   finally { 
-				    page.getInstance(annotationdrawBase.class).doDrop();
+				   page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 			        }	
 			}      
 			/**
@@ -217,7 +218,7 @@ public class PPT_File___AXA__ extends pageObject.TestBase implements ARender____
 					e.printStackTrace();
 				}    
 		   finally { 
-				    page.getInstance(annotationdrawBase.class).doDrop();
+				   page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 			        }	
 			}   
 			/**
@@ -240,7 +241,7 @@ public class PPT_File___AXA__ extends pageObject.TestBase implements ARender____
 					e.printStackTrace();
 				}    
 		   finally { 
-				    page.getInstance(annotationdrawBase.class).doDrop();
+				   page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 			       }	
 			}  
 			/**
@@ -263,7 +264,7 @@ public class PPT_File___AXA__ extends pageObject.TestBase implements ARender____
 					e.printStackTrace();
 				}    
 		   finally { 
-				    page.getInstance(annotationdrawBase.class).doDrop();
+				   page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 			       }	
 			} 
 			 @Test (priority = 10 ,enabled= true)

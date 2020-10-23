@@ -7,13 +7,13 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 import pageObject.ARender____FactoryPage;
-import pageObject.HanlerBasePage;
+import pageObject.HandlerBasePage;
 
 /**
  * @author Lenovo
  *
  */
-public class logIn__Nuxio  extends  HanlerBasePage implements ARender____FactoryPage {
+public class logIn__Nuxio  extends  HandlerBasePage implements ARender____FactoryPage {
 	
 
 		public logIn__Nuxio(WebDriver driver) {

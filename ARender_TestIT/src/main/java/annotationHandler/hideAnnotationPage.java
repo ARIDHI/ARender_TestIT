@@ -12,25 +12,21 @@ import pageObject.ARender____FactoryPage;
  *
  */
 public class hideAnnotationPage extends annotationdrawBase implements ARender____FactoryPage  {
-/**
- * 
- * @param driver
- */
-public hideAnnotationPage(WebDriver driver) {
-		super(driver);
+
+    public hideAnnotationPage(WebDriver driver) {
+	 	super(driver);
 		// TODO Auto-generated constructor stub
 	}
-/**
- * @return
- * 	
- */
-	public void showAnnotations() { clickOnElement(annotationMenu);
-	  clickOnElement(showAnnotation);
-	  return;
-}
-    public void hideAnnotations() { clickOnElement(annotationMenu);
-	  clickOnElement(hideAnnotation);
-	  return;
+ 
+	public boolean showAnnotations() {
+		clickOnElement(annotationMenu);
+		clickOnElement(showAnnotation);
+	  return false;
+  }
+    public boolean hideAnnotations() { 
+     	clickOnElement(annotationMenu);
+	    clickOnElement(hideAnnotation);
+	  return false;
   }
 }
 /**

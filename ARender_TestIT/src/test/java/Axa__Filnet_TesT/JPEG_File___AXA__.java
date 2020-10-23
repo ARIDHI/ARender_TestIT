@@ -12,6 +12,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import FullActionpage.SavePageAndQuit;
+import FullActionpage.deleteActionPage;
 import FullActionpage.refreshPage;
 import annotationHandler.PolygoneannotationHandler;
 import annotationHandler.StickyNoteAnnotationHandler;
@@ -75,7 +76,7 @@ import pageObject.File____FactoryPage;
 //							elements.get(i).click(); }
 //			  	 page.clickOnElement(ThumExplorerButton);      
 //		Thread.sleep(500);	  	 
-			page.getInstance(StickyNoteAnnotationHandler.class).doDrowSticky();
+			page.getInstance(StickyNoteAnnotationHandler.class).drowNote();
 		
 	    // TODO Check notification message is not wrong
 		// TODO Check annotation is displayed 
@@ -84,13 +85,12 @@ import pageObject.File____FactoryPage;
 		    Assert.assertTrue(page.findElement(StickyeannotationDisplayed).isDisplayed(),"ERROR ACCURRED : STICKYNOTE IS NOT DIPLAYDED");
 		    Assert.assertTrue(page.findElement(styleBarre).isDisplayed(),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED");   
 		    Assert.assertTrue(page.findElement(annotationViewIcon).isDisplayed(),"ERROR ACCURRED : VIEW ICON IS NOT DISPLAYED");	    
-		    page.getInstance(StickyNoteAnnotationHandler.class).doStylestickynote();
 	    	}
 		catch(Exception e) {
 			e.printStackTrace();
 		}    
 		finally { 
-		    page.getInstance(annotationdrawBase.class).doDrop();
+		    page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 	            }	
         }
 		/**
@@ -112,7 +112,7 @@ import pageObject.File____FactoryPage;
 			e.printStackTrace();
 		}    
 		finally { 
-		       page.getInstance(annotationdrawBase.class).doDrop();
+		       page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 	            }	
 		}
 		/**
@@ -135,7 +135,7 @@ import pageObject.File____FactoryPage;
 				e.printStackTrace();
 			}    
 	   finally { 
-			    page.getInstance(annotationdrawBase.class).doDrop();
+			    page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 		        }	
 		}     
 		/**
@@ -158,7 +158,7 @@ import pageObject.File____FactoryPage;
 				e.printStackTrace();
 			}    
 	   finally { 
-			    page.getInstance(annotationdrawBase.class).doDrop();
+			    page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 		        }	
 		} 
 		/**
@@ -181,7 +181,7 @@ import pageObject.File____FactoryPage;
 				e.printStackTrace();
 			}    
 	   finally { 
-			    page.getInstance(annotationdrawBase.class).doDrop();
+			    page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 		        }	
 		}      
 		/**
@@ -204,7 +204,7 @@ import pageObject.File____FactoryPage;
 				e.printStackTrace();
 			}    
 	   finally { 
-			    page.getInstance(annotationdrawBase.class).doDrop();
+			    page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 		        }	
 		}   
 		/**
@@ -227,7 +227,7 @@ import pageObject.File____FactoryPage;
 				e.printStackTrace();
 			}    
 	   finally { 
-			    page.getInstance(annotationdrawBase.class).doDrop();
+			    page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 		       }	
 		}  
 		/**
@@ -250,7 +250,7 @@ import pageObject.File____FactoryPage;
 				e.printStackTrace();
 			}    
 	   finally { 
-			    page.getInstance(annotationdrawBase.class).doDrop();
+			    page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 		       }	
 		} 
 		 @Test (priority = 10 ,enabled= true,timeOut = 6000)

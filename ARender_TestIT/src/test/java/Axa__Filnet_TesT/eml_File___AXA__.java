@@ -12,6 +12,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import FullActionpage.SavePageAndQuit;
+import FullActionpage.deleteActionPage;
 import FullActionpage.refreshPage;
 import annotationHandler.PolygoneannotationHandler;
 import annotationHandler.StickyNoteAnnotationHandler;
@@ -46,7 +47,7 @@ public class eml_File___AXA__  extends pageObject.TestBase implements ARender___
 	 */	 
 		@Test(priority = 1 , alwaysRun = false ,enabled= true)
 	    public void eml_File____Upload (Method method) throws InterruptedException, IOException {
-			driver.get("http://18.203.215.159:8080/arondor-arender-axa-war-4.1.0-rc0/?bean=urlParserExternalAccessorProxy&id=%7BF9AC8FF4-85B6-CE30-8F81-718852A00002%7D&objectStoreName=OS1&documentId=F9AC8FF4-85B6-CE30-8F81-718852A00002");		
+			driver.get("http://18.203.215.159:8080/arondor-arender-axa-war-4.1.0/?bean=urlParserExternalAccessorProxy&id=%7B3D61AAF6-89F4-CD49-A7D6-74FE5DF00000%7D&objectStoreName=OS1&documentId=3D61AAF6-89F4-CD49-A7D6-74FE5DF00000");		
 		    page.waitForElementinvisible(waiterImg);
 		    page.waitForElementPresent(thumbimage);
 		// TODO check notification message is not wrong
@@ -71,7 +72,7 @@ public class eml_File___AXA__  extends pageObject.TestBase implements ARender___
 			public void Handle_StickyNote___Oneml (Method method) throws InterruptedException{ 
 		    page.clickOnElement(annotationExplorerButtonFull);     
 			Thread.sleep(500);	  	 
-				page.getInstance(StickyNoteAnnotationHandler.class).doDrowSticky();
+				page.getInstance(StickyNoteAnnotationHandler.class).drowNote();
 			
 		    // TODO Check notification message is not wrong
 			// TODO Check annotation is displayed 
@@ -80,18 +81,17 @@ public class eml_File___AXA__  extends pageObject.TestBase implements ARender___
 			    Assert.assertTrue(page.findElement(StickyeannotationDisplayed).isDisplayed(),"ERROR ACCURRED : STICKYNOTE IS NOT DIPLAYDED");
 			    Assert.assertTrue(page.findElement(styleBarre).isDisplayed(),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED");   
 			    Assert.assertTrue(page.findElement(annotationViewIcon).isDisplayed(),"ERROR ACCURRED : VIEW ICON IS NOT DISPLAYED");	    
-			    page.getInstance(StickyNoteAnnotationHandler.class).doStylestickynote();
 		    	}
 			catch(Exception e) {
 				e.printStackTrace();
 			}    
 			finally { 
-			    page.getInstance(annotationdrawBase.class).doDrop();
+             page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 		            }	
 	        }
 			/**
 			 * 
-			 * @param method
+			 * @param method  
 			 * @throws InterruptedException
 			 */
 			@Test (priority = 3 ,enabled= true)	
@@ -108,7 +108,7 @@ public class eml_File___AXA__  extends pageObject.TestBase implements ARender___
 				e.printStackTrace();
 			}    
 			finally { 
-			       page.getInstance(annotationdrawBase.class).doDrop();
+                  page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 		            }	
 			}
 			/**
@@ -131,7 +131,7 @@ public class eml_File___AXA__  extends pageObject.TestBase implements ARender___
 					e.printStackTrace();
 				}    
 		   finally { 
-				    page.getInstance(annotationdrawBase.class).doDrop();
+				    page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 			        }	
 			}     
 			/**
@@ -154,7 +154,7 @@ public class eml_File___AXA__  extends pageObject.TestBase implements ARender___
 					e.printStackTrace();
 				}    
 		   finally { 
-				    page.getInstance(annotationdrawBase.class).doDrop();
+				    page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 			        }	
 			} 
 			/**
@@ -177,7 +177,7 @@ public class eml_File___AXA__  extends pageObject.TestBase implements ARender___
 					e.printStackTrace();
 				}    
 		   finally { 
-				    page.getInstance(annotationdrawBase.class).doDrop();
+				    page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 			        }	
 			}      
 			/**
@@ -200,7 +200,7 @@ public class eml_File___AXA__  extends pageObject.TestBase implements ARender___
 					e.printStackTrace();
 				}    
 		   finally { 
-				    page.getInstance(annotationdrawBase.class).doDrop();
+				    page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 			        }	
 			}   
 			/**
@@ -223,7 +223,7 @@ public class eml_File___AXA__  extends pageObject.TestBase implements ARender___
 					e.printStackTrace();
 				}    
 		   finally { 
-				    page.getInstance(annotationdrawBase.class).doDrop();
+				    page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 			       }	
 			}  
 			/**
@@ -246,7 +246,7 @@ public class eml_File___AXA__  extends pageObject.TestBase implements ARender___
 					e.printStackTrace();
 				}    
 		   finally { 
-				    page.getInstance(annotationdrawBase.class).doDrop();
+				    page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 			       }	
 			} 
 			 @Test (priority = 10 ,enabled= true,timeOut = 6000)

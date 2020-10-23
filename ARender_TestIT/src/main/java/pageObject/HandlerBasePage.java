@@ -20,25 +20,44 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
  * @author ARIDHI Hichem
  *
  */
-public class HanlerBasePage extends  abstractHandlerBase  {
+public class HandlerBasePage extends  abstractHandlerBase  {
 /**
  * 
  * @param driver
  */
-  	public HanlerBasePage(WebDriver driver) {
+  	public HandlerBasePage(WebDriver driver) {
 		super(driver);
 	}
 
 	@Override
 	public WebElement findElement (By locator) {
-		WebElement ele = null ;
-		try {
-			ele = driver.findElement(locator);
-			return ele;
-		}
-		catch (NoSuchElementException i) {
-			i.printStackTrace();
-		}
+		WebElement ele = null ;	
+		 try {
+            for(int i=0; i< 2 ;i++){
+                try {
+                    if(!driver.findElements(locator).isEmpty())            {
+                        try {
+                        	ele= driver.findElement(locator);
+                        	return ele;
+                        } catch (NoSuchElementException e) {
+                            e.printStackTrace();
+                        }
+                    }
+                  else{
+                        try {
+                            System.out.println("No Element found ");
+                        } catch (NoSuchElementException e) {
+                            e.printStackTrace();
+                        }
+                    }
+                } catch (NoSuchElementException e) {
+                    e.printStackTrace();
+                }
+            }
+          } catch (Exception e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
 		return ele ;
 	}
 	

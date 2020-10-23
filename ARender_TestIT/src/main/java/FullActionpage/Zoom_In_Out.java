@@ -8,13 +8,13 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import annotationHandler.annotationdrawBase;
 import pageObject.ARender____FactoryPage;
-import pageObject.HanlerBasePage;
+import pageObject.HandlerBasePage;
 
 /**
  * @author ARIDHI HICHEM
  *
  */
-public class Zoom_In_Out  extends HanlerBasePage implements ARender____FactoryPage {
+public class Zoom_In_Out  extends HandlerBasePage implements ARender____FactoryPage {
 
 	/**
 	 * 

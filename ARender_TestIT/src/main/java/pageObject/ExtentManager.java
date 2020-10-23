@@ -29,7 +29,7 @@ public class ExtentManager {
 	 
 	 
 	 ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter(path);
-//	 htmlReporter.config().setEncoding("utf-8");
+	 htmlReporter.config().setEncoding("utf-8");
 	 htmlReporter.config().setDocumentTitle("ARender Test Reports");
 	 htmlReporter.config().setTheme(Theme.DARK);
 	 

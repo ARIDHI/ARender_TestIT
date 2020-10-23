@@ -12,6 +12,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import FullActionpage.SavePageAndQuit;
+import FullActionpage.deleteActionPage;
 import FullActionpage.refreshPage;
 import annotationHandler.PolygoneannotationHandler;
 import annotationHandler.StickyNoteAnnotationHandler;
@@ -46,8 +47,7 @@ public class Zip_File___AXA__  extends pageObject.TestBase implements ARender___
 	 */	 
 		@Test(priority = 1 , alwaysRun = true ,enabled= true)
 	    public void Zip_File____Upload (Method method) throws InterruptedException, IOException {
-	   driver.get("http://18.203.215.159:8080/arondor-arender-axa-war-4.1.0-rc0/?bean=urlParserExternalAccessorProxy"
-	   		+"&id=%7B8D81F717-79FB-C55D-8740-73FCCA800000%7D&objectStoreName=OS1&documentId=8D81F717-79FB-C55D-8740-73FCCA800000");		
+	   driver.get("http://18.203.215.159:8080/arondor-arender-axa-war-4.1.0/?bean=urlParserExternalAccessorProxy&id=%7B73355800-7279-C154-8729-74FE75300000%7D&objectStoreName=OS1&documentId=73355800-7279-C154-8729-74FE75300000");		
 		page.waitForElementPresent(thumbimage);
 			 Thread.sleep(700);
 		// TODO check notification message is not wrong
@@ -76,13 +76,13 @@ public class Zip_File___AXA__  extends pageObject.TestBase implements ARender___
 		   */
 			@Test (priority = 2,  enabled= true)
 			public void Handle_StickyNote___On_zip (Method method) throws InterruptedException{ 
-		    page.clickOnElement(annotationExplorerButtonFull);
-				  List <WebElement> elements = driver.findElements(delete);
-				  	   for (int i=0 ; i < elements.size() ; i++) {
-								elements.get(i).click(); }
-				  	 page.clickOnElement(ThumExplorerButton);      
-			Thread.sleep(500);	  	 
-				page.getInstance(StickyNoteAnnotationHandler.class).doDrowSticky();
+//		    page.clickOnElement(annotationExplorerButtonFull);
+//				  List <WebElement> elements = driver.findElements(delete);
+//				  	   for (int i=0 ; i < elements.size() ; i++) {
+//								elements.get(i).click(); }
+//				  	 page.clickOnElement(ThumExplorerButton);      
+//			Thread.sleep(500);	  	 
+				page.getInstance(StickyNoteAnnotationHandler.class).drowNote();
 			
 		    // TODO Check notification message is not wrong
 			// TODO Check annotation is displayed 
@@ -91,13 +91,13 @@ public class Zip_File___AXA__  extends pageObject.TestBase implements ARender___
 			    Assert.assertTrue(page.findElement(StickyeannotationDisplayed).isDisplayed(),"ERROR ACCURRED : STICKYNOTE IS NOT DIPLAYDED");
 			    Assert.assertTrue(page.findElement(styleBarre).isDisplayed(),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED");   
 			    Assert.assertTrue(page.findElement(annotationViewIcon).isDisplayed(),"ERROR ACCURRED : VIEW ICON IS NOT DISPLAYED");	    
-			    page.getInstance(StickyNoteAnnotationHandler.class).doStylestickynote();
+			    
 		    	}
 			catch(Exception e) {
 				e.printStackTrace();
 			}    
 			finally { 
-			    page.getInstance(annotationdrawBase.class).doDrop();
+			   page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 		            }	
 	        }
 			/**
@@ -119,7 +119,7 @@ public class Zip_File___AXA__  extends pageObject.TestBase implements ARender___
 				e.printStackTrace();
 			}    
 			finally { 
-			       page.getInstance(annotationdrawBase.class).doDrop();
+			      page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 		            }	
 			}
 			/**
@@ -142,7 +142,7 @@ public class Zip_File___AXA__  extends pageObject.TestBase implements ARender___
 					e.printStackTrace();
 				}    
 		   finally { 
-				    page.getInstance(annotationdrawBase.class).doDrop();
+				   page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 			        }	
 			}     
 			/**
@@ -165,7 +165,7 @@ public class Zip_File___AXA__  extends pageObject.TestBase implements ARender___
 					e.printStackTrace();
 				}    
 		   finally { 
-				    page.getInstance(annotationdrawBase.class).doDrop();
+				   page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 			        }	
 			} 
 			/**
@@ -188,7 +188,7 @@ public class Zip_File___AXA__  extends pageObject.TestBase implements ARender___
 					e.printStackTrace();
 				}    
 		   finally { 
-				    page.getInstance(annotationdrawBase.class).doDrop();
+				   page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 			        }	
 			}      
 			/**
@@ -211,7 +211,7 @@ public class Zip_File___AXA__  extends pageObject.TestBase implements ARender___
 					e.printStackTrace();
 				}    
 		   finally { 
-				    page.getInstance(annotationdrawBase.class).doDrop();
+				   page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 			        }	
 			}   
 			/**
@@ -234,7 +234,7 @@ public class Zip_File___AXA__  extends pageObject.TestBase implements ARender___
 					e.printStackTrace();
 				}    
 		   finally { 
-				    page.getInstance(annotationdrawBase.class).doDrop();
+				   page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 			       }	
 			}  
 			/**
@@ -257,7 +257,7 @@ public class Zip_File___AXA__  extends pageObject.TestBase implements ARender___
 					e.printStackTrace();
 				}    
 		   finally { 
-				    page.getInstance(annotationdrawBase.class).doDrop();
+				   page.getInstance(deleteActionPage.class).deleteFromStyleBar();
 			       }	
 			} 
 			 @Test (priority = 10 ,enabled= true)

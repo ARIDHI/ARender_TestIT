@@ -10,43 +10,31 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
-
 /**
  * 
- * 
- * 
- * @author ARIDHI Hichem 
- *
- *
- *
+ * @author ARIDHI Hichem
  *
  */
 public abstract class abstractHandlerBase {
 	
-
     public final Actions builder;
     protected final WebDriver driver ;
     protected final WebDriverWait wait;
-	
-    
-	public abstractHandlerBase(WebDriver driver) {
+   /**
+    * 
+    * @param driver
+    */
+	    public abstractHandlerBase(WebDriver driver) {
 		this.driver = driver ; 
 		this.wait = new WebDriverWait(driver, 15);
 	    builder =new Actions(driver);
 	}
-	
-    /*
-     * 
-     * 
-     * @ this method to get annotation locators 
-     * @ locator referance to page factory
-     * @ abstract page 
-     * @ param
-     * @ WebDriver wait
-     * 
-     */
-	 public abstract WebElement findElement (By locator);
+	/**
+	 * 
+	 * @param locator
+	 * @return
+	 */
+     public abstract WebElement findElement (By locator);
 	 public abstract WebElement clickOnElement(By locator);
      public abstract WebElement waitForElementPresent(By locator);
      public abstract String getNotificationMsg(By locator);
@@ -56,13 +44,13 @@ public abstract class abstractHandlerBase {
      public abstract WebElement waitForElementinvisible(By locator);
      public abstract WebElement waitForElementvisible(By locator);
      public abstract WebElement waitForElement(By locator);
-     /*
-      * 
-      * @get instance 
-      * 
-      */
-     
-     public <TabstractannotationHandlerBase extends HanlerBasePage> 
+    /**
+     * 
+     * @param <TabstractannotationHandlerBase>
+     * @param abstractannotationHandlerBaseClass
+     * @return
+     */
+     public <TabstractannotationHandlerBase extends HandlerBasePage> 
      TabstractannotationHandlerBase getInstance(Class<TabstractannotationHandlerBase> abstractannotationHandlerBaseClass ) {
      	
      	try {
@@ -72,9 +60,6 @@ public abstract class abstractHandlerBase {
      		
      		e.printStackTrace();
      		return null;
-     	   }
-     	
-     	}
-
-	
+     	   }	
+     	}	
 }
