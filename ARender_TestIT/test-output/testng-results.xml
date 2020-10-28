@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="32" passed="32">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="192112" started-at="2020-10-28T17:10:38 WAT" finished-at="2020-10-28T17:13:50 WAT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="192112" started-at="2020-10-28T17:10:38 WAT" finished-at="2020-10-28T17:13:50 WAT">
+      <class name="StandAlone.Pdf_File___Full_RegressionTest">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:StandAlone.Pdf_File___Full_RegressionTest@76a3e297]" name="initialization" is-config="true" duration-ms="6851" started-at="2020-10-28T17:10:38 WAT" finished-at="2020-10-28T17:10:45 WAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="Upload_PDF_File(java.lang.reflect.Method)[pri:1, instance:StandAlone.Pdf_File___Full_RegressionTest@76a3e297]" name="Upload_PDF_File" duration-ms="4813" started-at="2020-10-28T17:10:45 WAT" finished-at="2020-10-28T17:10:49 WAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Pdf_File___Full_RegressionTest.Upload_PDF_File(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Upload_PDF_File -->
+        <test-method status="PASS" signature="Handle_StickyNote_On_PDF(java.lang.reflect.Method)[pri:2, instance:StandAlone.Pdf_File___Full_RegressionTest@76a3e297]" name="Handle_StickyNote_On_PDF" duration-ms="3978" started-at="2020-10-28T17:10:49 WAT" depends-on-methods="StandAlone.Pdf_File___Full_RegressionTest.Upload_PDF_File" finished-at="2020-10-28T17:10:53 WAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Pdf_File___Full_RegressionTest.Handle_StickyNote_On_PDF(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Handle_StickyNote_On_PDF -->
+        <test-method status="PASS" signature="Handle_FreeText_On_PDF(java.lang.reflect.Method)[pri:3, instance:StandAlone.Pdf_File___Full_RegressionTest@76a3e297]" name="Handle_FreeText_On_PDF" duration-ms="3330" started-at="2020-10-28T17:10:53 WAT" depends-on-methods="StandAlone.Pdf_File___Full_RegressionTest.Upload_PDF_File" finished-at="2020-10-28T17:10:57 WAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Pdf_File___Full_RegressionTest.Handle_FreeText_On_PDF(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Handle_FreeText_On_PDF -->
+        <test-method status="PASS" signature="Handle_Circle___On_PDF(java.lang.reflect.Method)[pri:4, instance:StandAlone.Pdf_File___Full_RegressionTest@76a3e297]" name="Handle_Circle___On_PDF" duration-ms="5683" started-at="2020-10-28T17:10:57 WAT" depends-on-methods="StandAlone.Pdf_File___Full_RegressionTest.Upload_PDF_File" finished-at="2020-10-28T17:11:02 WAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Pdf_File___Full_RegressionTest.Handle_Circle___On_PDF(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Handle_Circle___On_PDF -->
+        <test-method status="PASS" signature="Handle_Arrow_On_PDF(java.lang.reflect.Method)[pri:5, instance:StandAlone.Pdf_File___Full_RegressionTest@76a3e297]" name="Handle_Arrow_On_PDF" duration-ms="23238" started-at="2020-10-28T17:11:02 WAT" depends-on-methods="StandAlone.Pdf_File___Full_RegressionTest.Upload_PDF_File" finished-at="2020-10-28T17:11:26 WAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Pdf_File___Full_RegressionTest.Handle_Arrow_On_PDF(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Handle_Arrow_On_PDF -->
+        <test-method status="PASS" signature="Handle_Underline_On_PDF(java.lang.reflect.Method)[pri:6, instance:StandAlone.Pdf_File___Full_RegressionTest@76a3e297]" name="Handle_Underline_On_PDF" duration-ms="5747" started-at="2020-10-28T17:11:26 WAT" depends-on-methods="StandAlone.Pdf_File___Full_RegressionTest.Upload_PDF_File" finished-at="2020-10-28T17:11:31 WAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Pdf_File___Full_RegressionTest.Handle_Underline_On_PDF(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Handle_Underline_On_PDF -->
+        <test-method status="PASS" signature="Handle_freeHand_On_PDF(java.lang.reflect.Method)[pri:7, instance:StandAlone.Pdf_File___Full_RegressionTest@76a3e297]" name="Handle_freeHand_On_PDF" duration-ms="3055" started-at="2020-10-28T17:11:31 WAT" depends-on-methods="StandAlone.Pdf_File___Full_RegressionTest.Upload_PDF_File" finished-at="2020-10-28T17:11:34 WAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Pdf_File___Full_RegressionTest.Handle_freeHand_On_PDF(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Handle_freeHand_On_PDF -->
+        <test-method status="PASS" signature="Handle_polyline_On_PDF(java.lang.reflect.Method)[pri:8, instance:StandAlone.Pdf_File___Full_RegressionTest@76a3e297]" name="Handle_polyline_On_PDF" duration-ms="5540" started-at="2020-10-28T17:11:34 WAT" depends-on-methods="StandAlone.Pdf_File___Full_RegressionTest.Upload_PDF_File" finished-at="2020-10-28T17:11:40 WAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Pdf_File___Full_RegressionTest.Handle_polyline_On_PDF(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Handle_polyline_On_PDF -->
+        <test-method status="PASS" signature="Handel_Polygone_On_PDF(java.lang.reflect.Method)[pri:9, instance:StandAlone.Pdf_File___Full_RegressionTest@76a3e297]" name="Handel_Polygone_On_PDF" duration-ms="5454" started-at="2020-10-28T17:11:40 WAT" depends-on-methods="StandAlone.Pdf_File___Full_RegressionTest.Upload_PDF_File" finished-at="2020-10-28T17:11:45 WAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Pdf_File___Full_RegressionTest.Handel_Polygone_On_PDF(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Handel_Polygone_On_PDF -->
+        <test-method status="PASS" signature="Urgent_Stamp_On_PDF()[pri:10, instance:StandAlone.Pdf_File___Full_RegressionTest@76a3e297]" name="Urgent_Stamp_On_PDF" duration-ms="3606" started-at="2020-10-28T17:11:45 WAT" depends-on-methods="StandAlone.Pdf_File___Full_RegressionTest.Upload_PDF_File" finished-at="2020-10-28T17:11:49 WAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Urgent_Stamp_On_PDF -->
+        <test-method status="PASS" signature="Approved_Stamp_On_PDF()[pri:11, instance:StandAlone.Pdf_File___Full_RegressionTest@76a3e297]" name="Approved_Stamp_On_PDF" duration-ms="2815" started-at="2020-10-28T17:11:49 WAT" depends-on-methods="StandAlone.Pdf_File___Full_RegressionTest.Upload_PDF_File" finished-at="2020-10-28T17:11:52 WAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Approved_Stamp_On_PDF -->
+        <test-method status="PASS" signature="Draft_Stamp_On_PDF()[pri:12, instance:StandAlone.Pdf_File___Full_RegressionTest@76a3e297]" name="Draft_Stamp_On_PDF" duration-ms="3713" started-at="2020-10-28T17:11:52 WAT" depends-on-methods="StandAlone.Pdf_File___Full_RegressionTest.Upload_PDF_File" finished-at="2020-10-28T17:11:56 WAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Draft_Stamp_On_PDF -->
+        <test-method status="PASS" signature="Signature_Stamp_On_PDF()[pri:13, instance:StandAlone.Pdf_File___Full_RegressionTest@76a3e297]" name="Signature_Stamp_On_PDF" duration-ms="3516" started-at="2020-10-28T17:11:56 WAT" depends-on-methods="StandAlone.Pdf_File___Full_RegressionTest.Upload_PDF_File" finished-at="2020-10-28T17:11:59 WAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Signature_Stamp_On_PDF -->
+        <test-method status="PASS" signature="Free_Stamp_On_PDF()[pri:14, instance:StandAlone.Pdf_File___Full_RegressionTest@76a3e297]" name="Free_Stamp_On_PDF" duration-ms="4048" started-at="2020-10-28T17:11:59 WAT" depends-on-methods="StandAlone.Pdf_File___Full_RegressionTest.Upload_PDF_File" finished-at="2020-10-28T17:12:03 WAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Free_Stamp_On_PDF -->
+        <test-method status="PASS" signature="delete_Anotation_On_PDF(java.lang.reflect.Method)[pri:15, instance:StandAlone.Pdf_File___Full_RegressionTest@76a3e297]" name="delete_Anotation_On_PDF" duration-ms="2907" started-at="2020-10-28T17:12:03 WAT" depends-on-methods="StandAlone.Pdf_File___Full_RegressionTest.Upload_PDF_File, StandAlone.Pdf_File___Full_RegressionTest.Handle_StickyNote_On_PDF, StandAlone.Pdf_File___Full_RegressionTest.Handel_Polygone_On_PDF" finished-at="2020-10-28T17:12:06 WAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Pdf_File___Full_RegressionTest.delete_Anotation_On_PDF(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete_Anotation_On_PDF -->
+        <test-method status="PASS" signature="Refresh_After_Delete_Anotation_On_PDF(java.lang.reflect.Method)[pri:16, instance:StandAlone.Pdf_File___Full_RegressionTest@76a3e297]" name="Refresh_After_Delete_Anotation_On_PDF" duration-ms="20349" started-at="2020-10-28T17:12:06 WAT" depends-on-methods="StandAlone.Pdf_File___Full_RegressionTest.delete_Anotation_On_PDF" finished-at="2020-10-28T17:12:26 WAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Pdf_File___Full_RegressionTest.Refresh_After_Delete_Anotation_On_PDF(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Refresh_After_Delete_Anotation_On_PDF -->
+        <test-method status="PASS" signature="SAVE_DATA_ON_PDF(java.lang.reflect.Method)[pri:17, instance:StandAlone.Pdf_File___Full_RegressionTest@76a3e297]" name="SAVE_DATA_ON_PDF" duration-ms="1580" started-at="2020-10-28T17:12:26 WAT" depends-on-methods="StandAlone.Pdf_File___Full_RegressionTest.Upload_PDF_File" finished-at="2020-10-28T17:12:28 WAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Pdf_File___Full_RegressionTest.SAVE_DATA_ON_PDF(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SAVE_DATA_ON_PDF -->
+        <test-method status="PASS" signature="Refresh_After_Save_Anotation_On_PDF(java.lang.reflect.Method)[pri:18, instance:StandAlone.Pdf_File___Full_RegressionTest@76a3e297]" name="Refresh_After_Save_Anotation_On_PDF" duration-ms="212" started-at="2020-10-28T17:12:28 WAT" depends-on-methods="StandAlone.Pdf_File___Full_RegressionTest.SAVE_DATA_ON_PDF" finished-at="2020-10-28T17:12:28 WAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Pdf_File___Full_RegressionTest.Refresh_After_Save_Anotation_On_PDF(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Refresh_After_Save_Anotation_On_PDF -->
+        <test-method status="PASS" signature="Add_a_Signet_On_PDF(java.lang.reflect.Method)[pri:19, instance:StandAlone.Pdf_File___Full_RegressionTest@76a3e297]" name="Add_a_Signet_On_PDF" duration-ms="5363" started-at="2020-10-28T17:12:28 WAT" depends-on-methods="StandAlone.Pdf_File___Full_RegressionTest.Upload_PDF_File" finished-at="2020-10-28T17:12:34 WAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Pdf_File___Full_RegressionTest.Add_a_Signet_On_PDF(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_a_Signet_On_PDF -->
+        <test-method status="PASS" signature="Delete_a_Signet_On_PDF(java.lang.reflect.Method)[pri:20, instance:StandAlone.Pdf_File___Full_RegressionTest@76a3e297]" name="Delete_a_Signet_On_PDF" duration-ms="4695" started-at="2020-10-28T17:12:34 WAT" depends-on-methods="StandAlone.Pdf_File___Full_RegressionTest.Add_a_Signet_On_PDF" finished-at="2020-10-28T17:12:38 WAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Pdf_File___Full_RegressionTest.Delete_a_Signet_On_PDF(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Delete_a_Signet_On_PDF -->
+        <test-method status="PASS" signature="ADD_AN_ANCRE_On_PDF(java.lang.reflect.Method)[pri:21, instance:StandAlone.Pdf_File___Full_RegressionTest@76a3e297]" name="ADD_AN_ANCRE_On_PDF" duration-ms="21726" started-at="2020-10-28T17:12:38 WAT" depends-on-methods="StandAlone.Pdf_File___Full_RegressionTest.Upload_PDF_File" finished-at="2020-10-28T17:13:00 WAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Pdf_File___Full_RegressionTest.ADD_AN_ANCRE_On_PDF(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ADD_AN_ANCRE_On_PDF -->
+        <test-method status="PASS" signature="SKIP_AN_ANCRE_On_PDF(java.lang.reflect.Method)[pri:22, instance:StandAlone.Pdf_File___Full_RegressionTest@76a3e297]" name="SKIP_AN_ANCRE_On_PDF" duration-ms="21451" started-at="2020-10-28T17:13:00 WAT" depends-on-methods="StandAlone.Pdf_File___Full_RegressionTest.Upload_PDF_File" finished-at="2020-10-28T17:13:21 WAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Pdf_File___Full_RegressionTest.SKIP_AN_ANCRE_On_PDF(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SKIP_AN_ANCRE_On_PDF -->
+        <test-method status="PASS" signature="ZoomIn_On_PDF(java.lang.reflect.Method)[pri:23, instance:StandAlone.Pdf_File___Full_RegressionTest@76a3e297]" name="ZoomIn_On_PDF" duration-ms="1670" started-at="2020-10-28T17:13:21 WAT" depends-on-methods="StandAlone.Pdf_File___Full_RegressionTest.Upload_PDF_File" finished-at="2020-10-28T17:13:23 WAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Pdf_File___Full_RegressionTest.ZoomIn_On_PDF(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ZoomIn_On_PDF -->
+        <test-method status="PASS" signature="ZoomOut_On_PDF(java.lang.reflect.Method)[pri:24, instance:StandAlone.Pdf_File___Full_RegressionTest@76a3e297]" name="ZoomOut_On_PDF" duration-ms="899" started-at="2020-10-28T17:13:23 WAT" depends-on-methods="StandAlone.Pdf_File___Full_RegressionTest.Upload_PDF_File" finished-at="2020-10-28T17:13:24 WAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Pdf_File___Full_RegressionTest.ZoomOut_On_PDF(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ZoomOut_On_PDF -->
+        <test-method status="PASS" signature="ZoomInZone_On_PDF(java.lang.reflect.Method)[pri:25, instance:StandAlone.Pdf_File___Full_RegressionTest@76a3e297]" name="ZoomInZone_On_PDF" duration-ms="740" started-at="2020-10-28T17:13:24 WAT" depends-on-methods="StandAlone.Pdf_File___Full_RegressionTest.Upload_PDF_File" finished-at="2020-10-28T17:13:25 WAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Pdf_File___Full_RegressionTest.ZoomInZone_On_PDF(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ZoomInZone_On_PDF -->
+        <test-method status="PASS" signature="Zoom_Adjust_On_PDF(java.lang.reflect.Method)[pri:26, instance:StandAlone.Pdf_File___Full_RegressionTest@76a3e297]" name="Zoom_Adjust_On_PDF" duration-ms="855" started-at="2020-10-28T17:13:25 WAT" depends-on-methods="StandAlone.Pdf_File___Full_RegressionTest.Upload_PDF_File" finished-at="2020-10-28T17:13:26 WAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Pdf_File___Full_RegressionTest.Zoom_Adjust_On_PDF(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Zoom_Adjust_On_PDF -->
+        <test-method status="PASS" signature="Zoom_Text_Box_Control_On_PDF(java.lang.reflect.Method)[pri:27, instance:StandAlone.Pdf_File___Full_RegressionTest@76a3e297]" name="Zoom_Text_Box_Control_On_PDF" duration-ms="2593" started-at="2020-10-28T17:13:26 WAT" depends-on-methods="StandAlone.Pdf_File___Full_RegressionTest.Upload_PDF_File" finished-at="2020-10-28T17:13:28 WAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Pdf_File___Full_RegressionTest.Zoom_Text_Box_Control_On_PDF(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Zoom_Text_Box_Control_On_PDF -->
+        <test-method status="PASS" signature="Left_Rotation_Control_On_PDF(java.lang.reflect.Method)[pri:28, instance:StandAlone.Pdf_File___Full_RegressionTest@76a3e297]" name="Left_Rotation_Control_On_PDF" duration-ms="650" started-at="2020-10-28T17:13:28 WAT" depends-on-methods="StandAlone.Pdf_File___Full_RegressionTest.Upload_PDF_File" finished-at="2020-10-28T17:13:29 WAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Pdf_File___Full_RegressionTest.Left_Rotation_Control_On_PDF(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Left_Rotation_Control_On_PDF -->
+        <test-method status="PASS" signature="Right_Rotation_Control_On_PDF(java.lang.reflect.Method)[pri:29, instance:StandAlone.Pdf_File___Full_RegressionTest@76a3e297]" name="Right_Rotation_Control_On_PDF" duration-ms="684" started-at="2020-10-28T17:13:29 WAT" depends-on-methods="StandAlone.Pdf_File___Full_RegressionTest.Upload_PDF_File" finished-at="2020-10-28T17:13:30 WAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Pdf_File___Full_RegressionTest.Right_Rotation_Control_On_PDF(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Right_Rotation_Control_On_PDF -->
+        <test-method status="PASS" signature="Activate_Multiview_On_PDF(java.lang.reflect.Method)[pri:30, instance:StandAlone.Pdf_File___Full_RegressionTest@76a3e297]" name="Activate_Multiview_On_PDF" duration-ms="645" started-at="2020-10-28T17:13:30 WAT" depends-on-methods="StandAlone.Pdf_File___Full_RegressionTest.Upload_PDF_File" finished-at="2020-10-28T17:13:30 WAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Pdf_File___Full_RegressionTest.Activate_Multiview_On_PDF(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Activate_Multiview_On_PDF -->
+        <test-method status="PASS" signature="Desactivate_Multiview_On_PDF(java.lang.reflect.Method)[pri:31, instance:StandAlone.Pdf_File___Full_RegressionTest@76a3e297]" name="Desactivate_Multiview_On_PDF" duration-ms="62" started-at="2020-10-28T17:13:30 WAT" depends-on-methods="StandAlone.Pdf_File___Full_RegressionTest.Activate_Multiview_On_PDF" finished-at="2020-10-28T17:13:30 WAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Pdf_File___Full_RegressionTest.Desactivate_Multiview_On_PDF(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Desactivate_Multiview_On_PDF -->
+        <test-method status="PASS" signature="Multi_Multiview_On_PDF(java.lang.reflect.Method)[pri:32, instance:StandAlone.Pdf_File___Full_RegressionTest@76a3e297]" name="Multi_Multiview_On_PDF" duration-ms="14764" started-at="2020-10-28T17:13:30 WAT" depends-on-methods="StandAlone.Pdf_File___Full_RegressionTest.Upload_PDF_File" finished-at="2020-10-28T17:13:45 WAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Pdf_File___Full_RegressionTest.Multi_Multiview_On_PDF(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Multi_Multiview_On_PDF -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:StandAlone.Pdf_File___Full_RegressionTest@76a3e297]" name="tearDown" is-config="true" duration-ms="4815" started-at="2020-10-28T17:13:45 WAT" finished-at="2020-10-28T17:13:50 WAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- StandAlone.Pdf_File___Full_RegressionTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

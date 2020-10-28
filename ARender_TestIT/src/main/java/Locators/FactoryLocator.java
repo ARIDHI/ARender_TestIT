@@ -1,7 +1,7 @@
 /**
  * 
  */
-package pageObject;
+package Locators;
 
 import org.openqa.selenium.By;
 
@@ -9,7 +9,7 @@ import org.openqa.selenium.By;
  * @author ARIDHi Hichem
  *
  */
-public interface ARender____FactoryPage   {
+public interface FactoryLocator   {
 	
 	
 	public static final By ARenderLogo = By.cssSelector("img.ARenderLogo");		
@@ -67,6 +67,7 @@ public interface ARender____FactoryPage   {
 	public static final By annotationBarView = By.className("annotationBarView-creatorLabel");
 	public static final By sadEmptyIcon = By.cssSelector("img.sadEmptyIcon");
 	public static final By mesureArrow = By.xpath("//*[contains(text(), '56926.48le')]");
+	public static final By stackPanel_content = By.className("stackPanel-content");
 	/**
 	 * 
 	 * {@value= Print locator }    

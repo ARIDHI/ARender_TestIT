@@ -1,7 +1,7 @@
 /**
  * 
  */
-package pageObject;
+package Locators;
 
 import org.openqa.selenium.By;
 
@@ -9,7 +9,7 @@ import org.openqa.selenium.By;
  * @author ARIDHI HICHEM
  *
  */
-public interface File____FactoryPage {
+public interface FileFactoryLocator {
 	
 	
 	

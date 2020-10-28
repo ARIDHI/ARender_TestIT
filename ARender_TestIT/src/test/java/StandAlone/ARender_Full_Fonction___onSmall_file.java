@@ -1,7 +1,7 @@
 /**
  * 
  */
-package End_To_End____Test;
+package StandAlone;
 
 import org.testng.annotations.Test;
 
@@ -10,17 +10,17 @@ import java.io.IOException;
 import java.lang.reflect.Method;
 
 import org.testng.Assert;
-import FullActionpage.Zoom_In_Out;
-import FullActionpage.ancrePage___Fonction;
-import FullActionpage.fullscreen;
-import FullActionpage.image_____ProcessinPage;
-import FullActionpage.logoPage;
-import FullActionpage.naviagationPage;
-import FullActionpage.printPage;
-import FullActionpage.rotation;
+import FullActionpage.zoomFonction;
+import FullActionpage.signetFonction;
+import FullActionpage.fullscreenFonction;
+import FullActionpage.imageProcessinFonction;
+import FullActionpage.logoFonction;
+import FullActionpage.naviagationFonction;
+import FullActionpage.printFonction;
+import FullActionpage.rotationFonction;
 import fileHandler.AFileUploadBase;
-import pageObject.ARender____FactoryPage;
-import pageObject.File____FactoryPage;
+import Locators.FactoryLocator;
+import Locators.FileFactoryLocator;
 import pageObject.HandlerBasePage;
 
 /**
@@ -28,7 +28,7 @@ import pageObject.HandlerBasePage;
  *
  */
 
-public class ARender_Full_Fonction___onSmall_file extends pageObject.TestBase implements ARender____FactoryPage , File____FactoryPage{
+public class ARender_Full_Fonction___onSmall_file extends pageObject.TestBase implements FactoryLocator , FileFactoryLocator{
 	/**
 	 * 
 	 * @param method
@@ -42,16 +42,16 @@ public class ARender_Full_Fonction___onSmall_file extends pageObject.TestBase im
 		 Thread.sleep(2000);
        }
  /**
-  * @see image_____ProcessinPage.class
+  * @see imageProcessinFonction.class
   * @throws InterruptedException
   * @throws AWTException
   */
   @Test(priority = 1)
 	public void Brightness___onSmall_file (Method method) throws InterruptedException, AWTException {  
 	  	//TODO change contrast and check that contrast Element exist on DOM && isNot equal to null
-	  	 	page.getInstance(image_____ProcessinPage.class).playBrightness();
+	  	 	page.getInstance(imageProcessinFonction.class).playBrightness();
 	  	 	try {
-	  	 		Assert.assertNotEquals(page.getInstance(image_____ProcessinPage.class).BrightnessResult(), 0);
+	  	 		Assert.assertNotEquals(page.getInstance(imageProcessinFonction.class).BrightnessResult(), 0);
 	  	 	   }
 	  	  catch(Exception e) {
 	  		  e.printStackTrace();
@@ -59,7 +59,7 @@ public class ARender_Full_Fonction___onSmall_file extends pageObject.TestBase im
 	  	}
 /**
  * 
- * @see naviagationPage.class
+ * @see naviagationFonction.class
  * @throws InterruptedException
  */
  @Test(priority = 2)
@@ -67,7 +67,7 @@ public class ARender_Full_Fonction___onSmall_file extends pageObject.TestBase im
 		
  // TODO send a page number to the nav text box 	    
     try {
-		 page.getInstance(naviagationPage.class).setNavText("5"); 
+		 page.getInstance(naviagationFonction.class).setNavText("5"); 
        }
 		    catch(Exception e) {
 		  		  e.printStackTrace();
@@ -75,7 +75,7 @@ public class ARender_Full_Fonction___onSmall_file extends pageObject.TestBase im
 		    
  // TODO navigate to the next 5 pages	     
     try {
-		 page.getInstance(naviagationPage.class).getNext();
+		 page.getInstance(naviagationFonction.class).getNext();
 	   }
 		    catch(Exception e) {
 		  		  e.printStackTrace();
@@ -83,7 +83,7 @@ public class ARender_Full_Fonction___onSmall_file extends pageObject.TestBase im
 		    
  // TODO go to the last page   
     try {
-		 page.getInstance(naviagationPage.class).getLast();	
+		 page.getInstance(naviagationFonction.class).getLast();	
 	   }
 		    catch(Exception e) {
 		  		  e.printStackTrace();
@@ -91,7 +91,7 @@ public class ARender_Full_Fonction___onSmall_file extends pageObject.TestBase im
 		    
  // TODO navigate to the previous 4 pages
 	 try {
-		 page.getInstance(naviagationPage.class).getPrevious();
+		 page.getInstance(naviagationFonction.class).getPrevious();
 	   }
 		    catch(Exception e) {
 		  		  e.printStackTrace();
@@ -99,19 +99,19 @@ public class ARender_Full_Fonction___onSmall_file extends pageObject.TestBase im
 		    
  //TODO Go back to the first page   	    
      try {
-		  page.getInstance(naviagationPage.class).getfirst();
+		  page.getInstance(naviagationFonction.class).getfirst();
 	   }
 		    catch(Exception e) {
 		  	   }
 	  }
  /**
-  * @see printPage.class
+  * @see printFonction.class
   * @throws InterruptedException
   */
   @Test(priority = 3, enabled =false)
   public void Check_Print_WithoutAnnotation_fonctions (Method method) throws InterruptedException {
 	  try {
-	  page.getInstance(printPage.class).printfileWithoutannotation();   
+	  page.getInstance(printFonction.class).printfileWithoutannotation();   
 	  }
 	catch(Exception e){ 
 		 e.printStackTrace();
@@ -120,7 +120,7 @@ public class ARender_Full_Fonction___onSmall_file extends pageObject.TestBase im
   @Test(priority = 4, enabled =false)
   public void Check_Print_WithAnnotation_fonctions (Method method) throws InterruptedException { 
 	  try {
-		  page.getInstance(printPage.class).printfileWithannotation();  
+		  page.getInstance(printFonction.class).printfileWithannotation();  
 	  }
 	  catch(Exception e){ 
 			 e.printStackTrace();
@@ -129,7 +129,7 @@ public class ARender_Full_Fonction___onSmall_file extends pageObject.TestBase im
   @Test(priority = 5 , enabled =false)
   public void Check_Print_allFiles_fonctions (Method method) throws InterruptedException {
 	 try { 
-	     page.getInstance(printPage.class).printallfile(); 
+	     page.getInstance(printFonction.class).printallfile(); 
 	 }
 	 catch(Exception e){ 
 		 e.printStackTrace();
@@ -137,13 +137,13 @@ public class ARender_Full_Fonction___onSmall_file extends pageObject.TestBase im
   }
   /**
    * 
-   * @see Zoom_In_Out.class
+   * @see zoomFonction.class
    * @param
    */
   @Test(priority = 6 , alwaysRun=true )
   public void zoomIn___onSmall_file (Method method) throws InterruptedException {
 	  //TODO 
-	  page.getInstance(Zoom_In_Out.class).getZoomIn();  
+	  page.getInstance(zoomFonction.class).getZoomIn();  
 	  try {
        Assert.assertTrue((page.getInstance(HandlerBasePage.class).getNotificationMsg(notificationmsg)).contains("Zoom Courant :") ,"error accurerd Test not ok");
 	  }
@@ -153,13 +153,13 @@ public class ARender_Full_Fonction___onSmall_file extends pageObject.TestBase im
   }  
   /**
    * 
-   * @see Zoom_In_Out.class
+   * @see zoomFonction.class
    * @throws InterruptedException
    */
   @Test(priority = 7 , alwaysRun=true ,timeOut = 2000)
   public void zoomOut___onSmall_file (Method method) throws InterruptedException {
 	  //TODO
-	  page.getInstance(Zoom_In_Out.class).getZoomOut(); 
+	  page.getInstance(zoomFonction.class).getZoomOut(); 
 	  try {
        Assert.assertTrue((page.getInstance(HandlerBasePage.class).getNotificationMsg(notificationmsg)).contains("Zoom Courant :"),"error accurerd Test not ok");
 	  }
@@ -169,13 +169,13 @@ public class ARender_Full_Fonction___onSmall_file extends pageObject.TestBase im
   }
   /**
    * 
-   * @see Zoom_In_Out.class
+   * @see zoomFonction.class
    * @throws InterruptedException
    */
   @Test(priority =8, alwaysRun=true ,timeOut = 2000)
   public void zoomIn_Zone___onSmall_file (Method method) throws InterruptedException {
 	  //TODO
-	  page.getInstance(Zoom_In_Out.class).ZoomInZone();  
+	  page.getInstance(zoomFonction.class).ZoomInZone();  
 	  try {
        Assert.assertTrue(page.getInstance(HandlerBasePage.class).getNotificationMsg(notificationmsg).contains("Zoom Courant :"),"error accurerd Test not ok");
 	  }
@@ -185,18 +185,18 @@ public class ARender_Full_Fonction___onSmall_file extends pageObject.TestBase im
   }
   /**
    * @see HandlerBasePage.class
-   * @see Zoom_In_Out.class
+   * @see zoomFonction.class
    * @throws InterruptedException
    */
   @Test(priority = 9, alwaysRun=true ,timeOut = 5000)
   public void zoomAdjust___onSmall_file (Method method) throws InterruptedException {
 	  //TODO
-	  page.getInstance(Zoom_In_Out.class).getFullHeightButton();  
+	  page.getInstance(zoomFonction.class).getFullHeightButton();  
 	  try {
        Assert.assertTrue(page.getInstance(HandlerBasePage.class).getNotificationMsg(notificationmsg).contains("Zoom Courant :"),"error accurerd Test not ok"); 
-       page.getInstance(Zoom_In_Out.class).getFullWidthButton();
+       page.getInstance(zoomFonction.class).getFullWidthButton();
        Assert.assertTrue(page.getInstance(HandlerBasePage.class).getNotificationMsg(notificationmsg).contains("Zoom Courant :"),"error accurerd Test not ok");
-       page.getInstance(Zoom_In_Out.class).getFullPageButton();
+       page.getInstance(zoomFonction.class).getFullPageButton();
        Assert.assertTrue(page.getInstance(HandlerBasePage.class).getNotificationMsg(notificationmsg).contains("Zoom Courant :"),"error accurerd Test not ok");   
 	  }
 	  catch(Exception e) {
@@ -205,13 +205,13 @@ public class ARender_Full_Fonction___onSmall_file extends pageObject.TestBase im
   }
   /**
    * 
-   * @see Zoom_In_Out.class
+   * @see zoomFonction.class
    * @throws InterruptedException
    */
   @Test(priority = 10 , alwaysRun=true ,timeOut = 5000)
   public void zoomTextBox___onSmall_file (Method method) throws InterruptedException {
 	  //TODO
-	  page.getInstance(Zoom_In_Out.class).setZoomBox(); 
+	  page.getInstance(zoomFonction.class).setZoomBox(); 
 	  try {   
       Assert.assertEquals(page.getInstance(HandlerBasePage.class).getNotificationMsg(notificationmsg),"Zoom Courant :100.00%", "error accurerd Test not ok");
 	  }
@@ -221,15 +221,15 @@ public class ARender_Full_Fonction___onSmall_file extends pageObject.TestBase im
   }
   /**
    *  
-   * @see rotation.class
+   * @see rotationFonction.class
    * @throws InterruptedException
    */
   @Test(priority = 11, alwaysRun=true ,timeOut = 5000)
   public void Rotation___onSmall_file(Method method) throws InterruptedException {
 	  //TODO
 	  try {
-	   page.getInstance(rotation.class).getLeftRotate();   
-       page.getInstance(rotation.class).getRightRotate();
+	   page.getInstance(rotationFonction.class).getLeftRotate();   
+       page.getInstance(rotationFonction.class).getRightRotate();
 	  }
 	  catch(Exception e) {
   		  e.printStackTrace();
@@ -237,17 +237,17 @@ public class ARender_Full_Fonction___onSmall_file extends pageObject.TestBase im
   }
  /**
   * 
-  * @see fullscreen.class
+  * @see fullscreenFonction.class
   * @throws InterruptedException
   */
   @Test(priority = 12, alwaysRun=true ,timeOut = 6000 , singleThreaded=true, skipFailedInvocations =true )
   public void fullscreen___onSmall_file(Method method) throws InterruptedException { 
 	  //TODO
-	  page.getInstance(fullscreen.class).getFullScreen();
+	  page.getInstance(fullscreenFonction.class).fullscreenizer();
 	  try {
        Assert.assertTrue(page.findElement(fullScreen).isDisplayed(), "FULLSCREEN BUTTON IS NOT DISPLAYED");  
        Assert.assertTrue(page.findElement(verticalSlider).isDisplayed(), "VERTICAL SLIDER BUTTON IS NOT DISPLAYED"); 
-       page.getInstance(fullscreen.class).EscapeFullScreen();
+       page.getInstance(fullscreenFonction.class).defullscreenizer();
        Assert.assertTrue(page.findElement(thumbExplorerButton).isDisplayed(), "THUMBER BUTTON IS NOT DISPLAYED");
 	  }
 	  catch(Exception e) {
@@ -255,7 +255,7 @@ public class ARender_Full_Fonction___onSmall_file extends pageObject.TestBase im
   	   }
   }
   /**
-   * @see logoPage.class	
+   * @see logoFonction.class	
    * @see prop.getProperty("ARenderversion")
    * @throws InterruptedException
    */
@@ -263,7 +263,7 @@ public class ARender_Full_Fonction___onSmall_file extends pageObject.TestBase im
     public void logoVersion___onSmall_file (Method method) throws InterruptedException {
   	 //TODO getText version and compare it with ARenderversion on prop.getProperty()
       try {
-  	    String ActuelResult = page.getInstance(logoPage.class).VersionCheck();
+  	    String ActuelResult = page.getInstance(logoFonction.class).VersionCheck();
   	    String ExpectedResult = (prop.getProperty("ARenderversion"));
   	    Assert.assertEquals(ActuelResult,ExpectedResult, "ERROR ACCURRED : ARENDER VERSION IS NOT TRUE");        
   		  }
@@ -275,7 +275,7 @@ public class ARender_Full_Fonction___onSmall_file extends pageObject.TestBase im
       public void ancre___onSmall_file (Method method) throws InterruptedException {
   	  	 //TODO getText version and compare it with ARenderversion on prop.getProperty()
   	      try {
-  	    	page.getInstance(ancrePage___Fonction.class).addAncre();
+  	    	page.getInstance(signetFonction.class).addAncre();
   	       Assert.assertTrue(page.findElement(bookmarkDisplayed).isDisplayed(), "ANCRE IS NOT DISPLAYED");  
 
   	      }
@@ -283,8 +283,8 @@ public class ARender_Full_Fonction___onSmall_file extends pageObject.TestBase im
   	  		 e.printStackTrace();
   	  		 }
   	    try {
-  	    	page.getInstance(ancrePage___Fonction.class).deletAncre();
-  	       Assert.assertEquals(page.getInstance(ancrePage___Fonction.class).treeItemSize(), 0 , "IN CASE DELETE OF ANCRE.IT MUST NOT BE DISPLAYED");  
+  	    	page.getInstance(signetFonction.class).deletAncre();
+  	       Assert.assertEquals(page.getInstance(signetFonction.class).treeItemSize(), 0 , "IN CASE DELETE OF ANCRE.IT MUST NOT BE DISPLAYED");  
 
   	      }
   	  	catch(Exception e){ 
