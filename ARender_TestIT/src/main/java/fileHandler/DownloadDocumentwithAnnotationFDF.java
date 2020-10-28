@@ -4,14 +4,14 @@
 package fileHandler;
 
 import org.openqa.selenium.WebDriver;
-import pageObject.File____FactoryPage;
+import Locators.FileFactoryLocator;
 import pageObject.HandlerBasePage;
 
 /**
  * @author ARIDHI HICHEM
  *
  */
-public class DownloadDocumentwithAnnotationFDF extends HandlerBasePage implements File____FactoryPage{
+public class DownloadDocumentwithAnnotationFDF extends HandlerBasePage implements FileFactoryLocator{
 	/**
 	 * 
 	 * 

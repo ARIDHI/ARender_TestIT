@@ -6,13 +6,13 @@ package annotationHandler;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 
-import pageObject.ARender____FactoryPage;
+import Locators.FactoryLocator;
 
 /**
  * @author Lenovo
  *
  */
-public class approvedStampHandler extends annotationdrawBase implements ARender____FactoryPage {
+public class approvedStampHandler extends annotationdrawBase implements FactoryLocator {
 
 	public approvedStampHandler(WebDriver driver) {
 		super(driver);

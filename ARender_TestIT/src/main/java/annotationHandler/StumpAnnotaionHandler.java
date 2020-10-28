@@ -5,13 +5,13 @@ import java.util.List;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-import pageObject.ARender____FactoryPage;
+import Locators.FactoryLocator;
 /**
  * 
  * @author ARIDHI HICHEM
  *
  */
-public class StumpAnnotaionHandler extends annotationdrawBase implements ARender____FactoryPage {
+public class StumpAnnotaionHandler extends annotationdrawBase implements FactoryLocator {
 
 	public StumpAnnotaionHandler(WebDriver driver) {
 		super(driver);

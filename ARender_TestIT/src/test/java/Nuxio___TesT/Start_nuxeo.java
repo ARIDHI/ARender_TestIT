@@ -7,23 +7,23 @@ import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import FullActionpage.Zoom_In_Out;
-import FullActionpage.fullscreen;
-import FullActionpage.naviagationPage;
-import FullActionpage.rotation;
-import GED_____Base.logIn__Nuxio;
-import pageObject.ARender____FactoryPage;
-import pageObject.File____FactoryPage;
+import EnvirementClient.LogInToNuxio;
+import FullActionpage.zoomFonction;
+import FullActionpage.fullscreenFonction;
+import FullActionpage.naviagationFonction;
+import FullActionpage.rotationFonction;
+import pageObject.FactoryLocator;
+import pageObject.FileFactoryLocator;
 
 /**
  * @author Lenovo
  *
  */
-public class Start_nuxeo extends pageObject.TestBase implements ARender____FactoryPage, File____FactoryPage {
+public class Start_nuxeo extends pageObject.TestBase implements FactoryLocator, FileFactoryLocator {
 	
 	@Test(priority = 1, alwaysRun = true ,enabled= true)
     public void Login (Method method) throws InterruptedException, IOException {
-		 page.getInstance(logIn__Nuxio.class).login(prop.getProperty("usernameNuxeo"), prop.getProperty("passwordNuxeo"));
+		 page.getInstance(LogInToNuxio.class).login(prop.getProperty("usernameNuxeo"), prop.getProperty("passwordNuxeo"));
 		 Thread.sleep(2000);
 		 driver.get("https://valmy12.arender.fr/nuxeo-arender/?documentId=default,3da9897e-6eb6-4205-84a9-93f41c91e12c,file:content,d057ec0bc08d70bfb8531e59951a8bf2");		
 		Thread.sleep(2000);
@@ -37,7 +37,7 @@ public class Start_nuxeo extends pageObject.TestBase implements ARender____Facto
 			}		 
 	 /**
 	  * 
-	  * @see naviagationPage.class
+	  * @see naviagationFonction.class
 	  * @throws InterruptedException
 	  */
 	  @Test(priority = 2)
@@ -45,7 +45,7 @@ public class Start_nuxeo extends pageObject.TestBase implements ARender____Facto
 		
 	  // TODO send a page number to the nav text box 	    
 	     try {
-	 		 page.getInstance(naviagationPage.class).setNavText("5"); 
+	 		 page.getInstance(naviagationFonction.class).setNavText("5"); 
 	        }
 	 		    catch(Exception e) {
 	 		  		  e.printStackTrace();
@@ -53,7 +53,7 @@ public class Start_nuxeo extends pageObject.TestBase implements ARender____Facto
 	 		    
 	  // TODO navigate to the next 5 pages	     
 	     try {
-	 		 page.getInstance(naviagationPage.class).getNext();
+	 		 page.getInstance(naviagationFonction.class).getNext();
 	 	   }
 	 		    catch(Exception e) {
 	 		  		  e.printStackTrace();
@@ -61,7 +61,7 @@ public class Start_nuxeo extends pageObject.TestBase implements ARender____Facto
 	 		    
 	  // TODO go to the last page   
 	     try {
-	 		 page.getInstance(naviagationPage.class).getLast();	
+	 		 page.getInstance(naviagationFonction.class).getLast();	
 	 	   }
 	 		    catch(Exception e) {
 	 		  		  e.printStackTrace();
@@ -69,7 +69,7 @@ public class Start_nuxeo extends pageObject.TestBase implements ARender____Facto
 	 		    
 	  // TODO navigate to the previous 4 pages
 	 	 try {
-	 		 page.getInstance(naviagationPage.class).getPrevious();
+	 		 page.getInstance(naviagationFonction.class).getPrevious();
 	 	   }
 	 		    catch(Exception e) {
 	 		  		  e.printStackTrace();
@@ -77,14 +77,14 @@ public class Start_nuxeo extends pageObject.TestBase implements ARender____Facto
 	 		    
 	  //TODO Go back to the first page   	    
 	      try {
-	 		  page.getInstance(naviagationPage.class).getfirst();
+	 		  page.getInstance(naviagationFonction.class).getfirst();
 	 	   }
 	 		    catch(Exception e) {
 	 		  	   }
 	 	  }
 	  /**
 	   * 
-	   * @see Zoom_In_Out.class
+	   * @see zoomFonction.class
 	   * @param
 	   */
 	  @Test(priority = 3 , alwaysRun=true )
@@ -92,7 +92,7 @@ public class Start_nuxeo extends pageObject.TestBase implements ARender____Facto
 		  //TODO 
 		   
 		  try {
-			  page.getInstance(Zoom_In_Out.class).getZoomIn();
+			  page.getInstance(zoomFonction.class).getZoomIn();
 		  }
 		  catch(Exception e) {
 	  		  e.printStackTrace();
@@ -100,7 +100,7 @@ public class Start_nuxeo extends pageObject.TestBase implements ARender____Facto
 	  }  
 	  /**
 	   * 
-	   * @see Zoom_In_Out.class
+	   * @see zoomFonction.class
 	   * @throws InterruptedException
 	   */
 	  @Test(priority = 4 , alwaysRun=true ,timeOut = 2000)
@@ -108,14 +108,14 @@ public class Start_nuxeo extends pageObject.TestBase implements ARender____Facto
 		  //TODO
 		
 		  try {
-			  page.getInstance(Zoom_In_Out.class).getZoomOut(); 		  }
+			  page.getInstance(zoomFonction.class).getZoomOut(); 		  }
 		  catch(Exception e) {
 	  		  e.printStackTrace();
 	  	   }
 	  }
 	  /**
 	   * 
-	   * @see Zoom_In_Out.class
+	   * @see zoomFonction.class
 	   * @throws InterruptedException
 	   */
 	  @Test(priority = 5, alwaysRun=true ,timeOut = 2000)
@@ -123,21 +123,21 @@ public class Start_nuxeo extends pageObject.TestBase implements ARender____Facto
 		  //TODO
 		   
 		  try {
-			  page.getInstance(Zoom_In_Out.class).ZoomInZone();		  }
+			  page.getInstance(zoomFonction.class).ZoomInZone();		  }
 		  catch(Exception e) {
 	  		  e.printStackTrace();
 	  	   }
 	  }
 	  /**
 	   * @see HanlerBasePage.class
-	   * @see Zoom_In_Out.class
+	   * @see zoomFonction.class
 	   * @throws InterruptedException
 	   */
 	  @Test(priority = 6 , alwaysRun=true ,timeOut = 5000)
 	  public void zoomAdjust___onBulky_File (Method method) throws InterruptedException {
 		  //TODO
 		  try {
-			  page.getInstance(Zoom_In_Out.class).getFullHeightButton();     
+			  page.getInstance(zoomFonction.class).getFullHeightButton();     
 		  }
 		  catch(Exception e) {
 	  		  e.printStackTrace();
@@ -145,7 +145,7 @@ public class Start_nuxeo extends pageObject.TestBase implements ARender____Facto
 	  }
 	  /**
 	   * 
-	   * @see Zoom_In_Out.class
+	   * @see zoomFonction.class
 	   * @throws InterruptedException
 	   */
 	  @Test(priority = 7 , alwaysRun=true ,timeOut = 5000)
@@ -153,22 +153,22 @@ public class Start_nuxeo extends pageObject.TestBase implements ARender____Facto
 		  //TODO
 		 
 		  try {   
-			  page.getInstance(Zoom_In_Out.class).setZoomBox();		  }
+			  page.getInstance(zoomFonction.class).setZoomBox();		  }
 		  catch(Exception e) {
 	  		  e.printStackTrace();
 	  	   }
 	  }
 	  /**
 	   *  
-	   * @see rotation.class
+	   * @see rotationFonction.class
 	   * @throws InterruptedException
 	   */
 	  @Test(priority = 8, alwaysRun=true ,timeOut = 5000)
 	  public void Rotation___onBulky_File(Method method) throws InterruptedException {
 		  //TODO
 		  try {
-		   page.getInstance(rotation.class).getLeftRotate();   
-	       page.getInstance(rotation.class).getRightRotate();
+		   page.getInstance(rotationFonction.class).getLeftRotate();   
+	       page.getInstance(rotationFonction.class).getRightRotate();
 		  }
 		  catch(Exception e) {
 	  		  e.printStackTrace();
@@ -176,17 +176,17 @@ public class Start_nuxeo extends pageObject.TestBase implements ARender____Facto
 	  }
 	 /**
 	  * 
-	  * @see fullscreen.class
+	  * @see fullscreenFonction.class
 	  * @throws InterruptedException
 	  */
 	  @Test(priority = 9, alwaysRun=true ,timeOut = 6000 , singleThreaded=true, skipFailedInvocations =true )
 	  public void fullscreen___onBulky_File(Method method) throws InterruptedException { 
 		  //TODO
-		  page.getInstance(fullscreen.class).getFullScreen();
+		  page.getInstance(fullscreenFonction.class).fullscreenizer();
 		  try {
 	       Assert.assertTrue(page.findElement(fullScreen).isDisplayed(), "FULLSCREEN BUTTON IS NOT DISPLAYED");  
 	       Assert.assertTrue(page.findElement(verticalSlider).isDisplayed(), "VERTICAL SLIDER BUTTON IS NOT DISPLAYED"); 
-	       page.getInstance(fullscreen.class).EscapeFullScreen();
+	       page.getInstance(fullscreenFonction.class).defullscreenizer();
 	       Assert.assertTrue(page.findElement(thumbExplorerButton).isDisplayed(), "THUMBER BUTTON IS NOT DISPLAYED");
 		  }
 		  catch(Exception e) {

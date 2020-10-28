@@ -3,7 +3,7 @@ package annotationHandler;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 
-import pageObject.ARender____FactoryPage;
+import Locators.FactoryLocator;
 import pageObject.HandlerBasePage;
 import style.Page.RichStyleToolbar;
 
@@ -11,7 +11,7 @@ import style.Page.RichStyleToolbar;
 
 
 
-public class freeHandAnnotationtHandler extends annotationdrawBase implements ARender____FactoryPage { 
+public class freeHandAnnotationtHandler extends annotationdrawBase implements FactoryLocator { 
 	  
 	    public freeHandAnnotationtHandler(WebDriver driver) {
 			super(driver);

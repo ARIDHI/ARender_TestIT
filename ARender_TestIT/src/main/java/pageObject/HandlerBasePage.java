@@ -31,32 +31,27 @@ public class HandlerBasePage extends  abstractHandlerBase  {
 
 	@Override
 	public WebElement findElement (By locator) {
-		WebElement ele = null ;	
-		 try {
-            for(int i=0; i< 2 ;i++){
-                try {
-                    if(!driver.findElements(locator).isEmpty())            {
-                        try {
-                        	ele= driver.findElement(locator);
-                        	return ele;
-                        } catch (NoSuchElementException e) {
-                            e.printStackTrace();
-                        }
+	WebElement ele = null ;	
+	  try {
+        for(int i=0; i< 1 ;i++){
+           try {
+              if(!driver.findElements(locator).isEmpty())            {
+                 try {
+                   ele= driver.findElement(locator);
+                   return ele;
+                   } catch (NoSuchElementException e) {
+                   }
                     }
-                  else{
-                        try {
-                            System.out.println("No Element found ");
-                        } catch (NoSuchElementException e) {
-                            e.printStackTrace();
-                        }
+               else{
+                 try {
+                      System.out.println("Element is not defined in DOM");
+                     } catch (NoSuchElementException e) {                    
+                     }
                     }
                 } catch (NoSuchElementException e) {
-                    e.printStackTrace();
                 }
             }
           } catch (Exception e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
         }
 		return ele ;
 	}
@@ -69,10 +64,8 @@ public class HandlerBasePage extends  abstractHandlerBase  {
 			return ele;
 		}
 		catch (NoSuchElementException i) {
-			i.printStackTrace();
 		}
 		catch(Exception e) {
-			e.printStackTrace();
 		}
 		return ele ;
 	}
@@ -85,7 +78,6 @@ public class HandlerBasePage extends  abstractHandlerBase  {
 				findElement(locator).click();
 			}
 			catch(Exception e) {
-				
 			}
 		}
 		else {
@@ -137,11 +129,6 @@ public class HandlerBasePage extends  abstractHandlerBase  {
 		return null;
 	}
 	
-	@Override
-		public Boolean isDisplayed (By locator)
-    {
-        return findElement(locator).isDisplayed();
-	}
 
 	@Override
 	public WebElement waitForElementvisible(By locator) {

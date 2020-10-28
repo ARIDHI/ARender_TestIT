@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
-import pageObject.ARender____FactoryPage;
+import Locators.FactoryLocator;
 import pageObject.HandlerBasePage;
 
 
@@ -15,7 +15,7 @@ import pageObject.HandlerBasePage;
  * @author ARIDHI HICHEM
  *
  */
-public class SpecificStyle extends HandlerBasePage implements ARender____FactoryPage{
+public class SpecificStyle extends HandlerBasePage implements FactoryLocator{
 
 	
 	public SpecificStyle(WebDriver driver) {

@@ -6,10 +6,11 @@ import java.util.List;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+import Locators.FileFactoryLocator;
 import annotationHandler.annotationdrawBase;
-import pageObject.File____FactoryPage;
 
-public class AFileUploadBase extends annotationdrawBase implements File____FactoryPage  {
+
+public class AFileUploadBase extends annotationdrawBase implements FileFactoryLocator  {
 	
 
 	public AFileUploadBase(WebDriver driver) {

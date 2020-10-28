@@ -3,14 +3,14 @@ package annotationHandler;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 
-import pageObject.ARender____FactoryPage;
+import Locators.FactoryLocator;
 import pageObject.HandlerBasePage;
 import style.Page.RichStyleToolbar;
 
 
 
 
-public class UnderLineHandler  extends annotationdrawBase implements ARender____FactoryPage   {
+public class UnderLineHandler  extends annotationdrawBase implements FactoryLocator   {
 
     public UnderLineHandler(WebDriver driver) {
 		super(driver);

@@ -11,22 +11,22 @@ import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import FullActionpage.Zoom_In_Out;
-import FullActionpage.fullscreen;
-import FullActionpage.image_____ProcessinPage;
-import FullActionpage.logoPage;
-import FullActionpage.naviagationPage;
-import FullActionpage.rotation;
-import GED_____Base.logIn___Alfresco;
-import pageObject.ARender____FactoryPage;
-import pageObject.File____FactoryPage;
+import EnvirementClient.LogInToAlfresco;
+import FullActionpage.zoomFonction;
+import FullActionpage.fullscreenFonction;
+import FullActionpage.imageProcessinFonction;
+import FullActionpage.logoFonction;
+import FullActionpage.naviagationFonction;
+import FullActionpage.rotationFonction;
+import Locators.FactoryLocator;
+import Locators.FileFactoryLocator;
 import pageObject.HandlerBasePage;
 
 /**
  * @author ARIDHI HICHEM
  *
  */
-public class Full___Regression_onAlfresco extends pageObject.TestBase implements ARender____FactoryPage, File____FactoryPage {
+public class Full___Regression_onAlfresco extends pageObject.TestBase implements FactoryLocator, FileFactoryLocator {
 /**
  * 
  * @param method
@@ -36,7 +36,7 @@ public class Full___Regression_onAlfresco extends pageObject.TestBase implements
 	@Test(priority = 0, alwaysRun = true ,enabled= true)
     public void Login__toFileNet (Method method) throws InterruptedException, IOException {
 		
-		 page.getInstance(logIn___Alfresco.class).login(prop.getProperty("usernameAlf"), prop.getProperty("passwordAlf"));
+		 page.getInstance(LogInToAlfresco.class).login(prop.getProperty("usernameAlf"), prop.getProperty("passwordAlf"));
 		 Thread.sleep(3000);
 		 page.clickOnElement(dossier);
 		 page.clickOnElement(File);
@@ -47,9 +47,9 @@ public class Full___Regression_onAlfresco extends pageObject.TestBase implements
 	@Test(priority = 1 , enabled =false)	
 	   public void Contrast___onBulky_File (Method method) throws InterruptedException, AWTException {  
 		  	//TODO change contrast and check that contrast Element exist on DOM && isNot equal to null
-		  	 	page.getInstance(image_____ProcessinPage.class).playContrast();
+		  	 	page.getInstance(imageProcessinFonction.class).playContrast();
 		  	 	try {
-		  	 		Assert.assertNotEquals(page.getInstance(image_____ProcessinPage.class).ContrastResult(), 0);
+		  	 		Assert.assertNotEquals(page.getInstance(imageProcessinFonction.class).ContrastResult(), 0);
 		  	 	   }
 		  	  catch(Exception e) {
 		  		  e.printStackTrace();
@@ -57,7 +57,7 @@ public class Full___Regression_onAlfresco extends pageObject.TestBase implements
 		  	}
 	 /**
 	  * 
-	  * @see naviagationPage.class
+	  * @see naviagationFonction.class
 	  * @throws InterruptedException
 	  */
 	  @Test(priority = 2)
@@ -65,7 +65,7 @@ public class Full___Regression_onAlfresco extends pageObject.TestBase implements
 	 		
 	  // TODO send a page number to the nav text box 	    
 	     try {
-	 		 page.getInstance(naviagationPage.class).setNavText("5"); 
+	 		 page.getInstance(naviagationFonction.class).setNavText("5"); 
 	        }
 	 		    catch(Exception e) {
 	 		  		  e.printStackTrace();
@@ -73,7 +73,7 @@ public class Full___Regression_onAlfresco extends pageObject.TestBase implements
 	 		    
 	  // TODO navigate to the next 5 pages	     
 	     try {
-	 		 page.getInstance(naviagationPage.class).getNext();
+	 		 page.getInstance(naviagationFonction.class).getNext();
 	 	   }
 	 		    catch(Exception e) {
 	 		  		  e.printStackTrace();
@@ -81,7 +81,7 @@ public class Full___Regression_onAlfresco extends pageObject.TestBase implements
 	 		    
 	  // TODO go to the last page   
 	     try {
-	 		 page.getInstance(naviagationPage.class).getLast();	
+	 		 page.getInstance(naviagationFonction.class).getLast();	
 	 	   }
 	 		    catch(Exception e) {
 	 		  		  e.printStackTrace();
@@ -89,7 +89,7 @@ public class Full___Regression_onAlfresco extends pageObject.TestBase implements
 	 		    
 	  // TODO navigate to the previous 4 pages
 	 	 try {
-	 		 page.getInstance(naviagationPage.class).getPrevious();
+	 		 page.getInstance(naviagationFonction.class).getPrevious();
 	 	   }
 	 		    catch(Exception e) {
 	 		  		  e.printStackTrace();
@@ -97,20 +97,20 @@ public class Full___Regression_onAlfresco extends pageObject.TestBase implements
 	 		    
 	  //TODO Go back to the first page   	    
 	      try {
-	 		  page.getInstance(naviagationPage.class).getfirst();
+	 		  page.getInstance(naviagationFonction.class).getfirst();
 	 	   }
 	 		    catch(Exception e) {
 	 		  	   }
 	 	  }
 	  /**
 	   * 
-	   * @see Zoom_In_Out.class
+	   * @see zoomFonction.class
 	   * @param
 	   */
 	  @Test(priority = 3 , alwaysRun=true )
 	  public void zoomIn___onBulky_File (Method method) throws InterruptedException {
 		  //TODO 
-		  page.getInstance(Zoom_In_Out.class).getZoomIn();  
+		  page.getInstance(zoomFonction.class).getZoomIn();  
 		  try {
 	       Assert.assertTrue((page.getInstance(HandlerBasePage.class).getNotificationMsg(notificationmsg)).contains("Zoom Courant :") ,"error accurerd Test not ok");
 		  }
@@ -120,13 +120,13 @@ public class Full___Regression_onAlfresco extends pageObject.TestBase implements
 	  }  
 	  /**
 	   * 
-	   * @see Zoom_In_Out.class
+	   * @see zoomFonction.class
 	   * @throws InterruptedException
 	   */
 	  @Test(priority = 4 , alwaysRun=true ,timeOut = 2000)
 	  public void zoomOut___onBulky_File (Method method) throws InterruptedException {
 		  //TODO
-		  page.getInstance(Zoom_In_Out.class).getZoomOut(); 
+		  page.getInstance(zoomFonction.class).getZoomOut(); 
 		  try {
 	       Assert.assertTrue((page.getInstance(HandlerBasePage.class).getNotificationMsg(notificationmsg)).contains("Zoom Courant :"),"error accurerd Test not ok");
 		  }
@@ -136,13 +136,13 @@ public class Full___Regression_onAlfresco extends pageObject.TestBase implements
 	  }
 	  /**
 	   * 
-	   * @see Zoom_In_Out.class
+	   * @see zoomFonction.class
 	   * @throws InterruptedException
 	   */
 	  @Test(priority = 5, alwaysRun=true ,timeOut = 2000)
 	  public void zoomIn_Zone___onBulky_File (Method method) throws InterruptedException {
 		  //TODO
-		  page.getInstance(Zoom_In_Out.class).ZoomInZone();  
+		  page.getInstance(zoomFonction.class).ZoomInZone();  
 		  try {
 	       Assert.assertTrue(page.getInstance(HandlerBasePage.class).getNotificationMsg(notificationmsg).contains("Zoom Courant :"),"error accurerd Test not ok");
 		  }
@@ -152,18 +152,18 @@ public class Full___Regression_onAlfresco extends pageObject.TestBase implements
 	  }
 	  /**
 	   * @see HandlerBasePage.class
-	   * @see Zoom_In_Out.class
+	   * @see zoomFonction.class
 	   * @throws InterruptedException
 	   */
 	  @Test(priority = 6 , alwaysRun=true ,timeOut = 5000)
 	  public void zoomAdjust___onBulky_File (Method method) throws InterruptedException {
 		  //TODO
-		  page.getInstance(Zoom_In_Out.class).getFullHeightButton();  
+		  page.getInstance(zoomFonction.class).getFullHeightButton();  
 		  try {
 	       Assert.assertTrue(page.getInstance(HandlerBasePage.class).getNotificationMsg(notificationmsg).contains("Zoom Courant :"),"error accurerd Test not ok"); 
-	       page.getInstance(Zoom_In_Out.class).getFullWidthButton();
+	       page.getInstance(zoomFonction.class).getFullWidthButton();
 	       Assert.assertTrue(page.getInstance(HandlerBasePage.class).getNotificationMsg(notificationmsg).contains("Zoom Courant :"),"error accurerd Test not ok");
-	       page.getInstance(Zoom_In_Out.class).getFullPageButton();
+	       page.getInstance(zoomFonction.class).getFullPageButton();
 	       Assert.assertTrue(page.getInstance(HandlerBasePage.class).getNotificationMsg(notificationmsg).contains("Zoom Courant :"),"error accurerd Test not ok");   
 		  }
 		  catch(Exception e) {
@@ -172,13 +172,13 @@ public class Full___Regression_onAlfresco extends pageObject.TestBase implements
 	  }
 	  /**
 	   * 
-	   * @see Zoom_In_Out.class
+	   * @see zoomFonction.class
 	   * @throws InterruptedException
 	   */
 	  @Test(priority = 7 , alwaysRun=true ,timeOut = 5000)
 	  public void zoomTextBox___onBulky_File (Method method) throws InterruptedException {
 		  //TODO
-		  page.getInstance(Zoom_In_Out.class).setZoomBox(); 
+		  page.getInstance(zoomFonction.class).setZoomBox(); 
 		  try {   
 	      Assert.assertEquals(page.getInstance(HandlerBasePage.class).getNotificationMsg(notificationmsg),"Zoom Courant :100.00%", "error accurerd Test not ok");
 		  }
@@ -188,15 +188,15 @@ public class Full___Regression_onAlfresco extends pageObject.TestBase implements
 	  }
 	  /**
 	   *  
-	   * @see rotation.class
+	   * @see rotationFonction.class
 	   * @throws InterruptedException
 	   */
 	  @Test(priority = 8, alwaysRun=true ,timeOut = 5000)
 	  public void Rotation___onBulky_File(Method method) throws InterruptedException {
 		  //TODO
 		  try {
-		   page.getInstance(rotation.class).getLeftRotate();   
-	       page.getInstance(rotation.class).getRightRotate();
+		   page.getInstance(rotationFonction.class).getLeftRotate();   
+	       page.getInstance(rotationFonction.class).getRightRotate();
 		  }
 		  catch(Exception e) {
 	  		  e.printStackTrace();
@@ -204,17 +204,17 @@ public class Full___Regression_onAlfresco extends pageObject.TestBase implements
 	  }
 	 /**
 	  * 
-	  * @see fullscreen.class
+	  * @see fullscreenFonction.class
 	  * @throws InterruptedException
 	  */
 	  @Test(priority = 9, alwaysRun=true ,timeOut = 6000 , singleThreaded=true, skipFailedInvocations =true )
 	  public void fullscreen___onBulky_File(Method method) throws InterruptedException { 
 		  //TODO
-		  page.getInstance(fullscreen.class).getFullScreen();
+		  page.getInstance(fullscreenFonction.class).fullscreenizer();
 		  try {
 	       Assert.assertTrue(page.findElement(fullScreen).isDisplayed(), "FULLSCREEN BUTTON IS NOT DISPLAYED");  
 	       Assert.assertTrue(page.findElement(verticalSlider).isDisplayed(), "VERTICAL SLIDER BUTTON IS NOT DISPLAYED"); 
-	       page.getInstance(fullscreen.class).EscapeFullScreen();
+	       page.getInstance(fullscreenFonction.class).defullscreenizer();
 	       Assert.assertTrue(page.findElement(thumbExplorerButton).isDisplayed(), "THUMBER BUTTON IS NOT DISPLAYED");
 		  }
 		  catch(Exception e) {
@@ -222,7 +222,7 @@ public class Full___Regression_onAlfresco extends pageObject.TestBase implements
 	  	   }
 	  }
 	  /**
-	   * @see logoPage.class	
+	   * @see logoFonction.class	
 	   * @see prop.getProperty("ARenderversion")
 	   * @throws InterruptedException
 	   */
@@ -230,7 +230,7 @@ public class Full___Regression_onAlfresco extends pageObject.TestBase implements
 	    public void logoVersion___onBulky_File (Method method) throws InterruptedException {
 	  	 //TODO getText version and compare it with ARenderversion on prop.getProperty()
 	      try {
-	  	    String ActuelResult = page.getInstance(logoPage.class).VersionCheck();
+	  	    String ActuelResult = page.getInstance(logoFonction.class).VersionCheck();
 	  	    String ExpectedResult = (prop.getProperty("ARenderversion"));
 	  	    Assert.assertEquals(ActuelResult,ExpectedResult, "ERROR ACCURRED : ARENDER VERSION IS NOT TRUE");        
 	  		  }

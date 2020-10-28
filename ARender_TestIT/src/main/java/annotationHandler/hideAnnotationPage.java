@@ -5,13 +5,13 @@ package annotationHandler;
 
 import org.openqa.selenium.WebDriver;
 
-import pageObject.ARender____FactoryPage;
+import Locators.FactoryLocator;
 
 /**
  * @author ARIDHI HICHEM
  *
  */
-public class hideAnnotationPage extends annotationdrawBase implements ARender____FactoryPage  {
+public class hideAnnotationPage extends annotationdrawBase implements FactoryLocator  {
 
     public hideAnnotationPage(WebDriver driver) {
 	 	super(driver);

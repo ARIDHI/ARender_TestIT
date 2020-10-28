@@ -12,8 +12,8 @@ import java.util.List;
 import org.openqa.selenium.WebElement;
 
 import FullActionpage.SavePageAndQuit;
-import FullActionpage.deleteActionPage;
-import FullActionpage.refreshPage;
+import FullActionpage.deleteFonction;
+import FullActionpage.refreshFonction;
 import annotationHandler.PolygoneannotationHandler;
 import annotationHandler.StickyNoteAnnotationHandler;
 import annotationHandler.StumpAnnotaionHandler;
@@ -26,15 +26,15 @@ import annotationHandler.freeTextAnnotationHandler;
 import annotationHandler.hideAnnotationPage;
 import annotationHandler.polylineAnnotationHandler;
 import fileHandler.AFileUploadBase;
-import pageObject.ARender____FactoryPage;
-import pageObject.File____FactoryPage;
+import pageObject.FactoryLocator;
+import pageObject.FileFactoryLocator;
 import pageObject.HandlerBasePage;
 
 /**
  * @author ARIDHI HICHEM
  *
  */
-public class GIF_File___AXA__  extends pageObject.TestBase implements ARender____FactoryPage , File____FactoryPage {
+public class GIF_File___AXA__  extends pageObject.TestBase implements FactoryLocator , FileFactoryLocator {
 	/**
 	 * 
 	 * @param method
@@ -88,7 +88,7 @@ public class GIF_File___AXA__  extends pageObject.TestBase implements ARender___
 			e.printStackTrace();
 		}    
 		finally { 
-		    page.getInstance(deleteActionPage.class).deleteFromStyleBar();
+		    page.getInstance(deleteFonction.class).deleteFromStyleBar();
 	            }	
         }
 		/**
@@ -110,7 +110,7 @@ public class GIF_File___AXA__  extends pageObject.TestBase implements ARender___
 			e.printStackTrace();
 		}    
 		finally { 
-		       page.getInstance(deleteActionPage.class).deleteFromStyleBar();
+		       page.getInstance(deleteFonction.class).deleteFromStyleBar();
 	            }	
 		}
 		/**
@@ -133,7 +133,7 @@ public class GIF_File___AXA__  extends pageObject.TestBase implements ARender___
 				e.printStackTrace();
 			}    
 	   finally { 
-			    page.getInstance(deleteActionPage.class).deleteFromStyleBar();
+			    page.getInstance(deleteFonction.class).deleteFromStyleBar();
 		        }	
 		}     
 		/**
@@ -156,7 +156,7 @@ public class GIF_File___AXA__  extends pageObject.TestBase implements ARender___
 				e.printStackTrace();
 			}    
 	   finally { 
-			    page.getInstance(deleteActionPage.class).deleteFromStyleBar();
+			    page.getInstance(deleteFonction.class).deleteFromStyleBar();
 		        }	
 		} 
 		/**
@@ -179,7 +179,7 @@ public class GIF_File___AXA__  extends pageObject.TestBase implements ARender___
 				e.printStackTrace();
 			}    
 	   finally { 
-			    page.getInstance(deleteActionPage.class).deleteFromStyleBar();
+			    page.getInstance(deleteFonction.class).deleteFromStyleBar();
 		        }	
 		}      
 		/**
@@ -202,7 +202,7 @@ public class GIF_File___AXA__  extends pageObject.TestBase implements ARender___
 				e.printStackTrace();
 			}    
 	   finally { 
-			    page.getInstance(deleteActionPage.class).deleteFromStyleBar();
+			    page.getInstance(deleteFonction.class).deleteFromStyleBar();
 		        }	
 		}   
 		/**
@@ -225,7 +225,7 @@ public class GIF_File___AXA__  extends pageObject.TestBase implements ARender___
 				e.printStackTrace();
 			}    
 	   finally { 
-			    page.getInstance(deleteActionPage.class).deleteFromStyleBar();
+			    page.getInstance(deleteFonction.class).deleteFromStyleBar();
 		       }	
 		}  
 		/**
@@ -248,7 +248,7 @@ public class GIF_File___AXA__  extends pageObject.TestBase implements ARender___
 				e.printStackTrace();
 			}    
 	   finally { 
-			    page.getInstance(deleteActionPage.class).deleteFromStyleBar();
+			    page.getInstance(deleteFonction.class).deleteFromStyleBar();
 		       }	
 		} 
 		 @Test (priority = 10 ,enabled= true)
@@ -444,7 +444,7 @@ public class GIF_File___AXA__  extends pageObject.TestBase implements ARender___
 					//TODO click to Hide annotation and check that two annotations is hided
 					Thread.sleep(1000);
 					page.getInstance(hideAnnotationPage.class).showAnnotations();
-					page.getInstance(refreshPage.class).getRefresh();
+					page.getInstance(refreshFonction.class).getRefresh();
 					Assert.assertEquals(page.getInstance(annotationdrawBase.class).getEllipsesNone(), 1, "ERROR ACCURRED : THE CIRCLE ANNOTATION MUST NOT BE DISPLAYED ON THE FILE !!");
 					Assert.assertEquals(page.getInstance(annotationdrawBase.class).getPathFillNone(), 1, "ERROR ACCURRED : THE UNDERLINE ANNOTATION SHOULD NOT BE DISPLAYED ON THE FILE !!");
 				}

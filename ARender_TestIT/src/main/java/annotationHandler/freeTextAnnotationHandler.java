@@ -2,13 +2,12 @@ package annotationHandler;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
-
-import pageObject.ARender____FactoryPage;
+import Locators.FactoryLocator;
 import pageObject.HandlerBasePage;
 import style.Page.RichStyleToolbar;
 
 
-public class freeTextAnnotationHandler extends annotationdrawBase implements ARender____FactoryPage{	
+public class freeTextAnnotationHandler extends annotationdrawBase implements FactoryLocator{	
 	/**
 	 * 
 	 * 
@@ -43,6 +42,7 @@ public class freeTextAnnotationHandler extends annotationdrawBase implements ARe
 	    	getInstance(RichStyleToolbar.class).speciFontStyle();
 	    	return false;	    			
 	    	}  
+	    
      public void checkFreeTextTest() {
      	
 			
@@ -89,19 +89,11 @@ public class freeTextAnnotationHandler extends annotationdrawBase implements ARe
 	            }
 		    catch(Exception e) {
 		    	System.out.println("[ERROR] : FREE TEXT STYLE FONCTION");
-		    }
+		    }		    
 	    }
 		catch(Exception e) {
 			e.printStackTrace();
 		}    
      }
 }
-	    /**
-	     * 
-	     * 
-	     * @version staging 1.35
-	     * @validate review by ARIDHI Hichem 
-	     * {@docRoot} c:/
-	     * 
-	     * 
-	     */
+

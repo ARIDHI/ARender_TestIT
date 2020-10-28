@@ -10,19 +10,19 @@ import org.openqa.selenium.Keys;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import FullActionpage.deleteActionPage;
-import GED_____Base.log_In___fileNet;
+import EnvirementClient.LogInToFileNet;
+import FullActionpage.deleteFonction;
 import annotationHandler.StickyNoteAnnotationHandler;
 import annotationHandler.UnderLineHandler;
 import annotationHandler.annotationdrawBase;
 import annotationHandler.arrowAnnotationHandler;
 import annotationHandler.circleAnnotationHandler;
 import annotationHandler.freeTextAnnotationHandler;
-import pageObject.ARender____FactoryPage;
-import pageObject.File____FactoryPage;
+import pageObject.FactoryLocator;
+import pageObject.FileFactoryLocator;
 import pageObject.HandlerBasePage;
 
-public class Pdf____onFilnet  extends pageObject.TestBase implements ARender____FactoryPage, File____FactoryPage { 
+public class Pdf____onFilnet  extends pageObject.TestBase implements FactoryLocator, FileFactoryLocator { 
 /**
  * 
  * @param method
@@ -32,7 +32,7 @@ public class Pdf____onFilnet  extends pageObject.TestBase implements ARender____
 		@Test(priority = 1, alwaysRun = true ,enabled= true)
 	    public void Login__toFileNet (Method method) throws InterruptedException, IOException {
 			
-			 page.getInstance(log_In___fileNet.class).login(prop.getProperty("username"), prop.getProperty("password"));
+			 page.getInstance(LogInToFileNet.class).login(prop.getProperty("username"), prop.getProperty("password"));
 			 Thread.sleep(3000);
 			 page.builder.sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ENTER).build().perform();
 			 
@@ -84,7 +84,7 @@ public class Pdf____onFilnet  extends pageObject.TestBase implements ARender____
 				e.printStackTrace();
 			}    
 			finally { 
-				 page.getInstance(deleteActionPage.class).deleteFromStyleBar();
+				 page.getInstance(deleteFonction.class).deleteFromStyleBar();
 		            }	
 	        }
 			/**
@@ -106,7 +106,7 @@ public class Pdf____onFilnet  extends pageObject.TestBase implements ARender____
 				e.printStackTrace();
 			}    
 			finally { 
-				 page.getInstance(deleteActionPage.class).deleteFromStyleBar();
+				 page.getInstance(deleteFonction.class).deleteFromStyleBar();
 		            }	
 			}	
 			/**
@@ -129,7 +129,7 @@ public class Pdf____onFilnet  extends pageObject.TestBase implements ARender____
 					e.printStackTrace();
 				}    
 		   finally { 
-			   page.getInstance(deleteActionPage.class).deleteFromStyleBar();
+			   page.getInstance(deleteFonction.class).deleteFromStyleBar();
 			        }	
 			}  
 			/**
@@ -152,7 +152,7 @@ public class Pdf____onFilnet  extends pageObject.TestBase implements ARender____
 					e.printStackTrace();
 				}    
 		   finally { 
-			   page.getInstance(deleteActionPage.class).deleteFromStyleBar();
+			   page.getInstance(deleteFonction.class).deleteFromStyleBar();
 			        }	
 			} 
 			/**
@@ -175,7 +175,7 @@ public class Pdf____onFilnet  extends pageObject.TestBase implements ARender____
 					e.printStackTrace();
 				}    
 		   finally { 
-			   page.getInstance(deleteActionPage.class).deleteFromStyleBar();
+			   page.getInstance(deleteFonction.class).deleteFromStyleBar();
 			        }	
 			}    
 }

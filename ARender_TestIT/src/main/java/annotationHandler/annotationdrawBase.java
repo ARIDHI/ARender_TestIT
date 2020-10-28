@@ -10,15 +10,15 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-import pageObject.ARender____FactoryPage;
-import pageObject.File____FactoryPage;
+import Locators.FactoryLocator;
+import Locators.FileFactoryLocator;
 import pageObject.HandlerBasePage;
 /**
  * 
  * @author ARIDHI HICHEM
  *
  */
-public class annotationdrawBase  extends  HandlerBasePage implements ARender____FactoryPage , File____FactoryPage{
+public class annotationdrawBase  extends  HandlerBasePage implements FactoryLocator , FileFactoryLocator{
 	/**
 	 * 
 	 * @param driver

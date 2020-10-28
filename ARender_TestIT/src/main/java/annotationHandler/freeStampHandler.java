@@ -7,13 +7,13 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 
-import pageObject.ARender____FactoryPage;
+import Locators.FactoryLocator;
 
 /**
  * @author Lenovo
  *
  */
-public class freeStampHandler extends annotationdrawBase implements ARender____FactoryPage {
+public class freeStampHandler extends annotationdrawBase implements FactoryLocator {
 
 	public freeStampHandler(WebDriver driver) {
 		super(driver);

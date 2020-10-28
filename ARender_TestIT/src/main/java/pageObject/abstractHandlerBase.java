@@ -38,7 +38,6 @@ public abstract class abstractHandlerBase {
 	 public abstract WebElement clickOnElement(By locator);
      public abstract WebElement waitForElementPresent(By locator);
      public abstract String getNotificationMsg(By locator);
-     public abstract Boolean isDisplayed(By locator);
      public abstract void sendText(By locator,String text);
      public abstract List<WebElement> findElements(By locator);
      public abstract WebElement waitForElementinvisible(By locator);

@@ -9,18 +9,18 @@ import java.lang.reflect.Method;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import FullActionpage.RightClick______List;
-import FullActionpage.deleteActionPage;
+import FullActionpage.rightClickFonction;
+import FullActionpage.deleteFonction;
 import annotationHandler.annotationdrawBase;
-import pageObject.ARender____FactoryPage;
-import pageObject.File____FactoryPage;
+import pageObject.FactoryLocator;
+import pageObject.FileFactoryLocator;
 import pageObject.HandlerBasePage;
 
 /**
  * @author ARIDHI HICHEM
  *
  */
-public class AXA_contextFonction____Test extends pageObject.TestBase implements ARender____FactoryPage , File____FactoryPage{
+public class AXA_contextFonction____Test extends pageObject.TestBase implements FactoryLocator , FileFactoryLocator{
 	
 
 	@Test(priority = 1 , alwaysRun = false ,enabled= true)
@@ -29,7 +29,7 @@ public class AXA_contextFonction____Test extends pageObject.TestBase implements 
 		driver.get("http://18.203.215.159:8080/arondor-arender-axa-war-4.1.0/?bean=urlParserExternalAccessorProxy&id=%7B28895431-343F-C345-8F8D-74FE5D600000%7D&objectStoreName=OS1&documentId=28895431-343F-C345-8F8D-74FE5D600000");		
 		  page.waitForElementPresent(thumbimage);
 			Thread.sleep(4000);
-	    page.getInstance(RightClick______List.class).contextHighlight();
+	    page.getInstance(rightClickFonction.class).contextHighlight();
  
 		try {
 			Assert.assertNotEquals(page.getInstance(annotationdrawBase.class).getPathfill(), 0,"ERROR ACCURRED : UNDERLINE IS NOT DIPLAYDED");
@@ -39,7 +39,7 @@ public class AXA_contextFonction____Test extends pageObject.TestBase implements 
 			e.printStackTrace();
 		}
 		finally { 
-		   page.getInstance(deleteActionPage.class).deleteFromStyleBar();
+		   page.getInstance(deleteFonction.class).deleteFromStyleBar();
 	        }	
 	}
 	/**
@@ -51,7 +51,7 @@ public class AXA_contextFonction____Test extends pageObject.TestBase implements 
 	@Test(priority = 2 , alwaysRun = false ,enabled= true)
     public void contextCrossed___Test(Method method) throws InterruptedException, IOException {
 	
-		page.getInstance(RightClick______List.class).contextCrossed();
+		page.getInstance(rightClickFonction.class).contextCrossed();
 		try {
 		    Assert.assertTrue(page.getInstance(HandlerBasePage.class).isDisplayed(styleBarre),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED"); 
 		}
@@ -59,7 +59,7 @@ public class AXA_contextFonction____Test extends pageObject.TestBase implements 
 			e.printStackTrace();
 		}
 		finally { 
-		   page.getInstance(deleteActionPage.class).deleteFromStyleBar();
+		   page.getInstance(deleteFonction.class).deleteFromStyleBar();
 	        }	
 	}
 	/**
@@ -71,7 +71,7 @@ public class AXA_contextFonction____Test extends pageObject.TestBase implements 
 	@Test(priority = 3 , alwaysRun = false ,enabled= true)
     public void context__Highlighted___Test(Method method) throws InterruptedException, IOException {
 	
-		page.getInstance(RightClick______List.class).contextHighlighted();
+		page.getInstance(rightClickFonction.class).contextHighlighted();
 		try {
 			Assert.assertNotEquals(page.getInstance(annotationdrawBase.class).getPathfill(), 0,"ERROR ACCURRED : UNDERLINE IS NOT DIPLAYDED");
 		    Assert.assertTrue(page.getInstance(HandlerBasePage.class).isDisplayed(styleBarre),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED"); 
@@ -80,7 +80,7 @@ public class AXA_contextFonction____Test extends pageObject.TestBase implements 
 			e.printStackTrace();
 		}
 		finally { 
-		   page.getInstance(deleteActionPage.class).deleteFromStyleBar();
+		   page.getInstance(deleteFonction.class).deleteFromStyleBar();
 	        }	
 	}
 	/**
@@ -92,7 +92,7 @@ public class AXA_contextFonction____Test extends pageObject.TestBase implements 
 	@Test(priority = 4 , alwaysRun = false ,enabled= true)
     public void context__HighlightZone___Test(Method method) throws InterruptedException, IOException {
 	
-		page.getInstance(RightClick______List.class).contextHighlightZone();
+		page.getInstance(rightClickFonction.class).contextHighlightZone();
 		try {
 		    Assert.assertTrue(page.getInstance(HandlerBasePage.class).isDisplayed(styleBarre),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED"); 
 		}
@@ -100,7 +100,7 @@ public class AXA_contextFonction____Test extends pageObject.TestBase implements 
 			e.printStackTrace();
 		}
 		finally { 
-		   page.getInstance(deleteActionPage.class).deleteFromStyleBar();
+		   page.getInstance(deleteFonction.class).deleteFromStyleBar();
 	        }	
 	}
 	/**
@@ -112,7 +112,7 @@ public class AXA_contextFonction____Test extends pageObject.TestBase implements 
 	@Test(priority = 5 , alwaysRun = false ,enabled= true)
     public void contextAddCircle___Test(Method method) throws InterruptedException, IOException {
 	
-		page.getInstance(RightClick______List.class).contextAddCircle();
+		page.getInstance(rightClickFonction.class).contextAddCircle();
 		try {
 		    Assert.assertTrue(page.getInstance(HandlerBasePage.class).isDisplayed(styleBarre),"ERROR ACCURRED : STYLE BARRE NOT DIPLAYDED"); 
 		}
@@ -120,7 +120,7 @@ public class AXA_contextFonction____Test extends pageObject.TestBase implements 
 			e.printStackTrace();
 		}
 		finally { 
-		   page.getInstance(deleteActionPage.class).deleteFromStyleBar();
+		   page.getInstance(deleteFonction.class).deleteFromStyleBar();
 	        }	
 	}
 }

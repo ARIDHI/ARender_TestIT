@@ -6,13 +6,13 @@ package annotationHandler;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 
-import pageObject.ARender____FactoryPage;
+import Locators.FactoryLocator;
 
 /**
  * @author ARIDHI Hichem
  *
  */
-public class urgentStampHandler extends annotationdrawBase implements ARender____FactoryPage { 
+public class urgentStampHandler extends annotationdrawBase implements FactoryLocator { 
 	
 	public urgentStampHandler(WebDriver driver) {
 		super(driver);

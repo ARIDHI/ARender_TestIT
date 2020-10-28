@@ -4,7 +4,7 @@ package annotationHandler;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 
-import pageObject.ARender____FactoryPage;
+import Locators.FactoryLocator;
 import pageObject.HandlerBasePage;
 import style.Page.RichStyleToolbar;
 import style.Page.SpecificStyle;
@@ -13,7 +13,7 @@ import style.Page.SpecificStyle;
  *  @author ARIDHI Hichem
  *
  */
-public class arrowAnnotationHandler extends annotationdrawBase implements ARender____FactoryPage{
+public class arrowAnnotationHandler extends annotationdrawBase implements FactoryLocator{
 
 	  
 	public arrowAnnotationHandler(WebDriver driver)  {

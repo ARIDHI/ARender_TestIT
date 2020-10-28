@@ -7,14 +7,14 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
-import pageObject.ARender____FactoryPage;
+import Locators.FactoryLocator;
 import pageObject.HandlerBasePage;
 
 /**
  * @author ARIDHI Hichem
  *
  */
-public class RichStyleToolbar extends HandlerBasePage implements ARender____FactoryPage{
+public class RichStyleToolbar extends HandlerBasePage implements FactoryLocator{
 	
 	public RichStyleToolbar(WebDriver driver) {
 		super(driver);

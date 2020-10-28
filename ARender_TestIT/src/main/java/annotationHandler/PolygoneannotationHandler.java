@@ -3,13 +3,13 @@ package annotationHandler;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 
-import pageObject.ARender____FactoryPage;
+import Locators.FactoryLocator;
 import pageObject.HandlerBasePage;
 import style.Page.RichStyleToolbar;
 
 
 
-public class PolygoneannotationHandler extends annotationdrawBase implements ARender____FactoryPage {
+public class PolygoneannotationHandler extends annotationdrawBase implements FactoryLocator {
 	
 	    public PolygoneannotationHandler(WebDriver driver) {
 			super(driver);

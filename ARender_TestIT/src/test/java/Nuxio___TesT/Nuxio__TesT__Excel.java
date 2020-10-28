@@ -8,14 +8,14 @@ import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import FullActionpage.deleteActionPage;
-import GED_____Base.logIn__Nuxio;
+import EnvirementClient.LogInToNuxio;
+import FullActionpage.deleteFonction;
 import annotationHandler.StumpAnnotaionHandler;
 import annotationHandler.annotationdrawBase;
-import pageObject.ARender____FactoryPage;
-import pageObject.File____FactoryPage;
+import pageObject.FactoryLocator;
+import pageObject.FileFactoryLocator;
 
-public class Nuxio__TesT__Excel extends pageObject.TestBase implements ARender____FactoryPage, File____FactoryPage {
+public class Nuxio__TesT__Excel extends pageObject.TestBase implements FactoryLocator, FileFactoryLocator {
 	
 /**
  * 
@@ -26,7 +26,7 @@ public class Nuxio__TesT__Excel extends pageObject.TestBase implements ARender__
 	@Test(priority = 1, alwaysRun = true ,enabled= true)
     public void Login (Method method) throws InterruptedException, IOException {
 		
-		 page.getInstance(logIn__Nuxio.class).login(prop.getProperty("usernameNuxeo"), prop.getProperty("passwordNuxeo"));
+		 page.getInstance(LogInToNuxio.class).login(prop.getProperty("usernameNuxeo"), prop.getProperty("passwordNuxeo"));
 		 Thread.sleep(2000);
 		 driver.get("https://valmy12.arender.fr/nuxeo-arender/?documentId=default,da8cc950-6ba0-47f8-b831-5706a1fd97d6,file:content,5f33d4adf85d0d799516d1efcf03da0e");		
 	     Thread.sleep(2500);
@@ -57,7 +57,7 @@ public class Nuxio__TesT__Excel extends pageObject.TestBase implements ARender__
 		e.printStackTrace();
 	}    
 	finally { 
-	   page.getInstance(deleteActionPage.class).deleteFromStyleBar();
+	   page.getInstance(deleteFonction.class).deleteFromStyleBar();
             }	
     }
 /**
@@ -80,7 +80,7 @@ public class Nuxio__TesT__Excel extends pageObject.TestBase implements ARender__
 		e.printStackTrace();
 	}    
 	finally { 
-	      page.getInstance(deleteActionPage.class).deleteFromStyleBar();
+	      page.getInstance(deleteFonction.class).deleteFromStyleBar();
             }	
 	}	
 	/**

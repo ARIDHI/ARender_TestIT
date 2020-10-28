@@ -32,7 +32,7 @@ public class TestBase {
 	public static Properties prop;
 	public static HandlerBasePage page;
 	public static EventFiringWebDriver e_driver;
-    public static ARenderListner webListner;
+    public static LocatorListner webListner;
     public static ExtentHtmlReporter htmlReporter;
     public static ExtentReports extent;
     public ExtentTest extentTest;
@@ -56,10 +56,7 @@ public class TestBase {
     	e.printStackTrace();
     }
  } 
- /**
-  * 
-  * @throws ATUTestRecorderException
-  */
+
     @BeforeClass 
     public static void initialization()  {
     	
@@ -90,7 +87,7 @@ public class TestBase {
     	 
     	 //TODO Init Window && Listeners
     	 e_driver = new EventFiringWebDriver(driver);
-		 webListner = new ARenderListner();
+		 webListner = new LocatorListner();
 		 e_driver.register(webListner);
 		 driver = e_driver;
    	     driver.manage().window().maximize();  

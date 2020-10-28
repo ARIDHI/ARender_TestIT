@@ -4,7 +4,7 @@ package annotationHandler;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 
-import pageObject.ARender____FactoryPage;
+import Locators.FactoryLocator;
 import style.Page.RichStyleToolbar;
 
 
@@ -13,7 +13,7 @@ import style.Page.RichStyleToolbar;
  *
  */
 
-public class StickyNoteAnnotationHandler extends annotationdrawBase implements ARender____FactoryPage {	
+public class StickyNoteAnnotationHandler extends annotationdrawBase implements FactoryLocator {	
    
   public StickyNoteAnnotationHandler(WebDriver driver) {
 		super(driver);

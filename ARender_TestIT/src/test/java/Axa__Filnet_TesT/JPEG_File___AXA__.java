@@ -12,8 +12,8 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import FullActionpage.SavePageAndQuit;
-import FullActionpage.deleteActionPage;
-import FullActionpage.refreshPage;
+import FullActionpage.deleteFonction;
+import FullActionpage.refreshFonction;
 import annotationHandler.PolygoneannotationHandler;
 import annotationHandler.StickyNoteAnnotationHandler;
 import annotationHandler.StumpAnnotaionHandler;
@@ -27,18 +27,18 @@ import annotationHandler.hideAnnotationPage;
 import annotationHandler.polylineAnnotationHandler;
 import fileHandler.AFileUploadBase;
 import fileHandler.DownLoadWithAnnotationCSV;
-import fileHandler.DownloadAnnotation_FDF;
-import fileHandler.DownloadAnnotation_XFDF;
+import fileHandler.DownloadAnnotationFDF;
+import fileHandler.DownloadAnnotationXFDF;
 import fileHandler.DownloadDocumentwithAnnotationFDF;
 import fileHandler.DownloadPDF;
-import pageObject.ARender____FactoryPage;
-import pageObject.File____FactoryPage;
+import pageObject.FactoryLocator;
+import pageObject.FileFactoryLocator;
 
 /**
  * @author ARIDHI HICHEM
  *
  */
-    public class JPEG_File___AXA__ extends pageObject.TestBase implements ARender____FactoryPage , File____FactoryPage {
+    public class JPEG_File___AXA__ extends pageObject.TestBase implements FactoryLocator , FileFactoryLocator {
 	/**
 	 * 
 	 * @param method
@@ -90,7 +90,7 @@ import pageObject.File____FactoryPage;
 			e.printStackTrace();
 		}    
 		finally { 
-		    page.getInstance(deleteActionPage.class).deleteFromStyleBar();
+		    page.getInstance(deleteFonction.class).deleteFromStyleBar();
 	            }	
         }
 		/**
@@ -112,7 +112,7 @@ import pageObject.File____FactoryPage;
 			e.printStackTrace();
 		}    
 		finally { 
-		       page.getInstance(deleteActionPage.class).deleteFromStyleBar();
+		       page.getInstance(deleteFonction.class).deleteFromStyleBar();
 	            }	
 		}
 		/**
@@ -135,7 +135,7 @@ import pageObject.File____FactoryPage;
 				e.printStackTrace();
 			}    
 	   finally { 
-			    page.getInstance(deleteActionPage.class).deleteFromStyleBar();
+			    page.getInstance(deleteFonction.class).deleteFromStyleBar();
 		        }	
 		}     
 		/**
@@ -158,7 +158,7 @@ import pageObject.File____FactoryPage;
 				e.printStackTrace();
 			}    
 	   finally { 
-			    page.getInstance(deleteActionPage.class).deleteFromStyleBar();
+			    page.getInstance(deleteFonction.class).deleteFromStyleBar();
 		        }	
 		} 
 		/**
@@ -181,7 +181,7 @@ import pageObject.File____FactoryPage;
 				e.printStackTrace();
 			}    
 	   finally { 
-			    page.getInstance(deleteActionPage.class).deleteFromStyleBar();
+			    page.getInstance(deleteFonction.class).deleteFromStyleBar();
 		        }	
 		}      
 		/**
@@ -204,7 +204,7 @@ import pageObject.File____FactoryPage;
 				e.printStackTrace();
 			}    
 	   finally { 
-			    page.getInstance(deleteActionPage.class).deleteFromStyleBar();
+			    page.getInstance(deleteFonction.class).deleteFromStyleBar();
 		        }	
 		}   
 		/**
@@ -227,7 +227,7 @@ import pageObject.File____FactoryPage;
 				e.printStackTrace();
 			}    
 	   finally { 
-			    page.getInstance(deleteActionPage.class).deleteFromStyleBar();
+			    page.getInstance(deleteFonction.class).deleteFromStyleBar();
 		       }	
 		}  
 		/**
@@ -250,7 +250,7 @@ import pageObject.File____FactoryPage;
 				e.printStackTrace();
 			}    
 	   finally { 
-			    page.getInstance(deleteActionPage.class).deleteFromStyleBar();
+			    page.getInstance(deleteFonction.class).deleteFromStyleBar();
 		       }	
 		} 
 		 @Test (priority = 10 ,enabled= true,timeOut = 6000)
@@ -444,7 +444,7 @@ import pageObject.File____FactoryPage;
 					//TODO click to Hide annotation and check that two annotations is hided
 					Thread.sleep(1000);
 					page.getInstance(hideAnnotationPage.class).showAnnotations();
-					page.getInstance(refreshPage.class).getRefresh();
+					page.getInstance(refreshFonction.class).getRefresh();
 					Assert.assertEquals(page.getInstance(annotationdrawBase.class).getEllipsesNone(), 1, "ERROR ACCURRED : THE CIRCLE ANNOTATION MUST NOT BE DISPLAYED ON THE FILE !!");
 					Assert.assertEquals(page.getInstance(annotationdrawBase.class).getPathFillNone(), 1, "ERROR ACCURRED : THE UNDERLINE ANNOTATION SHOULD NOT BE DISPLAYED ON THE FILE !!");
 				}
@@ -477,11 +477,11 @@ import pageObject.File____FactoryPage;
          Thread.sleep(500);
          page.getInstance(SavePageAndQuit.class).getSaveClick(); 
          Thread.sleep(3000);
-         page.getInstance(DownloadAnnotation_FDF.class).Dodownloadfdf();
+         page.getInstance(DownloadAnnotationFDF.class).Dodownloadfdf();
          Assert.assertTrue(true);
         }
        @Test (priority = 19 ,timeOut = 10000)
-       public void DownloadAnnotation_XFDF_File__via__jpg  (Method method) throws InterruptedException{ page.getInstance(DownloadAnnotation_XFDF.class).Dodownloadxfdf();
+       public void DownloadAnnotation_XFDF_File__via__jpg  (Method method) throws InterruptedException{ page.getInstance(DownloadAnnotationXFDF.class).Dodownloadxfdf();
        Assert.assertTrue(true);
        Thread.sleep(1000);
         }
