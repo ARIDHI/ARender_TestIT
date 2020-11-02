@@ -10,16 +10,13 @@ import java.lang.reflect.Method;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import FullActionpage.zoomFonction;
 import FullActionpage.fullscreenFonction;
 import FullActionpage.imageProcessinFonction;
 import FullActionpage.logoFonction;
 import FullActionpage.naviagationFonction;
-import FullActionpage.rotationFonction;
-import fileHandler.AFileUploadBase;
 import Locators.FactoryLocator;
 import Locators.FileFactoryLocator;
-import pageObject.HandlerBasePage;
+import fileHandler.AFileUploadBase;
 
 /**
  * @author ARIDHI HICHEM

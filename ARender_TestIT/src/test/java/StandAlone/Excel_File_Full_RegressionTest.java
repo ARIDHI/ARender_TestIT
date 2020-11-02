@@ -3,11 +3,10 @@
  */
 package StandAlone;
 
+import org.testng.annotations.Test;
+import org.testng.Assert;
 import java.io.IOException;
 import java.lang.reflect.Method;
-
-import org.testng.Assert;
-import org.testng.annotations.Test;
 
 import EndToEnd.AncreTest;
 import EndToEnd.MultiviewTest;

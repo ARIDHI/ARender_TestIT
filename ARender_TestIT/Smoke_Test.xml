@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="StandAlone.MSG_File_Full_RegressionTest"/>
+      <class name="StandAlone.Eml_File_Full_RegressionTest"/>
+      <class name="StandAlone.ARender_Full_Fonction"/>
+      <class name="StandAlone.Word_File_Full_RegressionTest"/>
+      <class name="StandAlone.ARender_Full_Fonction___onBulky_file"/>
+      <class name="StandAlone.Zip_File_FullRegressionTest"/>
+      <class name="StandAlone.Png_File_Full_RegressionTest"/>
+      <class name="StandAlone.Pdf_File_Full_RegressionTest"/>
+      <class name="StandAlone.PPT_File_FullRegressionTest"/>
+      <class name="StandAlone.Excel_File_Full_RegressionTest"/>
+      <class name="StandAlone.Tiff_File_Full_RegressionTest"/>
+      <class name="StandAlone.MP4_File___Full_RegressionTest"/>
+      <class name="StandAlone.GIF_File___Full_RegressionTest"/>
+      <class name="StandAlone.JPEG_File_Full_RegressionTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

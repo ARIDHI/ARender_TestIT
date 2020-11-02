@@ -64,7 +64,7 @@ public class TestBase {
        /** @see TestListeners */
 	   //TODO init driver WebDriver
     	
-    	String browserName = System.getProperty("browser");
+    	String browserName = prop.getProperty("browser");
     	 if(browserName.equals("Chrome")) { 
 			 System.setProperty("webdriver.chrome.driver",
 					 prop.getProperty("ChromeDriverService"));
@@ -94,7 +94,7 @@ public class TestBase {
 	     driver.manage().deleteAllCookies();
 	     driver.manage().timeouts().pageLoadTimeout(PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
 	     driver.manage().timeouts().implicitlyWait(IMPLICIT_WAIT, TimeUnit.SECONDS);
-	     driver.get(System.getProperty("url"));
+	     driver.get(prop.getProperty("url"));
 	     page = new HandlerBasePage(driver);  
 	     
 	     }

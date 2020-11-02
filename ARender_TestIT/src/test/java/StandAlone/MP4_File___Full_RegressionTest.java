@@ -10,6 +10,8 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import FullActionpage.deleteFonction;
+import Locators.FactoryLocator;
+import Locators.FileFactoryLocator;
 import annotationHandler.PolygoneannotationHandler;
 import annotationHandler.StickyNoteAnnotationHandler;
 import annotationHandler.UnderLineHandler;
@@ -23,8 +25,6 @@ import annotationHandler.polylineAnnotationHandler;
 import annotationHandler.signatureStampHandler;
 import annotationHandler.urgentStampHandler;
 import fileHandler.AFileUploadBase;
-import Locators.FactoryLocator;
-import Locators.FileFactoryLocator;
 
 /**
  * @author ARIDHI HICHEM

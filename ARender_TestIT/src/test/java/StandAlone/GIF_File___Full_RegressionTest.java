@@ -3,13 +3,12 @@
  */
 package StandAlone;
 
+import org.testng.annotations.Test;
+import org.testng.Assert;
 import java.lang.reflect.Method;
 import java.util.List;
 
 import org.openqa.selenium.WebElement;
-import org.testng.Assert;
-import org.testng.annotations.Test;
-
 import FullActionpage.deleteFonction;
 import annotationHandler.PolygoneannotationHandler;
 import annotationHandler.StickyNoteAnnotationHandler;

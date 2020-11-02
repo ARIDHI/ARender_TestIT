@@ -7,6 +7,7 @@ import java.io.IOException;
 import java.lang.reflect.Method;
 
 import org.testng.Assert;
+import org.testng.AssertJUnit;
 import org.testng.annotations.Test;
 
 import EndToEnd.AncreTest;
@@ -40,7 +41,7 @@ import fileHandler.AFileUploadBase;
 public class Eml_File_Full_RegressionTest extends pageObject.TestBase implements FactoryLocator , FileFactoryLocator {
  
  @Test(priority = 1 , alwaysRun = false ,enabled= true)
-  public void Upload_eml_File(Method method) throws InterruptedException, IOException {
+    public void Upload_eml_File(Method method) throws InterruptedException, IOException {
 			
 	   page.getInstance(AFileUploadBase.class).doDownloadfile();
 		 page.findElement(PopupfileUpload).sendKeys(System.getProperty("user.dir")+"\\DocumentSource\\ARenderTest.eml");
@@ -222,7 +223,7 @@ public class Eml_File_Full_RegressionTest extends pageObject.TestBase implements
 				    	page.clickOnElement(refreshBtn);
 	  
 				  int actualStackPanelSize = page.findElements(stackPanel_content).size();  	
-				     Assert.assertEquals(actualStackPanelSize, 0);	
+				     AssertJUnit.assertEquals(actualStackPanelSize, 0);	
 				     
 				    } catch(Exception e) {
 						 e.printStackTrace();

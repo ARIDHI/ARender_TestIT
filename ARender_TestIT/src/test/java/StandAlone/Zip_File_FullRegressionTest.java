@@ -3,12 +3,12 @@
  */
 package StandAlone;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import java.io.IOException;
 import java.lang.reflect.Method;
 
 import org.testng.Assert;
-import org.testng.annotations.Test;
-
 import EndToEnd.AncreTest;
 import EndToEnd.MultiviewTest;
 import EndToEnd.RotationTest;
@@ -207,7 +207,7 @@ public class Zip_File_FullRegressionTest  extends pageObject.TestBase implements
 					   
 					try {
 						page.getInstance(deleteFonction.class).deleteFromExplorerThumb();							  	 
-				    	Assert.assertTrue(page.findElement(sadEmptyIcon).isDisplayed(),"ERROR ACCURRED : ANNOTATION ARE DELETED");   		
+						Assert.assertTrue(page.findElement(sadEmptyIcon).isDisplayed(),"ERROR ACCURRED : ANNOTATION ARE DELETED");   		
 				        } catch(Exception e) {
 							 e.printStackTrace();		
 			        }
@@ -220,7 +220,7 @@ public class Zip_File_FullRegressionTest  extends pageObject.TestBase implements
 				    	page.clickOnElement(refreshBtn);
 	  
 				  int actualStackPanelSize = page.findElements(stackPanel_content).size();  	
-				     Assert.assertEquals(actualStackPanelSize, 0);	
+				     AssertJUnit.assertEquals(actualStackPanelSize, 0);	
 				     
 				    } catch(Exception e) {
 						 e.printStackTrace();

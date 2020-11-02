@@ -7,6 +7,7 @@ import java.io.IOException;
 import java.lang.reflect.Method;
 
 import org.testng.Assert;
+import org.testng.AssertJUnit;
 import org.testng.annotations.Test;
 
 import EndToEnd.AncreTest;
@@ -16,6 +17,8 @@ import EndToEnd.SignetTest;
 import EndToEnd.ZoomTest;
 import FullActionpage.SaveCancelFonction;
 import FullActionpage.deleteFonction;
+import Locators.FactoryLocator;
+import Locators.FileFactoryLocator;
 import annotationHandler.PolygoneannotationHandler;
 import annotationHandler.StickyNoteAnnotationHandler;
 import annotationHandler.UnderLineHandler;
@@ -30,8 +33,6 @@ import annotationHandler.polylineAnnotationHandler;
 import annotationHandler.signatureStampHandler;
 import annotationHandler.urgentStampHandler;
 import fileHandler.AFileUploadBase;
-import Locators.FactoryLocator;
-import Locators.FileFactoryLocator;
 
 /**
  * @author ARIDHI HICHEM
@@ -207,7 +208,7 @@ public class Tiff_File_Full_RegressionTest  extends pageObject.TestBase implemen
 						   
 						try {
 							page.getInstance(deleteFonction.class).deleteFromExplorerThumb();							  	 
-					    	Assert.assertTrue(page.findElement(sadEmptyIcon).isDisplayed(),"ERROR ACCURRED : ANNOTATION ARE DELETED");   		
+							Assert.assertTrue(page.findElement(sadEmptyIcon).isDisplayed(),"ERROR ACCURRED : ANNOTATION ARE DELETED");   		
 					        } catch(Exception e) {
 								 e.printStackTrace();		
 				        }
@@ -220,7 +221,7 @@ public class Tiff_File_Full_RegressionTest  extends pageObject.TestBase implemen
 					    	page.clickOnElement(refreshBtn);
 		  
 					  int actualStackPanelSize = page.findElements(stackPanel_content).size();  	
-					     Assert.assertEquals(actualStackPanelSize, 0);	
+					     AssertJUnit.assertEquals(actualStackPanelSize, 0);	
 					     
 					    } catch(Exception e) {
 							 e.printStackTrace();
