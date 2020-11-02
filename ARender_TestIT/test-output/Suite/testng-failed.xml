@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="StandAlone.Zip_File_FullRegressionTest">
+        <methods>
+          <include name="Upload_zip_File"/>
+          <include name="Handle_freeHand_On_zip"/>
+          <include name="Refresh_After_Delete_Anotation_On_zip"/>
+          <include name="Zoom_Adjust_On_zip"/>
+          <include name="Right_Rotation_Control_On_zip"/>
+          <include name="Multi_Multiview_On_zip"/>
+          <include name="SKIP_AN_ANCRE_On_zip"/>
+          <include name="Refresh_After_Save_Anotation_On_zip"/>
+          <include name="Approved_Stamp_On_zip"/>
+          <include name="Handle_Underline_On_zip"/>
+          <include name="initialization"/>
+          <include name="ZoomOut_On_zip"/>
+          <include name="Activate_Multiview_On_zip"/>
+          <include name="Handle_Arrow_On_zip"/>
+          <include name="Handel_Polygone_On_zip"/>
+          <include name="Signature_Stamp_On_zip"/>
+          <include name="Delete_a_Signet_On_zip"/>
+          <include name="tearDown"/>
+          <include name="Handle_Circle___On_zip"/>
+          <include name="Handle_StickyNote_On_zip"/>
+          <include name="Urgent_Stamp_On_zip"/>
+          <include name="Draft_Stamp_On_zip"/>
+          <include name="Free_Stamp_On_zip"/>
+          <include name="Handle_FreeText_On_zip"/>
+          <include name="Handle_polyline_On_zip"/>
+          <include name="Zoom_Text_Box_Control_On_zip"/>
+          <include name="ADD_AN_ANCRE_On_zip"/>
+          <include name="ZoomIn_On_zip"/>
+          <include name="ZoomInZone_On_zip"/>
+          <include name="delete_Anotation_On_zip"/>
+          <include name="SAVE_DATA_ON_zip"/>
+          <include name="Add_a_Signet_On_zip"/>
+          <include name="Desactivate_Multiview_On_zip"/>
+          <include name="Left_Rotation_Control_On_zip"/>
+        </methods>
+      </class> <!-- StandAlone.Zip_File_FullRegressionTest -->
+      <class name="StandAlone.Excel_File_Full_RegressionTest">
+        <methods>
+          <include name="Upload_Excel_File"/>
+          <include name="SAVE_DATA_ON_excel"/>
+          <include name="ZoomOut_On_excel"/>
+          <include name="Handle_StickyNote_On_excel"/>
+          <include name="Handle_FreeText_On_excel"/>
+          <include name="Handle_Underline_On_excel"/>
+          <include name="Signature_Stamp_On_excel"/>
+          <include name="Right_Rotation_Control_On_excel"/>
+          <include name="Free_Stamp_On_excel"/>
+          <include name="ZoomIn_On_excel"/>
+          <include name="Desactivate_Multiview_On_excel"/>
+          <include name="Urgent_Stamp_On_excel"/>
+          <include name="delete_Anotation_On_excel"/>
+          <include name="initialization"/>
+          <include name="Delete_a_Signet_On_excel"/>
+          <include name="Draft_Stamp_On_excel"/>
+          <include name="SKIP_AN_ANCRE_On_excel"/>
+          <include name="Refresh_After_Save_Anotation_On_excel"/>
+          <include name="Handle_Circle___On_excel"/>
+          <include name="tearDown"/>
+          <include name="Add_a_Signet_On_excel"/>
+          <include name="ZoomInZone_On_excel"/>
+          <include name="Zoom_Adjust_On_excel"/>
+          <include name="Handle_polyline_On_excel"/>
+          <include name="Handel_Polygone_On_excel"/>
+          <include name="Multi_Multiview_On_excel"/>
+          <include name="Handle_freeHand_On_excel"/>
+          <include name="Refresh_After_Delete_Anotation_On_excel"/>
+          <include name="Zoom_Text_Box_Control_On_excel"/>
+          <include name="Approved_Stamp_On_excel"/>
+          <include name="Handle_Arrow_On_excel"/>
+          <include name="ADD_AN_ANCRE_On_excel"/>
+          <include name="Activate_Multiview_On_excel"/>
+          <include name="Left_Rotation_Control_On_excel"/>
+        </methods>
+      </class> <!-- StandAlone.Excel_File_Full_RegressionTest -->
+      <class name="StandAlone.JPEG_File_Full_RegressionTest">
+        <methods>
+          <include name="SKIP_AN_ANCRE_On_jpg"/>
+          <include name="Multi_Multiview_On_jpg"/>
+          <include name="Zoom_Adjust_On_jpg"/>
+          <include name="Refresh_After_Delete_Anotation_On_jpg"/>
+          <include name="Handle_freeHand_On_jpg"/>
+          <include name="ZoomOut_On_jpg"/>
+          <include name="Approved_Stamp_On_jpg"/>
+          <include name="Handle_Underline_On_jpg"/>
+          <include name="initialization"/>
+          <include name="Refresh_After_Save_Anotation_On_jpg"/>
+          <include name="delete_Anotation_On_jpg"/>
+          <include name="Handle_FreeText_On_jpg"/>
+          <include name="Handle_polyline_On_jpg"/>
+          <include name="Zoom_Text_Box_Control_On_jpg"/>
+          <include name="tearDown"/>
+          <include name="Free_Stamp_On_jpg"/>
+          <include name="Delete_a_Signet_On_jpg"/>
+          <include name="Handle_Circle___On_jpg"/>
+          <include name="Handle_StickyNote_On_jpg"/>
+          <include name="Right_Rotation_Control_On_jpg"/>
+          <include name="Urgent_Stamp_On_jpg"/>
+          <include name="Upload_jpg_File"/>
+          <include name="Draft_Stamp_On_jpg"/>
+          <include name="Activate_Multiview_On_jpg"/>
+          <include name="Handle_Arrow_On_jpg"/>
+          <include name="Handel_Polygone_On_jpg"/>
+          <include name="Signature_Stamp_On_jpg"/>
+          <include name="Add_a_Signet_On_jpg"/>
+          <include name="Desactivate_Multiview_On_jpg"/>
+          <include name="Left_Rotation_Control_On_jpg"/>
+          <include name="SAVE_DATA_ON_jpg"/>
+          <include name="ADD_AN_ANCRE_On_jpg"/>
+          <include name="ZoomIn_On_jpg"/>
+          <include name="ZoomInZone_On_jpg"/>
+        </methods>
+      </class> <!-- StandAlone.JPEG_File_Full_RegressionTest -->
+      <class name="StandAlone.Png_File_Full_RegressionTest">
+        <methods>
+          <include name="delete_Anotation_On_png"/>
+          <include name="Left_Rotation_Control_On_png"/>
+          <include name="Signature_Stamp_On_png"/>
+          <include name="Delete_a_Signet_On_png"/>
+          <include name="Free_Stamp_On_png"/>
+          <include name="Handle_FreeText_On_png"/>
+          <include name="ADD_AN_ANCRE_On_png"/>
+          <include name="ZoomIn_On_png"/>
+          <include name="Handel_Polygone_On_png"/>
+          <include name="Handle_StickyNote_On_png"/>
+          <include name="Right_Rotation_Control_On_png"/>
+          <include name="initialization"/>
+          <include name="Add_a_Signet_On_png"/>
+          <include name="SAVE_DATA_ON_png"/>
+          <include name="Activate_Multiview_On_png"/>
+          <include name="Handle_Arrow_On_png"/>
+          <include name="Handle_polyline_On_png"/>
+          <include name="Zoom_Adjust_On_png"/>
+          <include name="tearDown"/>
+          <include name="Desactivate_Multiview_On_png"/>
+          <include name="Upload_png_File"/>
+          <include name="Multi_Multiview_On_png"/>
+          <include name="ZoomInZone_On_png"/>
+          <include name="Handle_Underline_On_png"/>
+          <include name="Refresh_After_Save_Anotation_On_png"/>
+          <include name="Handle_Circle___On_png"/>
+          <include name="ZoomOut_On_png"/>
+          <include name="Zoom_Text_Box_Control_On_png"/>
+          <include name="Refresh_After_Delete_Anotation_On_png"/>
+          <include name="Draft_Stamp_On_png"/>
+          <include name="Urgent_Stamp_On_png"/>
+          <include name="Approved_Stamp_On_png"/>
+          <include name="Handle_freeHand_On_png"/>
+          <include name="SKIP_AN_ANCRE_On_png"/>
+        </methods>
+      </class> <!-- StandAlone.Png_File_Full_RegressionTest -->
+      <class name="StandAlone.GIF_File___Full_RegressionTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="Approved_Stamp___On_Gif"/>
+          <include name="Handle_StickyNote___On_Gif"/>
+          <include name="Handle_Underline___On_Gif"/>
+          <include name="Urgent_Stamp___On_Gif"/>
+          <include name="Draft_Stamp___On_Gif"/>
+          <include name="Handle_freeHand___On_Gif"/>
+          <include name="Signature_Stamp___On_Gif"/>
+          <include name="Handel_Polygone___On_Gif"/>
+          <include name="Upload_Gif"/>
+          <include name="Handle_Arrow___On_Gif"/>
+          <include name="delete__Anotation___On_Gif"/>
+          <include name="Handle_Circle___On_Gif"/>
+          <include name="initialization"/>
+          <include name="Handle_FreeText___On_Gif"/>
+          <include name="Handle_polyline___On_Gif"/>
+        </methods>
+      </class> <!-- StandAlone.GIF_File___Full_RegressionTest -->
+      <class name="StandAlone.Word_File_Full_RegressionTest">
+        <methods>
+          <include name="Handel_Polygone_On_word"/>
+          <include name="Handle_FreeText_On_word"/>
+          <include name="Signature_Stamp_On_word"/>
+          <include name="Refresh_After_Save_Anotation_On_word"/>
+          <include name="delete_Anotation_On_word"/>
+          <include name="Refresh_After_Delete_Anotation_On_word"/>
+          <include name="Free_Stamp_On_word"/>
+          <include name="Draft_Stamp_On_word"/>
+          <include name="Handle_freeHand_On_word"/>
+          <include name="Activate_Multiview_On_word"/>
+          <include name="ADD_AN_ANCRE_On_word"/>
+          <include name="Handle_polyline_On_word"/>
+          <include name="initialization"/>
+          <include name="Desactivate_Multiview_On_word"/>
+          <include name="Zoom_Adjust_On_word"/>
+          <include name="ZoomIn_On_word"/>
+          <include name="Handle_Arrow_On_word"/>
+          <include name="Right_Rotation_Control_On_word"/>
+          <include name="Zoom_Text_Box_Control_On_word"/>
+          <include name="tearDown"/>
+          <include name="ZoomInZone_On_word"/>
+          <include name="Delete_a_Signet_On_word"/>
+          <include name="SKIP_AN_ANCRE_On_word"/>
+          <include name="Handle_Underline_On_word"/>
+          <include name="Left_Rotation_Control_On_word"/>
+          <include name="Urgent_Stamp_On_word"/>
+          <include name="Handle_StickyNote_On_word"/>
+          <include name="Approved_Stamp_On_word"/>
+          <include name="Upload_word_File"/>
+          <include name="ZoomOut_On_word"/>
+          <include name="Add_a_Signet_On_word"/>
+          <include name="Multi_Multiview_On_word"/>
+          <include name="SAVE_DATA_ON_word"/>
+          <include name="Handle_Circle___On_word"/>
+        </methods>
+      </class> <!-- StandAlone.Word_File_Full_RegressionTest -->
+      <class name="StandAlone.ARender_Full_Fonction">
+        <methods>
+          <include name="Brightness_Test"/>
+          <include name="Contrast_Test"/>
+          <include name="logo_Test"/>
+          <include name="tearDown"/>
+          <include name="Navigation_Button_Test"/>
+          <include name="Fullscreen_Test"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- StandAlone.ARender_Full_Fonction -->
+      <class name="StandAlone.Tiff_File_Full_RegressionTest">
+        <methods>
+          <include name="Signature_Stamp_On_tiff"/>
+          <include name="Refresh_After_Save_Anotation_On_tiff"/>
+          <include name="Handle_Arrow_On_tiff"/>
+          <include name="Handle_polyline_On_tiff"/>
+          <include name="ADD_AN_ANCRE_On_tiff"/>
+          <include name="Zoom_Adjust_On_tiff"/>
+          <include name="Refresh_After_Delete_Anotation_On_tiff"/>
+          <include name="Add_a_Signet_On_tiff"/>
+          <include name="Desactivate_Multiview_On_tiff"/>
+          <include name="SAVE_DATA_ON_tiff"/>
+          <include name="Draft_Stamp_On_tiff"/>
+          <include name="initialization"/>
+          <include name="Left_Rotation_Control_On_tiff"/>
+          <include name="Handle_StickyNote_On_tiff"/>
+          <include name="Right_Rotation_Control_On_tiff"/>
+          <include name="ZoomInZone_On_tiff"/>
+          <include name="Urgent_Stamp_On_tiff"/>
+          <include name="SKIP_AN_ANCRE_On_tiff"/>
+          <include name="tearDown"/>
+          <include name="Handle_Underline_On_tiff"/>
+          <include name="delete_Anotation_On_tiff"/>
+          <include name="Handle_FreeText_On_tiff"/>
+          <include name="Zoom_Text_Box_Control_On_tiff"/>
+          <include name="Delete_a_Signet_On_tiff"/>
+          <include name="Free_Stamp_On_tiff"/>
+          <include name="Handle_Circle___On_tiff"/>
+          <include name="Multi_Multiview_On_tiff"/>
+          <include name="Handel_Polygone_On_tiff"/>
+          <include name="ZoomIn_On_tiff"/>
+          <include name="ZoomOut_On_tiff"/>
+          <include name="Upload_tiff_File"/>
+          <include name="Approved_Stamp_On_tiff"/>
+          <include name="Handle_freeHand_On_tiff"/>
+          <include name="Activate_Multiview_On_tiff"/>
+        </methods>
+      </class> <!-- StandAlone.Tiff_File_Full_RegressionTest -->
+      <class name="StandAlone.PPT_File_FullRegressionTest">
+        <methods>
+          <include name="ADD_AN_ANCRE_On_ppt"/>
+          <include name="Delete_a_Signet_On_ppt"/>
+          <include name="Handel_Polygone_On_ppt"/>
+          <include name="Signature_Stamp_On_ppt"/>
+          <include name="Handle_polyline_On_ppt"/>
+          <include name="Urgent_Stamp_On_ppt"/>
+          <include name="Draft_Stamp_On_ppt"/>
+          <include name="Handle_freeHand_On_ppt"/>
+          <include name="Left_Rotation_Control_On_ppt"/>
+          <include name="Right_Rotation_Control_On_ppt"/>
+          <include name="Refresh_After_Save_Anotation_On_ppt"/>
+          <include name="ZoomIn_On_ppt"/>
+          <include name="Upload_ppt_File"/>
+          <include name="initialization"/>
+          <include name="delete_Anotation_On_ppt"/>
+          <include name="Free_Stamp_On_ppt"/>
+          <include name="Multi_Multiview_On_ppt"/>
+          <include name="Handle_Underline_On_ppt"/>
+          <include name="tearDown"/>
+          <include name="Handle_FreeText_On_ppt"/>
+          <include name="Handle_Circle___On_ppt"/>
+          <include name="Refresh_After_Delete_Anotation_On_ppt"/>
+          <include name="Zoom_Adjust_On_ppt"/>
+          <include name="SKIP_AN_ANCRE_On_ppt"/>
+          <include name="Handle_StickyNote_On_ppt"/>
+          <include name="Activate_Multiview_On_ppt"/>
+          <include name="Handle_Arrow_On_ppt"/>
+          <include name="Add_a_Signet_On_ppt"/>
+          <include name="Approved_Stamp_On_ppt"/>
+          <include name="Desactivate_Multiview_On_ppt"/>
+          <include name="ZoomInZone_On_ppt"/>
+          <include name="Zoom_Text_Box_Control_On_ppt"/>
+          <include name="SAVE_DATA_ON_ppt"/>
+          <include name="ZoomOut_On_ppt"/>
+        </methods>
+      </class> <!-- StandAlone.PPT_File_FullRegressionTest -->
+      <class name="StandAlone.ARender_Full_Fonction___onBulky_file">
+        <methods>
+          <include name="Bulky_File____Upload"/>
+          <include name="navigation___onSmall_file"/>
+          <include name="tearDown"/>
+          <include name="Contrast___onBulky_File"/>
+          <include name="logoVersion___onBulky_File"/>
+          <include name="initialization"/>
+          <include name="fullscreen___onBulky_File"/>
+        </methods>
+      </class> <!-- StandAlone.ARender_Full_Fonction___onBulky_file -->
+      <class name="StandAlone.Pdf_File_Full_RegressionTest">
+        <methods>
+          <include name="Left_Rotation_Control_On_PDF"/>
+          <include name="Right_Rotation_Control_On_PDF"/>
+          <include name="Handle_FreeText_On_PDF"/>
+          <include name="ADD_AN_ANCRE_On_PDF"/>
+          <include name="ZoomIn_On_PDF"/>
+          <include name="Activate_Multiview_On_PDF"/>
+          <include name="Add_a_Signet_On_PDF"/>
+          <include name="Handle_Arrow_On_PDF"/>
+          <include name="Handle_polyline_On_PDF"/>
+          <include name="initialization"/>
+          <include name="Delete_a_Signet_On_PDF"/>
+          <include name="Handel_Polygone_On_PDF"/>
+          <include name="Handle_StickyNote_On_PDF"/>
+          <include name="Signature_Stamp_On_PDF"/>
+          <include name="ZoomOut_On_PDF"/>
+          <include name="Desactivate_Multiview_On_PDF"/>
+          <include name="tearDown"/>
+          <include name="Handle_freeHand_On_PDF"/>
+          <include name="Approved_Stamp_On_PDF"/>
+          <include name="SAVE_DATA_ON_PDF"/>
+          <include name="Handle_Underline_On_PDF"/>
+          <include name="ZoomInZone_On_PDF"/>
+          <include name="Multi_Multiview_On_PDF"/>
+          <include name="Upload_PDF_File"/>
+          <include name="Zoom_Text_Box_Control_On_PDF"/>
+          <include name="Handle_Circle___On_PDF"/>
+          <include name="Refresh_After_Save_Anotation_On_PDF"/>
+          <include name="Zoom_Adjust_On_PDF"/>
+          <include name="delete_Anotation_On_PDF"/>
+          <include name="Draft_Stamp_On_PDF"/>
+          <include name="SKIP_AN_ANCRE_On_PDF"/>
+          <include name="Urgent_Stamp_On_PDF"/>
+          <include name="Refresh_After_Delete_Anotation_On_PDF"/>
+          <include name="Free_Stamp_On_PDF"/>
+        </methods>
+      </class> <!-- StandAlone.Pdf_File_Full_RegressionTest -->
+      <class name="StandAlone.MSG_File_Full_RegressionTest">
+        <methods>
+          <include name="Handle_freeHand_On_msg"/>
+          <include name="SKIP_AN_ANCRE_On_msg"/>
+          <include name="Add_a_Signet_On_msg"/>
+          <include name="Upload_msg_File"/>
+          <include name="Refresh_After_Delete_Anotation_On_msg"/>
+          <include name="Zoom_Adjust_On_msg"/>
+          <include name="Approved_Stamp_On_msg"/>
+          <include name="Multi_Multiview_On_msg"/>
+          <include name="Handle_Underline_On_msg"/>
+          <include name="ZoomOut_On_msg"/>
+          <include name="initialization"/>
+          <include name="Handle_polyline_On_msg"/>
+          <include name="Handle_FreeText_On_msg"/>
+          <include name="Activate_Multiview_On_msg"/>
+          <include name="Handle_Arrow_On_msg"/>
+          <include name="Draft_Stamp_On_msg"/>
+          <include name="Free_Stamp_On_msg"/>
+          <include name="tearDown"/>
+          <include name="Urgent_Stamp_On_msg"/>
+          <include name="Handel_Polygone_On_msg"/>
+          <include name="Handle_StickyNote_On_msg"/>
+          <include name="Signature_Stamp_On_msg"/>
+          <include name="Delete_a_Signet_On_msg"/>
+          <include name="Zoom_Text_Box_Control_On_msg"/>
+          <include name="Handle_Circle___On_msg"/>
+          <include name="delete_Anotation_On_msg"/>
+          <include name="ZoomIn_On_msg"/>
+          <include name="Refresh_After_Save_Anotation_On_msg"/>
+          <include name="SAVE_DATA_ON_msg"/>
+          <include name="ADD_AN_ANCRE_On_msg"/>
+          <include name="ZoomInZone_On_msg"/>
+          <include name="Right_Rotation_Control_On_msg"/>
+          <include name="Desactivate_Multiview_On_msg"/>
+          <include name="Left_Rotation_Control_On_msg"/>
+        </methods>
+      </class> <!-- StandAlone.MSG_File_Full_RegressionTest -->
+      <class name="StandAlone.MP4_File___Full_RegressionTest">
+        <methods>
+          <include name="delete__Anotation___On_MP4"/>
+          <include name="Handle_polyline___On_MP4"/>
+          <include name="Handle_Circle___On_MP4"/>
+          <include name="Handle_StickyNote___On_MP4"/>
+          <include name="Handle_FreeText___On_MP4"/>
+          <include name="tearDown"/>
+          <include name="MP4_File____Upload"/>
+          <include name="Signature_Stamp___On_MP4"/>
+          <include name="Handel_Polygone___On_MP4"/>
+          <include name="Handle_freeHand___On_MP4"/>
+          <include name="Approved_Stamp___On_MP4"/>
+          <include name="Handle_Arrow___On_MP4"/>
+          <include name="Draft_Stamp___On_MP4"/>
+          <include name="Urgent_Stamp___On_MP4"/>
+          <include name="Handle_Underline___On_MP4"/>
+          <include name="initialization"/>
+          <include name="Free_Stamp___On_MP4"/>
+        </methods>
+      </class> <!-- StandAlone.MP4_File___Full_RegressionTest -->
+      <class name="StandAlone.Eml_File_Full_RegressionTest">
+        <methods>
+          <include name="SKIP_AN_ANCRE_On_eml"/>
+          <include name="Add_a_Signet_On_eml"/>
+          <include name="Zoom_Adjust_On_eml"/>
+          <include name="Refresh_After_Delete_Anotation_On_eml"/>
+          <include name="Handle_freeHand_On_eml"/>
+          <include name="Approved_Stamp_On_eml"/>
+          <include name="Multi_Multiview_On_eml"/>
+          <include name="ZoomOut_On_eml"/>
+          <include name="Zoom_Text_Box_Control_On_eml"/>
+          <include name="initialization"/>
+          <include name="Handle_Underline_On_eml"/>
+          <include name="Handle_Circle___On_eml"/>
+          <include name="Refresh_After_Save_Anotation_On_eml"/>
+          <include name="ZoomIn_On_eml"/>
+          <include name="tearDown"/>
+          <include name="delete_Anotation_On_eml"/>
+          <include name="Free_Stamp_On_eml"/>
+          <include name="Handel_Polygone_On_eml"/>
+          <include name="Signature_Stamp_On_eml"/>
+          <include name="Handle_polyline_On_eml"/>
+          <include name="Draft_Stamp_On_eml"/>
+          <include name="Handle_FreeText_On_eml"/>
+          <include name="Delete_a_Signet_On_eml"/>
+          <include name="Urgent_Stamp_On_eml"/>
+          <include name="Right_Rotation_Control_On_eml"/>
+          <include name="Activate_Multiview_On_eml"/>
+          <include name="Handle_Arrow_On_eml"/>
+          <include name="Desactivate_Multiview_On_eml"/>
+          <include name="Left_Rotation_Control_On_eml"/>
+          <include name="Upload_eml_File"/>
+          <include name="Handle_StickyNote_On_eml"/>
+          <include name="ZoomInZone_On_eml"/>
+          <include name="ADD_AN_ANCRE_On_eml"/>
+          <include name="SAVE_DATA_ON_eml"/>
+        </methods>
+      </class> <!-- StandAlone.Eml_File_Full_RegressionTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
