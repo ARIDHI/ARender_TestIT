@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Auto__E2E]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="pageObject.Extent_TestListeners"/>
+  </listeners>
+  <test thread-count="5" name="Auto__E2E(failed)">
+    <classes>
+      <class name="File_Management_____Testcases.GIF_File___Full_RegressionTest">
+        <methods>
+          <include name="Handle_polyline___On_Gif"/>
+          <include name="tearDown"/>
+          <include name="Upload_Gif"/>
+          <include name="Handle_Underline___On_Gif"/>
+          <include name="Handle_Circle___On_Gif"/>
+          <include name="Signature_Stamp___On_Gif"/>
+          <include name="Urgent_Stamp___On_Gif"/>
+          <include name="Draft_Stamp___On_Gif"/>
+          <include name="Handle_Arrow___On_Gif"/>
+          <include name="Handel_Polygone___On_Gif"/>
+          <include name="Handle_FreeText___On_Gif"/>
+          <include name="Handle_freeHand___On_Gif"/>
+          <include name="delete__Anotation___On_Gif"/>
+          <include name="Approved_Stamp___On_Gif"/>
+          <include name="Handle_StickyNote___On_Gif"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- File_Management_____Testcases.GIF_File___Full_RegressionTest -->
+      <class name="File_Management_____Testcases.MSG_File___Full_RegressionTest">
+        <methods>
+          <include name="MSG_File____Upload"/>
+          <include name="Handle_Underline___On_MSG"/>
+          <include name="Handle_Circle___On_MSG"/>
+          <include name="Handle_StickyNote___On_MSG"/>
+          <include name="tearDown"/>
+          <include name="DownloadAnnotation_FDF_File_via_eml"/>
+          <include name="Handle_polyline___On_MSG"/>
+          <include name="delete__Anotation___On_eml"/>
+          <include name="Download_PDF_File_via_eml"/>
+          <include name="Handel_Polygone___On_MSG"/>
+          <include name="DownloadAnnotation_XFDF_File_via_eml"/>
+          <include name="Handle_freeHand___On_MSG"/>
+          <include name="Multiple_Hide_Annotation_fonction_On_eml"/>
+          <include name="Handle_FreeText___On_MSG"/>
+          <include name="Signature_Stamp___On_eml"/>
+          <include name="Simple_Hide_Annotation_fonction_On_eml"/>
+          <include name="Handle_Arrow___On_MSG"/>
+          <include name="Draft_Stamp___On_eml"/>
+          <include name="DownLoad_With_Annotation_CSV_File_via_eml"/>
+          <include name="Urgent_Stamp___On_eml"/>
+          <include name="Approved_Stamp___On_eml"/>
+          <include name="Upload__File_via_eml"/>
+          <include name="initialization"/>
+          <include name="Download_Document_withAnnotation_FDF_File_via_eml"/>
+        </methods>
+      </class> <!-- File_Management_____Testcases.MSG_File___Full_RegressionTest -->
+      <class name="File_Management_____Testcases.Excel_File___Full_RegressionTest">
+        <methods>
+          <include name="DownloadAnnotation_FDF_File_via_eml"/>
+          <include name="Approved_Stamp___On_Excel"/>
+          <include name="Download_PDF_File_via_eml"/>
+          <include name="Excel_File____Upload"/>
+          <include name="Multiple_Hide_Annotation_fonction_On_eml"/>
+          <include name="DownloadAnnotation_XFDF_File_via_eml"/>
+          <include name="Handle_FreeText___On_Excel"/>
+          <include name="Draft_Stamp___On_Excel"/>
+          <include name="Handle_Underline___On_eml"/>
+          <include name="initialization"/>
+          <include name="Handel_Polygone___On_Excel"/>
+          <include name="tearDown"/>
+          <include name="Handle_Circle___On_eml"/>
+          <include name="Upload__File_via_eml"/>
+          <include name="Handle_polyline___On_Excel"/>
+          <include name="Urgent_Stamp___On_Excel"/>
+          <include name="Handle_freeHand___On_eml"/>
+          <include name="Simple_Hide_Annotation_fonction_On_eml"/>
+          <include name="DownLoad_With_Annotation_CSV_File_via_eml"/>
+          <include name="Handle_Arrow___On_eml"/>
+          <include name="Free_Stamp___On_Excel"/>
+          <include name="delete__Anotation___On_eml"/>
+          <include name="Download_Document_withAnnotation_FDF_File_via_eml"/>
+          <include name="Handle_StickyNote___On_Excel"/>
+          <include name="Signature_Stamp___On_Excel"/>
+        </methods>
+      </class> <!-- File_Management_____Testcases.Excel_File___Full_RegressionTest -->
+      <class name="File_Management_____Testcases.Tiff_File___Full_RegressionTest">
+        <methods>
+          <include name="Handel_Polygone___On_tiff"/>
+          <include name="Signature_Stamp___On_eml"/>
+          <include name="Handle_freeHand___On_tiff"/>
+          <include name="Multiple_Hide_Annotation_fonction_On_eml"/>
+          <include name="Handle_Underline___On_tiff"/>
+          <include name="Handle_polyline___On_tiff"/>
+          <include name="tearDown"/>
+          <include name="DownloadAnnotation_XFDF_File_via_eml"/>
+          <include name="Download_PDF_File_via_eml"/>
+          <include name="Handle_StickyNote___On_tiff"/>
+          <include name="delete__Anotation___On_eml"/>
+          <include name="DownloadAnnotation_FDF_File_via_eml"/>
+          <include name="Tiff_File____Upload"/>
+          <include name="Download_Document_withAnnotation_FDF_File_via_eml"/>
+          <include name="Approved_Stamp___On_eml"/>
+          <include name="Upload__File_via_eml"/>
+          <include name="Urgent_Stamp___On_eml"/>
+          <include name="DownLoad_With_Annotation_CSV_File_via_eml"/>
+          <include name="Draft_Stamp___On_eml"/>
+          <include name="Handle_Arrow___On_tiff"/>
+          <include name="initialization"/>
+          <include name="Handle_Circle___On_tiff"/>
+          <include name="Handle_FreeText___On_tiff"/>
+          <include name="Simple_Hide_Annotation_fonction_On_eml"/>
+        </methods>
+      </class> <!-- File_Management_____Testcases.Tiff_File___Full_RegressionTest -->
+      <class name="File_Management_____Testcases.Pdf_File___Full_RegressionTest">
+        <methods>
+          <include name="Signature_Stamp___On_pdf"/>
+          <include name="Urgent_Stamp___On_Pdf"/>
+          <include name="Handle_Arrow___OnPdf"/>
+          <include name="DownloadAnnotation_FDF_File_via_eml"/>
+          <include name="Download_PDF_File_via_eml"/>
+          <include name="Approved_Stamp___On_Pdf"/>
+          <include name="Free_Stamp___On_pdf"/>
+          <include name="Multiple_Hide_Annotation_fonction_On_eml"/>
+          <include name="initialization"/>
+          <include name="Handle_polyline___OnPDF"/>
+          <include name="DownloadAnnotation_XFDF_File_via_eml"/>
+          <include name="Handle_FreeText___OnPdf"/>
+          <include name="Handle_Underline___OnPdf"/>
+          <include name="Simple_Hide_Annotation_fonction_On_eml"/>
+          <include name="Download_Document_withAnnotation_FDF_File_via_eml"/>
+          <include name="DownLoad_With_Annotation_CSV_File_via_eml"/>
+          <include name="Handle_StickyNote___OnPDF"/>
+          <include name="tearDown"/>
+          <include name="Handel_Polygone___OnPDF"/>
+          <include name="Upload__File_via_eml"/>
+          <include name="Draft_Stamp___On_pdf"/>
+          <include name="PDF_File____Upload"/>
+          <include name="Handle_Circle___OnPdf"/>
+          <include name="delete__Anotation___On_Pdf"/>
+          <include name="Handle_freeHand___OnPDF"/>
+        </methods>
+      </class> <!-- File_Management_____Testcases.Pdf_File___Full_RegressionTest -->
+      <class name="End_To_End____Test.ARender_Full_Fonction___onSmall_file">
+        <methods>
+          <include name="zoomIn_Zone___onSmall_file"/>
+          <include name="Small_file____Upload"/>
+          <include name="Rotation___onSmall_file"/>
+          <include name="zoomIn___onSmall_file"/>
+          <include name="tearDown"/>
+          <include name="zoomOut___onSmall_file"/>
+          <include name="Brightness___onSmall_file"/>
+          <include name="navigation___onSmall_file"/>
+          <include name="zoomTextBox___onSmall_file"/>
+          <include name="zoomAdjust___onSmall_file"/>
+          <include name="ancre___onSmall_file"/>
+          <include name="fullscreen___onSmall_file"/>
+          <include name="initialization"/>
+          <include name="logoVersion___onSmall_file"/>
+        </methods>
+      </class> <!-- End_To_End____Test.ARender_Full_Fonction___onSmall_file -->
+      <class name="End_To_End____Test.contextFonction____Test">
+        <methods>
+          <include name="contextAddCircle___Test"/>
+          <include name="contextCrossed___Test"/>
+          <include name="tearDown"/>
+          <include name="context__HighlightZone___Test"/>
+          <include name="initialization"/>
+          <include name="context_Highlight___Test"/>
+          <include name="context__Highlighted___Test"/>
+        </methods>
+      </class> <!-- End_To_End____Test.contextFonction____Test -->
+      <class name="File_Management_____Testcases.Png_File___Full_RegressionTest">
+        <methods>
+          <include name="Handle_Arrow___On_png"/>
+          <include name="Multiple_Hide_Annotation_fonction_On_eml"/>
+          <include name="Signature_Stamp___On_eml"/>
+          <include name="tearDown"/>
+          <include name="Download_PDF_File_via_eml"/>
+          <include name="DownloadAnnotation_XFDF_File_via_eml"/>
+          <include name="Handle_FreeText___On_png"/>
+          <include name="DownloadAnnotation_FDF_File_via_eml"/>
+          <include name="Download_Document_withAnnotation_FDF_File_via_eml"/>
+          <include name="Handle_StickyNote___On_png"/>
+          <include name="Handle_polyline___On_png"/>
+          <include name="Approved_Stamp___On_eml"/>
+          <include name="Handle_Underline___On_png"/>
+          <include name="Upload__File_via_eml"/>
+          <include name="Handle_Circle___On_png"/>
+          <include name="Png_File____Upload"/>
+          <include name="Draft_Stamp___On_eml"/>
+          <include name="Handle_freeHand___On_png"/>
+          <include name="DownLoad_With_Annotation_CSV_File_via_eml"/>
+          <include name="Handel_Polygone___On_png"/>
+          <include name="delete__Anotation___On_eml"/>
+          <include name="Urgent_Stamp___On_eml"/>
+          <include name="initialization"/>
+          <include name="Simple_Hide_Annotation_fonction_On_eml"/>
+        </methods>
+      </class> <!-- File_Management_____Testcases.Png_File___Full_RegressionTest -->
+      <class name="End_To_End____Test.ARender_Full_Fonction___onBulky_file">
+        <methods>
+          <include name="Rotation___onBulky_File"/>
+          <include name="logoVersion___onBulky_File"/>
+          <include name="tearDown"/>
+          <include name="navigation___onSmall_file"/>
+          <include name="fullscreen___onBulky_File"/>
+          <include name="zoomAdjust___onBulky_File"/>
+          <include name="Contrast___onBulky_File"/>
+          <include name="Bulky_File____Upload"/>
+          <include name="zoomIn_Zone___onBulky_File"/>
+          <include name="zoomIn___onBulky_File"/>
+          <include name="zoomOut___onBulky_File"/>
+          <include name="initialization"/>
+          <include name="zoomTextBox___onBulky_File"/>
+        </methods>
+      </class> <!-- End_To_End____Test.ARender_Full_Fonction___onBulky_file -->
+      <class name="File_Management_____Testcases.PPT_File___FullRegressionTest">
+        <methods>
+          <include name="DownloadAnnotation_FDF_File_via_eml"/>
+          <include name="delete__Anotation___On_eml"/>
+          <include name="tearDown"/>
+          <include name="Handle_freeHand___On_PPT"/>
+          <include name="PPT_File____Upload"/>
+          <include name="Multiple_Hide_Annotation_fonction_On_eml"/>
+          <include name="Signature_Stamp___On_eml"/>
+          <include name="Download_PDF_File_via_eml"/>
+          <include name="Handle_StickyNote___On_PPT"/>
+          <include name="Handle_Underline___On_PPT"/>
+          <include name="DownloadAnnotation_XFDF_File_via_eml"/>
+          <include name="Handle_Circle___On_PPT"/>
+          <include name="Draft_Stamp___On_eml"/>
+          <include name="DownLoad_With_Annotation_CSV_File_via_eml"/>
+          <include name="Urgent_Stamp___On_eml"/>
+          <include name="Simple_Hide_Annotation_fonction_On_eml"/>
+          <include name="Handle_FreeText___On_PPT"/>
+          <include name="Handle_polyline___On_PPT"/>
+          <include name="Download_Document_withAnnotation_FDF_File_via_eml"/>
+          <include name="Handel_Polygone___On_PPT"/>
+          <include name="initialization"/>
+          <include name="Approved_Stamp___On_eml"/>
+          <include name="Handle_Arrow___On_PPT"/>
+          <include name="Upload__File_via_eml"/>
+        </methods>
+      </class> <!-- File_Management_____Testcases.PPT_File___FullRegressionTest -->
+      <class name="File_Management_____Testcases.Word_File___Full_RegressionTest">
+        <methods>
+          <include name="Handle_StickyNote___On_Word"/>
+          <include name="DownloadAnnotation_FDF_File_via_eml"/>
+          <include name="tearDown"/>
+          <include name="Download_PDF_File_via_eml"/>
+          <include name="Handel_Polygone___On_Word"/>
+          <include name="Handle_Circle___On_Word"/>
+          <include name="DownloadAnnotation_XFDF_File_via_eml"/>
+          <include name="Handle_Underline___On_Word"/>
+          <include name="Signature_Stamp___On_eml"/>
+          <include name="Handle_freeHand___On_Word"/>
+          <include name="Multiple_Hide_Annotation_fonction_On_eml"/>
+          <include name="Approved_Stamp___On_eml"/>
+          <include name="Draft_Stamp___On_eml"/>
+          <include name="Handle_Arrow___On_Word"/>
+          <include name="Urgent_Stamp___On_eml"/>
+          <include name="Word_File____Upload"/>
+          <include name="Simple_Hide_Annotation_fonction_On_eml"/>
+          <include name="Handle_polyline___On_Word"/>
+          <include name="DownLoad_With_Annotation_CSV_File_via_eml"/>
+          <include name="initialization"/>
+          <include name="Upload__File_via_eml"/>
+          <include name="Download_Document_withAnnotation_FDF_File_via_eml"/>
+          <include name="Handle_FreeText___On_Word"/>
+          <include name="delete__Anotation___On_eml"/>
+        </methods>
+      </class> <!-- File_Management_____Testcases.Word_File___Full_RegressionTest -->
+      <class name="File_Management_____Testcases.JPEG_File___Full_RegressionTest">
+        <methods>
+          <include name="DownloadAnnotation_XFDF_File_via_eml"/>
+          <include name="Handle_Circle___OnJpeg"/>
+          <include name="Handle_FreeText___OnJpeg"/>
+          <include name="Signature_Stamp___On_eml"/>
+          <include name="Urgent_Stamp___On_eml"/>
+          <include name="tearDown"/>
+          <include name="Handel_Polygone___OnJpeg"/>
+          <include name="Multiple_Hide_Annotation_fonction_On_eml"/>
+          <include name="Download_PDF_File_via_eml"/>
+          <include name="Draft_Stamp___On_eml"/>
+          <include name="Handle_freeHand___OnJpeg"/>
+          <include name="DownloadAnnotation_FDF_File_via_eml"/>
+          <include name="Handle_Arrow___OnJpeg"/>
+          <include name="Handle_Underline___OnJpeg"/>
+          <include name="Download_Document_withAnnotation_FDF_File_via_eml"/>
+          <include name="delete__Anotation___On_eml"/>
+          <include name="Approved_Stamp___On_eml"/>
+          <include name="Upload__File_via_eml"/>
+          <include name="Handle_polyline___OnJpeg"/>
+          <include name="initialization"/>
+          <include name="DownLoad_With_Annotation_CSV_File_via_eml"/>
+          <include name="Handle_StickyNote___OnJpeg"/>
+          <include name="Simple_Hide_Annotation_fonction_On_eml"/>
+          <include name="Jpeg_File____Upload"/>
+        </methods>
+      </class> <!-- File_Management_____Testcases.JPEG_File___Full_RegressionTest -->
+      <class name="File_Management_____Testcases.eml_File___Full_RegressionTest">
+        <methods>
+          <include name="Handle_Underline___On_eml"/>
+          <include name="Handle_Circle___On_eml"/>
+          <include name="Signature_Stamp___On_eml"/>
+          <include name="Urgent_Stamp___On_eml"/>
+          <include name="Draft_Stamp___On_eml"/>
+          <include name="Handle_Arrow___On_eml"/>
+          <include name="Handel_Polygone___On_eml"/>
+          <include name="DownLoad_With_Annotation_CSV_File_via_eml"/>
+          <include name="Handle_freeHand___On_eml"/>
+          <include name="Simple_Hide_Annotation_fonction_On_eml"/>
+          <include name="delete__Anotation___On_eml"/>
+          <include name="eml_File____Upload"/>
+          <include name="Handle_StickyNote___On_eml"/>
+          <include name="Upload__File_via_eml"/>
+          <include name="initialization"/>
+          <include name="Download_Document_withAnnotation_FDF_File_via_eml"/>
+          <include name="Handle_polyline___On_eml"/>
+          <include name="DownloadAnnotation_FDF_File_via_eml"/>
+          <include name="tearDown"/>
+          <include name="Multiple_Hide_Annotation_fonction_On_eml"/>
+          <include name="Download_PDF_File_via_eml"/>
+          <include name="DownloadAnnotation_XFDF_File_via_eml"/>
+          <include name="Handle_FreeText___On_eml"/>
+          <include name="Free_Stamp___On_eml"/>
+          <include name="Approved_Stamp___On_eml"/>
+        </methods>
+      </class> <!-- File_Management_____Testcases.eml_File___Full_RegressionTest -->
+      <class name="End_To_End____Test.Navigater_Panel___Test">
+        <methods>
+          <include name="tearDown"/>
+          <include name="Filtre__On_Zip"/>
+          <include name="FiltreBy_resolu__On_Zip"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- End_To_End____Test.Navigater_Panel___Test -->
+    </classes>
+  </test> <!-- Auto__E2E(failed) -->
+</suite> <!-- Failed suite [Auto__E2E] -->

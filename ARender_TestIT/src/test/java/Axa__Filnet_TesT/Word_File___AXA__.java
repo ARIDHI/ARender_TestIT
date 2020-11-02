@@ -3,14 +3,13 @@
  */
 package Axa__Filnet_TesT;
 
+import org.testng.annotations.Test;
+import org.testng.Assert;
 import java.io.IOException;
 import java.lang.reflect.Method;
 import java.util.List;
 
 import org.openqa.selenium.WebElement;
-import org.testng.Assert;
-import org.testng.annotations.Test;
-
 import FullActionpage.SavePageAndQuit;
 import FullActionpage.deleteFonction;
 import FullActionpage.refreshFonction;

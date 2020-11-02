@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+  <listeners>
+   <listener class-name="pageObject.Extent_TestListeners"></listener>
+   </listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Axa__Filnet_TesT.Word_File___AXA__"/>
+      <class name="Axa__Filnet_TesT.MSG_File___AXA__"/>
+      <class name="Axa__Filnet_TesT.AXA__NavigaterPanel"/>
+      <class name="Axa__Filnet_TesT.PPT_File___AXA__"/>
+      <class name="Axa__Filnet_TesT.Zip_File___AXA__"/>
+      <class name="Axa__Filnet_TesT.MP4_File___AXA__"/>
+      <class name="Axa__Filnet_TesT.Excel_File___AXA__"/>
+      <class name="Axa__Filnet_TesT.AXA_Full_Fonction___onBulky_file"/>
+      <class name="Axa__Filnet_TesT.JPEG_File___AXA__"/>
+      <class name="Axa__Filnet_TesT.Png_File___AXA__"/>
+      <class name="Axa__Filnet_TesT.Pdf_File___AXA__"/>
+      <class name="Axa__Filnet_TesT.AXA_Full_Fonction___onSmall_file"/>
+      <class name="Axa__Filnet_TesT.Tiff_File___AXA__"/>
+      <class name="Axa__Filnet_TesT.AXA_contextFonction____Test"/>
+      <class name="Axa__Filnet_TesT.GIF_File___AXA__"/>
+      <class name="Axa__Filnet_TesT.eml_File___AXA__"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
