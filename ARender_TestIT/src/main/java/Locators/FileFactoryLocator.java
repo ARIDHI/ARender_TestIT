@@ -24,8 +24,8 @@ public interface FileFactoryLocator {
 	public static final By withFdfButton = By.cssSelector("img.downloadAnnotationButton");
 	public static final By pdfButton = By.cssSelector("img.downloadPDFButton");
 	public static final By fileTitle = By.cssSelector("img.downloadPDFButton");
-    public static final By  subNum = By.className("thumblabel_container");
-    public static final By  ThumExplorerButton = By.cssSelector("img.thumbExplorerButton");
+    public static final By subNum = By.className("thumblabel_container");
+    public static final By ThumExplorerButton = By.cssSelector("img.thumbExplorerButton");
 
 
  //TODO STICKY NOTE RESULT 

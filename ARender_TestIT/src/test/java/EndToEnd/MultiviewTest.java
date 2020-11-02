@@ -1,7 +1,8 @@
-package End_To_End____Test;
+package EndToEnd;
 
 import java.lang.reflect.Method;
 
+import org.openqa.selenium.Keys;
 import org.testng.Assert;
 
 import FullActionpage.ancreFonction;
@@ -55,14 +56,15 @@ public class MultiviewTest extends pageObject.TestBase implements BaseFonctionLo
 	       if(page.findElement(multiview_Button).isDisplayed()) {  
 		      try {
 			     page.clickOnElement(multiview_Button);
+			     page.builder.sendKeys(Keys.ENTER).perform();
 	             }catch(Exception e){		    	  
 	            }
               }
             }
-    	Thread.sleep(700);
+    	Thread.sleep(1000);
     	try {
     	int verticalSlider = page.findElements(verticalSlider_Bar).size();
-    		Assert.assertEquals(verticalSlider,7);
+    		Assert.assertEquals(verticalSlider,8);
     		}catch(Exception e){		    	  
 	       }
         }

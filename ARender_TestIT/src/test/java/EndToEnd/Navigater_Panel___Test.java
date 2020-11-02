@@ -1,7 +1,7 @@
 /**
  * 
  */
-package End_To_End____Test;
+package EndToEnd;
 
 import org.testng.annotations.Test;
 import org.testng.Assert;

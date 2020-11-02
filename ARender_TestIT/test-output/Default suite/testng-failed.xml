@@ -3,14 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="StandAlone.Pdf_File___Full_RegressionTest">
+      <class name="StandAlone.ARender_Full_Fonction">
         <methods>
-          <include name="Multi_Multiview_On_PDF" invocation-numbers="0"/>
+          <include name="Contrast_Test" invocation-numbers="0"/>
           <include name="tearDown"/>
           <include name="initialization"/>
-          <include name="Upload_PDF_File"/>
         </methods>
-      </class> <!-- StandAlone.Pdf_File___Full_RegressionTest -->
+      </class> <!-- StandAlone.ARender_Full_Fonction -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

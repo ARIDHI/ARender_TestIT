@@ -1,7 +1,7 @@
 /**
  * 
  */
-package End_To_End____Test;
+package EndToEnd;
 
 import java.io.IOException;
 import java.lang.reflect.Method;
