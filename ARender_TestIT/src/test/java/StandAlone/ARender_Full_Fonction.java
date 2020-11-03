@@ -127,7 +127,7 @@ public class ARender_Full_Fonction extends pageObject.TestBase implements Factor
   	   }
   }
   
-  @Test(priority = 7)	
+  @Test(priority = 7 , enabled =false)	
   public void Contrast_Test (Method method) throws InterruptedException, AWTException {  
 	        page.builder.moveByOffset(0, 0).perform();
 	  	 	page.getInstance(imageProcessinFonction.class).playContrast();
