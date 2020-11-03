@@ -31,7 +31,7 @@
               </property>
             </systemPropertyVariables> -->
           <suiteXmlFiles>
-            <suiteXmlFile>LocalHost_StandAlone.xml</suiteXmlFile>
+            <suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>
