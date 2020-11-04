@@ -1,1212 +1,1483 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="2" failed="0" ignored="0" total="32" passed="30">
+<testng-results ignored="6" total="42" passed="31" failed="2" skipped="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="186503" started-at="2020-11-04T09:24:03 WAT" finished-at="2020-11-04T09:27:10 WAT">
+  <suite started-at="2020-11-04T11:43:47 WAT" name="Suite" finished-at="2020-11-04T11:46:53 WAT" duration-ms="186611">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="186503" started-at="2020-11-04T09:24:03 WAT" finished-at="2020-11-04T09:27:10 WAT">
-      <class name="StandAlone.Eml_File_Full_RegressionTest">
-        <test-method status="PASS" signature="setExtent()[pri:0, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="setExtent" is-config="true" duration-ms="104" started-at="2020-11-04T09:24:03 WAT" finished-at="2020-11-04T09:24:03 WAT">
+    <test started-at="2020-11-04T11:43:47 WAT" name="Test" finished-at="2020-11-04T11:46:53 WAT" duration-ms="186611">
+      <class name="StandAlone.ARender_Full_Fonction">
+        <test-method is-config="true" signature="setExtent()[pri:0, instance:StandAlone.ARender_Full_Fonction@5acf93bb]" started-at="2020-11-04T11:43:47 WAT" name="setExtent" finished-at="2020-11-04T11:43:47 WAT" duration-ms="124" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setExtent -->
-        <test-method status="PASS" signature="initialization()[pri:0, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="initialization" is-config="true" duration-ms="6900" started-at="2020-11-04T09:24:03 WAT" finished-at="2020-11-04T09:24:10 WAT">
+        <test-method is-config="true" signature="initialization()[pri:0, instance:StandAlone.ARender_Full_Fonction@5acf93bb]" started-at="2020-11-04T11:43:47 WAT" name="initialization" finished-at="2020-11-04T11:43:53 WAT" duration-ms="6118" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method status="PASS" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="startReport" is-config="true" duration-ms="4" started-at="2020-11-04T09:24:10 WAT" finished-at="2020-11-04T09:24:10 WAT">
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.ARender_Full_Fonction@5acf93bb]" started-at="2020-11-04T11:43:53 WAT" name="startReport" finished-at="2020-11-04T11:43:53 WAT" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void StandAlone.Eml_File_Full_RegressionTest.Upload_eml_File(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+                <![CDATA[public void StandAlone.ARender_Full_Fonction.Brightness_Test(java.lang.reflect.Method) throws java.lang.InterruptedException,java.awt.AWTException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method status="PASS" signature="Upload_eml_File(java.lang.reflect.Method)[pri:1, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="Upload_eml_File" duration-ms="6501" started-at="2020-11-04T09:24:10 WAT" finished-at="2020-11-04T09:24:17 WAT">
+        <test-method signature="Brightness_Test(java.lang.reflect.Method)[pri:1, instance:StandAlone.ARender_Full_Fonction@5acf93bb]" started-at="2020-11-04T11:43:53 WAT" name="Brightness_Test" finished-at="2020-11-04T11:43:55 WAT" duration-ms="1977" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void StandAlone.Eml_File_Full_RegressionTest.Upload_eml_File(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+                <![CDATA[public void StandAlone.ARender_Full_Fonction.Brightness_Test(java.lang.reflect.Method) throws java.lang.InterruptedException,java.awt.AWTException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Upload_eml_File -->
-        <test-method status="PASS" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="reporteResu" is-config="true" duration-ms="297" started-at="2020-11-04T09:24:17 WAT" finished-at="2020-11-04T09:24:17 WAT">
+        </test-method> <!-- Brightness_Test -->
+        <test-method is-config="true" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.ARender_Full_Fonction@5acf93bb]" started-at="2020-11-04T11:43:55 WAT" name="reporteResu" finished-at="2020-11-04T11:43:55 WAT" duration-ms="366" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Upload_eml_File status=SUCCESS method=Eml_File_Full_RegressionTest.Upload_eml_File(java.lang.reflect.Method)[pri:1, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191] output={null}]]]>
+                <![CDATA[[TestResult name=Brightness_Test status=SUCCESS method=ARender_Full_Fonction.Brightness_Test(java.lang.reflect.Method)[pri:1, instance:StandAlone.ARender_Full_Fonction@5acf93bb] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reporteResu -->
-        <test-method status="PASS" signature="Handle_StickyNote_On_eml(java.lang.reflect.Method)[pri:2, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="Handle_StickyNote_On_eml" duration-ms="4043" started-at="2020-11-04T09:24:17 WAT" depends-on-methods="StandAlone.Eml_File_Full_RegressionTest.Upload_eml_File" finished-at="2020-11-04T09:24:21 WAT">
+        <test-method signature="Navigation_Button_Test(java.lang.reflect.Method)[pri:2, instance:StandAlone.ARender_Full_Fonction@5acf93bb]" started-at="2020-11-04T11:43:55 WAT" name="Navigation_Button_Test" finished-at="2020-11-04T11:43:57 WAT" duration-ms="1289" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void StandAlone.Eml_File_Full_RegressionTest.Handle_StickyNote_On_eml(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+                <![CDATA[public void StandAlone.ARender_Full_Fonction.Navigation_Button_Test(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Handle_StickyNote_On_eml -->
-        <test-method status="PASS" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="startReport" is-config="true" duration-ms="0" started-at="2020-11-04T09:24:17 WAT" finished-at="2020-11-04T09:24:17 WAT">
+        </test-method> <!-- Navigation_Button_Test -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.ARender_Full_Fonction@5acf93bb]" started-at="2020-11-04T11:43:55 WAT" name="startReport" finished-at="2020-11-04T11:43:55 WAT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void StandAlone.Eml_File_Full_RegressionTest.Handle_StickyNote_On_eml(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+                <![CDATA[public void StandAlone.ARender_Full_Fonction.Navigation_Button_Test(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method status="PASS" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="reporteResu" is-config="true" duration-ms="292" started-at="2020-11-04T09:24:21 WAT" finished-at="2020-11-04T09:24:21 WAT">
+        <test-method is-config="true" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.ARender_Full_Fonction@5acf93bb]" started-at="2020-11-04T11:43:57 WAT" name="reporteResu" finished-at="2020-11-04T11:43:57 WAT" duration-ms="359" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Handle_StickyNote_On_eml status=SUCCESS method=Eml_File_Full_RegressionTest.Handle_StickyNote_On_eml(java.lang.reflect.Method)[pri:2, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191] output={null}]]]>
+                <![CDATA[[TestResult name=Navigation_Button_Test status=SUCCESS method=ARender_Full_Fonction.Navigation_Button_Test(java.lang.reflect.Method)[pri:2, instance:StandAlone.ARender_Full_Fonction@5acf93bb] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reporteResu -->
-        <test-method status="PASS" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="startReport" is-config="true" duration-ms="0" started-at="2020-11-04T09:24:21 WAT" finished-at="2020-11-04T09:24:21 WAT">
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.ARender_Full_Fonction@5acf93bb]" started-at="2020-11-04T11:43:57 WAT" name="startReport" finished-at="2020-11-04T11:43:57 WAT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void StandAlone.Eml_File_Full_RegressionTest.Handle_FreeText_On_eml(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+                <![CDATA[public void StandAlone.ARender_Full_Fonction.Fullscreen_Test(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method status="PASS" signature="Handle_FreeText_On_eml(java.lang.reflect.Method)[pri:3, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="Handle_FreeText_On_eml" duration-ms="3524" started-at="2020-11-04T09:24:21 WAT" depends-on-methods="StandAlone.Eml_File_Full_RegressionTest.Upload_eml_File" finished-at="2020-11-04T09:24:25 WAT">
+        <test-method signature="Fullscreen_Test(java.lang.reflect.Method)[pri:6, instance:StandAlone.ARender_Full_Fonction@5acf93bb]" started-at="2020-11-04T11:43:57 WAT" name="Fullscreen_Test" finished-at="2020-11-04T11:43:58 WAT" duration-ms="673" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void StandAlone.Eml_File_Full_RegressionTest.Handle_FreeText_On_eml(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+                <![CDATA[public void StandAlone.ARender_Full_Fonction.Fullscreen_Test(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Handle_FreeText_On_eml -->
-        <test-method status="PASS" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="reporteResu" is-config="true" duration-ms="293" started-at="2020-11-04T09:24:25 WAT" finished-at="2020-11-04T09:24:25 WAT">
+        </test-method> <!-- Fullscreen_Test -->
+        <test-method is-config="true" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.ARender_Full_Fonction@5acf93bb]" started-at="2020-11-04T11:43:58 WAT" name="reporteResu" finished-at="2020-11-04T11:43:58 WAT" duration-ms="372" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Handle_FreeText_On_eml status=SUCCESS method=Eml_File_Full_RegressionTest.Handle_FreeText_On_eml(java.lang.reflect.Method)[pri:3, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191] output={null}]]]>
+                <![CDATA[[TestResult name=Fullscreen_Test status=SUCCESS method=ARender_Full_Fonction.Fullscreen_Test(java.lang.reflect.Method)[pri:6, instance:StandAlone.ARender_Full_Fonction@5acf93bb] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reporteResu -->
-        <test-method status="PASS" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="startReport" is-config="true" duration-ms="1" started-at="2020-11-04T09:24:25 WAT" finished-at="2020-11-04T09:24:25 WAT">
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.ARender_Full_Fonction@5acf93bb]" started-at="2020-11-04T11:43:58 WAT" name="startReport" finished-at="2020-11-04T11:43:58 WAT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void StandAlone.Eml_File_Full_RegressionTest.Handle_Circle___On_eml(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+                <![CDATA[public void StandAlone.ARender_Full_Fonction.logo_Test(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method status="PASS" signature="Handle_Circle___On_eml(java.lang.reflect.Method)[pri:4, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="Handle_Circle___On_eml" duration-ms="5526" started-at="2020-11-04T09:24:25 WAT" depends-on-methods="StandAlone.Eml_File_Full_RegressionTest.Upload_eml_File" finished-at="2020-11-04T09:24:31 WAT">
+        <test-method signature="logo_Test(java.lang.reflect.Method)[pri:8, instance:StandAlone.ARender_Full_Fonction@5acf93bb]" started-at="2020-11-04T11:43:58 WAT" name="logo_Test" finished-at="2020-11-04T11:43:58 WAT" duration-ms="347" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void StandAlone.Eml_File_Full_RegressionTest.Handle_Circle___On_eml(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+                <![CDATA[public void StandAlone.ARender_Full_Fonction.logo_Test(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Handle_Circle___On_eml -->
-        <test-method status="PASS" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="reporteResu" is-config="true" duration-ms="277" started-at="2020-11-04T09:24:31 WAT" finished-at="2020-11-04T09:24:31 WAT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=Handle_Circle___On_eml status=SUCCESS method=Eml_File_Full_RegressionTest.Handle_Circle___On_eml(java.lang.reflect.Method)[pri:4, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reporteResu -->
-        <test-method status="PASS" signature="Handle_Arrow_On_eml(java.lang.reflect.Method)[pri:5, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="Handle_Arrow_On_eml" duration-ms="23909" started-at="2020-11-04T09:24:31 WAT" depends-on-methods="StandAlone.Eml_File_Full_RegressionTest.Upload_eml_File" finished-at="2020-11-04T09:24:55 WAT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void StandAlone.Eml_File_Full_RegressionTest.Handle_Arrow_On_eml(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Handle_Arrow_On_eml -->
-        <test-method status="PASS" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="startReport" is-config="true" duration-ms="0" started-at="2020-11-04T09:24:31 WAT" finished-at="2020-11-04T09:24:31 WAT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void StandAlone.Eml_File_Full_RegressionTest.Handle_Arrow_On_eml(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startReport -->
-        <test-method status="PASS" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="reporteResu" is-config="true" duration-ms="301" started-at="2020-11-04T09:24:55 WAT" finished-at="2020-11-04T09:24:55 WAT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=Handle_Arrow_On_eml status=SUCCESS method=Eml_File_Full_RegressionTest.Handle_Arrow_On_eml(java.lang.reflect.Method)[pri:5, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reporteResu -->
-        <test-method status="PASS" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="startReport" is-config="true" duration-ms="0" started-at="2020-11-04T09:24:55 WAT" finished-at="2020-11-04T09:24:55 WAT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void StandAlone.Eml_File_Full_RegressionTest.Handle_Underline_On_eml(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startReport -->
-        <test-method status="PASS" signature="Handle_Underline_On_eml(java.lang.reflect.Method)[pri:6, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="Handle_Underline_On_eml" duration-ms="5856" started-at="2020-11-04T09:24:55 WAT" depends-on-methods="StandAlone.Eml_File_Full_RegressionTest.Upload_eml_File" finished-at="2020-11-04T09:25:01 WAT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void StandAlone.Eml_File_Full_RegressionTest.Handle_Underline_On_eml(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Handle_Underline_On_eml -->
-        <test-method status="PASS" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="reporteResu" is-config="true" duration-ms="282" started-at="2020-11-04T09:25:01 WAT" finished-at="2020-11-04T09:25:01 WAT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=Handle_Underline_On_eml status=SUCCESS method=Eml_File_Full_RegressionTest.Handle_Underline_On_eml(java.lang.reflect.Method)[pri:6, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reporteResu -->
-        <test-method status="PASS" signature="Handle_freeHand_On_eml(java.lang.reflect.Method)[pri:7, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="Handle_freeHand_On_eml" duration-ms="2923" started-at="2020-11-04T09:25:01 WAT" depends-on-methods="StandAlone.Eml_File_Full_RegressionTest.Upload_eml_File" finished-at="2020-11-04T09:25:04 WAT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void StandAlone.Eml_File_Full_RegressionTest.Handle_freeHand_On_eml(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Handle_freeHand_On_eml -->
-        <test-method status="PASS" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="startReport" is-config="true" duration-ms="0" started-at="2020-11-04T09:25:01 WAT" finished-at="2020-11-04T09:25:01 WAT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void StandAlone.Eml_File_Full_RegressionTest.Handle_freeHand_On_eml(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startReport -->
-        <test-method status="PASS" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="reporteResu" is-config="true" duration-ms="294" started-at="2020-11-04T09:25:04 WAT" finished-at="2020-11-04T09:25:05 WAT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=Handle_freeHand_On_eml status=SUCCESS method=Eml_File_Full_RegressionTest.Handle_freeHand_On_eml(java.lang.reflect.Method)[pri:7, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reporteResu -->
-        <test-method status="PASS" signature="Handle_polyline_On_eml(java.lang.reflect.Method)[pri:8, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="Handle_polyline_On_eml" duration-ms="5497" started-at="2020-11-04T09:25:05 WAT" depends-on-methods="StandAlone.Eml_File_Full_RegressionTest.Upload_eml_File" finished-at="2020-11-04T09:25:10 WAT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void StandAlone.Eml_File_Full_RegressionTest.Handle_polyline_On_eml(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Handle_polyline_On_eml -->
-        <test-method status="PASS" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="startReport" is-config="true" duration-ms="0" started-at="2020-11-04T09:25:05 WAT" finished-at="2020-11-04T09:25:05 WAT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void StandAlone.Eml_File_Full_RegressionTest.Handle_polyline_On_eml(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startReport -->
-        <test-method status="PASS" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="reporteResu" is-config="true" duration-ms="285" started-at="2020-11-04T09:25:10 WAT" finished-at="2020-11-04T09:25:10 WAT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=Handle_polyline_On_eml status=SUCCESS method=Eml_File_Full_RegressionTest.Handle_polyline_On_eml(java.lang.reflect.Method)[pri:8, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reporteResu -->
-        <test-method status="PASS" signature="Handel_Polygone_On_eml(java.lang.reflect.Method)[pri:9, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="Handel_Polygone_On_eml" duration-ms="5444" started-at="2020-11-04T09:25:10 WAT" depends-on-methods="StandAlone.Eml_File_Full_RegressionTest.Upload_eml_File" finished-at="2020-11-04T09:25:16 WAT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void StandAlone.Eml_File_Full_RegressionTest.Handel_Polygone_On_eml(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Handel_Polygone_On_eml -->
-        <test-method status="PASS" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="startReport" is-config="true" duration-ms="0" started-at="2020-11-04T09:25:10 WAT" finished-at="2020-11-04T09:25:10 WAT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void StandAlone.Eml_File_Full_RegressionTest.Handel_Polygone_On_eml(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startReport -->
-        <test-method status="PASS" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="reporteResu" is-config="true" duration-ms="299" started-at="2020-11-04T09:25:16 WAT" finished-at="2020-11-04T09:25:16 WAT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=Handel_Polygone_On_eml status=SUCCESS method=Eml_File_Full_RegressionTest.Handel_Polygone_On_eml(java.lang.reflect.Method)[pri:9, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reporteResu -->
-        <test-method status="PASS" signature="Urgent_Stamp_On_eml()[pri:10, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="Urgent_Stamp_On_eml" duration-ms="3576" started-at="2020-11-04T09:25:16 WAT" depends-on-methods="StandAlone.Eml_File_Full_RegressionTest.Upload_eml_File" finished-at="2020-11-04T09:25:20 WAT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Urgent_Stamp_On_eml -->
-        <test-method status="PASS" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="startReport" is-config="true" duration-ms="0" started-at="2020-11-04T09:25:16 WAT" finished-at="2020-11-04T09:25:16 WAT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void StandAlone.Eml_File_Full_RegressionTest.Urgent_Stamp_On_eml() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startReport -->
-        <test-method status="PASS" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="reporteResu" is-config="true" duration-ms="397" started-at="2020-11-04T09:25:20 WAT" finished-at="2020-11-04T09:25:20 WAT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=Urgent_Stamp_On_eml status=SUCCESS method=Eml_File_Full_RegressionTest.Urgent_Stamp_On_eml()[pri:10, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reporteResu -->
-        <test-method status="PASS" signature="Approved_Stamp_On_eml()[pri:11, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="Approved_Stamp_On_eml" duration-ms="2793" started-at="2020-11-04T09:25:20 WAT" depends-on-methods="StandAlone.Eml_File_Full_RegressionTest.Upload_eml_File" finished-at="2020-11-04T09:25:23 WAT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Approved_Stamp_On_eml -->
-        <test-method status="PASS" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="startReport" is-config="true" duration-ms="0" started-at="2020-11-04T09:25:20 WAT" finished-at="2020-11-04T09:25:20 WAT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void StandAlone.Eml_File_Full_RegressionTest.Approved_Stamp_On_eml() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startReport -->
-        <test-method status="PASS" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="reporteResu" is-config="true" duration-ms="473" started-at="2020-11-04T09:25:23 WAT" finished-at="2020-11-04T09:25:23 WAT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=Approved_Stamp_On_eml status=SUCCESS method=Eml_File_Full_RegressionTest.Approved_Stamp_On_eml()[pri:11, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reporteResu -->
-        <test-method status="PASS" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="startReport" is-config="true" duration-ms="0" started-at="2020-11-04T09:25:23 WAT" finished-at="2020-11-04T09:25:23 WAT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void StandAlone.Eml_File_Full_RegressionTest.Draft_Stamp_On_eml() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startReport -->
-        <test-method status="PASS" signature="Draft_Stamp_On_eml()[pri:12, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="Draft_Stamp_On_eml" duration-ms="4038" started-at="2020-11-04T09:25:23 WAT" depends-on-methods="StandAlone.Eml_File_Full_RegressionTest.Upload_eml_File" finished-at="2020-11-04T09:25:27 WAT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Draft_Stamp_On_eml -->
-        <test-method status="PASS" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="reporteResu" is-config="true" duration-ms="460" started-at="2020-11-04T09:25:27 WAT" finished-at="2020-11-04T09:25:28 WAT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=Draft_Stamp_On_eml status=SUCCESS method=Eml_File_Full_RegressionTest.Draft_Stamp_On_eml()[pri:12, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reporteResu -->
-        <test-method status="PASS" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="startReport" is-config="true" duration-ms="0" started-at="2020-11-04T09:25:28 WAT" finished-at="2020-11-04T09:25:28 WAT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void StandAlone.Eml_File_Full_RegressionTest.Signature_Stamp_On_eml() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startReport -->
-        <test-method status="PASS" signature="Signature_Stamp_On_eml()[pri:13, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="Signature_Stamp_On_eml" duration-ms="4292" started-at="2020-11-04T09:25:28 WAT" depends-on-methods="StandAlone.Eml_File_Full_RegressionTest.Upload_eml_File" finished-at="2020-11-04T09:25:32 WAT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Signature_Stamp_On_eml -->
-        <test-method status="PASS" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="reporteResu" is-config="true" duration-ms="453" started-at="2020-11-04T09:25:32 WAT" finished-at="2020-11-04T09:25:33 WAT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=Signature_Stamp_On_eml status=SUCCESS method=Eml_File_Full_RegressionTest.Signature_Stamp_On_eml()[pri:13, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reporteResu -->
-        <test-method status="PASS" signature="Free_Stamp_On_eml()[pri:14, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="Free_Stamp_On_eml" duration-ms="4369" started-at="2020-11-04T09:25:33 WAT" depends-on-methods="StandAlone.Eml_File_Full_RegressionTest.Upload_eml_File" finished-at="2020-11-04T09:25:37 WAT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Free_Stamp_On_eml -->
-        <test-method status="PASS" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="startReport" is-config="true" duration-ms="0" started-at="2020-11-04T09:25:33 WAT" finished-at="2020-11-04T09:25:33 WAT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void StandAlone.Eml_File_Full_RegressionTest.Free_Stamp_On_eml() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startReport -->
-        <test-method status="PASS" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="reporteResu" is-config="true" duration-ms="436" started-at="2020-11-04T09:25:37 WAT" finished-at="2020-11-04T09:25:37 WAT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=Free_Stamp_On_eml status=SUCCESS method=Eml_File_Full_RegressionTest.Free_Stamp_On_eml()[pri:14, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reporteResu -->
-        <test-method status="PASS" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="startReport" is-config="true" duration-ms="0" started-at="2020-11-04T09:25:37 WAT" finished-at="2020-11-04T09:25:37 WAT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void StandAlone.Eml_File_Full_RegressionTest.delete_Anotation_On_eml(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startReport -->
-        <test-method status="PASS" signature="delete_Anotation_On_eml(java.lang.reflect.Method)[pri:15, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="delete_Anotation_On_eml" duration-ms="3126" started-at="2020-11-04T09:25:37 WAT" depends-on-methods="StandAlone.Eml_File_Full_RegressionTest.Upload_eml_File, StandAlone.Eml_File_Full_RegressionTest.Handle_StickyNote_On_eml, StandAlone.Eml_File_Full_RegressionTest.Handel_Polygone_On_eml" finished-at="2020-11-04T09:25:40 WAT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void StandAlone.Eml_File_Full_RegressionTest.delete_Anotation_On_eml(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- delete_Anotation_On_eml -->
-        <test-method status="PASS" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="reporteResu" is-config="true" duration-ms="313" started-at="2020-11-04T09:25:40 WAT" finished-at="2020-11-04T09:25:41 WAT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=delete_Anotation_On_eml status=SUCCESS method=Eml_File_Full_RegressionTest.delete_Anotation_On_eml(java.lang.reflect.Method)[pri:15, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reporteResu -->
-        <test-method status="PASS" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="startReport" is-config="true" duration-ms="0" started-at="2020-11-04T09:25:41 WAT" finished-at="2020-11-04T09:25:41 WAT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void StandAlone.Eml_File_Full_RegressionTest.Refresh_After_Delete_Anotation_On_eml(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startReport -->
-        <test-method status="PASS" signature="Refresh_After_Delete_Anotation_On_eml(java.lang.reflect.Method)[pri:16, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="Refresh_After_Delete_Anotation_On_eml" duration-ms="20260" started-at="2020-11-04T09:25:41 WAT" depends-on-methods="StandAlone.Eml_File_Full_RegressionTest.delete_Anotation_On_eml" finished-at="2020-11-04T09:26:01 WAT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void StandAlone.Eml_File_Full_RegressionTest.Refresh_After_Delete_Anotation_On_eml(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Refresh_After_Delete_Anotation_On_eml -->
-        <test-method status="PASS" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="reporteResu" is-config="true" duration-ms="309" started-at="2020-11-04T09:26:01 WAT" finished-at="2020-11-04T09:26:01 WAT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=Refresh_After_Delete_Anotation_On_eml status=SUCCESS method=Eml_File_Full_RegressionTest.Refresh_After_Delete_Anotation_On_eml(java.lang.reflect.Method)[pri:16, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reporteResu -->
-        <test-method status="PASS" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="startReport" is-config="true" duration-ms="0" started-at="2020-11-04T09:26:01 WAT" finished-at="2020-11-04T09:26:01 WAT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void StandAlone.Eml_File_Full_RegressionTest.SAVE_DATA_ON_eml(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startReport -->
-        <test-method status="PASS" signature="SAVE_DATA_ON_eml(java.lang.reflect.Method)[pri:17, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="SAVE_DATA_ON_eml" duration-ms="1515" started-at="2020-11-04T09:26:01 WAT" depends-on-methods="StandAlone.Eml_File_Full_RegressionTest.Upload_eml_File" finished-at="2020-11-04T09:26:03 WAT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void StandAlone.Eml_File_Full_RegressionTest.SAVE_DATA_ON_eml(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SAVE_DATA_ON_eml -->
-        <test-method status="PASS" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="reporteResu" is-config="true" duration-ms="285" started-at="2020-11-04T09:26:03 WAT" finished-at="2020-11-04T09:26:03 WAT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=SAVE_DATA_ON_eml status=SUCCESS method=Eml_File_Full_RegressionTest.SAVE_DATA_ON_eml(java.lang.reflect.Method)[pri:17, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reporteResu -->
-        <test-method status="PASS" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="startReport" is-config="true" duration-ms="0" started-at="2020-11-04T09:26:03 WAT" finished-at="2020-11-04T09:26:03 WAT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void StandAlone.Eml_File_Full_RegressionTest.Refresh_After_Save_Anotation_On_eml(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startReport -->
-        <test-method status="PASS" signature="Refresh_After_Save_Anotation_On_eml(java.lang.reflect.Method)[pri:18, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="Refresh_After_Save_Anotation_On_eml" duration-ms="179" started-at="2020-11-04T09:26:03 WAT" depends-on-methods="StandAlone.Eml_File_Full_RegressionTest.SAVE_DATA_ON_eml" finished-at="2020-11-04T09:26:03 WAT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void StandAlone.Eml_File_Full_RegressionTest.Refresh_After_Save_Anotation_On_eml(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Refresh_After_Save_Anotation_On_eml -->
-        <test-method status="PASS" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="reporteResu" is-config="true" duration-ms="307" started-at="2020-11-04T09:26:03 WAT" finished-at="2020-11-04T09:26:04 WAT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=Refresh_After_Save_Anotation_On_eml status=SUCCESS method=Eml_File_Full_RegressionTest.Refresh_After_Save_Anotation_On_eml(java.lang.reflect.Method)[pri:18, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reporteResu -->
-        <test-method status="PASS" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="startReport" is-config="true" duration-ms="0" started-at="2020-11-04T09:26:04 WAT" finished-at="2020-11-04T09:26:04 WAT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void StandAlone.Eml_File_Full_RegressionTest.Add_a_Signet_On_eml(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startReport -->
-        <test-method status="PASS" signature="Add_a_Signet_On_eml(java.lang.reflect.Method)[pri:19, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="Add_a_Signet_On_eml" duration-ms="5427" started-at="2020-11-04T09:26:04 WAT" depends-on-methods="StandAlone.Eml_File_Full_RegressionTest.Upload_eml_File" finished-at="2020-11-04T09:26:09 WAT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void StandAlone.Eml_File_Full_RegressionTest.Add_a_Signet_On_eml(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Add_a_Signet_On_eml -->
-        <test-method status="PASS" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="reporteResu" is-config="true" duration-ms="279" started-at="2020-11-04T09:26:09 WAT" finished-at="2020-11-04T09:26:09 WAT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=Add_a_Signet_On_eml status=SUCCESS method=Eml_File_Full_RegressionTest.Add_a_Signet_On_eml(java.lang.reflect.Method)[pri:19, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reporteResu -->
-        <test-method status="PASS" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="startReport" is-config="true" duration-ms="0" started-at="2020-11-04T09:26:09 WAT" finished-at="2020-11-04T09:26:09 WAT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void StandAlone.Eml_File_Full_RegressionTest.Delete_a_Signet_On_eml(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startReport -->
-        <test-method status="PASS" signature="Delete_a_Signet_On_eml(java.lang.reflect.Method)[pri:20, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="Delete_a_Signet_On_eml" duration-ms="4745" started-at="2020-11-04T09:26:09 WAT" depends-on-methods="StandAlone.Eml_File_Full_RegressionTest.Add_a_Signet_On_eml" finished-at="2020-11-04T09:26:14 WAT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void StandAlone.Eml_File_Full_RegressionTest.Delete_a_Signet_On_eml(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Delete_a_Signet_On_eml -->
-        <test-method status="PASS" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="reporteResu" is-config="true" duration-ms="333" started-at="2020-11-04T09:26:14 WAT" finished-at="2020-11-04T09:26:14 WAT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=Delete_a_Signet_On_eml status=SUCCESS method=Eml_File_Full_RegressionTest.Delete_a_Signet_On_eml(java.lang.reflect.Method)[pri:20, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reporteResu -->
-        <test-method status="PASS" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="startReport" is-config="true" duration-ms="0" started-at="2020-11-04T09:26:14 WAT" finished-at="2020-11-04T09:26:14 WAT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void StandAlone.Eml_File_Full_RegressionTest.ADD_AN_ANCRE_On_eml(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startReport -->
-        <test-method status="PASS" signature="ADD_AN_ANCRE_On_eml(java.lang.reflect.Method)[pri:21, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="ADD_AN_ANCRE_On_eml" duration-ms="21771" started-at="2020-11-04T09:26:14 WAT" depends-on-methods="StandAlone.Eml_File_Full_RegressionTest.Upload_eml_File" finished-at="2020-11-04T09:26:36 WAT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void StandAlone.Eml_File_Full_RegressionTest.ADD_AN_ANCRE_On_eml(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ADD_AN_ANCRE_On_eml -->
-        <test-method status="PASS" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="reporteResu" is-config="true" duration-ms="297" started-at="2020-11-04T09:26:36 WAT" finished-at="2020-11-04T09:26:37 WAT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=ADD_AN_ANCRE_On_eml status=SUCCESS method=Eml_File_Full_RegressionTest.ADD_AN_ANCRE_On_eml(java.lang.reflect.Method)[pri:21, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reporteResu -->
-        <test-method status="PASS" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="startReport" is-config="true" duration-ms="0" started-at="2020-11-04T09:26:37 WAT" finished-at="2020-11-04T09:26:37 WAT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void StandAlone.Eml_File_Full_RegressionTest.SKIP_AN_ANCRE_On_eml(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startReport -->
-        <test-method status="PASS" signature="SKIP_AN_ANCRE_On_eml(java.lang.reflect.Method)[pri:22, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="SKIP_AN_ANCRE_On_eml" duration-ms="21531" started-at="2020-11-04T09:26:37 WAT" depends-on-methods="StandAlone.Eml_File_Full_RegressionTest.Upload_eml_File" finished-at="2020-11-04T09:26:58 WAT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void StandAlone.Eml_File_Full_RegressionTest.SKIP_AN_ANCRE_On_eml(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SKIP_AN_ANCRE_On_eml -->
-        <test-method status="PASS" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="reporteResu" is-config="true" duration-ms="297" started-at="2020-11-04T09:26:58 WAT" finished-at="2020-11-04T09:26:58 WAT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=SKIP_AN_ANCRE_On_eml status=SUCCESS method=Eml_File_Full_RegressionTest.SKIP_AN_ANCRE_On_eml(java.lang.reflect.Method)[pri:22, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reporteResu -->
-        <test-method status="PASS" signature="ZoomIn_On_eml(java.lang.reflect.Method)[pri:23, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="ZoomIn_On_eml" duration-ms="1756" started-at="2020-11-04T09:26:58 WAT" depends-on-methods="StandAlone.Eml_File_Full_RegressionTest.Upload_eml_File" finished-at="2020-11-04T09:27:00 WAT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void StandAlone.Eml_File_Full_RegressionTest.ZoomIn_On_eml(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ZoomIn_On_eml -->
-        <test-method status="PASS" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="startReport" is-config="true" duration-ms="0" started-at="2020-11-04T09:26:58 WAT" finished-at="2020-11-04T09:26:58 WAT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void StandAlone.Eml_File_Full_RegressionTest.ZoomIn_On_eml(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startReport -->
-        <test-method status="PASS" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="reporteResu" is-config="true" duration-ms="287" started-at="2020-11-04T09:27:00 WAT" finished-at="2020-11-04T09:27:00 WAT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=ZoomIn_On_eml status=SUCCESS method=Eml_File_Full_RegressionTest.ZoomIn_On_eml(java.lang.reflect.Method)[pri:23, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reporteResu -->
-        <test-method status="PASS" signature="ZoomOut_On_eml(java.lang.reflect.Method)[pri:24, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="ZoomOut_On_eml" duration-ms="901" started-at="2020-11-04T09:27:00 WAT" depends-on-methods="StandAlone.Eml_File_Full_RegressionTest.Upload_eml_File" finished-at="2020-11-04T09:27:01 WAT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void StandAlone.Eml_File_Full_RegressionTest.ZoomOut_On_eml(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ZoomOut_On_eml -->
-        <test-method status="PASS" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="startReport" is-config="true" duration-ms="0" started-at="2020-11-04T09:27:00 WAT" finished-at="2020-11-04T09:27:00 WAT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void StandAlone.Eml_File_Full_RegressionTest.ZoomOut_On_eml(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startReport -->
-        <test-method status="PASS" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="reporteResu" is-config="true" duration-ms="321" started-at="2020-11-04T09:27:01 WAT" finished-at="2020-11-04T09:27:02 WAT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=ZoomOut_On_eml status=SUCCESS method=Eml_File_Full_RegressionTest.ZoomOut_On_eml(java.lang.reflect.Method)[pri:24, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reporteResu -->
-        <test-method status="PASS" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="startReport" is-config="true" duration-ms="0" started-at="2020-11-04T09:27:02 WAT" finished-at="2020-11-04T09:27:02 WAT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void StandAlone.Eml_File_Full_RegressionTest.ZoomInZone_On_eml(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startReport -->
-        <test-method status="PASS" signature="ZoomInZone_On_eml(java.lang.reflect.Method)[pri:25, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="ZoomInZone_On_eml" duration-ms="771" started-at="2020-11-04T09:27:02 WAT" depends-on-methods="StandAlone.Eml_File_Full_RegressionTest.Upload_eml_File" finished-at="2020-11-04T09:27:02 WAT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void StandAlone.Eml_File_Full_RegressionTest.ZoomInZone_On_eml(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ZoomInZone_On_eml -->
-        <test-method status="PASS" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="reporteResu" is-config="true" duration-ms="296" started-at="2020-11-04T09:27:02 WAT" finished-at="2020-11-04T09:27:03 WAT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=ZoomInZone_On_eml status=SUCCESS method=Eml_File_Full_RegressionTest.ZoomInZone_On_eml(java.lang.reflect.Method)[pri:25, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reporteResu -->
-        <test-method status="PASS" signature="Zoom_Adjust_On_eml(java.lang.reflect.Method)[pri:26, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="Zoom_Adjust_On_eml" duration-ms="798" started-at="2020-11-04T09:27:03 WAT" depends-on-methods="StandAlone.Eml_File_Full_RegressionTest.Upload_eml_File" finished-at="2020-11-04T09:27:03 WAT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void StandAlone.Eml_File_Full_RegressionTest.Zoom_Adjust_On_eml(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Zoom_Adjust_On_eml -->
-        <test-method status="PASS" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="startReport" is-config="true" duration-ms="0" started-at="2020-11-04T09:27:03 WAT" finished-at="2020-11-04T09:27:03 WAT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void StandAlone.Eml_File_Full_RegressionTest.Zoom_Adjust_On_eml(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startReport -->
-        <test-method status="PASS" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="reporteResu" is-config="true" duration-ms="286" started-at="2020-11-04T09:27:03 WAT" finished-at="2020-11-04T09:27:04 WAT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=Zoom_Adjust_On_eml status=SUCCESS method=Eml_File_Full_RegressionTest.Zoom_Adjust_On_eml(java.lang.reflect.Method)[pri:26, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reporteResu -->
-        <test-method status="PASS" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="startReport" is-config="true" duration-ms="0" started-at="2020-11-04T09:27:04 WAT" finished-at="2020-11-04T09:27:04 WAT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void StandAlone.Eml_File_Full_RegressionTest.Zoom_Text_Box_Control_On_eml(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startReport -->
-        <test-method status="PASS" signature="Zoom_Text_Box_Control_On_eml(java.lang.reflect.Method)[pri:27, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="Zoom_Text_Box_Control_On_eml" duration-ms="2562" started-at="2020-11-04T09:27:04 WAT" depends-on-methods="StandAlone.Eml_File_Full_RegressionTest.Upload_eml_File" finished-at="2020-11-04T09:27:06 WAT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void StandAlone.Eml_File_Full_RegressionTest.Zoom_Text_Box_Control_On_eml(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Zoom_Text_Box_Control_On_eml -->
-        <test-method status="PASS" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="reporteResu" is-config="true" duration-ms="298" started-at="2020-11-04T09:27:06 WAT" finished-at="2020-11-04T09:27:07 WAT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=Zoom_Text_Box_Control_On_eml status=SUCCESS method=Eml_File_Full_RegressionTest.Zoom_Text_Box_Control_On_eml(java.lang.reflect.Method)[pri:27, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reporteResu -->
-        <test-method status="PASS" signature="Left_Rotation_Control_On_eml(java.lang.reflect.Method)[pri:28, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="Left_Rotation_Control_On_eml" duration-ms="710" started-at="2020-11-04T09:27:07 WAT" depends-on-methods="StandAlone.Eml_File_Full_RegressionTest.Upload_eml_File" finished-at="2020-11-04T09:27:07 WAT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void StandAlone.Eml_File_Full_RegressionTest.Left_Rotation_Control_On_eml(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Left_Rotation_Control_On_eml -->
-        <test-method status="PASS" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="startReport" is-config="true" duration-ms="0" started-at="2020-11-04T09:27:07 WAT" finished-at="2020-11-04T09:27:07 WAT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void StandAlone.Eml_File_Full_RegressionTest.Left_Rotation_Control_On_eml(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startReport -->
-        <test-method status="PASS" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="reporteResu" is-config="true" duration-ms="314" started-at="2020-11-04T09:27:07 WAT" finished-at="2020-11-04T09:27:08 WAT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=Left_Rotation_Control_On_eml status=SUCCESS method=Eml_File_Full_RegressionTest.Left_Rotation_Control_On_eml(java.lang.reflect.Method)[pri:28, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reporteResu -->
-        <test-method status="PASS" signature="Right_Rotation_Control_On_eml(java.lang.reflect.Method)[pri:29, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="Right_Rotation_Control_On_eml" duration-ms="692" started-at="2020-11-04T09:27:08 WAT" depends-on-methods="StandAlone.Eml_File_Full_RegressionTest.Upload_eml_File" finished-at="2020-11-04T09:27:08 WAT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void StandAlone.Eml_File_Full_RegressionTest.Right_Rotation_Control_On_eml(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Right_Rotation_Control_On_eml -->
-        <test-method status="PASS" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="startReport" is-config="true" duration-ms="0" started-at="2020-11-04T09:27:08 WAT" finished-at="2020-11-04T09:27:08 WAT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void StandAlone.Eml_File_Full_RegressionTest.Right_Rotation_Control_On_eml(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startReport -->
-        <test-method status="PASS" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="reporteResu" is-config="true" duration-ms="285" started-at="2020-11-04T09:27:08 WAT" finished-at="2020-11-04T09:27:09 WAT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=Right_Rotation_Control_On_eml status=SUCCESS method=Eml_File_Full_RegressionTest.Right_Rotation_Control_On_eml(java.lang.reflect.Method)[pri:29, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reporteResu -->
-        <test-method status="PASS" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="startReport" is-config="true" duration-ms="1" started-at="2020-11-04T09:27:09 WAT" finished-at="2020-11-04T09:27:09 WAT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void StandAlone.Eml_File_Full_RegressionTest.Activate_Multiview_On_eml(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startReport -->
-        <test-method status="PASS" signature="Activate_Multiview_On_eml(java.lang.reflect.Method)[pri:30, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="Activate_Multiview_On_eml" duration-ms="675" started-at="2020-11-04T09:27:09 WAT" depends-on-methods="StandAlone.Eml_File_Full_RegressionTest.Upload_eml_File" finished-at="2020-11-04T09:27:09 WAT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void StandAlone.Eml_File_Full_RegressionTest.Activate_Multiview_On_eml(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Activate_Multiview_On_eml -->
-        <test-method status="FAIL" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="reporteResu" is-config="true" duration-ms="51" started-at="2020-11-04T09:27:09 WAT" finished-at="2020-11-04T09:27:09 WAT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=Activate_Multiview_On_eml status=SUCCESS method=Eml_File_Full_RegressionTest.Activate_Multiview_On_eml(java.lang.reflect.Method)[pri:30, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.UnhandledAlertException">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[unexpected alert open: <unknown>
-  (Session info: chrome=86.0.4240.183): 
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'HICHEM', ip: '192.168.198.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64202}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: d9db8a556596b9aca420d3342933e699]]>
+              <![CDATA[ERROR ACCURRED : ARENDER VERSION IS NOT TRUE expected [Version 4.1.1-rc1 - 201020_144655] but found [Version 4.1.1-rc3 - 201028_110038]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: <unknown>
-  (Session info: chrome=86.0.4240.183): 
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'HICHEM', ip: '192.168.198.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64202}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: d9db8a556596b9aca420d3342933e699
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
-at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
-at com.sun.proxy.$Proxy11.getScreenshotAs(Unknown Source)
-at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
-at pageObject.MediaBase.takesScreenShots(MediaBase.java:25)
-at pageObject.TestBase.reporteResu(TestBase.java:138)
-at sun.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:64)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:364)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:318)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
+              <![CDATA[java.lang.AssertionError: ERROR ACCURRED : ARENDER VERSION IS NOT TRUE expected [Version 4.1.1-rc1 - 201020_144655] but found [Version 4.1.1-rc3 - 201028_110038]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at StandAlone.ARender_Full_Fonction.logo_Test(ARender_Full_Fonction.java:148)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
 at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
 at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:767)
-at org.testng.TestRunner.run(TestRunner.java:588)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
 at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
 at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
 at org.testng.SuiteRunner.run(SuiteRunner.java:286)
 at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
 at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
-at org.testng.TestNG.runSuites(TestNG.java:1066)
-at org.testng.TestNG.run(TestNG.java:1034)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logo_Test -->
+        <test-method is-config="true" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.ARender_Full_Fonction@5acf93bb]" started-at="2020-11-04T11:43:58 WAT" name="reporteResu" finished-at="2020-11-04T11:43:59 WAT" duration-ms="378" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logo_Test status=FAILURE method=ARender_Full_Fonction.logo_Test(java.lang.reflect.Method)[pri:8, instance:StandAlone.ARender_Full_Fonction@5acf93bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reporteResu -->
-        <test-method status="SKIP" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="startReport" is-config="true" duration-ms="-1604478429869" started-at="2020-11-04T09:27:09 WAT" finished-at="1970-01-01T01:00:00 WAT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startReport -->
-        <test-method status="SKIP" signature="Desactivate_Multiview_On_eml(java.lang.reflect.Method)[pri:31, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="Desactivate_Multiview_On_eml" duration-ms="0" started-at="2020-11-04T09:27:09 WAT" depends-on-methods="StandAlone.Eml_File_Full_RegressionTest.Activate_Multiview_On_eml" finished-at="2020-11-04T09:27:09 WAT">
-          <exception class="org.openqa.selenium.UnhandledAlertException">
-            <message>
-              <![CDATA[unexpected alert open: <unknown>
-  (Session info: chrome=86.0.4240.183): 
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'HICHEM', ip: '192.168.198.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64202}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: d9db8a556596b9aca420d3342933e699]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: <unknown>
-  (Session info: chrome=86.0.4240.183): 
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'HICHEM', ip: '192.168.198.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64202}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: d9db8a556596b9aca420d3342933e699
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
-at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
-at com.sun.proxy.$Proxy11.getScreenshotAs(Unknown Source)
-at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
-at pageObject.MediaBase.takesScreenShots(MediaBase.java:25)
-at pageObject.TestBase.reporteResu(TestBase.java:138)
-at sun.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:64)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:364)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:318)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:767)
-at org.testng.TestRunner.run(TestRunner.java:588)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
-at org.testng.TestNG.runSuites(TestNG.java:1066)
-at org.testng.TestNG.run(TestNG.java:1034)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Desactivate_Multiview_On_eml -->
-        <test-method status="SKIP" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="reporteResu" is-config="true" duration-ms="-1604478429872" started-at="2020-11-04T09:27:09 WAT" finished-at="1970-01-01T01:00:00 WAT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reporteResu -->
-        <test-method status="SKIP" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="startReport" is-config="true" duration-ms="-1604478429873" started-at="2020-11-04T09:27:09 WAT" finished-at="1970-01-01T01:00:00 WAT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startReport -->
-        <test-method status="SKIP" signature="Multi_Multiview_On_eml(java.lang.reflect.Method)[pri:32, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="Multi_Multiview_On_eml" duration-ms="0" started-at="2020-11-04T09:27:09 WAT" depends-on-methods="StandAlone.Eml_File_Full_RegressionTest.Upload_eml_File" finished-at="2020-11-04T09:27:09 WAT">
-          <exception class="org.openqa.selenium.UnhandledAlertException">
-            <message>
-              <![CDATA[unexpected alert open: <unknown>
-  (Session info: chrome=86.0.4240.183): 
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'HICHEM', ip: '192.168.198.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64202}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: d9db8a556596b9aca420d3342933e699]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: <unknown>
-  (Session info: chrome=86.0.4240.183): 
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'HICHEM', ip: '192.168.198.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64202}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: d9db8a556596b9aca420d3342933e699
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
-at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
-at com.sun.proxy.$Proxy11.getScreenshotAs(Unknown Source)
-at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
-at pageObject.MediaBase.takesScreenShots(MediaBase.java:25)
-at pageObject.TestBase.reporteResu(TestBase.java:138)
-at sun.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:64)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:364)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:318)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:767)
-at org.testng.TestRunner.run(TestRunner.java:588)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
-at org.testng.TestNG.runSuites(TestNG.java:1066)
-at org.testng.TestNG.run(TestNG.java:1034)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Multi_Multiview_On_eml -->
-        <test-method status="SKIP" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="reporteResu" is-config="true" duration-ms="-1604478429877" started-at="2020-11-04T09:27:09 WAT" finished-at="1970-01-01T01:00:00 WAT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reporteResu -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="tearDown" is-config="true" duration-ms="-1604478429878" started-at="2020-11-04T09:27:09 WAT" finished-at="1970-01-01T01:00:00 WAT">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:StandAlone.ARender_Full_Fonction@5acf93bb]" started-at="2020-11-04T11:43:59 WAT" name="tearDown" finished-at="2020-11-04T11:44:04 WAT" duration-ms="4857" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="endReport()[pri:0, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191]" name="endReport" is-config="true" duration-ms="303" started-at="2020-11-04T09:27:09 WAT" finished-at="2020-11-04T09:27:10 WAT">
+        <test-method is-config="true" signature="endReport()[pri:0, instance:StandAlone.ARender_Full_Fonction@5acf93bb]" started-at="2020-11-04T11:46:53 WAT" name="endReport" finished-at="2020-11-04T11:46:53 WAT" duration-ms="265" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
-      </class> <!-- StandAlone.Eml_File_Full_RegressionTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- StandAlone.ARender_Full_Fonction -->
+      <class name="StandAlone.Word_File_Full_RegressionTest">
+        <test-method is-config="true" signature="initialization()[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:44:04 WAT" name="initialization" finished-at="2020-11-04T11:44:09 WAT" duration-ms="5659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="Upload_word_File(java.lang.reflect.Method)[pri:1, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:44:09 WAT" name="Upload_word_File" finished-at="2020-11-04T11:44:15 WAT" duration-ms="5418" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.Upload_word_File(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Upload_word_File -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:44:09 WAT" name="startReport" finished-at="2020-11-04T11:44:09 WAT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.Upload_word_File(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:44:15 WAT" name="reporteResu" finished-at="2020-11-04T11:44:15 WAT" duration-ms="386" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Upload_word_File status=SUCCESS method=Word_File_Full_RegressionTest.Upload_word_File(java.lang.reflect.Method)[pri:1, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporteResu -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:44:15 WAT" name="startReport" finished-at="2020-11-04T11:44:15 WAT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.Handle_StickyNote_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method signature="Handle_StickyNote_On_word(java.lang.reflect.Method)[pri:2, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:44:15 WAT" name="Handle_StickyNote_On_word" finished-at="2020-11-04T11:44:18 WAT" depends-on-methods="StandAlone.Word_File_Full_RegressionTest.Upload_word_File" duration-ms="2562" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.Handle_StickyNote_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Handle_StickyNote_On_word -->
+        <test-method is-config="true" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:44:18 WAT" name="reporteResu" finished-at="2020-11-04T11:44:18 WAT" duration-ms="369" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Handle_StickyNote_On_word status=SUCCESS method=Word_File_Full_RegressionTest.Handle_StickyNote_On_word(java.lang.reflect.Method)[pri:2, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporteResu -->
+        <test-method signature="Handle_FreeText_On_word(java.lang.reflect.Method)[pri:3, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:44:18 WAT" name="Handle_FreeText_On_word" finished-at="2020-11-04T11:44:20 WAT" depends-on-methods="StandAlone.Word_File_Full_RegressionTest.Upload_word_File" duration-ms="1990" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.Handle_FreeText_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Handle_FreeText_On_word -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:44:18 WAT" name="startReport" finished-at="2020-11-04T11:44:18 WAT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.Handle_FreeText_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:44:20 WAT" name="reporteResu" finished-at="2020-11-04T11:44:20 WAT" duration-ms="369" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Handle_FreeText_On_word status=SUCCESS method=Word_File_Full_RegressionTest.Handle_FreeText_On_word(java.lang.reflect.Method)[pri:3, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporteResu -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:44:20 WAT" name="startReport" finished-at="2020-11-04T11:44:20 WAT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.Handle_Circle___On_word(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method signature="Handle_Circle___On_word(java.lang.reflect.Method)[pri:4, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:44:20 WAT" name="Handle_Circle___On_word" finished-at="2020-11-04T11:44:24 WAT" depends-on-methods="StandAlone.Word_File_Full_RegressionTest.Upload_word_File" duration-ms="4008" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.Handle_Circle___On_word(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Handle_Circle___On_word -->
+        <test-method is-config="true" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:44:24 WAT" name="reporteResu" finished-at="2020-11-04T11:44:25 WAT" duration-ms="371" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Handle_Circle___On_word status=SUCCESS method=Word_File_Full_RegressionTest.Handle_Circle___On_word(java.lang.reflect.Method)[pri:4, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporteResu -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:44:25 WAT" name="startReport" finished-at="2020-11-04T11:44:25 WAT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.Handle_Arrow_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method signature="Handle_Arrow_On_word(java.lang.reflect.Method)[pri:5, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:44:25 WAT" name="Handle_Arrow_On_word" finished-at="2020-11-04T11:44:41 WAT" depends-on-methods="StandAlone.Word_File_Full_RegressionTest.Upload_word_File" duration-ms="16176" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.Handle_Arrow_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Handle_Arrow_On_word -->
+        <test-method is-config="true" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:44:41 WAT" name="reporteResu" finished-at="2020-11-04T11:44:41 WAT" duration-ms="375" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Handle_Arrow_On_word status=SUCCESS method=Word_File_Full_RegressionTest.Handle_Arrow_On_word(java.lang.reflect.Method)[pri:5, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporteResu -->
+        <test-method signature="Handle_Underline_On_word(java.lang.reflect.Method)[pri:6, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:44:41 WAT" name="Handle_Underline_On_word" finished-at="2020-11-04T11:44:45 WAT" depends-on-methods="StandAlone.Word_File_Full_RegressionTest.Upload_word_File" duration-ms="4131" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.Handle_Underline_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Handle_Underline_On_word -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:44:41 WAT" name="startReport" finished-at="2020-11-04T11:44:41 WAT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.Handle_Underline_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:44:45 WAT" name="reporteResu" finished-at="2020-11-04T11:44:46 WAT" duration-ms="385" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Handle_Underline_On_word status=SUCCESS method=Word_File_Full_RegressionTest.Handle_Underline_On_word(java.lang.reflect.Method)[pri:6, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporteResu -->
+        <test-method signature="Handle_freeHand_On_word(java.lang.reflect.Method)[pri:7, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:44:46 WAT" name="Handle_freeHand_On_word" finished-at="2020-11-04T11:44:47 WAT" depends-on-methods="StandAlone.Word_File_Full_RegressionTest.Upload_word_File" duration-ms="1621" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.Handle_freeHand_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Handle_freeHand_On_word -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:44:46 WAT" name="startReport" finished-at="2020-11-04T11:44:46 WAT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.Handle_freeHand_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:44:47 WAT" name="reporteResu" finished-at="2020-11-04T11:44:48 WAT" duration-ms="364" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Handle_freeHand_On_word status=SUCCESS method=Word_File_Full_RegressionTest.Handle_freeHand_On_word(java.lang.reflect.Method)[pri:7, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporteResu -->
+        <test-method signature="Handle_polyline_On_word(java.lang.reflect.Method)[pri:8, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:44:48 WAT" name="Handle_polyline_On_word" finished-at="2020-11-04T11:44:52 WAT" depends-on-methods="StandAlone.Word_File_Full_RegressionTest.Upload_word_File" duration-ms="3960" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.Handle_polyline_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Handle_polyline_On_word -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:44:48 WAT" name="startReport" finished-at="2020-11-04T11:44:48 WAT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.Handle_polyline_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:44:52 WAT" name="reporteResu" finished-at="2020-11-04T11:44:52 WAT" duration-ms="364" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Handle_polyline_On_word status=SUCCESS method=Word_File_Full_RegressionTest.Handle_polyline_On_word(java.lang.reflect.Method)[pri:8, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporteResu -->
+        <test-method signature="Handel_Polygone_On_word(java.lang.reflect.Method)[pri:9, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:44:52 WAT" name="Handel_Polygone_On_word" finished-at="2020-11-04T11:44:56 WAT" depends-on-methods="StandAlone.Word_File_Full_RegressionTest.Upload_word_File" duration-ms="3945" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.Handel_Polygone_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Handel_Polygone_On_word -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:44:52 WAT" name="startReport" finished-at="2020-11-04T11:44:52 WAT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.Handel_Polygone_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:44:56 WAT" name="reporteResu" finished-at="2020-11-04T11:44:56 WAT" duration-ms="389" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Handel_Polygone_On_word status=SUCCESS method=Word_File_Full_RegressionTest.Handel_Polygone_On_word(java.lang.reflect.Method)[pri:9, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporteResu -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:44:56 WAT" name="startReport" finished-at="2020-11-04T11:44:56 WAT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.Urgent_Stamp_On_word() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method signature="Urgent_Stamp_On_word()[pri:10, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:44:56 WAT" name="Urgent_Stamp_On_word" finished-at="2020-11-04T11:44:59 WAT" depends-on-methods="StandAlone.Word_File_Full_RegressionTest.Upload_word_File" duration-ms="2282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Urgent_Stamp_On_word -->
+        <test-method is-config="true" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:44:59 WAT" name="reporteResu" finished-at="2020-11-04T11:44:59 WAT" duration-ms="470" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Urgent_Stamp_On_word status=SUCCESS method=Word_File_Full_RegressionTest.Urgent_Stamp_On_word()[pri:10, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporteResu -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:44:59 WAT" name="startReport" finished-at="2020-11-04T11:44:59 WAT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.Approved_Stamp_On_word() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method signature="Approved_Stamp_On_word()[pri:11, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:44:59 WAT" name="Approved_Stamp_On_word" finished-at="2020-11-04T11:45:01 WAT" depends-on-methods="StandAlone.Word_File_Full_RegressionTest.Upload_word_File" duration-ms="1778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Approved_Stamp_On_word -->
+        <test-method is-config="true" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:45:01 WAT" name="reporteResu" finished-at="2020-11-04T11:45:01 WAT" duration-ms="441" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Approved_Stamp_On_word status=SUCCESS method=Word_File_Full_RegressionTest.Approved_Stamp_On_word()[pri:11, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporteResu -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:45:01 WAT" name="startReport" finished-at="2020-11-04T11:45:01 WAT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.Draft_Stamp_On_word() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method signature="Draft_Stamp_On_word()[pri:12, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:45:01 WAT" name="Draft_Stamp_On_word" finished-at="2020-11-04T11:45:04 WAT" depends-on-methods="StandAlone.Word_File_Full_RegressionTest.Upload_word_File" duration-ms="2318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Draft_Stamp_On_word -->
+        <test-method is-config="true" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:45:04 WAT" name="reporteResu" finished-at="2020-11-04T11:45:04 WAT" duration-ms="446" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Draft_Stamp_On_word status=SUCCESS method=Word_File_Full_RegressionTest.Draft_Stamp_On_word()[pri:12, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporteResu -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:45:04 WAT" name="startReport" finished-at="2020-11-04T11:45:04 WAT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.Signature_Stamp_On_word() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method signature="Signature_Stamp_On_word()[pri:13, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:45:04 WAT" name="Signature_Stamp_On_word" finished-at="2020-11-04T11:45:07 WAT" depends-on-methods="StandAlone.Word_File_Full_RegressionTest.Upload_word_File" duration-ms="2345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Signature_Stamp_On_word -->
+        <test-method is-config="true" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:45:07 WAT" name="reporteResu" finished-at="2020-11-04T11:45:07 WAT" duration-ms="472" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Signature_Stamp_On_word status=SUCCESS method=Word_File_Full_RegressionTest.Signature_Stamp_On_word()[pri:13, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporteResu -->
+        <test-method signature="Free_Stamp_On_word()[pri:14, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:45:07 WAT" name="Free_Stamp_On_word" finished-at="2020-11-04T11:45:09 WAT" depends-on-methods="StandAlone.Word_File_Full_RegressionTest.Upload_word_File" duration-ms="2453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Free_Stamp_On_word -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:45:07 WAT" name="startReport" finished-at="2020-11-04T11:45:07 WAT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.Free_Stamp_On_word() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:45:09 WAT" name="reporteResu" finished-at="2020-11-04T11:45:10 WAT" duration-ms="451" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Free_Stamp_On_word status=SUCCESS method=Word_File_Full_RegressionTest.Free_Stamp_On_word()[pri:14, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporteResu -->
+        <test-method signature="delete_Anotation_On_word(java.lang.reflect.Method)[pri:15, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:45:10 WAT" name="delete_Anotation_On_word" finished-at="2020-11-04T11:45:11 WAT" depends-on-methods="StandAlone.Word_File_Full_RegressionTest.Handle_StickyNote_On_word, StandAlone.Word_File_Full_RegressionTest.Handel_Polygone_On_word, StandAlone.Word_File_Full_RegressionTest.Upload_word_File" duration-ms="971" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.delete_Anotation_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: element is not attached to the page document
+  (Session info: chrome=86.0.4240.183)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RAJENGUI', ip: '192.168.93.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58457}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b280353a094b875b3332511c0d703121]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=86.0.4240.183)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RAJENGUI', ip: '192.168.93.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58457}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b280353a094b875b3332511c0d703121
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at jdk.internal.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+at com.sun.proxy.$Proxy15.click(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+at annotationHandler.annotationdrawBase.doDraw(annotationdrawBase.java:50)
+at annotationHandler.StickyNoteAnnotationHandler.drowNote(StickyNoteAnnotationHandler.java:23)
+at StandAlone.Word_File_Full_RegressionTest.delete_Anotation_On_word(Word_File_Full_RegressionTest.java:207)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete_Anotation_On_word -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:45:10 WAT" name="startReport" finished-at="2020-11-04T11:45:10 WAT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.delete_Anotation_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:45:11 WAT" name="reporteResu" finished-at="2020-11-04T11:45:11 WAT" duration-ms="404" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=delete_Anotation_On_word status=FAILURE method=Word_File_Full_RegressionTest.delete_Anotation_On_word(java.lang.reflect.Method)[pri:15, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporteResu -->
+        <test-method signature="Refresh_After_Delete_Anotation_On_word(java.lang.reflect.Method)[pri:16, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:45:11 WAT" name="Refresh_After_Delete_Anotation_On_word" finished-at="2020-11-04T11:45:11 WAT" depends-on-methods="StandAlone.Word_File_Full_RegressionTest.delete_Anotation_On_word" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method Word_File_Full_RegressionTest.Refresh_After_Delete_Anotation_On_word(java.lang.reflect.Method)[pri:16, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method Word_File_Full_RegressionTest.Refresh_After_Delete_Anotation_On_word(java.lang.reflect.Method)[pri:16, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Refresh_After_Delete_Anotation_On_word -->
+        <test-method signature="SAVE_DATA_ON_word(java.lang.reflect.Method)[pri:17, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:45:11 WAT" name="SAVE_DATA_ON_word" finished-at="2020-11-04T11:45:31 WAT" depends-on-methods="StandAlone.Word_File_Full_RegressionTest.Upload_word_File" duration-ms="20024" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.SAVE_DATA_ON_word(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SAVE_DATA_ON_word -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:45:11 WAT" name="startReport" finished-at="2020-11-04T11:45:11 WAT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.SAVE_DATA_ON_word(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:45:31 WAT" name="reporteResu" finished-at="2020-11-04T11:45:32 WAT" duration-ms="414" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SAVE_DATA_ON_word status=SUCCESS method=Word_File_Full_RegressionTest.SAVE_DATA_ON_word(java.lang.reflect.Method)[pri:17, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporteResu -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:45:32 WAT" name="startReport" finished-at="2020-11-04T11:45:32 WAT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.Refresh_After_Save_Anotation_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method signature="Refresh_After_Save_Anotation_On_word(java.lang.reflect.Method)[pri:18, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:45:32 WAT" name="Refresh_After_Save_Anotation_On_word" finished-at="2020-11-04T11:45:52 WAT" depends-on-methods="StandAlone.Word_File_Full_RegressionTest.SAVE_DATA_ON_word" duration-ms="20030" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.Refresh_After_Save_Anotation_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Refresh_After_Save_Anotation_On_word -->
+        <test-method is-config="true" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:45:52 WAT" name="reporteResu" finished-at="2020-11-04T11:45:52 WAT" duration-ms="407" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Refresh_After_Save_Anotation_On_word status=SUCCESS method=Word_File_Full_RegressionTest.Refresh_After_Save_Anotation_On_word(java.lang.reflect.Method)[pri:18, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporteResu -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:45:52 WAT" name="startReport" finished-at="2020-11-04T11:45:52 WAT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.Add_a_Signet_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method signature="Add_a_Signet_On_word(java.lang.reflect.Method)[pri:19, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:45:52 WAT" name="Add_a_Signet_On_word" finished-at="2020-11-04T11:45:56 WAT" depends-on-methods="StandAlone.Word_File_Full_RegressionTest.Upload_word_File" duration-ms="4109" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.Add_a_Signet_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_a_Signet_On_word -->
+        <test-method is-config="true" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:45:56 WAT" name="reporteResu" finished-at="2020-11-04T11:45:57 WAT" duration-ms="373" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Add_a_Signet_On_word status=SUCCESS method=Word_File_Full_RegressionTest.Add_a_Signet_On_word(java.lang.reflect.Method)[pri:19, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporteResu -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:45:57 WAT" name="startReport" finished-at="2020-11-04T11:45:57 WAT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.Delete_a_Signet_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method signature="Delete_a_Signet_On_word(java.lang.reflect.Method)[pri:20, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:45:57 WAT" name="Delete_a_Signet_On_word" finished-at="2020-11-04T11:46:00 WAT" depends-on-methods="StandAlone.Word_File_Full_RegressionTest.Add_a_Signet_On_word" duration-ms="3859" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.Delete_a_Signet_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Delete_a_Signet_On_word -->
+        <test-method is-config="true" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:46:00 WAT" name="reporteResu" finished-at="2020-11-04T11:46:01 WAT" duration-ms="375" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Delete_a_Signet_On_word status=SUCCESS method=Word_File_Full_RegressionTest.Delete_a_Signet_On_word(java.lang.reflect.Method)[pri:20, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporteResu -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:46:01 WAT" name="startReport" finished-at="2020-11-04T11:46:01 WAT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.ADD_AN_ANCRE_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method signature="ADD_AN_ANCRE_On_word(java.lang.reflect.Method)[pri:21, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:46:01 WAT" name="ADD_AN_ANCRE_On_word" finished-at="2020-11-04T11:46:22 WAT" depends-on-methods="StandAlone.Word_File_Full_RegressionTest.Upload_word_File" duration-ms="21186" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.ADD_AN_ANCRE_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ADD_AN_ANCRE_On_word -->
+        <test-method is-config="true" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:46:22 WAT" name="reporteResu" finished-at="2020-11-04T11:46:22 WAT" duration-ms="391" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ADD_AN_ANCRE_On_word status=SUCCESS method=Word_File_Full_RegressionTest.ADD_AN_ANCRE_On_word(java.lang.reflect.Method)[pri:21, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporteResu -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:46:22 WAT" name="startReport" finished-at="2020-11-04T11:46:22 WAT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.SKIP_AN_ANCRE_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method signature="SKIP_AN_ANCRE_On_word(java.lang.reflect.Method)[pri:22, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:46:22 WAT" name="SKIP_AN_ANCRE_On_word" finished-at="2020-11-04T11:46:44 WAT" depends-on-methods="StandAlone.Word_File_Full_RegressionTest.Upload_word_File" duration-ms="21114" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.SKIP_AN_ANCRE_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SKIP_AN_ANCRE_On_word -->
+        <test-method is-config="true" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:46:44 WAT" name="reporteResu" finished-at="2020-11-04T11:46:44 WAT" duration-ms="388" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SKIP_AN_ANCRE_On_word status=SUCCESS method=Word_File_Full_RegressionTest.SKIP_AN_ANCRE_On_word(java.lang.reflect.Method)[pri:22, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporteResu -->
+        <test-method signature="ZoomIn_On_word(java.lang.reflect.Method)[pri:23, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:46:44 WAT" name="ZoomIn_On_word" finished-at="2020-11-04T11:46:45 WAT" depends-on-methods="StandAlone.Word_File_Full_RegressionTest.Upload_word_File" duration-ms="670" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.ZoomIn_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ZoomIn_On_word -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:46:44 WAT" name="startReport" finished-at="2020-11-04T11:46:44 WAT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.ZoomIn_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:46:45 WAT" name="reporteResu" finished-at="2020-11-04T11:46:45 WAT" duration-ms="428" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ZoomIn_On_word status=SUCCESS method=Word_File_Full_RegressionTest.ZoomIn_On_word(java.lang.reflect.Method)[pri:23, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporteResu -->
+        <test-method signature="ZoomOut_On_word(java.lang.reflect.Method)[pri:24, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:46:45 WAT" name="ZoomOut_On_word" finished-at="2020-11-04T11:46:45 WAT" depends-on-methods="StandAlone.Word_File_Full_RegressionTest.Upload_word_File" duration-ms="368" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.ZoomOut_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ZoomOut_On_word -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:46:45 WAT" name="startReport" finished-at="2020-11-04T11:46:45 WAT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.ZoomOut_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:46:45 WAT" name="reporteResu" finished-at="2020-11-04T11:46:46 WAT" duration-ms="422" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ZoomOut_On_word status=SUCCESS method=Word_File_Full_RegressionTest.ZoomOut_On_word(java.lang.reflect.Method)[pri:24, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporteResu -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:46:46 WAT" name="startReport" finished-at="2020-11-04T11:46:46 WAT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.ZoomInZone_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method signature="ZoomInZone_On_word(java.lang.reflect.Method)[pri:25, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:46:46 WAT" name="ZoomInZone_On_word" finished-at="2020-11-04T11:46:46 WAT" depends-on-methods="StandAlone.Word_File_Full_RegressionTest.Upload_word_File" duration-ms="543" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.ZoomInZone_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ZoomInZone_On_word -->
+        <test-method is-config="true" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:46:46 WAT" name="reporteResu" finished-at="2020-11-04T11:46:47 WAT" duration-ms="517" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ZoomInZone_On_word status=SUCCESS method=Word_File_Full_RegressionTest.ZoomInZone_On_word(java.lang.reflect.Method)[pri:25, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporteResu -->
+        <test-method signature="Zoom_Adjust_On_word(java.lang.reflect.Method)[pri:26, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:46:47 WAT" name="Zoom_Adjust_On_word" finished-at="2020-11-04T11:46:47 WAT" depends-on-methods="StandAlone.Word_File_Full_RegressionTest.Upload_word_File" duration-ms="352" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.Zoom_Adjust_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Zoom_Adjust_On_word -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:46:47 WAT" name="startReport" finished-at="2020-11-04T11:46:47 WAT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.Zoom_Adjust_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:46:47 WAT" name="reporteResu" finished-at="2020-11-04T11:46:48 WAT" duration-ms="367" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Zoom_Adjust_On_word status=SUCCESS method=Word_File_Full_RegressionTest.Zoom_Adjust_On_word(java.lang.reflect.Method)[pri:26, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporteResu -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:46:48 WAT" name="startReport" finished-at="2020-11-04T11:46:48 WAT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.Zoom_Text_Box_Control_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method signature="Zoom_Text_Box_Control_On_word(java.lang.reflect.Method)[pri:27, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:46:48 WAT" name="Zoom_Text_Box_Control_On_word" finished-at="2020-11-04T11:46:50 WAT" depends-on-methods="StandAlone.Word_File_Full_RegressionTest.Upload_word_File" duration-ms="2293" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.Zoom_Text_Box_Control_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Zoom_Text_Box_Control_On_word -->
+        <test-method is-config="true" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:46:50 WAT" name="reporteResu" finished-at="2020-11-04T11:46:50 WAT" duration-ms="337" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Zoom_Text_Box_Control_On_word status=SUCCESS method=Word_File_Full_RegressionTest.Zoom_Text_Box_Control_On_word(java.lang.reflect.Method)[pri:27, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporteResu -->
+        <test-method signature="Left_Rotation_Control_On_word(java.lang.reflect.Method)[pri:28, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:46:50 WAT" name="Left_Rotation_Control_On_word" finished-at="2020-11-04T11:46:51 WAT" depends-on-methods="StandAlone.Word_File_Full_RegressionTest.Upload_word_File" duration-ms="293" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.Left_Rotation_Control_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Left_Rotation_Control_On_word -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:46:50 WAT" name="startReport" finished-at="2020-11-04T11:46:50 WAT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.Left_Rotation_Control_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:46:51 WAT" name="reporteResu" finished-at="2020-11-04T11:46:51 WAT" duration-ms="356" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Left_Rotation_Control_On_word status=SUCCESS method=Word_File_Full_RegressionTest.Left_Rotation_Control_On_word(java.lang.reflect.Method)[pri:28, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporteResu -->
+        <test-method signature="Right_Rotation_Control_On_word(java.lang.reflect.Method)[pri:29, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:46:51 WAT" name="Right_Rotation_Control_On_word" finished-at="2020-11-04T11:46:51 WAT" depends-on-methods="StandAlone.Word_File_Full_RegressionTest.Upload_word_File" duration-ms="281" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.Right_Rotation_Control_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Right_Rotation_Control_On_word -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:46:51 WAT" name="startReport" finished-at="2020-11-04T11:46:51 WAT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.Right_Rotation_Control_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:46:51 WAT" name="reporteResu" finished-at="2020-11-04T11:46:52 WAT" duration-ms="366" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Right_Rotation_Control_On_word status=SUCCESS method=Word_File_Full_RegressionTest.Right_Rotation_Control_On_word(java.lang.reflect.Method)[pri:29, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporteResu -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:46:52 WAT" name="startReport" finished-at="2020-11-04T11:46:52 WAT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.Activate_Multiview_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method signature="Activate_Multiview_On_word(java.lang.reflect.Method)[pri:30, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:46:52 WAT" name="Activate_Multiview_On_word" finished-at="2020-11-04T11:46:53 WAT" depends-on-methods="StandAlone.Word_File_Full_RegressionTest.Upload_word_File" duration-ms="1400" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.Activate_Multiview_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Activate_Multiview_On_word -->
+        <test-method is-config="true" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:46:53 WAT" name="reporteResu" finished-at="2020-11-04T11:46:53 WAT" duration-ms="63" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Activate_Multiview_On_word status=SUCCESS method=Word_File_Full_RegressionTest.Activate_Multiview_On_word(java.lang.reflect.Method)[pri:30, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[unexpected alert open: <unknown>
+  (Session info: chrome=86.0.4240.183): 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RAJENGUI', ip: '192.168.93.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58457}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b280353a094b875b3332511c0d703121]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: <unknown>
+  (Session info: chrome=86.0.4240.183): 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RAJENGUI', ip: '192.168.93.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58457}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b280353a094b875b3332511c0d703121
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+at jdk.internal.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+at com.sun.proxy.$Proxy14.getScreenshotAs(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
+at pageObject.MediaBase.takesScreenShots(MediaBase.java:25)
+at pageObject.TestBase.reporteResu(TestBase.java:136)
+at jdk.internal.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:677)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:661)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporteResu -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:46:53 WAT" name="startReport" finished-at="1970-01-01T01:00:00 WAT" duration-ms="-1604486813505" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method signature="Desactivate_Multiview_On_word(java.lang.reflect.Method)[pri:31, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:46:53 WAT" name="Desactivate_Multiview_On_word" finished-at="2020-11-04T11:46:53 WAT" depends-on-methods="StandAlone.Word_File_Full_RegressionTest.Activate_Multiview_On_word" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.Desactivate_Multiview_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[unexpected alert open: <unknown>
+  (Session info: chrome=86.0.4240.183): 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RAJENGUI', ip: '192.168.93.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58457}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b280353a094b875b3332511c0d703121]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: <unknown>
+  (Session info: chrome=86.0.4240.183): 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RAJENGUI', ip: '192.168.93.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58457}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b280353a094b875b3332511c0d703121
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+at jdk.internal.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+at com.sun.proxy.$Proxy14.getScreenshotAs(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
+at pageObject.MediaBase.takesScreenShots(MediaBase.java:25)
+at pageObject.TestBase.reporteResu(TestBase.java:136)
+at jdk.internal.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:677)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:661)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Desactivate_Multiview_On_word -->
+        <test-method is-config="true" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:46:53 WAT" name="reporteResu" finished-at="1970-01-01T01:00:00 WAT" duration-ms="-1604486813508" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporteResu -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:46:53 WAT" name="startReport" finished-at="1970-01-01T01:00:00 WAT" duration-ms="-1604486813510" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method signature="Multi_Multiview_On_word(java.lang.reflect.Method)[pri:32, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:46:53 WAT" name="Multi_Multiview_On_word" finished-at="2020-11-04T11:46:53 WAT" depends-on-methods="StandAlone.Word_File_Full_RegressionTest.Upload_word_File" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.Multi_Multiview_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[unexpected alert open: <unknown>
+  (Session info: chrome=86.0.4240.183): 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RAJENGUI', ip: '192.168.93.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58457}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b280353a094b875b3332511c0d703121]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: <unknown>
+  (Session info: chrome=86.0.4240.183): 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RAJENGUI', ip: '192.168.93.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58457}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b280353a094b875b3332511c0d703121
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+at jdk.internal.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+at com.sun.proxy.$Proxy14.getScreenshotAs(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
+at pageObject.MediaBase.takesScreenShots(MediaBase.java:25)
+at pageObject.TestBase.reporteResu(TestBase.java:136)
+at jdk.internal.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:677)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:661)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Multi_Multiview_On_word -->
+        <test-method is-config="true" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:46:53 WAT" name="reporteResu" finished-at="1970-01-01T01:00:00 WAT" duration-ms="-1604486813513" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporteResu -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f]" started-at="2020-11-04T11:46:53 WAT" name="tearDown" finished-at="1970-01-01T01:00:00 WAT" duration-ms="-1604486813514" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- StandAlone.Word_File_Full_RegressionTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

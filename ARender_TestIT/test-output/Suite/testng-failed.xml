@@ -1,49 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <listeners>
-    <listener class-name="pageObject.ExtentTestListeners"/>
-  </listeners>
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="StandAlone.Tiff_File_Full_RegressionTest">
+      <class name="StandAlone.Word_File_Full_RegressionTest">
         <methods>
+          <include name="setExtent"/>
           <include name="tearDown"/>
-          <include name="Upload_tiff_File"/>
+          <include name="Handel_Polygone_On_word"/>
+          <include name="endReport"/>
+          <include name="delete_Anotation_On_word" invocation-numbers="0"/>
+          <include name="startReport"/>
+          <include name="Refresh_After_Delete_Anotation_On_word"/>
+          <include name="reporteResu"/>
+          <include name="Handle_StickyNote_On_word"/>
+          <include name="Upload_word_File"/>
+          <include name="Activate_Multiview_On_word"/>
           <include name="initialization"/>
-          <include name="Multi_Multiview_On_tiff" invocation-numbers="0"/>
+          <include name="Desactivate_Multiview_On_word"/>
+          <include name="Multi_Multiview_On_word"/>
         </methods>
-      </class> <!-- StandAlone.Tiff_File_Full_RegressionTest -->
+      </class> <!-- StandAlone.Word_File_Full_RegressionTest -->
       <class name="StandAlone.ARender_Full_Fonction">
         <methods>
+          <include name="setExtent"/>
           <include name="logo_Test" invocation-numbers="0"/>
+          <include name="reporteResu"/>
           <include name="tearDown"/>
+          <include name="endReport"/>
+          <include name="startReport"/>
           <include name="initialization"/>
         </methods>
       </class> <!-- StandAlone.ARender_Full_Fonction -->
-      <class name="StandAlone.Excel_File_Full_RegressionTest">
-        <methods>
-          <include name="Multi_Multiview_On_excel" invocation-numbers="0"/>
-          <include name="tearDown"/>
-          <include name="Upload_Excel_File"/>
-          <include name="initialization"/>
-        </methods>
-      </class> <!-- StandAlone.Excel_File_Full_RegressionTest -->
-      <class name="StandAlone.Word_File_Full_RegressionTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="Upload_word_File"/>
-          <include name="initialization"/>
-          <include name="Multi_Multiview_On_word" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- StandAlone.Word_File_Full_RegressionTest -->
-      <class name="StandAlone.ARender_Full_Fonction___onBulky_file">
-        <methods>
-          <include name="tearDown"/>
-          <include name="logoVersion___onBulky_File" invocation-numbers="0"/>
-          <include name="initialization"/>
-        </methods>
-      </class> <!-- StandAlone.ARender_Full_Fonction___onBulky_file -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -65,9 +65,7 @@ public class TestBase {
     @BeforeClass 
     public static void initialization()  {
     	
-       //TODO init Extent Report 4.0.9
-       /** @see TestListeners */
-	   //TODO init driver WebDriver
+     
     	
     	String browserName = prop.getProperty("browser");
     	 if(browserName.equals("Chrome")) { 
@@ -99,7 +97,7 @@ public class TestBase {
 	     driver.manage().deleteAllCookies();
 	     driver.manage().timeouts().pageLoadTimeout(PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
 	     driver.manage().timeouts().implicitlyWait(IMPLICIT_WAIT, TimeUnit.SECONDS);
-	     driver.get(prop.getProperty("url"));
+	     driver.get(System.getProperty("URL"));
 	     page = new HandlerBasePage(driver);  
 	     
 	     }

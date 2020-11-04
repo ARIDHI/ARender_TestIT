@@ -23,6 +23,8 @@ public class MultiviewTest extends pageObject.TestBase implements BaseFonctionLo
 		 
 		   try {
 		     page.clickOnElement(multiview_Button);
+		     Thread.sleep(1000);
+		     page.builder.sendKeys(Keys.ENTER).perform();
 		     
 		     Assert.assertTrue(page.findElement(delete_img1_Button).isDisplayed());
 		     Assert.assertTrue(page.findElement(delete_img2_Button).isDisplayed());
@@ -31,8 +33,8 @@ public class MultiviewTest extends pageObject.TestBase implements BaseFonctionLo
 		     Assert.assertEquals(verticalSlider,2);
 		     
 		      }catch(Exception e){		    	  
-		      }
-	       }
+		    }
+	      }
     } 
 
     public void Desactivate_Multiview(Method method) {
@@ -56,12 +58,13 @@ public class MultiviewTest extends pageObject.TestBase implements BaseFonctionLo
 	       if(page.findElement(multiview_Button).isDisplayed()) {  
 		      try {
 			     page.clickOnElement(multiview_Button);
+			     Thread.sleep(500);
 			     page.builder.sendKeys(Keys.ENTER).perform();
 	             }catch(Exception e){		    	  
 	            }
               }
             }
-    	Thread.sleep(1000);
+    	  Thread.sleep(500);
     	try {
     	int verticalSlider = page.findElements(verticalSlider_Bar).size();
     		Assert.assertEquals(verticalSlider,8);
