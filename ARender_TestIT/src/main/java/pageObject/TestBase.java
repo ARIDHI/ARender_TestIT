@@ -7,6 +7,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.lang.reflect.Method;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
@@ -15,12 +16,19 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
+import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeTest;
 
-import com.aventstack.extentreports.ExtentReports;
-import com.aventstack.extentreports.ExtentTest;
-import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.ExtentTest;
+import com.relevantcodes.extentreports.LogStatus;
+
+
 
 /**
  * @author ARIDHI HICHEM
@@ -33,16 +41,13 @@ public class TestBase {
 	public static HandlerBasePage page;
 	public static EventFiringWebDriver e_driver;
     public static LocatorListner webListner;
-    public static ExtentHtmlReporter htmlReporter;
     public static ExtentReports extent;
-    public ExtentTest extentTest;
+    public static ExtentTest logger;
 	public static int PAGE_LOAD_TIMEOUT =20 ;
 	public static int IMPLICIT_WAIT =20 ;
+	
     public TestBase() {
-    	/**
-    	 * 
-    	 * 
-    	 */	
+    	
     try {
     	prop = new Properties();
     	File src = new File(".\\src\\config\\config.properties");
@@ -105,7 +110,54 @@ public class TestBase {
 		 driver.close();
 		 driver.quit();
 	 } 
+	
+	@BeforeTest
+    public void setExtent()  {
+		
+         extent = new ExtentReports(System.getProperty("user.dir")+"./Reports/ARenderReports.html",true);
+		 extent.addSystemInfo("Host Name", "ARIDHI");
+		 extent.addSystemInfo("Departement", "ARONDOR QA Auotmation");
+		 extent.addSystemInfo("Environement", "ARender localHost HautDispo");
+    }
+	
+    @AfterTest
+    public void endReport()  {
+     extent.flush();
+     extent.close();
+    }
+  
+	 @BeforeMethod
+	 public void startReport(Method method) throws Exception   {	 
+		 logger = extent.startTest(method.getName());
+	 }
+	 
+	 @AfterMethod 
+	 public void reporteResu(ITestResult result) throws Exception {
+	   String screenshotPath = pageObject.MediaBase.takesScreenShots(driver, result.getName());
+	   
+		 if (result != null && result.getStatus()== ITestResult.SUCCESS) {
 
+			 logger.log(LogStatus.PASS,  result.getName() +"PASS : " );
+			 logger.log(LogStatus.PASS, logger.addScreenCapture(screenshotPath)); //to add screendhot in extent report
+			 logger.log(LogStatus.PASS, "<a href='"+ result.getName()+ ".mov" +"'><spa, class='lable info'>Download gif</span></a>");
+		 }
+		 
+		 else if (result != null && result.getStatus()==ITestResult.FAILURE) {
+			 
+	    	 logger.log(LogStatus.FAIL, result.getName() +"FAIL ! : "  );		
+			 logger.log(LogStatus.FAIL, logger.addScreenCapture(screenshotPath)); //to add screendhot in extent report
+			 logger.log(LogStatus.FAIL, "<a href='"+ result.getName()+ ".mov" +"'><spa, class='lable info'>Download gif</span></a>");
+			 logger.log(LogStatus.FAIL, "TEST FAILED : "  +result.getThrowable());
+		 }
+		
+		 else {	
+			 
+			 logger.log(LogStatus.SKIP, "TEST SKIPED : "+result.getName());
+			 logger.log(LogStatus.SKIP, "TEST FAILED : " +result.getSkipCausedBy());
+		 }	
+		 
+		 extent.endTest(logger);
+	 }	    	
 }
 	
 	

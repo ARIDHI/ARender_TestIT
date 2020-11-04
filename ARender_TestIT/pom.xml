@@ -20,18 +20,18 @@
         <artifactId>maven-surefire-plugin</artifactId>
         <version>2.22.0</version>
         <configuration>
-          <!--   <systemPropertyVariables>
-              <property>
+           <systemPropertyVariables>
+              <!-- <property>
                 <name>URL</name>
                 <value>${ul}</value>
-              </property>
-              <property>
+              </property> -->
+              <!-- <property>
                 <name>Browser</name>
                 <value>${browser}</value>
-              </property>
-            </systemPropertyVariables> -->
+              </property> -->
+            </systemPropertyVariables> 
           <suiteXmlFiles>
-            <suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
+            <suiteXmlFile>LocalHost_StandAlone.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>
@@ -57,22 +57,22 @@
     <scope>test</scope>
 </dependency>
 
-<dependency>
+<!-- <dependency>
    <groupId>com.aventstack</groupId>
    <artifactId>extentreports</artifactId>
    <version>4.0.9</version>
-</dependency> 
+</dependency> --> 
 
 <dependency>
     <groupId>commons-io</groupId>
     <artifactId>commons-io</artifactId>
     <version>2.6</version>
 </dependency>
-<!-- <dependency>
+ <dependency>
   <groupId>com.relevantcodes</groupId>
 			<artifactId>extentreports</artifactId>
 			<version>2.41.2</version>
-</dependency>  -->
+</dependency> 
 <dependency>
     <groupId>io.github.bonigarcia</groupId>
     <artifactId>webdrivermanager</artifactId>

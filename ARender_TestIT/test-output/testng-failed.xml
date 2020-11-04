@@ -5,40 +5,16 @@
     <classes>
       <class name="StandAlone.Eml_File_Full_RegressionTest">
         <methods>
-          <include name="SKIP_AN_ANCRE_On_eml"/>
-          <include name="Add_a_Signet_On_eml"/>
-          <include name="Zoom_Adjust_On_eml"/>
-          <include name="Refresh_After_Delete_Anotation_On_eml"/>
-          <include name="Handle_freeHand_On_eml"/>
-          <include name="Approved_Stamp_On_eml"/>
-          <include name="Multi_Multiview_On_eml"/>
-          <include name="ZoomOut_On_eml"/>
-          <include name="Zoom_Text_Box_Control_On_eml"/>
-          <include name="initialization"/>
-          <include name="Handle_Underline_On_eml"/>
-          <include name="Handle_Circle___On_eml"/>
-          <include name="Refresh_After_Save_Anotation_On_eml"/>
-          <include name="ZoomIn_On_eml"/>
-          <include name="tearDown"/>
-          <include name="delete_Anotation_On_eml"/>
-          <include name="Free_Stamp_On_eml"/>
-          <include name="Handel_Polygone_On_eml"/>
-          <include name="Signature_Stamp_On_eml"/>
-          <include name="Handle_polyline_On_eml"/>
-          <include name="Draft_Stamp_On_eml"/>
-          <include name="Handle_FreeText_On_eml"/>
-          <include name="Delete_a_Signet_On_eml"/>
-          <include name="Urgent_Stamp_On_eml"/>
-          <include name="Right_Rotation_Control_On_eml"/>
+          <include name="setExtent"/>
+          <include name="reporteResu"/>
           <include name="Activate_Multiview_On_eml"/>
-          <include name="Handle_Arrow_On_eml"/>
           <include name="Desactivate_Multiview_On_eml"/>
-          <include name="Left_Rotation_Control_On_eml"/>
+          <include name="tearDown"/>
           <include name="Upload_eml_File"/>
-          <include name="Handle_StickyNote_On_eml"/>
-          <include name="ZoomInZone_On_eml"/>
-          <include name="ADD_AN_ANCRE_On_eml"/>
-          <include name="SAVE_DATA_ON_eml"/>
+          <include name="Multi_Multiview_On_eml"/>
+          <include name="endReport"/>
+          <include name="startReport"/>
+          <include name="initialization"/>
         </methods>
       </class> <!-- StandAlone.Eml_File_Full_RegressionTest -->
     </classes>

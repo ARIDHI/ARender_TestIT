@@ -40,7 +40,7 @@ public class freeTextAnnotationHandler extends annotationdrawBase implements Fac
 	    	getInstance(RichStyleToolbar.class).borderWidthButton();
 	    	getInstance(RichStyleToolbar.class).bordercolorsButton();   
 	    	getInstance(RichStyleToolbar.class).speciFontStyle();
-	    	return false;	    			
+	    return false;	    			
 	    	}  
 	    
      public void checkFreeTextTest() {
