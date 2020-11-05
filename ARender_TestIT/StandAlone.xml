@@ -13,7 +13,7 @@
 
     
       <!-- class name="StandAlone.MSG_File_Full_RegressionTest"/>
-          <class name="StandAlone.ARender_Full_Fonction___onBulky_file"/>
+      <class name="StandAlone.ARender_Full_Fonction___onBulky_file"/>
       <class name="StandAlone.Eml_File_Full_RegressionTest"/>       
       <class name="StandAlone.Zip_File_FullRegressionTest"/>
       <class name="StandAlone.Png_File_Full_RegressionTest"/>

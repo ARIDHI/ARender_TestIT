@@ -67,7 +67,7 @@ public class TestBase {
     	
      
     	
-    	String browserName = prop.getProperty("browser");
+    	String browserName = System.getProperty("Browser");
     	 if(browserName.equals("Chrome")) { 
 			 System.setProperty("webdriver.chrome.driver",
 					 prop.getProperty("ChromeDriverService"));
@@ -85,7 +85,7 @@ public class TestBase {
 			  driver = new FirefoxDriver();
 		 }
 		 else { 
-			 System.out.println("no browser is defined in 'config.properties' file ! ");
+			 System.out.println("no browser is defined in Server Jenkins! ");
 		 }
     	 
     	 //TODO Init Window && Listeners

@@ -21,17 +21,17 @@
         <version>2.22.0</version>
         <configuration>
            <systemPropertyVariables>
-               <property>  
-               <propertyName>URL</propertyName>
+              <property>  
+               <Name>URL</Name>
                 <value>${URL}</value>
-              </property>
-              <!-- <property>
+              </property> --> 
+               <property>
                 <name>Browser</name>
-                <value>${browser}</value>
-              </property> -->
+                <value>${Browser}</value>
+              </property> 
             </systemPropertyVariables> 
           <suiteXmlFiles>
-            <suiteXmlFile>LocalHost_StandAlone.xml</suiteXmlFile>
+            <suiteXmlFile>${Environement}</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>
