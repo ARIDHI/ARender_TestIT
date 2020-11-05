@@ -5,10 +5,13 @@
     <classes>
       <class name="StandAlone.ARender_Full_Fonction">
         <methods>
+          <include name="Brightness_Test"/>
           <include name="setExtent"/>
-          <include name="logo_Test" invocation-numbers="0"/>
+          <include name="logo_Test"/>
           <include name="reporteResu"/>
           <include name="tearDown"/>
+          <include name="Navigation_Button_Test"/>
+          <include name="Fullscreen_Test"/>
           <include name="endReport"/>
           <include name="startReport"/>
           <include name="initialization"/>

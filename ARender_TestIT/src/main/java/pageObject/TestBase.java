@@ -114,8 +114,13 @@ public class TestBase {
 	
 	@BeforeTest
     public static void setExtent()  {
-	
-		 ExtentHtmlReporter reporter=new ExtentHtmlReporter("./Reports/ARenderReport.html");
+		
+		 String fileName = MediaBase.getReportName();
+		 String directory = System.getProperty("user.dir")+"/Reports/";
+		 new File(directory).mkdirs();
+		 String path = directory + fileName ;
+
+		 ExtentHtmlReporter reporter=new ExtentHtmlReporter(path);
          extent = new ExtentReports();
          extent.attachReporter(reporter);
          
@@ -144,7 +149,7 @@ public class TestBase {
 		 if (result != null && result.getStatus()== ITestResult.SUCCESS) {
 
 			 logger.log(Status.PASS,  result.getName() +"PASS : " );
-			 logger.pass("<b><font color=red>"+"Screenshot of failure"+"</font></br>",
+			 logger.pass("<b><font color=green>"+"Screenshot of Passed Test"+"</font></br>",
 	    				MediaEntityBuilder.createScreenCaptureFromPath(screenshotPath).build());
 			 logger.log(Status.PASS, "<a href='"+ result.getName()+ ".mov" +"'><spa, class='lable info'>Download gif</span></a>");
 		 }
@@ -152,7 +157,7 @@ public class TestBase {
 		 else if (result != null && result.getStatus()==ITestResult.FAILURE) {
 			 
 	    	 logger.log(Status.FAIL, result.getName() +"FAIL ! : "  );	
-	    	 logger.fail("<b><font color=red>"+"Screenshot of failure"+"</font></br>",
+	    	 logger.fail("<b><font color=red>"+"Screenshot of Failure Test"+"</font></br>",
 	    				MediaEntityBuilder.createScreenCaptureFromPath(screenshotPath).build());
 			 logger.log(Status.FAIL, "<a href='"+ result.getName()+ ".mov" +"'><spa, class='lable info'>Download gif</span></a>");
 			 logger.fail("TEST FAILED : " +result.getThrowable().getMessage());
@@ -161,7 +166,7 @@ public class TestBase {
 		 else {	
 			 
 			 logger.log(Status.SKIP, "TEST SKIPED : "+result.getName());
-			 logger.skip("<b><font color=red>"+"Screenshot of failure"+"</font></br>",
+			 logger.skip("<b><font color=yellow>"+"Screenshot of Skiped Test"+"</font></br>",
 	    				MediaEntityBuilder.createScreenCaptureFromPath(screenshotPath).build());
 			 logger.log(Status.SKIP, "TEST FAILED : " +result.getSkipCausedBy());
 		 }	

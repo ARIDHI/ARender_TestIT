@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>33/1/2</td>
+<td>Tests passed/Failed/Skipped:</td><td>17/2/17</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Nov 05 11:09:49 WAT 2020</td>
+<td>Started on:</td><td>Thu Nov 05 15:12:46 WAT 2020</td>
 </tr>
-<tr><td>Total time:</td><td>172 seconds (172689 ms)</td>
+<tr><td>Total time:</td><td>156 seconds (156973 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,14 +75,14 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='StandAlone.Word_File_Full_RegressionTest.reporteResu()'><b>reporteResu</b><br>Test class: StandAlone.Word_File_Full_RegressionTest<br>Parameters: [TestResult name=Activate_Multiview_On_word status=SUCCESS method=Word_File_Full_RegressionTest.Activate_Multiview_On_word(java.lang.reflect.Method)[pri:30, instance:StandAlone.Word_File_Full_RegressionTest@7e7be63f] output={null}]</td>
+<td title='StandAlone.Word_File_Full_RegressionTest.reporteResu()'><b>reporteResu</b><br>Test class: StandAlone.Word_File_Full_RegressionTest<br>Parameters: [TestResult name=delete_Anotation_On_word status=FAILURE method=Word_File_Full_RegressionTest.delete_Anotation_On_word(java.lang.reflect.Method)[pri:15, instance:StandAlone.Word_File_Full_RegressionTest@1a18644] output={null}]</td>
 <td><div><pre>org.openqa.selenium.UnhandledAlertException: unexpected alert open: &lt;unknown&gt;
   (Session info: chrome=86.0.4240.183): 
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;RAJENGUI&apos;, ip: &apos;192.168.93.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50790}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: c44f6871e6d074c36d07ffdbefe34e55
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53690}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5d26786ee41dae618c1bbb550e357f78
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
@@ -94,16 +94,16 @@ Session ID: c44f6871e6d074c36d07ffdbefe34e55
 	at com.sun.proxy.$Proxy14.getScreenshotAs(Unknown Source)
 	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
 	at pageObject.MediaBase.takesScreenShots(MediaBase.java:25)
-	at pageObject.TestBase.reporteResu(TestBase.java:134)
+	at pageObject.TestBase.reporteResu(TestBase.java:147)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace761356729", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace761356729'><pre>org.openqa.selenium.UnhandledAlertException: unexpected alert open: &lt;unknown&gt;
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1934061101", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1934061101'><pre>org.openqa.selenium.UnhandledAlertException: unexpected alert open: &lt;unknown&gt;
   (Session info: chrome=86.0.4240.183): 
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;RAJENGUI&apos;, ip: &apos;192.168.93.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50790}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: c44f6871e6d074c36d07ffdbefe34e55
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53690}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5d26786ee41dae618c1bbb550e357f78
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
@@ -118,7 +118,7 @@ Session ID: c44f6871e6d074c36d07ffdbefe34e55
 	at com.sun.proxy.$Proxy14.getScreenshotAs(Unknown Source)
 	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
 	at pageObject.MediaBase.takesScreenShots(MediaBase.java:25)
-	at pageObject.TestBase.reporteResu(TestBase.java:134)
+	at pageObject.TestBase.reporteResu(TestBase.java:147)
 	at jdk.internal.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
@@ -153,7 +153,7 @@ Session ID: c44f6871e6d074c36d07ffdbefe34e55
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>StandAlone.Word_File_Full_RegressionTest@7e7be63f</td></tr>
+<td>StandAlone.Word_File_Full_RegressionTest@1a18644</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
@@ -165,28 +165,138 @@ Session ID: c44f6871e6d074c36d07ffdbefe34e55
 <tr>
 <td title='StandAlone.Word_File_Full_RegressionTest.startReport()'><b>startReport</b><br>Test class: StandAlone.Word_File_Full_RegressionTest</td>
 <td></td>
-<td>-1604571161</td>
-<td>StandAlone.Word_File_Full_RegressionTest@7e7be63f</td></tr>
+<td>-1604585723</td>
+<td>StandAlone.Word_File_Full_RegressionTest@1a18644</td></tr>
 <tr>
 <td title='StandAlone.Word_File_Full_RegressionTest.startReport()'><b>startReport</b><br>Test class: StandAlone.Word_File_Full_RegressionTest</td>
 <td></td>
-<td>-1604571161</td>
-<td>StandAlone.Word_File_Full_RegressionTest@7e7be63f</td></tr>
+<td>-1604585723</td>
+<td>StandAlone.Word_File_Full_RegressionTest@1a18644</td></tr>
+<tr>
+<td title='StandAlone.Word_File_Full_RegressionTest.startReport()'><b>startReport</b><br>Test class: StandAlone.Word_File_Full_RegressionTest</td>
+<td></td>
+<td>-1604585723</td>
+<td>StandAlone.Word_File_Full_RegressionTest@1a18644</td></tr>
+<tr>
+<td title='StandAlone.Word_File_Full_RegressionTest.startReport()'><b>startReport</b><br>Test class: StandAlone.Word_File_Full_RegressionTest</td>
+<td></td>
+<td>-1604585723</td>
+<td>StandAlone.Word_File_Full_RegressionTest@1a18644</td></tr>
+<tr>
+<td title='StandAlone.Word_File_Full_RegressionTest.startReport()'><b>startReport</b><br>Test class: StandAlone.Word_File_Full_RegressionTest</td>
+<td></td>
+<td>-1604585723</td>
+<td>StandAlone.Word_File_Full_RegressionTest@1a18644</td></tr>
+<tr>
+<td title='StandAlone.Word_File_Full_RegressionTest.startReport()'><b>startReport</b><br>Test class: StandAlone.Word_File_Full_RegressionTest</td>
+<td></td>
+<td>-1604585723</td>
+<td>StandAlone.Word_File_Full_RegressionTest@1a18644</td></tr>
+<tr>
+<td title='StandAlone.Word_File_Full_RegressionTest.startReport()'><b>startReport</b><br>Test class: StandAlone.Word_File_Full_RegressionTest</td>
+<td></td>
+<td>-1604585723</td>
+<td>StandAlone.Word_File_Full_RegressionTest@1a18644</td></tr>
+<tr>
+<td title='StandAlone.Word_File_Full_RegressionTest.startReport()'><b>startReport</b><br>Test class: StandAlone.Word_File_Full_RegressionTest</td>
+<td></td>
+<td>-1604585723</td>
+<td>StandAlone.Word_File_Full_RegressionTest@1a18644</td></tr>
+<tr>
+<td title='StandAlone.Word_File_Full_RegressionTest.startReport()'><b>startReport</b><br>Test class: StandAlone.Word_File_Full_RegressionTest</td>
+<td></td>
+<td>-1604585723</td>
+<td>StandAlone.Word_File_Full_RegressionTest@1a18644</td></tr>
+<tr>
+<td title='StandAlone.Word_File_Full_RegressionTest.startReport()'><b>startReport</b><br>Test class: StandAlone.Word_File_Full_RegressionTest</td>
+<td></td>
+<td>-1604585723</td>
+<td>StandAlone.Word_File_Full_RegressionTest@1a18644</td></tr>
+<tr>
+<td title='StandAlone.Word_File_Full_RegressionTest.startReport()'><b>startReport</b><br>Test class: StandAlone.Word_File_Full_RegressionTest</td>
+<td></td>
+<td>-1604585723</td>
+<td>StandAlone.Word_File_Full_RegressionTest@1a18644</td></tr>
+<tr>
+<td title='StandAlone.Word_File_Full_RegressionTest.startReport()'><b>startReport</b><br>Test class: StandAlone.Word_File_Full_RegressionTest</td>
+<td></td>
+<td>-1604585723</td>
+<td>StandAlone.Word_File_Full_RegressionTest@1a18644</td></tr>
+<tr>
+<td title='StandAlone.Word_File_Full_RegressionTest.startReport()'><b>startReport</b><br>Test class: StandAlone.Word_File_Full_RegressionTest</td>
+<td></td>
+<td>-1604585723</td>
+<td>StandAlone.Word_File_Full_RegressionTest@1a18644</td></tr>
 <tr>
 <td title='StandAlone.Word_File_Full_RegressionTest.reporteResu()'><b>reporteResu</b><br>Test class: StandAlone.Word_File_Full_RegressionTest</td>
 <td></td>
-<td>-1604571161</td>
-<td>StandAlone.Word_File_Full_RegressionTest@7e7be63f</td></tr>
+<td>-1604585723</td>
+<td>StandAlone.Word_File_Full_RegressionTest@1a18644</td></tr>
 <tr>
 <td title='StandAlone.Word_File_Full_RegressionTest.reporteResu()'><b>reporteResu</b><br>Test class: StandAlone.Word_File_Full_RegressionTest</td>
 <td></td>
-<td>-1604571161</td>
-<td>StandAlone.Word_File_Full_RegressionTest@7e7be63f</td></tr>
+<td>-1604585723</td>
+<td>StandAlone.Word_File_Full_RegressionTest@1a18644</td></tr>
+<tr>
+<td title='StandAlone.Word_File_Full_RegressionTest.reporteResu()'><b>reporteResu</b><br>Test class: StandAlone.Word_File_Full_RegressionTest</td>
+<td></td>
+<td>-1604585723</td>
+<td>StandAlone.Word_File_Full_RegressionTest@1a18644</td></tr>
+<tr>
+<td title='StandAlone.Word_File_Full_RegressionTest.reporteResu()'><b>reporteResu</b><br>Test class: StandAlone.Word_File_Full_RegressionTest</td>
+<td></td>
+<td>-1604585723</td>
+<td>StandAlone.Word_File_Full_RegressionTest@1a18644</td></tr>
+<tr>
+<td title='StandAlone.Word_File_Full_RegressionTest.reporteResu()'><b>reporteResu</b><br>Test class: StandAlone.Word_File_Full_RegressionTest</td>
+<td></td>
+<td>-1604585723</td>
+<td>StandAlone.Word_File_Full_RegressionTest@1a18644</td></tr>
+<tr>
+<td title='StandAlone.Word_File_Full_RegressionTest.reporteResu()'><b>reporteResu</b><br>Test class: StandAlone.Word_File_Full_RegressionTest</td>
+<td></td>
+<td>-1604585723</td>
+<td>StandAlone.Word_File_Full_RegressionTest@1a18644</td></tr>
+<tr>
+<td title='StandAlone.Word_File_Full_RegressionTest.reporteResu()'><b>reporteResu</b><br>Test class: StandAlone.Word_File_Full_RegressionTest</td>
+<td></td>
+<td>-1604585723</td>
+<td>StandAlone.Word_File_Full_RegressionTest@1a18644</td></tr>
+<tr>
+<td title='StandAlone.Word_File_Full_RegressionTest.reporteResu()'><b>reporteResu</b><br>Test class: StandAlone.Word_File_Full_RegressionTest</td>
+<td></td>
+<td>-1604585723</td>
+<td>StandAlone.Word_File_Full_RegressionTest@1a18644</td></tr>
+<tr>
+<td title='StandAlone.Word_File_Full_RegressionTest.reporteResu()'><b>reporteResu</b><br>Test class: StandAlone.Word_File_Full_RegressionTest</td>
+<td></td>
+<td>-1604585723</td>
+<td>StandAlone.Word_File_Full_RegressionTest@1a18644</td></tr>
+<tr>
+<td title='StandAlone.Word_File_Full_RegressionTest.reporteResu()'><b>reporteResu</b><br>Test class: StandAlone.Word_File_Full_RegressionTest</td>
+<td></td>
+<td>-1604585723</td>
+<td>StandAlone.Word_File_Full_RegressionTest@1a18644</td></tr>
+<tr>
+<td title='StandAlone.Word_File_Full_RegressionTest.reporteResu()'><b>reporteResu</b><br>Test class: StandAlone.Word_File_Full_RegressionTest</td>
+<td></td>
+<td>-1604585723</td>
+<td>StandAlone.Word_File_Full_RegressionTest@1a18644</td></tr>
+<tr>
+<td title='StandAlone.Word_File_Full_RegressionTest.reporteResu()'><b>reporteResu</b><br>Test class: StandAlone.Word_File_Full_RegressionTest</td>
+<td></td>
+<td>-1604585723</td>
+<td>StandAlone.Word_File_Full_RegressionTest@1a18644</td></tr>
+<tr>
+<td title='StandAlone.Word_File_Full_RegressionTest.reporteResu()'><b>reporteResu</b><br>Test class: StandAlone.Word_File_Full_RegressionTest</td>
+<td></td>
+<td>-1604585723</td>
+<td>StandAlone.Word_File_Full_RegressionTest@1a18644</td></tr>
 <tr>
 <td title='StandAlone.Word_File_Full_RegressionTest.tearDown()'><b>tearDown</b><br>Test class: StandAlone.Word_File_Full_RegressionTest</td>
 <td></td>
-<td>-1604571161</td>
-<td>StandAlone.Word_File_Full_RegressionTest@7e7be63f</td></tr>
+<td>-1604585723</td>
+<td>StandAlone.Word_File_Full_RegressionTest@1a18644</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-failed'>
 <tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
@@ -196,12 +306,54 @@ Session ID: c44f6871e6d074c36d07ffdbefe34e55
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='StandAlone.Word_File_Full_RegressionTest.delete_Anotation_On_word()'><b>delete_Anotation_On_word</b><br>Test class: StandAlone.Word_File_Full_RegressionTest<br>Parameters: public void StandAlone.Word_File_Full_RegressionTest.delete_Anotation_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
+<td><div><pre>java.lang.AssertionError: ERROR ACCURRED : ANNOTATION ARE DELETED expected [true] but found [false]
+	at StandAlone.Word_File_Full_RegressionTest.delete_Anotation_On_word(Word_File_Full_RegressionTest.java:209)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace26462224", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace26462224'><pre>java.lang.AssertionError: ERROR ACCURRED : ANNOTATION ARE DELETED expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at StandAlone.Word_File_Full_RegressionTest.delete_Anotation_On_word(Word_File_Full_RegressionTest.java:209)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>37</td>
+<td>StandAlone.Word_File_Full_RegressionTest@1a18644</td></tr>
+<tr>
 <td title='StandAlone.ARender_Full_Fonction.logo_Test()'><b>logo_Test</b><br>Test class: StandAlone.ARender_Full_Fonction<br>Parameters: public void StandAlone.ARender_Full_Fonction.logo_Test(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
 <td><div><pre>java.lang.AssertionError: ERROR ACCURRED : ARENDER VERSION IS NOT TRUE expected [Version 4.1.1-rc1 - 201020_144655] but found [Version 4.1.1-rc3 - 201028_110038]
 	at StandAlone.ARender_Full_Fonction.logo_Test(ARender_Full_Fonction.java:148)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace208539442", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace208539442'><pre>java.lang.AssertionError: ERROR ACCURRED : ARENDER VERSION IS NOT TRUE expected [Version 4.1.1-rc1 - 201020_144655] but found [Version 4.1.1-rc3 - 201028_110038]
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1955502880", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1955502880'><pre>java.lang.AssertionError: ERROR ACCURRED : ARENDER VERSION IS NOT TRUE expected [Version 4.1.1-rc1 - 201020_144655] but found [Version 4.1.1-rc3 - 201028_110038]
 	at org.testng.Assert.fail(Assert.java:99)
 	at org.testng.Assert.failNotEquals(Assert.java:1037)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
@@ -238,7 +390,7 @@ Session ID: c44f6871e6d074c36d07ffdbefe34e55
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>StandAlone.ARender_Full_Fonction@5acf93bb</td></tr>
+<td>StandAlone.ARender_Full_Fonction@a530d0a</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -248,170 +400,90 @@ Session ID: c44f6871e6d074c36d07ffdbefe34e55
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='StandAlone.Word_File_Full_RegressionTest.ADD_AN_ANCRE_On_word()'><b>ADD_AN_ANCRE_On_word</b><br>Test class: StandAlone.Word_File_Full_RegressionTest<br>Parameters: public void StandAlone.Word_File_Full_RegressionTest.ADD_AN_ANCRE_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException</td>
-<td></td>
-<td>21</td>
-<td>StandAlone.Word_File_Full_RegressionTest@7e7be63f</td></tr>
-<tr>
-<td title='StandAlone.Word_File_Full_RegressionTest.Activate_Multiview_On_word()'><b>Activate_Multiview_On_word</b><br>Test class: StandAlone.Word_File_Full_RegressionTest<br>Parameters: public void StandAlone.Word_File_Full_RegressionTest.Activate_Multiview_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException</td>
-<td></td>
-<td>1</td>
-<td>StandAlone.Word_File_Full_RegressionTest@7e7be63f</td></tr>
-<tr>
-<td title='StandAlone.Word_File_Full_RegressionTest.Add_a_Signet_On_word()'><b>Add_a_Signet_On_word</b><br>Test class: StandAlone.Word_File_Full_RegressionTest<br>Parameters: public void StandAlone.Word_File_Full_RegressionTest.Add_a_Signet_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException</td>
-<td></td>
-<td>4</td>
-<td>StandAlone.Word_File_Full_RegressionTest@7e7be63f</td></tr>
-<tr>
 <td title='StandAlone.Word_File_Full_RegressionTest.Approved_Stamp_On_word()'><b>Approved_Stamp_On_word</b><br>Test class: StandAlone.Word_File_Full_RegressionTest</td>
 <td></td>
-<td>1</td>
-<td>StandAlone.Word_File_Full_RegressionTest@7e7be63f</td></tr>
+<td>32</td>
+<td>StandAlone.Word_File_Full_RegressionTest@1a18644</td></tr>
 <tr>
 <td title='StandAlone.ARender_Full_Fonction.Brightness_Test()'><b>Brightness_Test</b><br>Test class: StandAlone.ARender_Full_Fonction<br>Parameters: public void StandAlone.ARender_Full_Fonction.Brightness_Test(java.lang.reflect.Method) throws java.lang.InterruptedException,java.awt.AWTException</td>
 <td></td>
-<td>4</td>
-<td>StandAlone.ARender_Full_Fonction@5acf93bb</td></tr>
-<tr>
-<td title='StandAlone.Word_File_Full_RegressionTest.Delete_a_Signet_On_word()'><b>Delete_a_Signet_On_word</b><br>Test class: StandAlone.Word_File_Full_RegressionTest<br>Parameters: public void StandAlone.Word_File_Full_RegressionTest.Delete_a_Signet_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException</td>
-<td></td>
-<td>3</td>
-<td>StandAlone.Word_File_Full_RegressionTest@7e7be63f</td></tr>
+<td>2</td>
+<td>StandAlone.ARender_Full_Fonction@a530d0a</td></tr>
 <tr>
 <td title='StandAlone.Word_File_Full_RegressionTest.Draft_Stamp_On_word()'><b>Draft_Stamp_On_word</b><br>Test class: StandAlone.Word_File_Full_RegressionTest</td>
 <td></td>
 <td>2</td>
-<td>StandAlone.Word_File_Full_RegressionTest@7e7be63f</td></tr>
+<td>StandAlone.Word_File_Full_RegressionTest@1a18644</td></tr>
 <tr>
 <td title='StandAlone.Word_File_Full_RegressionTest.Free_Stamp_On_word()'><b>Free_Stamp_On_word</b><br>Test class: StandAlone.Word_File_Full_RegressionTest</td>
 <td></td>
 <td>2</td>
-<td>StandAlone.Word_File_Full_RegressionTest@7e7be63f</td></tr>
+<td>StandAlone.Word_File_Full_RegressionTest@1a18644</td></tr>
 <tr>
 <td title='StandAlone.ARender_Full_Fonction.Fullscreen_Test()'><b>Fullscreen_Test</b><br>Test class: StandAlone.ARender_Full_Fonction<br>Parameters: public void StandAlone.ARender_Full_Fonction.Fullscreen_Test(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
 <td></td>
 <td>0</td>
-<td>StandAlone.ARender_Full_Fonction@5acf93bb</td></tr>
+<td>StandAlone.ARender_Full_Fonction@a530d0a</td></tr>
 <tr>
 <td title='StandAlone.Word_File_Full_RegressionTest.Handel_Polygone_On_word()'><b>Handel_Polygone_On_word</b><br>Test class: StandAlone.Word_File_Full_RegressionTest<br>Parameters: public void StandAlone.Word_File_Full_RegressionTest.Handel_Polygone_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
 <td></td>
-<td>3</td>
-<td>StandAlone.Word_File_Full_RegressionTest@7e7be63f</td></tr>
+<td>4</td>
+<td>StandAlone.Word_File_Full_RegressionTest@1a18644</td></tr>
 <tr>
 <td title='StandAlone.Word_File_Full_RegressionTest.Handle_Arrow_On_word()'><b>Handle_Arrow_On_word</b><br>Test class: StandAlone.Word_File_Full_RegressionTest<br>Parameters: public void StandAlone.Word_File_Full_RegressionTest.Handle_Arrow_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
 <td></td>
-<td>16</td>
-<td>StandAlone.Word_File_Full_RegressionTest@7e7be63f</td></tr>
+<td>17</td>
+<td>StandAlone.Word_File_Full_RegressionTest@1a18644</td></tr>
 <tr>
 <td title='StandAlone.Word_File_Full_RegressionTest.Handle_Circle___On_word()'><b>Handle_Circle___On_word</b><br>Test class: StandAlone.Word_File_Full_RegressionTest<br>Parameters: public void StandAlone.Word_File_Full_RegressionTest.Handle_Circle___On_word(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
 <td></td>
 <td>4</td>
-<td>StandAlone.Word_File_Full_RegressionTest@7e7be63f</td></tr>
+<td>StandAlone.Word_File_Full_RegressionTest@1a18644</td></tr>
 <tr>
 <td title='StandAlone.Word_File_Full_RegressionTest.Handle_FreeText_On_word()'><b>Handle_FreeText_On_word</b><br>Test class: StandAlone.Word_File_Full_RegressionTest<br>Parameters: public void StandAlone.Word_File_Full_RegressionTest.Handle_FreeText_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
 <td></td>
-<td>1</td>
-<td>StandAlone.Word_File_Full_RegressionTest@7e7be63f</td></tr>
+<td>2</td>
+<td>StandAlone.Word_File_Full_RegressionTest@1a18644</td></tr>
 <tr>
 <td title='StandAlone.Word_File_Full_RegressionTest.Handle_StickyNote_On_word()'><b>Handle_StickyNote_On_word</b><br>Test class: StandAlone.Word_File_Full_RegressionTest<br>Parameters: public void StandAlone.Word_File_Full_RegressionTest.Handle_StickyNote_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
 <td></td>
-<td>2</td>
-<td>StandAlone.Word_File_Full_RegressionTest@7e7be63f</td></tr>
+<td>3</td>
+<td>StandAlone.Word_File_Full_RegressionTest@1a18644</td></tr>
 <tr>
 <td title='StandAlone.Word_File_Full_RegressionTest.Handle_Underline_On_word()'><b>Handle_Underline_On_word</b><br>Test class: StandAlone.Word_File_Full_RegressionTest<br>Parameters: public void StandAlone.Word_File_Full_RegressionTest.Handle_Underline_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
 <td></td>
 <td>4</td>
-<td>StandAlone.Word_File_Full_RegressionTest@7e7be63f</td></tr>
+<td>StandAlone.Word_File_Full_RegressionTest@1a18644</td></tr>
 <tr>
 <td title='StandAlone.Word_File_Full_RegressionTest.Handle_freeHand_On_word()'><b>Handle_freeHand_On_word</b><br>Test class: StandAlone.Word_File_Full_RegressionTest<br>Parameters: public void StandAlone.Word_File_Full_RegressionTest.Handle_freeHand_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
 <td></td>
-<td>1</td>
-<td>StandAlone.Word_File_Full_RegressionTest@7e7be63f</td></tr>
+<td>2</td>
+<td>StandAlone.Word_File_Full_RegressionTest@1a18644</td></tr>
 <tr>
 <td title='StandAlone.Word_File_Full_RegressionTest.Handle_polyline_On_word()'><b>Handle_polyline_On_word</b><br>Test class: StandAlone.Word_File_Full_RegressionTest<br>Parameters: public void StandAlone.Word_File_Full_RegressionTest.Handle_polyline_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
 <td></td>
 <td>4</td>
-<td>StandAlone.Word_File_Full_RegressionTest@7e7be63f</td></tr>
-<tr>
-<td title='StandAlone.Word_File_Full_RegressionTest.Left_Rotation_Control_On_word()'><b>Left_Rotation_Control_On_word</b><br>Test class: StandAlone.Word_File_Full_RegressionTest<br>Parameters: public void StandAlone.Word_File_Full_RegressionTest.Left_Rotation_Control_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException</td>
-<td></td>
-<td>0</td>
-<td>StandAlone.Word_File_Full_RegressionTest@7e7be63f</td></tr>
+<td>StandAlone.Word_File_Full_RegressionTest@1a18644</td></tr>
 <tr>
 <td title='StandAlone.ARender_Full_Fonction.Navigation_Button_Test()'><b>Navigation_Button_Test</b><br>Test class: StandAlone.ARender_Full_Fonction<br>Parameters: public void StandAlone.ARender_Full_Fonction.Navigation_Button_Test(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
 <td></td>
 <td>1</td>
-<td>StandAlone.ARender_Full_Fonction@5acf93bb</td></tr>
-<tr>
-<td title='StandAlone.Word_File_Full_RegressionTest.Refresh_After_Delete_Anotation_On_word()'><b>Refresh_After_Delete_Anotation_On_word</b><br>Test class: StandAlone.Word_File_Full_RegressionTest<br>Parameters: public void StandAlone.Word_File_Full_RegressionTest.Refresh_After_Delete_Anotation_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
-<td></td>
-<td>20</td>
-<td>StandAlone.Word_File_Full_RegressionTest@7e7be63f</td></tr>
-<tr>
-<td title='StandAlone.Word_File_Full_RegressionTest.Refresh_After_Save_Anotation_On_word()'><b>Refresh_After_Save_Anotation_On_word</b><br>Test class: StandAlone.Word_File_Full_RegressionTest<br>Parameters: public void StandAlone.Word_File_Full_RegressionTest.Refresh_After_Save_Anotation_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
-<td></td>
-<td>0</td>
-<td>StandAlone.Word_File_Full_RegressionTest@7e7be63f</td></tr>
-<tr>
-<td title='StandAlone.Word_File_Full_RegressionTest.Right_Rotation_Control_On_word()'><b>Right_Rotation_Control_On_word</b><br>Test class: StandAlone.Word_File_Full_RegressionTest<br>Parameters: public void StandAlone.Word_File_Full_RegressionTest.Right_Rotation_Control_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException</td>
-<td></td>
-<td>0</td>
-<td>StandAlone.Word_File_Full_RegressionTest@7e7be63f</td></tr>
-<tr>
-<td title='StandAlone.Word_File_Full_RegressionTest.SAVE_DATA_ON_word()'><b>SAVE_DATA_ON_word</b><br>Test class: StandAlone.Word_File_Full_RegressionTest<br>Parameters: public void StandAlone.Word_File_Full_RegressionTest.SAVE_DATA_ON_word(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
-<td></td>
-<td>1</td>
-<td>StandAlone.Word_File_Full_RegressionTest@7e7be63f</td></tr>
-<tr>
-<td title='StandAlone.Word_File_Full_RegressionTest.SKIP_AN_ANCRE_On_word()'><b>SKIP_AN_ANCRE_On_word</b><br>Test class: StandAlone.Word_File_Full_RegressionTest<br>Parameters: public void StandAlone.Word_File_Full_RegressionTest.SKIP_AN_ANCRE_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException</td>
-<td></td>
-<td>21</td>
-<td>StandAlone.Word_File_Full_RegressionTest@7e7be63f</td></tr>
+<td>StandAlone.ARender_Full_Fonction@a530d0a</td></tr>
 <tr>
 <td title='StandAlone.Word_File_Full_RegressionTest.Signature_Stamp_On_word()'><b>Signature_Stamp_On_word</b><br>Test class: StandAlone.Word_File_Full_RegressionTest</td>
 <td></td>
 <td>2</td>
-<td>StandAlone.Word_File_Full_RegressionTest@7e7be63f</td></tr>
+<td>StandAlone.Word_File_Full_RegressionTest@1a18644</td></tr>
 <tr>
 <td title='StandAlone.Word_File_Full_RegressionTest.Upload_word_File()'><b>Upload_word_File</b><br>Test class: StandAlone.Word_File_Full_RegressionTest<br>Parameters: public void StandAlone.Word_File_Full_RegressionTest.Upload_word_File(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException</td>
 <td></td>
 <td>5</td>
-<td>StandAlone.Word_File_Full_RegressionTest@7e7be63f</td></tr>
+<td>StandAlone.Word_File_Full_RegressionTest@1a18644</td></tr>
 <tr>
 <td title='StandAlone.Word_File_Full_RegressionTest.Urgent_Stamp_On_word()'><b>Urgent_Stamp_On_word</b><br>Test class: StandAlone.Word_File_Full_RegressionTest</td>
 <td></td>
 <td>2</td>
-<td>StandAlone.Word_File_Full_RegressionTest@7e7be63f</td></tr>
-<tr>
-<td title='StandAlone.Word_File_Full_RegressionTest.ZoomInZone_On_word()'><b>ZoomInZone_On_word</b><br>Test class: StandAlone.Word_File_Full_RegressionTest<br>Parameters: public void StandAlone.Word_File_Full_RegressionTest.ZoomInZone_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException</td>
-<td></td>
-<td>0</td>
-<td>StandAlone.Word_File_Full_RegressionTest@7e7be63f</td></tr>
-<tr>
-<td title='StandAlone.Word_File_Full_RegressionTest.ZoomIn_On_word()'><b>ZoomIn_On_word</b><br>Test class: StandAlone.Word_File_Full_RegressionTest<br>Parameters: public void StandAlone.Word_File_Full_RegressionTest.ZoomIn_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException</td>
-<td></td>
-<td>0</td>
-<td>StandAlone.Word_File_Full_RegressionTest@7e7be63f</td></tr>
-<tr>
-<td title='StandAlone.Word_File_Full_RegressionTest.ZoomOut_On_word()'><b>ZoomOut_On_word</b><br>Test class: StandAlone.Word_File_Full_RegressionTest<br>Parameters: public void StandAlone.Word_File_Full_RegressionTest.ZoomOut_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException</td>
-<td></td>
-<td>0</td>
-<td>StandAlone.Word_File_Full_RegressionTest@7e7be63f</td></tr>
-<tr>
-<td title='StandAlone.Word_File_Full_RegressionTest.Zoom_Adjust_On_word()'><b>Zoom_Adjust_On_word</b><br>Test class: StandAlone.Word_File_Full_RegressionTest<br>Parameters: public void StandAlone.Word_File_Full_RegressionTest.Zoom_Adjust_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException</td>
-<td></td>
-<td>0</td>
-<td>StandAlone.Word_File_Full_RegressionTest@7e7be63f</td></tr>
-<tr>
-<td title='StandAlone.Word_File_Full_RegressionTest.Zoom_Text_Box_Control_On_word()'><b>Zoom_Text_Box_Control_On_word</b><br>Test class: StandAlone.Word_File_Full_RegressionTest<br>Parameters: public void StandAlone.Word_File_Full_RegressionTest.Zoom_Text_Box_Control_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException</td>
-<td></td>
-<td>2</td>
-<td>StandAlone.Word_File_Full_RegressionTest@7e7be63f</td></tr>
-<tr>
-<td title='StandAlone.Word_File_Full_RegressionTest.delete_Anotation_On_word()'><b>delete_Anotation_On_word</b><br>Test class: StandAlone.Word_File_Full_RegressionTest<br>Parameters: public void StandAlone.Word_File_Full_RegressionTest.delete_Anotation_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
-<td></td>
-<td>2</td>
-<td>StandAlone.Word_File_Full_RegressionTest@7e7be63f</td></tr>
+<td>StandAlone.Word_File_Full_RegressionTest@1a18644</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
@@ -421,14 +493,14 @@ Session ID: c44f6871e6d074c36d07ffdbefe34e55
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='StandAlone.Word_File_Full_RegressionTest.Desactivate_Multiview_On_word()'><b>Desactivate_Multiview_On_word</b><br>Test class: StandAlone.Word_File_Full_RegressionTest<br>Parameters: public void StandAlone.Word_File_Full_RegressionTest.Desactivate_Multiview_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException</td>
+<td title='StandAlone.Word_File_Full_RegressionTest.ADD_AN_ANCRE_On_word()'><b>ADD_AN_ANCRE_On_word</b><br>Test class: StandAlone.Word_File_Full_RegressionTest<br>Parameters: public void StandAlone.Word_File_Full_RegressionTest.ADD_AN_ANCRE_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException</td>
 <td><div><pre>org.openqa.selenium.UnhandledAlertException: unexpected alert open: &lt;unknown&gt;
   (Session info: chrome=86.0.4240.183): 
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;RAJENGUI&apos;, ip: &apos;192.168.93.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50790}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: c44f6871e6d074c36d07ffdbefe34e55
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53690}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5d26786ee41dae618c1bbb550e357f78
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
@@ -440,16 +512,16 @@ Session ID: c44f6871e6d074c36d07ffdbefe34e55
 	at com.sun.proxy.$Proxy14.getScreenshotAs(Unknown Source)
 	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
 	at pageObject.MediaBase.takesScreenShots(MediaBase.java:25)
-	at pageObject.TestBase.reporteResu(TestBase.java:134)
+	at pageObject.TestBase.reporteResu(TestBase.java:147)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace620760381", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace620760381'><pre>org.openqa.selenium.UnhandledAlertException: unexpected alert open: &lt;unknown&gt;
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace558201620", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace558201620'><pre>org.openqa.selenium.UnhandledAlertException: unexpected alert open: &lt;unknown&gt;
   (Session info: chrome=86.0.4240.183): 
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;RAJENGUI&apos;, ip: &apos;192.168.93.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50790}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: c44f6871e6d074c36d07ffdbefe34e55
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53690}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5d26786ee41dae618c1bbb550e357f78
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
@@ -464,7 +536,7 @@ Session ID: c44f6871e6d074c36d07ffdbefe34e55
 	at com.sun.proxy.$Proxy14.getScreenshotAs(Unknown Source)
 	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
 	at pageObject.MediaBase.takesScreenShots(MediaBase.java:25)
-	at pageObject.TestBase.reporteResu(TestBase.java:134)
+	at pageObject.TestBase.reporteResu(TestBase.java:147)
 	at jdk.internal.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
@@ -499,7 +571,303 @@ Session ID: c44f6871e6d074c36d07ffdbefe34e55
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>StandAlone.Word_File_Full_RegressionTest@7e7be63f</td></tr>
+<td>StandAlone.Word_File_Full_RegressionTest@1a18644</td></tr>
+<tr>
+<td title='StandAlone.Word_File_Full_RegressionTest.Activate_Multiview_On_word()'><b>Activate_Multiview_On_word</b><br>Test class: StandAlone.Word_File_Full_RegressionTest<br>Parameters: public void StandAlone.Word_File_Full_RegressionTest.Activate_Multiview_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException</td>
+<td><div><pre>org.openqa.selenium.UnhandledAlertException: unexpected alert open: &lt;unknown&gt;
+  (Session info: chrome=86.0.4240.183): 
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;RAJENGUI&apos;, ip: &apos;192.168.93.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53690}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5d26786ee41dae618c1bbb550e357f78
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy14.getScreenshotAs(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
+	at pageObject.MediaBase.takesScreenShots(MediaBase.java:25)
+	at pageObject.TestBase.reporteResu(TestBase.java:147)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1755303688", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1755303688'><pre>org.openqa.selenium.UnhandledAlertException: unexpected alert open: &lt;unknown&gt;
+  (Session info: chrome=86.0.4240.183): 
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;RAJENGUI&apos;, ip: &apos;192.168.93.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53690}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5d26786ee41dae618c1bbb550e357f78
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at jdk.internal.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy14.getScreenshotAs(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
+	at pageObject.MediaBase.takesScreenShots(MediaBase.java:25)
+	at pageObject.TestBase.reporteResu(TestBase.java:147)
+	at jdk.internal.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+	at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:677)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:661)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>StandAlone.Word_File_Full_RegressionTest@1a18644</td></tr>
+<tr>
+<td title='StandAlone.Word_File_Full_RegressionTest.Add_a_Signet_On_word()'><b>Add_a_Signet_On_word</b><br>Test class: StandAlone.Word_File_Full_RegressionTest<br>Parameters: public void StandAlone.Word_File_Full_RegressionTest.Add_a_Signet_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException</td>
+<td><div><pre>org.openqa.selenium.UnhandledAlertException: unexpected alert open: &lt;unknown&gt;
+  (Session info: chrome=86.0.4240.183): 
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;RAJENGUI&apos;, ip: &apos;192.168.93.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53690}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5d26786ee41dae618c1bbb550e357f78
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy14.getScreenshotAs(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
+	at pageObject.MediaBase.takesScreenShots(MediaBase.java:25)
+	at pageObject.TestBase.reporteResu(TestBase.java:147)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace918357996", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace918357996'><pre>org.openqa.selenium.UnhandledAlertException: unexpected alert open: &lt;unknown&gt;
+  (Session info: chrome=86.0.4240.183): 
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;RAJENGUI&apos;, ip: &apos;192.168.93.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53690}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5d26786ee41dae618c1bbb550e357f78
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at jdk.internal.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy14.getScreenshotAs(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
+	at pageObject.MediaBase.takesScreenShots(MediaBase.java:25)
+	at pageObject.TestBase.reporteResu(TestBase.java:147)
+	at jdk.internal.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+	at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:677)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:661)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>StandAlone.Word_File_Full_RegressionTest@1a18644</td></tr>
+<tr>
+<td title='StandAlone.Word_File_Full_RegressionTest.Delete_a_Signet_On_word()'><b>Delete_a_Signet_On_word</b><br>Test class: StandAlone.Word_File_Full_RegressionTest</td>
+<td><div><pre>java.lang.Throwable: Method Word_File_Full_RegressionTest.Delete_a_Signet_On_word(java.lang.reflect.Method)[pri:20, instance:StandAlone.Word_File_Full_RegressionTest@1a18644] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace728386983", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace728386983'><pre>java.lang.Throwable: Method Word_File_Full_RegressionTest.Delete_a_Signet_On_word(java.lang.reflect.Method)[pri:20, instance:StandAlone.Word_File_Full_RegressionTest@1a18644] depends on not successfully finished methods
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>StandAlone.Word_File_Full_RegressionTest@1a18644</td></tr>
+<tr>
+<td title='StandAlone.Word_File_Full_RegressionTest.Desactivate_Multiview_On_word()'><b>Desactivate_Multiview_On_word</b><br>Test class: StandAlone.Word_File_Full_RegressionTest</td>
+<td><div><pre>java.lang.Throwable: Method Word_File_Full_RegressionTest.Desactivate_Multiview_On_word(java.lang.reflect.Method)[pri:31, instance:StandAlone.Word_File_Full_RegressionTest@1a18644] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2076427679", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2076427679'><pre>java.lang.Throwable: Method Word_File_Full_RegressionTest.Desactivate_Multiview_On_word(java.lang.reflect.Method)[pri:31, instance:StandAlone.Word_File_Full_RegressionTest@1a18644] depends on not successfully finished methods
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>StandAlone.Word_File_Full_RegressionTest@1a18644</td></tr>
+<tr>
+<td title='StandAlone.Word_File_Full_RegressionTest.Left_Rotation_Control_On_word()'><b>Left_Rotation_Control_On_word</b><br>Test class: StandAlone.Word_File_Full_RegressionTest<br>Parameters: public void StandAlone.Word_File_Full_RegressionTest.Left_Rotation_Control_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException</td>
+<td><div><pre>org.openqa.selenium.UnhandledAlertException: unexpected alert open: &lt;unknown&gt;
+  (Session info: chrome=86.0.4240.183): 
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;RAJENGUI&apos;, ip: &apos;192.168.93.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53690}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5d26786ee41dae618c1bbb550e357f78
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy14.getScreenshotAs(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
+	at pageObject.MediaBase.takesScreenShots(MediaBase.java:25)
+	at pageObject.TestBase.reporteResu(TestBase.java:147)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1320400528", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1320400528'><pre>org.openqa.selenium.UnhandledAlertException: unexpected alert open: &lt;unknown&gt;
+  (Session info: chrome=86.0.4240.183): 
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;RAJENGUI&apos;, ip: &apos;192.168.93.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53690}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5d26786ee41dae618c1bbb550e357f78
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at jdk.internal.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy14.getScreenshotAs(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
+	at pageObject.MediaBase.takesScreenShots(MediaBase.java:25)
+	at pageObject.TestBase.reporteResu(TestBase.java:147)
+	at jdk.internal.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+	at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:677)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:661)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>StandAlone.Word_File_Full_RegressionTest@1a18644</td></tr>
 <tr>
 <td title='StandAlone.Word_File_Full_RegressionTest.Multi_Multiview_On_word()'><b>Multi_Multiview_On_word</b><br>Test class: StandAlone.Word_File_Full_RegressionTest<br>Parameters: public void StandAlone.Word_File_Full_RegressionTest.Multi_Multiview_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException</td>
 <td><div><pre>org.openqa.selenium.UnhandledAlertException: unexpected alert open: &lt;unknown&gt;
@@ -507,8 +875,8 @@ Session ID: c44f6871e6d074c36d07ffdbefe34e55
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;RAJENGUI&apos;, ip: &apos;192.168.93.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50790}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: c44f6871e6d074c36d07ffdbefe34e55
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53690}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5d26786ee41dae618c1bbb550e357f78
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
@@ -520,16 +888,16 @@ Session ID: c44f6871e6d074c36d07ffdbefe34e55
 	at com.sun.proxy.$Proxy14.getScreenshotAs(Unknown Source)
 	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
 	at pageObject.MediaBase.takesScreenShots(MediaBase.java:25)
-	at pageObject.TestBase.reporteResu(TestBase.java:134)
+	at pageObject.TestBase.reporteResu(TestBase.java:147)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1119145185", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1119145185'><pre>org.openqa.selenium.UnhandledAlertException: unexpected alert open: &lt;unknown&gt;
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace341062557", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace341062557'><pre>org.openqa.selenium.UnhandledAlertException: unexpected alert open: &lt;unknown&gt;
   (Session info: chrome=86.0.4240.183): 
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;RAJENGUI&apos;, ip: &apos;192.168.93.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50790}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: c44f6871e6d074c36d07ffdbefe34e55
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53690}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5d26786ee41dae618c1bbb550e357f78
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
@@ -544,7 +912,7 @@ Session ID: c44f6871e6d074c36d07ffdbefe34e55
 	at com.sun.proxy.$Proxy14.getScreenshotAs(Unknown Source)
 	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
 	at pageObject.MediaBase.takesScreenShots(MediaBase.java:25)
-	at pageObject.TestBase.reporteResu(TestBase.java:134)
+	at pageObject.TestBase.reporteResu(TestBase.java:147)
 	at jdk.internal.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
@@ -579,7 +947,703 @@ Session ID: c44f6871e6d074c36d07ffdbefe34e55
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>StandAlone.Word_File_Full_RegressionTest@7e7be63f</td></tr>
+<td>StandAlone.Word_File_Full_RegressionTest@1a18644</td></tr>
+<tr>
+<td title='StandAlone.Word_File_Full_RegressionTest.Refresh_After_Delete_Anotation_On_word()'><b>Refresh_After_Delete_Anotation_On_word</b><br>Test class: StandAlone.Word_File_Full_RegressionTest</td>
+<td><div><pre>java.lang.Throwable: Method Word_File_Full_RegressionTest.Refresh_After_Delete_Anotation_On_word(java.lang.reflect.Method)[pri:16, instance:StandAlone.Word_File_Full_RegressionTest@1a18644] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace297225931", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace297225931'><pre>java.lang.Throwable: Method Word_File_Full_RegressionTest.Refresh_After_Delete_Anotation_On_word(java.lang.reflect.Method)[pri:16, instance:StandAlone.Word_File_Full_RegressionTest@1a18644] depends on not successfully finished methods
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>StandAlone.Word_File_Full_RegressionTest@1a18644</td></tr>
+<tr>
+<td title='StandAlone.Word_File_Full_RegressionTest.Refresh_After_Save_Anotation_On_word()'><b>Refresh_After_Save_Anotation_On_word</b><br>Test class: StandAlone.Word_File_Full_RegressionTest</td>
+<td><div><pre>java.lang.Throwable: Method Word_File_Full_RegressionTest.Refresh_After_Save_Anotation_On_word(java.lang.reflect.Method)[pri:18, instance:StandAlone.Word_File_Full_RegressionTest@1a18644] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1776875429", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1776875429'><pre>java.lang.Throwable: Method Word_File_Full_RegressionTest.Refresh_After_Save_Anotation_On_word(java.lang.reflect.Method)[pri:18, instance:StandAlone.Word_File_Full_RegressionTest@1a18644] depends on not successfully finished methods
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>StandAlone.Word_File_Full_RegressionTest@1a18644</td></tr>
+<tr>
+<td title='StandAlone.Word_File_Full_RegressionTest.Right_Rotation_Control_On_word()'><b>Right_Rotation_Control_On_word</b><br>Test class: StandAlone.Word_File_Full_RegressionTest<br>Parameters: public void StandAlone.Word_File_Full_RegressionTest.Right_Rotation_Control_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException</td>
+<td><div><pre>org.openqa.selenium.UnhandledAlertException: unexpected alert open: &lt;unknown&gt;
+  (Session info: chrome=86.0.4240.183): 
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;RAJENGUI&apos;, ip: &apos;192.168.93.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53690}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5d26786ee41dae618c1bbb550e357f78
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy14.getScreenshotAs(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
+	at pageObject.MediaBase.takesScreenShots(MediaBase.java:25)
+	at pageObject.TestBase.reporteResu(TestBase.java:147)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace115584215", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace115584215'><pre>org.openqa.selenium.UnhandledAlertException: unexpected alert open: &lt;unknown&gt;
+  (Session info: chrome=86.0.4240.183): 
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;RAJENGUI&apos;, ip: &apos;192.168.93.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53690}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5d26786ee41dae618c1bbb550e357f78
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at jdk.internal.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy14.getScreenshotAs(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
+	at pageObject.MediaBase.takesScreenShots(MediaBase.java:25)
+	at pageObject.TestBase.reporteResu(TestBase.java:147)
+	at jdk.internal.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+	at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:677)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:661)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>StandAlone.Word_File_Full_RegressionTest@1a18644</td></tr>
+<tr>
+<td title='StandAlone.Word_File_Full_RegressionTest.SAVE_DATA_ON_word()'><b>SAVE_DATA_ON_word</b><br>Test class: StandAlone.Word_File_Full_RegressionTest<br>Parameters: public void StandAlone.Word_File_Full_RegressionTest.SAVE_DATA_ON_word(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
+<td><div><pre>org.openqa.selenium.UnhandledAlertException: unexpected alert open: &lt;unknown&gt;
+  (Session info: chrome=86.0.4240.183): 
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;RAJENGUI&apos;, ip: &apos;192.168.93.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53690}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5d26786ee41dae618c1bbb550e357f78
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy14.getScreenshotAs(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
+	at pageObject.MediaBase.takesScreenShots(MediaBase.java:25)
+	at pageObject.TestBase.reporteResu(TestBase.java:147)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2022715982", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2022715982'><pre>org.openqa.selenium.UnhandledAlertException: unexpected alert open: &lt;unknown&gt;
+  (Session info: chrome=86.0.4240.183): 
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;RAJENGUI&apos;, ip: &apos;192.168.93.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53690}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5d26786ee41dae618c1bbb550e357f78
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at jdk.internal.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy14.getScreenshotAs(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
+	at pageObject.MediaBase.takesScreenShots(MediaBase.java:25)
+	at pageObject.TestBase.reporteResu(TestBase.java:147)
+	at jdk.internal.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+	at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:677)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:661)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>StandAlone.Word_File_Full_RegressionTest@1a18644</td></tr>
+<tr>
+<td title='StandAlone.Word_File_Full_RegressionTest.SKIP_AN_ANCRE_On_word()'><b>SKIP_AN_ANCRE_On_word</b><br>Test class: StandAlone.Word_File_Full_RegressionTest<br>Parameters: public void StandAlone.Word_File_Full_RegressionTest.SKIP_AN_ANCRE_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException</td>
+<td><div><pre>org.openqa.selenium.UnhandledAlertException: unexpected alert open: &lt;unknown&gt;
+  (Session info: chrome=86.0.4240.183): 
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;RAJENGUI&apos;, ip: &apos;192.168.93.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53690}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5d26786ee41dae618c1bbb550e357f78
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy14.getScreenshotAs(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
+	at pageObject.MediaBase.takesScreenShots(MediaBase.java:25)
+	at pageObject.TestBase.reporteResu(TestBase.java:147)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1040580772", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1040580772'><pre>org.openqa.selenium.UnhandledAlertException: unexpected alert open: &lt;unknown&gt;
+  (Session info: chrome=86.0.4240.183): 
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;RAJENGUI&apos;, ip: &apos;192.168.93.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53690}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5d26786ee41dae618c1bbb550e357f78
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at jdk.internal.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy14.getScreenshotAs(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
+	at pageObject.MediaBase.takesScreenShots(MediaBase.java:25)
+	at pageObject.TestBase.reporteResu(TestBase.java:147)
+	at jdk.internal.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+	at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:677)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:661)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>StandAlone.Word_File_Full_RegressionTest@1a18644</td></tr>
+<tr>
+<td title='StandAlone.Word_File_Full_RegressionTest.ZoomInZone_On_word()'><b>ZoomInZone_On_word</b><br>Test class: StandAlone.Word_File_Full_RegressionTest<br>Parameters: public void StandAlone.Word_File_Full_RegressionTest.ZoomInZone_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException</td>
+<td><div><pre>org.openqa.selenium.UnhandledAlertException: unexpected alert open: &lt;unknown&gt;
+  (Session info: chrome=86.0.4240.183): 
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;RAJENGUI&apos;, ip: &apos;192.168.93.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53690}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5d26786ee41dae618c1bbb550e357f78
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy14.getScreenshotAs(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
+	at pageObject.MediaBase.takesScreenShots(MediaBase.java:25)
+	at pageObject.TestBase.reporteResu(TestBase.java:147)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace869140506", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace869140506'><pre>org.openqa.selenium.UnhandledAlertException: unexpected alert open: &lt;unknown&gt;
+  (Session info: chrome=86.0.4240.183): 
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;RAJENGUI&apos;, ip: &apos;192.168.93.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53690}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5d26786ee41dae618c1bbb550e357f78
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at jdk.internal.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy14.getScreenshotAs(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
+	at pageObject.MediaBase.takesScreenShots(MediaBase.java:25)
+	at pageObject.TestBase.reporteResu(TestBase.java:147)
+	at jdk.internal.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+	at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:677)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:661)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>StandAlone.Word_File_Full_RegressionTest@1a18644</td></tr>
+<tr>
+<td title='StandAlone.Word_File_Full_RegressionTest.ZoomIn_On_word()'><b>ZoomIn_On_word</b><br>Test class: StandAlone.Word_File_Full_RegressionTest<br>Parameters: public void StandAlone.Word_File_Full_RegressionTest.ZoomIn_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException</td>
+<td><div><pre>org.openqa.selenium.UnhandledAlertException: unexpected alert open: &lt;unknown&gt;
+  (Session info: chrome=86.0.4240.183): 
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;RAJENGUI&apos;, ip: &apos;192.168.93.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53690}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5d26786ee41dae618c1bbb550e357f78
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy14.getScreenshotAs(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
+	at pageObject.MediaBase.takesScreenShots(MediaBase.java:25)
+	at pageObject.TestBase.reporteResu(TestBase.java:147)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1056221435", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1056221435'><pre>org.openqa.selenium.UnhandledAlertException: unexpected alert open: &lt;unknown&gt;
+  (Session info: chrome=86.0.4240.183): 
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;RAJENGUI&apos;, ip: &apos;192.168.93.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53690}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5d26786ee41dae618c1bbb550e357f78
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at jdk.internal.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy14.getScreenshotAs(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
+	at pageObject.MediaBase.takesScreenShots(MediaBase.java:25)
+	at pageObject.TestBase.reporteResu(TestBase.java:147)
+	at jdk.internal.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+	at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:677)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:661)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>StandAlone.Word_File_Full_RegressionTest@1a18644</td></tr>
+<tr>
+<td title='StandAlone.Word_File_Full_RegressionTest.ZoomOut_On_word()'><b>ZoomOut_On_word</b><br>Test class: StandAlone.Word_File_Full_RegressionTest<br>Parameters: public void StandAlone.Word_File_Full_RegressionTest.ZoomOut_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException</td>
+<td><div><pre>org.openqa.selenium.UnhandledAlertException: unexpected alert open: &lt;unknown&gt;
+  (Session info: chrome=86.0.4240.183): 
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;RAJENGUI&apos;, ip: &apos;192.168.93.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53690}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5d26786ee41dae618c1bbb550e357f78
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy14.getScreenshotAs(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
+	at pageObject.MediaBase.takesScreenShots(MediaBase.java:25)
+	at pageObject.TestBase.reporteResu(TestBase.java:147)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace116850709", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace116850709'><pre>org.openqa.selenium.UnhandledAlertException: unexpected alert open: &lt;unknown&gt;
+  (Session info: chrome=86.0.4240.183): 
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;RAJENGUI&apos;, ip: &apos;192.168.93.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53690}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5d26786ee41dae618c1bbb550e357f78
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at jdk.internal.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy14.getScreenshotAs(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
+	at pageObject.MediaBase.takesScreenShots(MediaBase.java:25)
+	at pageObject.TestBase.reporteResu(TestBase.java:147)
+	at jdk.internal.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+	at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:677)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:661)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>StandAlone.Word_File_Full_RegressionTest@1a18644</td></tr>
+<tr>
+<td title='StandAlone.Word_File_Full_RegressionTest.Zoom_Adjust_On_word()'><b>Zoom_Adjust_On_word</b><br>Test class: StandAlone.Word_File_Full_RegressionTest<br>Parameters: public void StandAlone.Word_File_Full_RegressionTest.Zoom_Adjust_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException</td>
+<td><div><pre>org.openqa.selenium.UnhandledAlertException: unexpected alert open: &lt;unknown&gt;
+  (Session info: chrome=86.0.4240.183): 
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;RAJENGUI&apos;, ip: &apos;192.168.93.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53690}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5d26786ee41dae618c1bbb550e357f78
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy14.getScreenshotAs(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
+	at pageObject.MediaBase.takesScreenShots(MediaBase.java:25)
+	at pageObject.TestBase.reporteResu(TestBase.java:147)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1975716431", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1975716431'><pre>org.openqa.selenium.UnhandledAlertException: unexpected alert open: &lt;unknown&gt;
+  (Session info: chrome=86.0.4240.183): 
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;RAJENGUI&apos;, ip: &apos;192.168.93.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53690}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5d26786ee41dae618c1bbb550e357f78
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at jdk.internal.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy14.getScreenshotAs(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
+	at pageObject.MediaBase.takesScreenShots(MediaBase.java:25)
+	at pageObject.TestBase.reporteResu(TestBase.java:147)
+	at jdk.internal.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+	at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:677)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:661)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>StandAlone.Word_File_Full_RegressionTest@1a18644</td></tr>
+<tr>
+<td title='StandAlone.Word_File_Full_RegressionTest.Zoom_Text_Box_Control_On_word()'><b>Zoom_Text_Box_Control_On_word</b><br>Test class: StandAlone.Word_File_Full_RegressionTest<br>Parameters: public void StandAlone.Word_File_Full_RegressionTest.Zoom_Text_Box_Control_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException</td>
+<td><div><pre>org.openqa.selenium.UnhandledAlertException: unexpected alert open: &lt;unknown&gt;
+  (Session info: chrome=86.0.4240.183): 
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;RAJENGUI&apos;, ip: &apos;192.168.93.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53690}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5d26786ee41dae618c1bbb550e357f78
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy14.getScreenshotAs(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
+	at pageObject.MediaBase.takesScreenShots(MediaBase.java:25)
+	at pageObject.TestBase.reporteResu(TestBase.java:147)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1640383742", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1640383742'><pre>org.openqa.selenium.UnhandledAlertException: unexpected alert open: &lt;unknown&gt;
+  (Session info: chrome=86.0.4240.183): 
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;RAJENGUI&apos;, ip: &apos;192.168.93.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53690}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5d26786ee41dae618c1bbb550e357f78
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at jdk.internal.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy14.getScreenshotAs(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
+	at pageObject.MediaBase.takesScreenShots(MediaBase.java:25)
+	at pageObject.TestBase.reporteResu(TestBase.java:147)
+	at jdk.internal.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+	at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:677)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:661)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>StandAlone.Word_File_Full_RegressionTest@1a18644</td></tr>
 </table><p>
 </body>
 </html>

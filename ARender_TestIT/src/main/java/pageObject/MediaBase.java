@@ -12,7 +12,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 
 /**
- * @author Lenovo
+ * @author ARIDHI HICHEM
  *
  */
 public class MediaBase extends TestBase {
@@ -23,8 +23,15 @@ public class MediaBase extends TestBase {
 	
 	   public static String takesScreenShots (WebDriver driver, String name) throws IOException {
 			File srcFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-			String destination =System.getProperty("user.dir")+"/reports/Snapshots/"+name  +".png";
+			String destination =System.getProperty("user.dir")+"/Snapshots/"+name  +".png";
 		    FileUtils.copyFile(srcFile, new File(destination));		 
 		    return destination ;
 		}
+	   
+	   public static String getReportName() {
+			String fileName = "ARenderReport.html";
+			return fileName;	 
+		 }
+	   
+	   
 }

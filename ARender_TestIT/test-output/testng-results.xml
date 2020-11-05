@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="4" total="8" passed="3" failed="1" skipped="0">
+<testng-results ignored="6" total="42" passed="17" failed="2" skipped="17">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-11-05T12:34:36 WAT" name="Default suite" finished-at="2020-11-05T12:34:53 WAT" duration-ms="16958">
+  <suite started-at="2020-11-05T15:12:46 WAT" name="Suite" finished-at="2020-11-05T15:15:23 WAT" duration-ms="156973">
     <groups>
     </groups>
-    <test started-at="2020-11-05T12:34:36 WAT" name="Default test" finished-at="2020-11-05T12:34:53 WAT" duration-ms="16958">
+    <test started-at="2020-11-05T15:12:46 WAT" name="Test" finished-at="2020-11-05T15:15:23 WAT" duration-ms="156973">
       <class name="StandAlone.ARender_Full_Fonction">
-        <test-method is-config="true" signature="setExtent()[pri:0, instance:StandAlone.ARender_Full_Fonction@156b88f5]" started-at="2020-11-05T12:34:36 WAT" name="setExtent" finished-at="2020-11-05T12:34:36 WAT" duration-ms="112" status="PASS">
+        <test-method is-config="true" signature="setExtent()[pri:0, instance:StandAlone.ARender_Full_Fonction@a530d0a]" started-at="2020-11-05T15:12:46 WAT" name="setExtent" finished-at="2020-11-05T15:12:46 WAT" duration-ms="105" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setExtent -->
-        <test-method is-config="true" signature="initialization()[pri:0, instance:StandAlone.ARender_Full_Fonction@156b88f5]" started-at="2020-11-05T12:34:36 WAT" name="initialization" finished-at="2020-11-05T12:34:42 WAT" duration-ms="6027" status="PASS">
+        <test-method is-config="true" signature="initialization()[pri:0, instance:StandAlone.ARender_Full_Fonction@a530d0a]" started-at="2020-11-05T15:12:46 WAT" name="initialization" finished-at="2020-11-05T15:12:52 WAT" duration-ms="6137" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.ARender_Full_Fonction@156b88f5]" started-at="2020-11-05T12:34:42 WAT" name="startReport" finished-at="2020-11-05T12:34:42 WAT" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.ARender_Full_Fonction@a530d0a]" started-at="2020-11-05T15:12:53 WAT" name="startReport" finished-at="2020-11-05T15:12:53 WAT" duration-ms="4" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,7 +26,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method signature="Brightness_Test(java.lang.reflect.Method)[pri:1, instance:StandAlone.ARender_Full_Fonction@156b88f5]" started-at="2020-11-05T12:34:42 WAT" name="Brightness_Test" finished-at="2020-11-05T12:34:44 WAT" duration-ms="2042" status="PASS">
+        <test-method signature="Brightness_Test(java.lang.reflect.Method)[pri:1, instance:StandAlone.ARender_Full_Fonction@a530d0a]" started-at="2020-11-05T15:12:53 WAT" name="Brightness_Test" finished-at="2020-11-05T15:12:55 WAT" duration-ms="2119" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,29 +37,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Brightness_Test -->
-        <test-method is-config="true" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.ARender_Full_Fonction@156b88f5]" started-at="2020-11-05T12:34:44 WAT" name="reporteResu" finished-at="2020-11-05T12:34:45 WAT" duration-ms="360" status="PASS">
+        <test-method is-config="true" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.ARender_Full_Fonction@a530d0a]" started-at="2020-11-05T15:12:55 WAT" name="reporteResu" finished-at="2020-11-05T15:12:55 WAT" duration-ms="378" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Brightness_Test status=SUCCESS method=ARender_Full_Fonction.Brightness_Test(java.lang.reflect.Method)[pri:1, instance:StandAlone.ARender_Full_Fonction@156b88f5] output={null}]]]>
+                <![CDATA[[TestResult name=Brightness_Test status=SUCCESS method=ARender_Full_Fonction.Brightness_Test(java.lang.reflect.Method)[pri:1, instance:StandAlone.ARender_Full_Fonction@a530d0a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reporteResu -->
-        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.ARender_Full_Fonction@156b88f5]" started-at="2020-11-05T12:34:45 WAT" name="startReport" finished-at="2020-11-05T12:34:45 WAT" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void StandAlone.ARender_Full_Fonction.Navigation_Button_Test(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startReport -->
-        <test-method signature="Navigation_Button_Test(java.lang.reflect.Method)[pri:2, instance:StandAlone.ARender_Full_Fonction@156b88f5]" started-at="2020-11-05T12:34:45 WAT" name="Navigation_Button_Test" finished-at="2020-11-05T12:34:46 WAT" duration-ms="1267" status="PASS">
+        <test-method signature="Navigation_Button_Test(java.lang.reflect.Method)[pri:2, instance:StandAlone.ARender_Full_Fonction@a530d0a]" started-at="2020-11-05T15:12:55 WAT" name="Navigation_Button_Test" finished-at="2020-11-05T15:12:56 WAT" duration-ms="1317" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -70,18 +59,29 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Navigation_Button_Test -->
-        <test-method is-config="true" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.ARender_Full_Fonction@156b88f5]" started-at="2020-11-05T12:34:46 WAT" name="reporteResu" finished-at="2020-11-05T12:34:46 WAT" duration-ms="360" status="PASS">
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.ARender_Full_Fonction@a530d0a]" started-at="2020-11-05T15:12:55 WAT" name="startReport" finished-at="2020-11-05T15:12:55 WAT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Navigation_Button_Test status=SUCCESS method=ARender_Full_Fonction.Navigation_Button_Test(java.lang.reflect.Method)[pri:2, instance:StandAlone.ARender_Full_Fonction@156b88f5] output={null}]]]>
+                <![CDATA[public void StandAlone.ARender_Full_Fonction.Navigation_Button_Test(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.ARender_Full_Fonction@a530d0a]" started-at="2020-11-05T15:12:56 WAT" name="reporteResu" finished-at="2020-11-05T15:12:57 WAT" duration-ms="354" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Navigation_Button_Test status=SUCCESS method=ARender_Full_Fonction.Navigation_Button_Test(java.lang.reflect.Method)[pri:2, instance:StandAlone.ARender_Full_Fonction@a530d0a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reporteResu -->
-        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.ARender_Full_Fonction@156b88f5]" started-at="2020-11-05T12:34:46 WAT" name="startReport" finished-at="2020-11-05T12:34:46 WAT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.ARender_Full_Fonction@a530d0a]" started-at="2020-11-05T15:12:57 WAT" name="startReport" finished-at="2020-11-05T15:12:57 WAT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -92,7 +92,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method signature="Fullscreen_Test(java.lang.reflect.Method)[pri:6, instance:StandAlone.ARender_Full_Fonction@156b88f5]" started-at="2020-11-05T12:34:46 WAT" name="Fullscreen_Test" finished-at="2020-11-05T12:34:47 WAT" duration-ms="636" status="PASS">
+        <test-method signature="Fullscreen_Test(java.lang.reflect.Method)[pri:6, instance:StandAlone.ARender_Full_Fonction@a530d0a]" started-at="2020-11-05T15:12:57 WAT" name="Fullscreen_Test" finished-at="2020-11-05T15:12:57 WAT" duration-ms="701" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -103,18 +103,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Fullscreen_Test -->
-        <test-method is-config="true" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.ARender_Full_Fonction@156b88f5]" started-at="2020-11-05T12:34:47 WAT" name="reporteResu" finished-at="2020-11-05T12:34:47 WAT" duration-ms="443" status="PASS">
+        <test-method is-config="true" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.ARender_Full_Fonction@a530d0a]" started-at="2020-11-05T15:12:57 WAT" name="reporteResu" finished-at="2020-11-05T15:12:58 WAT" duration-ms="322" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Fullscreen_Test status=SUCCESS method=ARender_Full_Fonction.Fullscreen_Test(java.lang.reflect.Method)[pri:6, instance:StandAlone.ARender_Full_Fonction@156b88f5] output={null}]]]>
+                <![CDATA[[TestResult name=Fullscreen_Test status=SUCCESS method=ARender_Full_Fonction.Fullscreen_Test(java.lang.reflect.Method)[pri:6, instance:StandAlone.ARender_Full_Fonction@a530d0a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reporteResu -->
-        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.ARender_Full_Fonction@156b88f5]" started-at="2020-11-05T12:34:47 WAT" name="startReport" finished-at="2020-11-05T12:34:47 WAT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.ARender_Full_Fonction@a530d0a]" started-at="2020-11-05T15:12:58 WAT" name="startReport" finished-at="2020-11-05T15:12:58 WAT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -125,7 +125,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method signature="logo_Test(java.lang.reflect.Method)[pri:8, instance:StandAlone.ARender_Full_Fonction@156b88f5]" started-at="2020-11-05T12:34:47 WAT" name="logo_Test" finished-at="2020-11-05T12:34:47 WAT" duration-ms="221" status="FAIL">
+        <test-method signature="logo_Test(java.lang.reflect.Method)[pri:8, instance:StandAlone.ARender_Full_Fonction@a530d0a]" started-at="2020-11-05T15:12:58 WAT" name="logo_Test" finished-at="2020-11-05T15:12:58 WAT" duration-ms="235" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -179,26 +179,1864 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logo_Test -->
-        <test-method is-config="true" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.ARender_Full_Fonction@156b88f5]" started-at="2020-11-05T12:34:47 WAT" name="reporteResu" finished-at="2020-11-05T12:34:48 WAT" duration-ms="409" status="PASS">
+        <test-method is-config="true" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.ARender_Full_Fonction@a530d0a]" started-at="2020-11-05T15:12:58 WAT" name="reporteResu" finished-at="2020-11-05T15:12:59 WAT" duration-ms="671" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=logo_Test status=FAILURE method=ARender_Full_Fonction.logo_Test(java.lang.reflect.Method)[pri:8, instance:StandAlone.ARender_Full_Fonction@156b88f5] output={null}]]]>
+                <![CDATA[[TestResult name=logo_Test status=FAILURE method=ARender_Full_Fonction.logo_Test(java.lang.reflect.Method)[pri:8, instance:StandAlone.ARender_Full_Fonction@a530d0a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reporteResu -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:StandAlone.ARender_Full_Fonction@156b88f5]" started-at="2020-11-05T12:34:48 WAT" name="tearDown" finished-at="2020-11-05T12:34:53 WAT" duration-ms="4857" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:StandAlone.ARender_Full_Fonction@a530d0a]" started-at="2020-11-05T15:12:59 WAT" name="tearDown" finished-at="2020-11-05T15:13:03 WAT" duration-ms="4673" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="endReport()[pri:0, instance:StandAlone.ARender_Full_Fonction@156b88f5]" started-at="2020-11-05T12:34:53 WAT" name="endReport" finished-at="2020-11-05T12:34:53 WAT" duration-ms="190" status="PASS">
+        <test-method is-config="true" signature="endReport()[pri:0, instance:StandAlone.ARender_Full_Fonction@a530d0a]" started-at="2020-11-05T15:15:23 WAT" name="endReport" finished-at="2020-11-05T15:15:23 WAT" duration-ms="324" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
       </class> <!-- StandAlone.ARender_Full_Fonction -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="StandAlone.Word_File_Full_RegressionTest">
+        <test-method is-config="true" signature="initialization()[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:13:03 WAT" name="initialization" finished-at="2020-11-05T15:13:09 WAT" duration-ms="5656" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:13:09 WAT" name="startReport" finished-at="2020-11-05T15:13:09 WAT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.Upload_word_File(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method signature="Upload_word_File(java.lang.reflect.Method)[pri:1, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:13:09 WAT" name="Upload_word_File" finished-at="2020-11-05T15:13:15 WAT" duration-ms="5609" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.Upload_word_File(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Upload_word_File -->
+        <test-method is-config="true" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:13:15 WAT" name="reporteResu" finished-at="2020-11-05T15:13:15 WAT" duration-ms="395" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Upload_word_File status=SUCCESS method=Word_File_Full_RegressionTest.Upload_word_File(java.lang.reflect.Method)[pri:1, instance:StandAlone.Word_File_Full_RegressionTest@1a18644] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporteResu -->
+        <test-method signature="Handle_StickyNote_On_word(java.lang.reflect.Method)[pri:2, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:13:15 WAT" name="Handle_StickyNote_On_word" finished-at="2020-11-05T15:13:18 WAT" depends-on-methods="StandAlone.Word_File_Full_RegressionTest.Upload_word_File" duration-ms="3053" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.Handle_StickyNote_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Handle_StickyNote_On_word -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:13:15 WAT" name="startReport" finished-at="2020-11-05T15:13:15 WAT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.Handle_StickyNote_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:13:18 WAT" name="reporteResu" finished-at="2020-11-05T15:13:18 WAT" duration-ms="482" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Handle_StickyNote_On_word status=SUCCESS method=Word_File_Full_RegressionTest.Handle_StickyNote_On_word(java.lang.reflect.Method)[pri:2, instance:StandAlone.Word_File_Full_RegressionTest@1a18644] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporteResu -->
+        <test-method signature="Handle_FreeText_On_word(java.lang.reflect.Method)[pri:3, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:13:18 WAT" name="Handle_FreeText_On_word" finished-at="2020-11-05T15:13:21 WAT" depends-on-methods="StandAlone.Word_File_Full_RegressionTest.Upload_word_File" duration-ms="2099" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.Handle_FreeText_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Handle_FreeText_On_word -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:13:18 WAT" name="startReport" finished-at="2020-11-05T15:13:18 WAT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.Handle_FreeText_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:13:21 WAT" name="reporteResu" finished-at="2020-11-05T15:13:21 WAT" duration-ms="367" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Handle_FreeText_On_word status=SUCCESS method=Word_File_Full_RegressionTest.Handle_FreeText_On_word(java.lang.reflect.Method)[pri:3, instance:StandAlone.Word_File_Full_RegressionTest@1a18644] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporteResu -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:13:21 WAT" name="startReport" finished-at="2020-11-05T15:13:21 WAT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.Handle_Circle___On_word(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method signature="Handle_Circle___On_word(java.lang.reflect.Method)[pri:4, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:13:21 WAT" name="Handle_Circle___On_word" finished-at="2020-11-05T15:13:25 WAT" depends-on-methods="StandAlone.Word_File_Full_RegressionTest.Upload_word_File" duration-ms="4293" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.Handle_Circle___On_word(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Handle_Circle___On_word -->
+        <test-method is-config="true" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:13:25 WAT" name="reporteResu" finished-at="2020-11-05T15:13:26 WAT" duration-ms="397" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Handle_Circle___On_word status=SUCCESS method=Word_File_Full_RegressionTest.Handle_Circle___On_word(java.lang.reflect.Method)[pri:4, instance:StandAlone.Word_File_Full_RegressionTest@1a18644] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporteResu -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:13:26 WAT" name="startReport" finished-at="2020-11-05T15:13:26 WAT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.Handle_Arrow_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method signature="Handle_Arrow_On_word(java.lang.reflect.Method)[pri:5, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:13:26 WAT" name="Handle_Arrow_On_word" finished-at="2020-11-05T15:13:43 WAT" depends-on-methods="StandAlone.Word_File_Full_RegressionTest.Upload_word_File" duration-ms="17089" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.Handle_Arrow_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Handle_Arrow_On_word -->
+        <test-method is-config="true" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:13:43 WAT" name="reporteResu" finished-at="2020-11-05T15:13:43 WAT" duration-ms="391" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Handle_Arrow_On_word status=SUCCESS method=Word_File_Full_RegressionTest.Handle_Arrow_On_word(java.lang.reflect.Method)[pri:5, instance:StandAlone.Word_File_Full_RegressionTest@1a18644] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporteResu -->
+        <test-method signature="Handle_Underline_On_word(java.lang.reflect.Method)[pri:6, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:13:43 WAT" name="Handle_Underline_On_word" finished-at="2020-11-05T15:13:48 WAT" depends-on-methods="StandAlone.Word_File_Full_RegressionTest.Upload_word_File" duration-ms="4511" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.Handle_Underline_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Handle_Underline_On_word -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:13:43 WAT" name="startReport" finished-at="2020-11-05T15:13:43 WAT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.Handle_Underline_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:13:48 WAT" name="reporteResu" finished-at="2020-11-05T15:13:48 WAT" duration-ms="388" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Handle_Underline_On_word status=SUCCESS method=Word_File_Full_RegressionTest.Handle_Underline_On_word(java.lang.reflect.Method)[pri:6, instance:StandAlone.Word_File_Full_RegressionTest@1a18644] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporteResu -->
+        <test-method signature="Handle_freeHand_On_word(java.lang.reflect.Method)[pri:7, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:13:48 WAT" name="Handle_freeHand_On_word" finished-at="2020-11-05T15:13:50 WAT" depends-on-methods="StandAlone.Word_File_Full_RegressionTest.Upload_word_File" duration-ms="2135" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.Handle_freeHand_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Handle_freeHand_On_word -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:13:48 WAT" name="startReport" finished-at="2020-11-05T15:13:48 WAT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.Handle_freeHand_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:13:50 WAT" name="reporteResu" finished-at="2020-11-05T15:13:51 WAT" duration-ms="393" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Handle_freeHand_On_word status=SUCCESS method=Word_File_Full_RegressionTest.Handle_freeHand_On_word(java.lang.reflect.Method)[pri:7, instance:StandAlone.Word_File_Full_RegressionTest@1a18644] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporteResu -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:13:51 WAT" name="startReport" finished-at="2020-11-05T15:13:51 WAT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.Handle_polyline_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method signature="Handle_polyline_On_word(java.lang.reflect.Method)[pri:8, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:13:51 WAT" name="Handle_polyline_On_word" finished-at="2020-11-05T15:13:55 WAT" depends-on-methods="StandAlone.Word_File_Full_RegressionTest.Upload_word_File" duration-ms="4115" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.Handle_polyline_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Handle_polyline_On_word -->
+        <test-method is-config="true" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:13:55 WAT" name="reporteResu" finished-at="2020-11-05T15:13:55 WAT" duration-ms="413" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Handle_polyline_On_word status=SUCCESS method=Word_File_Full_RegressionTest.Handle_polyline_On_word(java.lang.reflect.Method)[pri:8, instance:StandAlone.Word_File_Full_RegressionTest@1a18644] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporteResu -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:13:55 WAT" name="startReport" finished-at="2020-11-05T15:13:55 WAT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.Handel_Polygone_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method signature="Handel_Polygone_On_word(java.lang.reflect.Method)[pri:9, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:13:55 WAT" name="Handel_Polygone_On_word" finished-at="2020-11-05T15:13:59 WAT" depends-on-methods="StandAlone.Word_File_Full_RegressionTest.Upload_word_File" duration-ms="4174" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.Handel_Polygone_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Handel_Polygone_On_word -->
+        <test-method is-config="true" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:13:59 WAT" name="reporteResu" finished-at="2020-11-05T15:14:00 WAT" duration-ms="402" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Handel_Polygone_On_word status=SUCCESS method=Word_File_Full_RegressionTest.Handel_Polygone_On_word(java.lang.reflect.Method)[pri:9, instance:StandAlone.Word_File_Full_RegressionTest@1a18644] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporteResu -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:14:00 WAT" name="startReport" finished-at="2020-11-05T15:14:00 WAT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.Urgent_Stamp_On_word() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method signature="Urgent_Stamp_On_word()[pri:10, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:14:00 WAT" name="Urgent_Stamp_On_word" finished-at="2020-11-05T15:14:02 WAT" depends-on-methods="StandAlone.Word_File_Full_RegressionTest.Upload_word_File" duration-ms="2809" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Urgent_Stamp_On_word -->
+        <test-method is-config="true" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:14:02 WAT" name="reporteResu" finished-at="2020-11-05T15:14:03 WAT" duration-ms="492" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Urgent_Stamp_On_word status=SUCCESS method=Word_File_Full_RegressionTest.Urgent_Stamp_On_word()[pri:10, instance:StandAlone.Word_File_Full_RegressionTest@1a18644] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporteResu -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:14:03 WAT" name="startReport" finished-at="2020-11-05T15:14:03 WAT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.Approved_Stamp_On_word() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method signature="Approved_Stamp_On_word()[pri:11, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:14:03 WAT" name="Approved_Stamp_On_word" finished-at="2020-11-05T15:14:35 WAT" depends-on-methods="StandAlone.Word_File_Full_RegressionTest.Upload_word_File" duration-ms="32308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Approved_Stamp_On_word -->
+        <test-method is-config="true" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:14:35 WAT" name="reporteResu" finished-at="2020-11-05T15:14:36 WAT" duration-ms="593" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Approved_Stamp_On_word status=SUCCESS method=Word_File_Full_RegressionTest.Approved_Stamp_On_word()[pri:11, instance:StandAlone.Word_File_Full_RegressionTest@1a18644] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporteResu -->
+        <test-method signature="Draft_Stamp_On_word()[pri:12, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:14:36 WAT" name="Draft_Stamp_On_word" finished-at="2020-11-05T15:14:38 WAT" depends-on-methods="StandAlone.Word_File_Full_RegressionTest.Upload_word_File" duration-ms="2595" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Draft_Stamp_On_word -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:14:36 WAT" name="startReport" finished-at="2020-11-05T15:14:36 WAT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.Draft_Stamp_On_word() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:14:38 WAT" name="reporteResu" finished-at="2020-11-05T15:14:39 WAT" duration-ms="482" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Draft_Stamp_On_word status=SUCCESS method=Word_File_Full_RegressionTest.Draft_Stamp_On_word()[pri:12, instance:StandAlone.Word_File_Full_RegressionTest@1a18644] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporteResu -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:14:39 WAT" name="startReport" finished-at="2020-11-05T15:14:39 WAT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.Signature_Stamp_On_word() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method signature="Signature_Stamp_On_word()[pri:13, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:14:39 WAT" name="Signature_Stamp_On_word" finished-at="2020-11-05T15:14:42 WAT" depends-on-methods="StandAlone.Word_File_Full_RegressionTest.Upload_word_File" duration-ms="2597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Signature_Stamp_On_word -->
+        <test-method is-config="true" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:14:42 WAT" name="reporteResu" finished-at="2020-11-05T15:14:42 WAT" duration-ms="524" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Signature_Stamp_On_word status=SUCCESS method=Word_File_Full_RegressionTest.Signature_Stamp_On_word()[pri:13, instance:StandAlone.Word_File_Full_RegressionTest@1a18644] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporteResu -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:14:42 WAT" name="startReport" finished-at="2020-11-05T15:14:42 WAT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.Free_Stamp_On_word() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method signature="Free_Stamp_On_word()[pri:14, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:14:42 WAT" name="Free_Stamp_On_word" finished-at="2020-11-05T15:14:45 WAT" depends-on-methods="StandAlone.Word_File_Full_RegressionTest.Upload_word_File" duration-ms="2848" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Free_Stamp_On_word -->
+        <test-method is-config="true" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:14:45 WAT" name="reporteResu" finished-at="2020-11-05T15:14:45 WAT" duration-ms="451" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Free_Stamp_On_word status=SUCCESS method=Word_File_Full_RegressionTest.Free_Stamp_On_word()[pri:14, instance:StandAlone.Word_File_Full_RegressionTest@1a18644] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporteResu -->
+        <test-method signature="delete_Anotation_On_word(java.lang.reflect.Method)[pri:15, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:14:45 WAT" name="delete_Anotation_On_word" finished-at="2020-11-05T15:15:23 WAT" depends-on-methods="StandAlone.Word_File_Full_RegressionTest.Handle_StickyNote_On_word, StandAlone.Word_File_Full_RegressionTest.Handel_Polygone_On_word, StandAlone.Word_File_Full_RegressionTest.Upload_word_File" duration-ms="37205" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.delete_Anotation_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[ERROR ACCURRED : ANNOTATION ARE DELETED expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: ERROR ACCURRED : ANNOTATION ARE DELETED expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at StandAlone.Word_File_Full_RegressionTest.delete_Anotation_On_word(Word_File_Full_RegressionTest.java:209)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete_Anotation_On_word -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:14:45 WAT" name="startReport" finished-at="2020-11-05T15:14:45 WAT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.delete_Anotation_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:15:23 WAT" name="reporteResu" finished-at="2020-11-05T15:15:23 WAT" duration-ms="249" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=delete_Anotation_On_word status=FAILURE method=Word_File_Full_RegressionTest.delete_Anotation_On_word(java.lang.reflect.Method)[pri:15, instance:StandAlone.Word_File_Full_RegressionTest@1a18644] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[unexpected alert open: <unknown>
+  (Session info: chrome=86.0.4240.183): 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RAJENGUI', ip: '192.168.93.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53690}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5d26786ee41dae618c1bbb550e357f78]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: <unknown>
+  (Session info: chrome=86.0.4240.183): 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RAJENGUI', ip: '192.168.93.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53690}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5d26786ee41dae618c1bbb550e357f78
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+at jdk.internal.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+at com.sun.proxy.$Proxy14.getScreenshotAs(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
+at pageObject.MediaBase.takesScreenShots(MediaBase.java:25)
+at pageObject.TestBase.reporteResu(TestBase.java:147)
+at jdk.internal.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:677)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:661)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporteResu -->
+        <test-method signature="Refresh_After_Delete_Anotation_On_word(java.lang.reflect.Method)[pri:16, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:15:23 WAT" name="Refresh_After_Delete_Anotation_On_word" finished-at="2020-11-05T15:15:23 WAT" depends-on-methods="StandAlone.Word_File_Full_RegressionTest.delete_Anotation_On_word" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method Word_File_Full_RegressionTest.Refresh_After_Delete_Anotation_On_word(java.lang.reflect.Method)[pri:16, instance:StandAlone.Word_File_Full_RegressionTest@1a18644] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method Word_File_Full_RegressionTest.Refresh_After_Delete_Anotation_On_word(java.lang.reflect.Method)[pri:16, instance:StandAlone.Word_File_Full_RegressionTest@1a18644] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Refresh_After_Delete_Anotation_On_word -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:15:23 WAT" name="startReport" finished-at="1970-01-01T01:00:00 WAT" duration-ms="-1604585723341" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method signature="SAVE_DATA_ON_word(java.lang.reflect.Method)[pri:17, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:15:23 WAT" name="SAVE_DATA_ON_word" finished-at="2020-11-05T15:15:23 WAT" depends-on-methods="StandAlone.Word_File_Full_RegressionTest.Upload_word_File" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.SAVE_DATA_ON_word(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[unexpected alert open: <unknown>
+  (Session info: chrome=86.0.4240.183): 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RAJENGUI', ip: '192.168.93.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53690}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5d26786ee41dae618c1bbb550e357f78]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: <unknown>
+  (Session info: chrome=86.0.4240.183): 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RAJENGUI', ip: '192.168.93.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53690}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5d26786ee41dae618c1bbb550e357f78
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+at jdk.internal.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+at com.sun.proxy.$Proxy14.getScreenshotAs(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
+at pageObject.MediaBase.takesScreenShots(MediaBase.java:25)
+at pageObject.TestBase.reporteResu(TestBase.java:147)
+at jdk.internal.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:677)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:661)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SAVE_DATA_ON_word -->
+        <test-method signature="Refresh_After_Save_Anotation_On_word(java.lang.reflect.Method)[pri:18, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:15:23 WAT" name="Refresh_After_Save_Anotation_On_word" finished-at="2020-11-05T15:15:23 WAT" depends-on-methods="StandAlone.Word_File_Full_RegressionTest.SAVE_DATA_ON_word" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method Word_File_Full_RegressionTest.Refresh_After_Save_Anotation_On_word(java.lang.reflect.Method)[pri:18, instance:StandAlone.Word_File_Full_RegressionTest@1a18644] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method Word_File_Full_RegressionTest.Refresh_After_Save_Anotation_On_word(java.lang.reflect.Method)[pri:18, instance:StandAlone.Word_File_Full_RegressionTest@1a18644] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Refresh_After_Save_Anotation_On_word -->
+        <test-method is-config="true" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:15:23 WAT" name="reporteResu" finished-at="1970-01-01T01:00:00 WAT" duration-ms="-1604585723345" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporteResu -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:15:23 WAT" name="startReport" finished-at="1970-01-01T01:00:00 WAT" duration-ms="-1604585723346" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method signature="Add_a_Signet_On_word(java.lang.reflect.Method)[pri:19, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:15:23 WAT" name="Add_a_Signet_On_word" finished-at="2020-11-05T15:15:23 WAT" depends-on-methods="StandAlone.Word_File_Full_RegressionTest.Upload_word_File" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.Add_a_Signet_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[unexpected alert open: <unknown>
+  (Session info: chrome=86.0.4240.183): 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RAJENGUI', ip: '192.168.93.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53690}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5d26786ee41dae618c1bbb550e357f78]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: <unknown>
+  (Session info: chrome=86.0.4240.183): 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RAJENGUI', ip: '192.168.93.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53690}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5d26786ee41dae618c1bbb550e357f78
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+at jdk.internal.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+at com.sun.proxy.$Proxy14.getScreenshotAs(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
+at pageObject.MediaBase.takesScreenShots(MediaBase.java:25)
+at pageObject.TestBase.reporteResu(TestBase.java:147)
+at jdk.internal.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:677)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:661)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_a_Signet_On_word -->
+        <test-method is-config="true" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:15:23 WAT" name="reporteResu" finished-at="1970-01-01T01:00:00 WAT" duration-ms="-1604585723350" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporteResu -->
+        <test-method signature="Delete_a_Signet_On_word(java.lang.reflect.Method)[pri:20, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:15:23 WAT" name="Delete_a_Signet_On_word" finished-at="2020-11-05T15:15:23 WAT" depends-on-methods="StandAlone.Word_File_Full_RegressionTest.Add_a_Signet_On_word" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method Word_File_Full_RegressionTest.Delete_a_Signet_On_word(java.lang.reflect.Method)[pri:20, instance:StandAlone.Word_File_Full_RegressionTest@1a18644] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method Word_File_Full_RegressionTest.Delete_a_Signet_On_word(java.lang.reflect.Method)[pri:20, instance:StandAlone.Word_File_Full_RegressionTest@1a18644] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Delete_a_Signet_On_word -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:15:23 WAT" name="startReport" finished-at="1970-01-01T01:00:00 WAT" duration-ms="-1604585723354" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method signature="ADD_AN_ANCRE_On_word(java.lang.reflect.Method)[pri:21, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:15:23 WAT" name="ADD_AN_ANCRE_On_word" finished-at="2020-11-05T15:15:23 WAT" depends-on-methods="StandAlone.Word_File_Full_RegressionTest.Upload_word_File" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.ADD_AN_ANCRE_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[unexpected alert open: <unknown>
+  (Session info: chrome=86.0.4240.183): 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RAJENGUI', ip: '192.168.93.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53690}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5d26786ee41dae618c1bbb550e357f78]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: <unknown>
+  (Session info: chrome=86.0.4240.183): 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RAJENGUI', ip: '192.168.93.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53690}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5d26786ee41dae618c1bbb550e357f78
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+at jdk.internal.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+at com.sun.proxy.$Proxy14.getScreenshotAs(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
+at pageObject.MediaBase.takesScreenShots(MediaBase.java:25)
+at pageObject.TestBase.reporteResu(TestBase.java:147)
+at jdk.internal.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:677)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:661)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ADD_AN_ANCRE_On_word -->
+        <test-method is-config="true" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:15:23 WAT" name="reporteResu" finished-at="1970-01-01T01:00:00 WAT" duration-ms="-1604585723356" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporteResu -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:15:23 WAT" name="startReport" finished-at="1970-01-01T01:00:00 WAT" duration-ms="-1604585723357" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method signature="SKIP_AN_ANCRE_On_word(java.lang.reflect.Method)[pri:22, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:15:23 WAT" name="SKIP_AN_ANCRE_On_word" finished-at="2020-11-05T15:15:23 WAT" depends-on-methods="StandAlone.Word_File_Full_RegressionTest.Upload_word_File" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.SKIP_AN_ANCRE_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[unexpected alert open: <unknown>
+  (Session info: chrome=86.0.4240.183): 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RAJENGUI', ip: '192.168.93.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53690}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5d26786ee41dae618c1bbb550e357f78]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: <unknown>
+  (Session info: chrome=86.0.4240.183): 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RAJENGUI', ip: '192.168.93.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53690}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5d26786ee41dae618c1bbb550e357f78
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+at jdk.internal.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+at com.sun.proxy.$Proxy14.getScreenshotAs(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
+at pageObject.MediaBase.takesScreenShots(MediaBase.java:25)
+at pageObject.TestBase.reporteResu(TestBase.java:147)
+at jdk.internal.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:677)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:661)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SKIP_AN_ANCRE_On_word -->
+        <test-method is-config="true" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:15:23 WAT" name="reporteResu" finished-at="1970-01-01T01:00:00 WAT" duration-ms="-1604585723358" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporteResu -->
+        <test-method signature="ZoomIn_On_word(java.lang.reflect.Method)[pri:23, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:15:23 WAT" name="ZoomIn_On_word" finished-at="2020-11-05T15:15:23 WAT" depends-on-methods="StandAlone.Word_File_Full_RegressionTest.Upload_word_File" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.ZoomIn_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[unexpected alert open: <unknown>
+  (Session info: chrome=86.0.4240.183): 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RAJENGUI', ip: '192.168.93.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53690}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5d26786ee41dae618c1bbb550e357f78]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: <unknown>
+  (Session info: chrome=86.0.4240.183): 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RAJENGUI', ip: '192.168.93.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53690}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5d26786ee41dae618c1bbb550e357f78
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+at jdk.internal.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+at com.sun.proxy.$Proxy14.getScreenshotAs(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
+at pageObject.MediaBase.takesScreenShots(MediaBase.java:25)
+at pageObject.TestBase.reporteResu(TestBase.java:147)
+at jdk.internal.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:677)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:661)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ZoomIn_On_word -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:15:23 WAT" name="startReport" finished-at="1970-01-01T01:00:00 WAT" duration-ms="-1604585723359" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:15:23 WAT" name="reporteResu" finished-at="1970-01-01T01:00:00 WAT" duration-ms="-1604585723360" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporteResu -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:15:23 WAT" name="startReport" finished-at="1970-01-01T01:00:00 WAT" duration-ms="-1604585723361" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method signature="ZoomOut_On_word(java.lang.reflect.Method)[pri:24, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:15:23 WAT" name="ZoomOut_On_word" finished-at="2020-11-05T15:15:23 WAT" depends-on-methods="StandAlone.Word_File_Full_RegressionTest.Upload_word_File" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.ZoomOut_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[unexpected alert open: <unknown>
+  (Session info: chrome=86.0.4240.183): 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RAJENGUI', ip: '192.168.93.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53690}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5d26786ee41dae618c1bbb550e357f78]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: <unknown>
+  (Session info: chrome=86.0.4240.183): 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RAJENGUI', ip: '192.168.93.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53690}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5d26786ee41dae618c1bbb550e357f78
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+at jdk.internal.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+at com.sun.proxy.$Proxy14.getScreenshotAs(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
+at pageObject.MediaBase.takesScreenShots(MediaBase.java:25)
+at pageObject.TestBase.reporteResu(TestBase.java:147)
+at jdk.internal.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:677)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:661)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ZoomOut_On_word -->
+        <test-method is-config="true" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:15:23 WAT" name="reporteResu" finished-at="1970-01-01T01:00:00 WAT" duration-ms="-1604585723362" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporteResu -->
+        <test-method signature="ZoomInZone_On_word(java.lang.reflect.Method)[pri:25, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:15:23 WAT" name="ZoomInZone_On_word" finished-at="2020-11-05T15:15:23 WAT" depends-on-methods="StandAlone.Word_File_Full_RegressionTest.Upload_word_File" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.ZoomInZone_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[unexpected alert open: <unknown>
+  (Session info: chrome=86.0.4240.183): 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RAJENGUI', ip: '192.168.93.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53690}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5d26786ee41dae618c1bbb550e357f78]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: <unknown>
+  (Session info: chrome=86.0.4240.183): 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RAJENGUI', ip: '192.168.93.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53690}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5d26786ee41dae618c1bbb550e357f78
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+at jdk.internal.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+at com.sun.proxy.$Proxy14.getScreenshotAs(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
+at pageObject.MediaBase.takesScreenShots(MediaBase.java:25)
+at pageObject.TestBase.reporteResu(TestBase.java:147)
+at jdk.internal.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:677)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:661)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ZoomInZone_On_word -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:15:23 WAT" name="startReport" finished-at="1970-01-01T01:00:00 WAT" duration-ms="-1604585723363" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:15:23 WAT" name="reporteResu" finished-at="1970-01-01T01:00:00 WAT" duration-ms="-1604585723364" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporteResu -->
+        <test-method signature="Zoom_Adjust_On_word(java.lang.reflect.Method)[pri:26, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:15:23 WAT" name="Zoom_Adjust_On_word" finished-at="2020-11-05T15:15:23 WAT" depends-on-methods="StandAlone.Word_File_Full_RegressionTest.Upload_word_File" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.Zoom_Adjust_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[unexpected alert open: <unknown>
+  (Session info: chrome=86.0.4240.183): 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RAJENGUI', ip: '192.168.93.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53690}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5d26786ee41dae618c1bbb550e357f78]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: <unknown>
+  (Session info: chrome=86.0.4240.183): 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RAJENGUI', ip: '192.168.93.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53690}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5d26786ee41dae618c1bbb550e357f78
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+at jdk.internal.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+at com.sun.proxy.$Proxy14.getScreenshotAs(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
+at pageObject.MediaBase.takesScreenShots(MediaBase.java:25)
+at pageObject.TestBase.reporteResu(TestBase.java:147)
+at jdk.internal.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:677)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:661)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Zoom_Adjust_On_word -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:15:23 WAT" name="startReport" finished-at="1970-01-01T01:00:00 WAT" duration-ms="-1604585723365" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:15:23 WAT" name="reporteResu" finished-at="1970-01-01T01:00:00 WAT" duration-ms="-1604585723366" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporteResu -->
+        <test-method signature="Zoom_Text_Box_Control_On_word(java.lang.reflect.Method)[pri:27, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:15:23 WAT" name="Zoom_Text_Box_Control_On_word" finished-at="2020-11-05T15:15:23 WAT" depends-on-methods="StandAlone.Word_File_Full_RegressionTest.Upload_word_File" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.Zoom_Text_Box_Control_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[unexpected alert open: <unknown>
+  (Session info: chrome=86.0.4240.183): 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RAJENGUI', ip: '192.168.93.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53690}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5d26786ee41dae618c1bbb550e357f78]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: <unknown>
+  (Session info: chrome=86.0.4240.183): 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RAJENGUI', ip: '192.168.93.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53690}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5d26786ee41dae618c1bbb550e357f78
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+at jdk.internal.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+at com.sun.proxy.$Proxy14.getScreenshotAs(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
+at pageObject.MediaBase.takesScreenShots(MediaBase.java:25)
+at pageObject.TestBase.reporteResu(TestBase.java:147)
+at jdk.internal.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:677)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:661)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Zoom_Text_Box_Control_On_word -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:15:23 WAT" name="startReport" finished-at="1970-01-01T01:00:00 WAT" duration-ms="-1604585723367" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:15:23 WAT" name="reporteResu" finished-at="1970-01-01T01:00:00 WAT" duration-ms="-1604585723369" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporteResu -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:15:23 WAT" name="startReport" finished-at="1970-01-01T01:00:00 WAT" duration-ms="-1604585723370" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method signature="Left_Rotation_Control_On_word(java.lang.reflect.Method)[pri:28, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:15:23 WAT" name="Left_Rotation_Control_On_word" finished-at="2020-11-05T15:15:23 WAT" depends-on-methods="StandAlone.Word_File_Full_RegressionTest.Upload_word_File" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.Left_Rotation_Control_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[unexpected alert open: <unknown>
+  (Session info: chrome=86.0.4240.183): 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RAJENGUI', ip: '192.168.93.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53690}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5d26786ee41dae618c1bbb550e357f78]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: <unknown>
+  (Session info: chrome=86.0.4240.183): 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RAJENGUI', ip: '192.168.93.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53690}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5d26786ee41dae618c1bbb550e357f78
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+at jdk.internal.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+at com.sun.proxy.$Proxy14.getScreenshotAs(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
+at pageObject.MediaBase.takesScreenShots(MediaBase.java:25)
+at pageObject.TestBase.reporteResu(TestBase.java:147)
+at jdk.internal.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:677)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:661)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Left_Rotation_Control_On_word -->
+        <test-method is-config="true" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:15:23 WAT" name="reporteResu" finished-at="1970-01-01T01:00:00 WAT" duration-ms="-1604585723373" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporteResu -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:15:23 WAT" name="startReport" finished-at="1970-01-01T01:00:00 WAT" duration-ms="-1604585723373" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method signature="Right_Rotation_Control_On_word(java.lang.reflect.Method)[pri:29, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:15:23 WAT" name="Right_Rotation_Control_On_word" finished-at="2020-11-05T15:15:23 WAT" depends-on-methods="StandAlone.Word_File_Full_RegressionTest.Upload_word_File" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.Right_Rotation_Control_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[unexpected alert open: <unknown>
+  (Session info: chrome=86.0.4240.183): 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RAJENGUI', ip: '192.168.93.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53690}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5d26786ee41dae618c1bbb550e357f78]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: <unknown>
+  (Session info: chrome=86.0.4240.183): 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RAJENGUI', ip: '192.168.93.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53690}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5d26786ee41dae618c1bbb550e357f78
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+at jdk.internal.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+at com.sun.proxy.$Proxy14.getScreenshotAs(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
+at pageObject.MediaBase.takesScreenShots(MediaBase.java:25)
+at pageObject.TestBase.reporteResu(TestBase.java:147)
+at jdk.internal.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:677)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:661)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Right_Rotation_Control_On_word -->
+        <test-method is-config="true" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:15:23 WAT" name="reporteResu" finished-at="1970-01-01T01:00:00 WAT" duration-ms="-1604585723375" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporteResu -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:15:23 WAT" name="startReport" finished-at="1970-01-01T01:00:00 WAT" duration-ms="-1604585723376" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method signature="Activate_Multiview_On_word(java.lang.reflect.Method)[pri:30, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:15:23 WAT" name="Activate_Multiview_On_word" finished-at="2020-11-05T15:15:23 WAT" depends-on-methods="StandAlone.Word_File_Full_RegressionTest.Upload_word_File" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.Activate_Multiview_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[unexpected alert open: <unknown>
+  (Session info: chrome=86.0.4240.183): 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RAJENGUI', ip: '192.168.93.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53690}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5d26786ee41dae618c1bbb550e357f78]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: <unknown>
+  (Session info: chrome=86.0.4240.183): 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RAJENGUI', ip: '192.168.93.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53690}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5d26786ee41dae618c1bbb550e357f78
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+at jdk.internal.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+at com.sun.proxy.$Proxy14.getScreenshotAs(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
+at pageObject.MediaBase.takesScreenShots(MediaBase.java:25)
+at pageObject.TestBase.reporteResu(TestBase.java:147)
+at jdk.internal.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:677)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:661)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Activate_Multiview_On_word -->
+        <test-method is-config="true" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:15:23 WAT" name="reporteResu" finished-at="1970-01-01T01:00:00 WAT" duration-ms="-1604585723377" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporteResu -->
+        <test-method signature="Desactivate_Multiview_On_word(java.lang.reflect.Method)[pri:31, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:15:23 WAT" name="Desactivate_Multiview_On_word" finished-at="2020-11-05T15:15:23 WAT" depends-on-methods="StandAlone.Word_File_Full_RegressionTest.Activate_Multiview_On_word" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method Word_File_Full_RegressionTest.Desactivate_Multiview_On_word(java.lang.reflect.Method)[pri:31, instance:StandAlone.Word_File_Full_RegressionTest@1a18644] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method Word_File_Full_RegressionTest.Desactivate_Multiview_On_word(java.lang.reflect.Method)[pri:31, instance:StandAlone.Word_File_Full_RegressionTest@1a18644] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Desactivate_Multiview_On_word -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:15:23 WAT" name="startReport" finished-at="1970-01-01T01:00:00 WAT" duration-ms="-1604585723381" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method signature="Multi_Multiview_On_word(java.lang.reflect.Method)[pri:32, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:15:23 WAT" name="Multi_Multiview_On_word" finished-at="2020-11-05T15:15:23 WAT" depends-on-methods="StandAlone.Word_File_Full_RegressionTest.Upload_word_File" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void StandAlone.Word_File_Full_RegressionTest.Multi_Multiview_On_word(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[unexpected alert open: <unknown>
+  (Session info: chrome=86.0.4240.183): 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RAJENGUI', ip: '192.168.93.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53690}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5d26786ee41dae618c1bbb550e357f78]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: <unknown>
+  (Session info: chrome=86.0.4240.183): 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RAJENGUI', ip: '192.168.93.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53690}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5d26786ee41dae618c1bbb550e357f78
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+at jdk.internal.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+at com.sun.proxy.$Proxy14.getScreenshotAs(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
+at pageObject.MediaBase.takesScreenShots(MediaBase.java:25)
+at pageObject.TestBase.reporteResu(TestBase.java:147)
+at jdk.internal.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:677)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:661)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Multi_Multiview_On_word -->
+        <test-method is-config="true" signature="reporteResu(org.testng.ITestResult)[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:15:23 WAT" name="reporteResu" finished-at="1970-01-01T01:00:00 WAT" duration-ms="-1604585723386" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporteResu -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:StandAlone.Word_File_Full_RegressionTest@1a18644]" started-at="2020-11-05T15:15:23 WAT" name="tearDown" finished-at="1970-01-01T01:00:00 WAT" duration-ms="-1604585723387" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- StandAlone.Word_File_Full_RegressionTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

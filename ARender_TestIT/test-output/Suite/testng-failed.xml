@@ -3,20 +3,6 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="StandAlone.Word_File_Full_RegressionTest">
-        <methods>
-          <include name="setExtent"/>
-          <include name="reporteResu"/>
-          <include name="tearDown"/>
-          <include name="Upload_word_File"/>
-          <include name="Activate_Multiview_On_word"/>
-          <include name="endReport"/>
-          <include name="startReport"/>
-          <include name="initialization"/>
-          <include name="Desactivate_Multiview_On_word"/>
-          <include name="Multi_Multiview_On_word"/>
-        </methods>
-      </class> <!-- StandAlone.Word_File_Full_RegressionTest -->
       <class name="StandAlone.ARender_Full_Fonction">
         <methods>
           <include name="setExtent"/>
@@ -28,6 +14,37 @@
           <include name="initialization"/>
         </methods>
       </class> <!-- StandAlone.ARender_Full_Fonction -->
+      <class name="StandAlone.Word_File_Full_RegressionTest">
+        <methods>
+          <include name="setExtent"/>
+          <include name="Handel_Polygone_On_word"/>
+          <include name="endReport"/>
+          <include name="Refresh_After_Save_Anotation_On_word"/>
+          <include name="delete_Anotation_On_word" invocation-numbers="0"/>
+          <include name="startReport"/>
+          <include name="Refresh_After_Delete_Anotation_On_word"/>
+          <include name="Activate_Multiview_On_word"/>
+          <include name="ADD_AN_ANCRE_On_word"/>
+          <include name="initialization"/>
+          <include name="Desactivate_Multiview_On_word"/>
+          <include name="Zoom_Adjust_On_word"/>
+          <include name="ZoomIn_On_word"/>
+          <include name="Right_Rotation_Control_On_word"/>
+          <include name="Zoom_Text_Box_Control_On_word"/>
+          <include name="tearDown"/>
+          <include name="ZoomInZone_On_word"/>
+          <include name="Delete_a_Signet_On_word"/>
+          <include name="SKIP_AN_ANCRE_On_word"/>
+          <include name="Left_Rotation_Control_On_word"/>
+          <include name="reporteResu"/>
+          <include name="Handle_StickyNote_On_word"/>
+          <include name="Upload_word_File"/>
+          <include name="ZoomOut_On_word"/>
+          <include name="Add_a_Signet_On_word"/>
+          <include name="Multi_Multiview_On_word"/>
+          <include name="SAVE_DATA_ON_word"/>
+        </methods>
+      </class> <!-- StandAlone.Word_File_Full_RegressionTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
