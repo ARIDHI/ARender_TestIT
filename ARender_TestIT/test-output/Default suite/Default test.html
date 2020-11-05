@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>30/0/2</td>
+<td>Tests passed/Failed/Skipped:</td><td>3/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Nov 04 09:24:03 WAT 2020</td>
+<td>Started on:</td><td>Thu Nov 05 12:34:36 WAT 2020</td>
 </tr>
-<tr><td>Total time:</td><td>186 seconds (186503 ms)</td>
+<tr><td>Total time:</td><td>16 seconds (16958 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -68,159 +68,88 @@ function toggleAllBoxes() {
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
 <table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='StandAlone.Eml_File_Full_RegressionTest.reporteResu()'><b>reporteResu</b><br>Test class: StandAlone.Eml_File_Full_RegressionTest<br>Parameters: [TestResult name=Activate_Multiview_On_eml status=SUCCESS method=Eml_File_Full_RegressionTest.Activate_Multiview_On_eml(java.lang.reflect.Method)[pri:30, instance:StandAlone.Eml_File_Full_RegressionTest@eafc191] output={null}]</td>
-<td><div><pre>org.openqa.selenium.UnhandledAlertException: unexpected alert open: &lt;unknown&gt;
-  (Session info: chrome=86.0.4240.183): 
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;HICHEM&apos;, ip: &apos;192.168.198.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64202}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: d9db8a556596b9aca420d3342933e699
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
-	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
-	at com.sun.proxy.$Proxy11.getScreenshotAs(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
-	at pageObject.MediaBase.takesScreenShots(MediaBase.java:25)
-	at pageObject.TestBase.reporteResu(TestBase.java:138)
-	at sun.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:64)
-	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:364)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:318)
-	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-	at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
+<td title='StandAlone.ARender_Full_Fonction.logo_Test()'><b>logo_Test</b><br>Test class: StandAlone.ARender_Full_Fonction<br>Parameters: public void StandAlone.ARender_Full_Fonction.logo_Test(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
+<td><div><pre>java.lang.AssertionError: ERROR ACCURRED : ARENDER VERSION IS NOT TRUE expected [Version 4.1.1-rc1 - 201020_144655] but found [Version 4.1.1-rc3 - 201028_110038]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at StandAlone.ARender_Full_Fonction.logo_Test(ARender_Full_Fonction.java:148)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
 	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
 	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
 	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(Unknown Source)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:588)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
 	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
 	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
-	at org.testng.TestNG.runSuites(TestNG.java:1066)
-	at org.testng.TestNG.run(TestNG.java:1034)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1613583383", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1613583383'><pre>org.openqa.selenium.UnhandledAlertException: unexpected alert open: &lt;unknown&gt;
-  (Session info: chrome=86.0.4240.183): 
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;HICHEM&apos;, ip: &apos;192.168.198.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64202}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: d9db8a556596b9aca420d3342933e699
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
-	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
-	at com.sun.proxy.$Proxy11.getScreenshotAs(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
-	at pageObject.MediaBase.takesScreenShots(MediaBase.java:25)
-	at pageObject.TestBase.reporteResu(TestBase.java:138)
-	at sun.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:64)
-	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:364)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:318)
-	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-	at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
+</pre></div><a href='#' onClick='toggleBox("stack-trace804872134", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace804872134'><pre>java.lang.AssertionError: ERROR ACCURRED : ARENDER VERSION IS NOT TRUE expected [Version 4.1.1-rc1 - 201020_144655] but found [Version 4.1.1-rc3 - 201028_110038]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at StandAlone.ARender_Full_Fonction.logo_Test(ARender_Full_Fonction.java:148)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
 	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
 	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
 	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(Unknown Source)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:588)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
 	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
 	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
-	at org.testng.TestNG.runSuites(TestNG.java:1066)
-	at org.testng.TestNG.run(TestNG.java:1034)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>StandAlone.Eml_File_Full_RegressionTest@eafc191</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='StandAlone.Eml_File_Full_RegressionTest.startReport()'><b>startReport</b><br>Test class: StandAlone.Eml_File_Full_RegressionTest</td>
-<td></td>
-<td>-1604478429</td>
-<td>StandAlone.Eml_File_Full_RegressionTest@eafc191</td></tr>
-<tr>
-<td title='StandAlone.Eml_File_Full_RegressionTest.startReport()'><b>startReport</b><br>Test class: StandAlone.Eml_File_Full_RegressionTest</td>
-<td></td>
-<td>-1604478429</td>
-<td>StandAlone.Eml_File_Full_RegressionTest@eafc191</td></tr>
-<tr>
-<td title='StandAlone.Eml_File_Full_RegressionTest.reporteResu()'><b>reporteResu</b><br>Test class: StandAlone.Eml_File_Full_RegressionTest</td>
-<td></td>
-<td>-1604478429</td>
-<td>StandAlone.Eml_File_Full_RegressionTest@eafc191</td></tr>
-<tr>
-<td title='StandAlone.Eml_File_Full_RegressionTest.reporteResu()'><b>reporteResu</b><br>Test class: StandAlone.Eml_File_Full_RegressionTest</td>
-<td></td>
-<td>-1604478429</td>
-<td>StandAlone.Eml_File_Full_RegressionTest@eafc191</td></tr>
-<tr>
-<td title='StandAlone.Eml_File_Full_RegressionTest.tearDown()'><b>tearDown</b><br>Test class: StandAlone.Eml_File_Full_RegressionTest</td>
-<td></td>
-<td>-1604478429</td>
-<td>StandAlone.Eml_File_Full_RegressionTest@eafc191</td></tr>
+<td>StandAlone.ARender_Full_Fonction@156b88f5</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -230,391 +159,20 @@ Session ID: d9db8a556596b9aca420d3342933e699
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='StandAlone.Eml_File_Full_RegressionTest.ADD_AN_ANCRE_On_eml()'><b>ADD_AN_ANCRE_On_eml</b><br>Test class: StandAlone.Eml_File_Full_RegressionTest<br>Parameters: public void StandAlone.Eml_File_Full_RegressionTest.ADD_AN_ANCRE_On_eml(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException</td>
-<td></td>
-<td>21</td>
-<td>StandAlone.Eml_File_Full_RegressionTest@eafc191</td></tr>
-<tr>
-<td title='StandAlone.Eml_File_Full_RegressionTest.Activate_Multiview_On_eml()'><b>Activate_Multiview_On_eml</b><br>Test class: StandAlone.Eml_File_Full_RegressionTest<br>Parameters: public void StandAlone.Eml_File_Full_RegressionTest.Activate_Multiview_On_eml(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException</td>
-<td></td>
-<td>0</td>
-<td>StandAlone.Eml_File_Full_RegressionTest@eafc191</td></tr>
-<tr>
-<td title='StandAlone.Eml_File_Full_RegressionTest.Add_a_Signet_On_eml()'><b>Add_a_Signet_On_eml</b><br>Test class: StandAlone.Eml_File_Full_RegressionTest<br>Parameters: public void StandAlone.Eml_File_Full_RegressionTest.Add_a_Signet_On_eml(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException</td>
-<td></td>
-<td>5</td>
-<td>StandAlone.Eml_File_Full_RegressionTest@eafc191</td></tr>
-<tr>
-<td title='StandAlone.Eml_File_Full_RegressionTest.Approved_Stamp_On_eml()'><b>Approved_Stamp_On_eml</b><br>Test class: StandAlone.Eml_File_Full_RegressionTest</td>
+<td title='StandAlone.ARender_Full_Fonction.Brightness_Test()'><b>Brightness_Test</b><br>Test class: StandAlone.ARender_Full_Fonction<br>Parameters: public void StandAlone.ARender_Full_Fonction.Brightness_Test(java.lang.reflect.Method) throws java.lang.InterruptedException,java.awt.AWTException</td>
 <td></td>
 <td>2</td>
-<td>StandAlone.Eml_File_Full_RegressionTest@eafc191</td></tr>
+<td>StandAlone.ARender_Full_Fonction@156b88f5</td></tr>
 <tr>
-<td title='StandAlone.Eml_File_Full_RegressionTest.Delete_a_Signet_On_eml()'><b>Delete_a_Signet_On_eml</b><br>Test class: StandAlone.Eml_File_Full_RegressionTest<br>Parameters: public void StandAlone.Eml_File_Full_RegressionTest.Delete_a_Signet_On_eml(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException</td>
-<td></td>
-<td>4</td>
-<td>StandAlone.Eml_File_Full_RegressionTest@eafc191</td></tr>
-<tr>
-<td title='StandAlone.Eml_File_Full_RegressionTest.Draft_Stamp_On_eml()'><b>Draft_Stamp_On_eml</b><br>Test class: StandAlone.Eml_File_Full_RegressionTest</td>
-<td></td>
-<td>4</td>
-<td>StandAlone.Eml_File_Full_RegressionTest@eafc191</td></tr>
-<tr>
-<td title='StandAlone.Eml_File_Full_RegressionTest.Free_Stamp_On_eml()'><b>Free_Stamp_On_eml</b><br>Test class: StandAlone.Eml_File_Full_RegressionTest</td>
-<td></td>
-<td>4</td>
-<td>StandAlone.Eml_File_Full_RegressionTest@eafc191</td></tr>
-<tr>
-<td title='StandAlone.Eml_File_Full_RegressionTest.Handel_Polygone_On_eml()'><b>Handel_Polygone_On_eml</b><br>Test class: StandAlone.Eml_File_Full_RegressionTest<br>Parameters: public void StandAlone.Eml_File_Full_RegressionTest.Handel_Polygone_On_eml(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
-<td></td>
-<td>5</td>
-<td>StandAlone.Eml_File_Full_RegressionTest@eafc191</td></tr>
-<tr>
-<td title='StandAlone.Eml_File_Full_RegressionTest.Handle_Arrow_On_eml()'><b>Handle_Arrow_On_eml</b><br>Test class: StandAlone.Eml_File_Full_RegressionTest<br>Parameters: public void StandAlone.Eml_File_Full_RegressionTest.Handle_Arrow_On_eml(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
-<td></td>
-<td>23</td>
-<td>StandAlone.Eml_File_Full_RegressionTest@eafc191</td></tr>
-<tr>
-<td title='StandAlone.Eml_File_Full_RegressionTest.Handle_Circle___On_eml()'><b>Handle_Circle___On_eml</b><br>Test class: StandAlone.Eml_File_Full_RegressionTest<br>Parameters: public void StandAlone.Eml_File_Full_RegressionTest.Handle_Circle___On_eml(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
-<td></td>
-<td>5</td>
-<td>StandAlone.Eml_File_Full_RegressionTest@eafc191</td></tr>
-<tr>
-<td title='StandAlone.Eml_File_Full_RegressionTest.Handle_FreeText_On_eml()'><b>Handle_FreeText_On_eml</b><br>Test class: StandAlone.Eml_File_Full_RegressionTest<br>Parameters: public void StandAlone.Eml_File_Full_RegressionTest.Handle_FreeText_On_eml(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
-<td></td>
-<td>3</td>
-<td>StandAlone.Eml_File_Full_RegressionTest@eafc191</td></tr>
-<tr>
-<td title='StandAlone.Eml_File_Full_RegressionTest.Handle_StickyNote_On_eml()'><b>Handle_StickyNote_On_eml</b><br>Test class: StandAlone.Eml_File_Full_RegressionTest<br>Parameters: public void StandAlone.Eml_File_Full_RegressionTest.Handle_StickyNote_On_eml(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
-<td></td>
-<td>4</td>
-<td>StandAlone.Eml_File_Full_RegressionTest@eafc191</td></tr>
-<tr>
-<td title='StandAlone.Eml_File_Full_RegressionTest.Handle_Underline_On_eml()'><b>Handle_Underline_On_eml</b><br>Test class: StandAlone.Eml_File_Full_RegressionTest<br>Parameters: public void StandAlone.Eml_File_Full_RegressionTest.Handle_Underline_On_eml(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
-<td></td>
-<td>5</td>
-<td>StandAlone.Eml_File_Full_RegressionTest@eafc191</td></tr>
-<tr>
-<td title='StandAlone.Eml_File_Full_RegressionTest.Handle_freeHand_On_eml()'><b>Handle_freeHand_On_eml</b><br>Test class: StandAlone.Eml_File_Full_RegressionTest<br>Parameters: public void StandAlone.Eml_File_Full_RegressionTest.Handle_freeHand_On_eml(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
-<td></td>
-<td>2</td>
-<td>StandAlone.Eml_File_Full_RegressionTest@eafc191</td></tr>
-<tr>
-<td title='StandAlone.Eml_File_Full_RegressionTest.Handle_polyline_On_eml()'><b>Handle_polyline_On_eml</b><br>Test class: StandAlone.Eml_File_Full_RegressionTest<br>Parameters: public void StandAlone.Eml_File_Full_RegressionTest.Handle_polyline_On_eml(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
-<td></td>
-<td>5</td>
-<td>StandAlone.Eml_File_Full_RegressionTest@eafc191</td></tr>
-<tr>
-<td title='StandAlone.Eml_File_Full_RegressionTest.Left_Rotation_Control_On_eml()'><b>Left_Rotation_Control_On_eml</b><br>Test class: StandAlone.Eml_File_Full_RegressionTest<br>Parameters: public void StandAlone.Eml_File_Full_RegressionTest.Left_Rotation_Control_On_eml(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException</td>
+<td title='StandAlone.ARender_Full_Fonction.Fullscreen_Test()'><b>Fullscreen_Test</b><br>Test class: StandAlone.ARender_Full_Fonction<br>Parameters: public void StandAlone.ARender_Full_Fonction.Fullscreen_Test(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
 <td></td>
 <td>0</td>
-<td>StandAlone.Eml_File_Full_RegressionTest@eafc191</td></tr>
+<td>StandAlone.ARender_Full_Fonction@156b88f5</td></tr>
 <tr>
-<td title='StandAlone.Eml_File_Full_RegressionTest.Refresh_After_Delete_Anotation_On_eml()'><b>Refresh_After_Delete_Anotation_On_eml</b><br>Test class: StandAlone.Eml_File_Full_RegressionTest<br>Parameters: public void StandAlone.Eml_File_Full_RegressionTest.Refresh_After_Delete_Anotation_On_eml(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
-<td></td>
-<td>20</td>
-<td>StandAlone.Eml_File_Full_RegressionTest@eafc191</td></tr>
-<tr>
-<td title='StandAlone.Eml_File_Full_RegressionTest.Refresh_After_Save_Anotation_On_eml()'><b>Refresh_After_Save_Anotation_On_eml</b><br>Test class: StandAlone.Eml_File_Full_RegressionTest<br>Parameters: public void StandAlone.Eml_File_Full_RegressionTest.Refresh_After_Save_Anotation_On_eml(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
-<td></td>
-<td>0</td>
-<td>StandAlone.Eml_File_Full_RegressionTest@eafc191</td></tr>
-<tr>
-<td title='StandAlone.Eml_File_Full_RegressionTest.Right_Rotation_Control_On_eml()'><b>Right_Rotation_Control_On_eml</b><br>Test class: StandAlone.Eml_File_Full_RegressionTest<br>Parameters: public void StandAlone.Eml_File_Full_RegressionTest.Right_Rotation_Control_On_eml(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException</td>
-<td></td>
-<td>0</td>
-<td>StandAlone.Eml_File_Full_RegressionTest@eafc191</td></tr>
-<tr>
-<td title='StandAlone.Eml_File_Full_RegressionTest.SAVE_DATA_ON_eml()'><b>SAVE_DATA_ON_eml</b><br>Test class: StandAlone.Eml_File_Full_RegressionTest<br>Parameters: public void StandAlone.Eml_File_Full_RegressionTest.SAVE_DATA_ON_eml(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
+<td title='StandAlone.ARender_Full_Fonction.Navigation_Button_Test()'><b>Navigation_Button_Test</b><br>Test class: StandAlone.ARender_Full_Fonction<br>Parameters: public void StandAlone.ARender_Full_Fonction.Navigation_Button_Test(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
 <td></td>
 <td>1</td>
-<td>StandAlone.Eml_File_Full_RegressionTest@eafc191</td></tr>
-<tr>
-<td title='StandAlone.Eml_File_Full_RegressionTest.SKIP_AN_ANCRE_On_eml()'><b>SKIP_AN_ANCRE_On_eml</b><br>Test class: StandAlone.Eml_File_Full_RegressionTest<br>Parameters: public void StandAlone.Eml_File_Full_RegressionTest.SKIP_AN_ANCRE_On_eml(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException</td>
-<td></td>
-<td>21</td>
-<td>StandAlone.Eml_File_Full_RegressionTest@eafc191</td></tr>
-<tr>
-<td title='StandAlone.Eml_File_Full_RegressionTest.Signature_Stamp_On_eml()'><b>Signature_Stamp_On_eml</b><br>Test class: StandAlone.Eml_File_Full_RegressionTest</td>
-<td></td>
-<td>4</td>
-<td>StandAlone.Eml_File_Full_RegressionTest@eafc191</td></tr>
-<tr>
-<td title='StandAlone.Eml_File_Full_RegressionTest.Upload_eml_File()'><b>Upload_eml_File</b><br>Test class: StandAlone.Eml_File_Full_RegressionTest<br>Parameters: public void StandAlone.Eml_File_Full_RegressionTest.Upload_eml_File(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException</td>
-<td></td>
-<td>6</td>
-<td>StandAlone.Eml_File_Full_RegressionTest@eafc191</td></tr>
-<tr>
-<td title='StandAlone.Eml_File_Full_RegressionTest.Urgent_Stamp_On_eml()'><b>Urgent_Stamp_On_eml</b><br>Test class: StandAlone.Eml_File_Full_RegressionTest</td>
-<td></td>
-<td>3</td>
-<td>StandAlone.Eml_File_Full_RegressionTest@eafc191</td></tr>
-<tr>
-<td title='StandAlone.Eml_File_Full_RegressionTest.ZoomInZone_On_eml()'><b>ZoomInZone_On_eml</b><br>Test class: StandAlone.Eml_File_Full_RegressionTest<br>Parameters: public void StandAlone.Eml_File_Full_RegressionTest.ZoomInZone_On_eml(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException</td>
-<td></td>
-<td>0</td>
-<td>StandAlone.Eml_File_Full_RegressionTest@eafc191</td></tr>
-<tr>
-<td title='StandAlone.Eml_File_Full_RegressionTest.ZoomIn_On_eml()'><b>ZoomIn_On_eml</b><br>Test class: StandAlone.Eml_File_Full_RegressionTest<br>Parameters: public void StandAlone.Eml_File_Full_RegressionTest.ZoomIn_On_eml(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException</td>
-<td></td>
-<td>1</td>
-<td>StandAlone.Eml_File_Full_RegressionTest@eafc191</td></tr>
-<tr>
-<td title='StandAlone.Eml_File_Full_RegressionTest.ZoomOut_On_eml()'><b>ZoomOut_On_eml</b><br>Test class: StandAlone.Eml_File_Full_RegressionTest<br>Parameters: public void StandAlone.Eml_File_Full_RegressionTest.ZoomOut_On_eml(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException</td>
-<td></td>
-<td>0</td>
-<td>StandAlone.Eml_File_Full_RegressionTest@eafc191</td></tr>
-<tr>
-<td title='StandAlone.Eml_File_Full_RegressionTest.Zoom_Adjust_On_eml()'><b>Zoom_Adjust_On_eml</b><br>Test class: StandAlone.Eml_File_Full_RegressionTest<br>Parameters: public void StandAlone.Eml_File_Full_RegressionTest.Zoom_Adjust_On_eml(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException</td>
-<td></td>
-<td>0</td>
-<td>StandAlone.Eml_File_Full_RegressionTest@eafc191</td></tr>
-<tr>
-<td title='StandAlone.Eml_File_Full_RegressionTest.Zoom_Text_Box_Control_On_eml()'><b>Zoom_Text_Box_Control_On_eml</b><br>Test class: StandAlone.Eml_File_Full_RegressionTest<br>Parameters: public void StandAlone.Eml_File_Full_RegressionTest.Zoom_Text_Box_Control_On_eml(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException</td>
-<td></td>
-<td>2</td>
-<td>StandAlone.Eml_File_Full_RegressionTest@eafc191</td></tr>
-<tr>
-<td title='StandAlone.Eml_File_Full_RegressionTest.delete_Anotation_On_eml()'><b>delete_Anotation_On_eml</b><br>Test class: StandAlone.Eml_File_Full_RegressionTest<br>Parameters: public void StandAlone.Eml_File_Full_RegressionTest.delete_Anotation_On_eml(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
-<td></td>
-<td>3</td>
-<td>StandAlone.Eml_File_Full_RegressionTest@eafc191</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='StandAlone.Eml_File_Full_RegressionTest.Desactivate_Multiview_On_eml()'><b>Desactivate_Multiview_On_eml</b><br>Test class: StandAlone.Eml_File_Full_RegressionTest</td>
-<td><div><pre>org.openqa.selenium.UnhandledAlertException: unexpected alert open: &lt;unknown&gt;
-  (Session info: chrome=86.0.4240.183): 
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;HICHEM&apos;, ip: &apos;192.168.198.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64202}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: d9db8a556596b9aca420d3342933e699
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
-	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
-	at com.sun.proxy.$Proxy11.getScreenshotAs(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
-	at pageObject.MediaBase.takesScreenShots(MediaBase.java:25)
-	at pageObject.TestBase.reporteResu(TestBase.java:138)
-	at sun.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:64)
-	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:364)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:318)
-	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-	at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(Unknown Source)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:588)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
-	at org.testng.TestNG.runSuites(TestNG.java:1066)
-	at org.testng.TestNG.run(TestNG.java:1034)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1645253408", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1645253408'><pre>org.openqa.selenium.UnhandledAlertException: unexpected alert open: &lt;unknown&gt;
-  (Session info: chrome=86.0.4240.183): 
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;HICHEM&apos;, ip: &apos;192.168.198.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64202}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: d9db8a556596b9aca420d3342933e699
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
-	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
-	at com.sun.proxy.$Proxy11.getScreenshotAs(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
-	at pageObject.MediaBase.takesScreenShots(MediaBase.java:25)
-	at pageObject.TestBase.reporteResu(TestBase.java:138)
-	at sun.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:64)
-	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:364)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:318)
-	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-	at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(Unknown Source)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:588)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
-	at org.testng.TestNG.runSuites(TestNG.java:1066)
-	at org.testng.TestNG.run(TestNG.java:1034)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>0</td>
-<td>StandAlone.Eml_File_Full_RegressionTest@eafc191</td></tr>
-<tr>
-<td title='StandAlone.Eml_File_Full_RegressionTest.Multi_Multiview_On_eml()'><b>Multi_Multiview_On_eml</b><br>Test class: StandAlone.Eml_File_Full_RegressionTest</td>
-<td><div><pre>org.openqa.selenium.UnhandledAlertException: unexpected alert open: &lt;unknown&gt;
-  (Session info: chrome=86.0.4240.183): 
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;HICHEM&apos;, ip: &apos;192.168.198.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64202}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: d9db8a556596b9aca420d3342933e699
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
-	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
-	at com.sun.proxy.$Proxy11.getScreenshotAs(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
-	at pageObject.MediaBase.takesScreenShots(MediaBase.java:25)
-	at pageObject.TestBase.reporteResu(TestBase.java:138)
-	at sun.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:64)
-	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:364)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:318)
-	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-	at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(Unknown Source)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:588)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
-	at org.testng.TestNG.runSuites(TestNG.java:1066)
-	at org.testng.TestNG.run(TestNG.java:1034)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace84481493", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace84481493'><pre>org.openqa.selenium.UnhandledAlertException: unexpected alert open: &lt;unknown&gt;
-  (Session info: chrome=86.0.4240.183): 
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;HICHEM&apos;, ip: &apos;192.168.198.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64202}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: d9db8a556596b9aca420d3342933e699
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
-	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
-	at com.sun.proxy.$Proxy11.getScreenshotAs(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
-	at pageObject.MediaBase.takesScreenShots(MediaBase.java:25)
-	at pageObject.TestBase.reporteResu(TestBase.java:138)
-	at sun.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:64)
-	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:364)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:318)
-	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-	at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(Unknown Source)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:588)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
-	at org.testng.TestNG.runSuites(TestNG.java:1066)
-	at org.testng.TestNG.run(TestNG.java:1034)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>0</td>
-<td>StandAlone.Eml_File_Full_RegressionTest@eafc191</td></tr>
+<td>StandAlone.ARender_Full_Fonction@156b88f5</td></tr>
 </table><p>
 </body>
 </html>

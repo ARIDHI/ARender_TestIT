@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="StandAlone.Eml_File_Full_RegressionTest">
+      <class name="StandAlone.ARender_Full_Fonction">
         <methods>
           <include name="setExtent"/>
+          <include name="logo_Test" invocation-numbers="0"/>
           <include name="reporteResu"/>
-          <include name="Activate_Multiview_On_eml"/>
-          <include name="Desactivate_Multiview_On_eml"/>
           <include name="tearDown"/>
-          <include name="Upload_eml_File"/>
-          <include name="Multi_Multiview_On_eml"/>
           <include name="endReport"/>
           <include name="startReport"/>
           <include name="initialization"/>
         </methods>
-      </class> <!-- StandAlone.Eml_File_Full_RegressionTest -->
+      </class> <!-- StandAlone.ARender_Full_Fonction -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

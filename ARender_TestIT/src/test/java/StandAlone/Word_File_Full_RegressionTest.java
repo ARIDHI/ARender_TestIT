@@ -201,11 +201,9 @@ public class Word_File_Full_RegressionTest extends pageObject.TestBase implement
 		    	 }
 			
 			
-			@Test (priority = 17 ,dependsOnMethods={"Upload_word_File","Handel_Polygone_On_word","Handle_StickyNote_On_word"})
+			@Test (priority = 15 ,dependsOnMethods={"Upload_word_File","Handel_Polygone_On_word","Handle_StickyNote_On_word"})
 			public void delete_Anotation_On_word(Method method) throws InterruptedException {				
-				    page.getInstance(PolygoneannotationHandler.class).doDrowpolygone();
-				    page.getInstance(StickyNoteAnnotationHandler.class).drowNote();
-				   
+				    page.getInstance(PolygoneannotationHandler.class).doDrowpolygone();			   
 				try {
 					page.getInstance(deleteFonction.class).deleteFromExplorerThumb();							  	 
 			    	Assert.assertTrue(page.findElement(sadEmptyIcon).isDisplayed(),"ERROR ACCURRED : ANNOTATION ARE DELETED");   		
@@ -214,10 +212,11 @@ public class Word_File_Full_RegressionTest extends pageObject.TestBase implement
 		        }
 	        }
 			
-			@Test (priority = 18 ,dependsOnMethods={"delete_Anotation_On_word"})
+			@Test (priority = 16 ,dependsOnMethods={"delete_Anotation_On_word"})
 
 			public void Refresh_After_Delete_Anotation_On_word(Method method) throws InterruptedException {
 			    try {
+			    	page.getInstance(SaveCancelFonction.class).saveData();
 			    	page.clickOnElement(refreshBtn);
 
 			  int actualStackPanelSize = page.findElements(stackPanel_content).size();  	
@@ -227,14 +226,14 @@ public class Word_File_Full_RegressionTest extends pageObject.TestBase implement
 					 e.printStackTrace();
 			    }
 			}
-			@Test (priority = 15 ,dependsOnMethods="Upload_word_File")
+			@Test (priority = 17 ,dependsOnMethods="Upload_word_File")
 			public void SAVE_DATA_ON_word(Method method) throws InterruptedException {
 	
 		     try {
 			    	page.getInstance(circleAnnotationHandler.class).doDrowcircle();
 			    	page.getInstance(SaveCancelFonction.class).cancelStyleBar();
 			    	page.getInstance(SaveCancelFonction.class).saveData();
-	
+	              Thread.sleep(5000);
 		 int actualStackPanelSize = page.findElements(stackPanel_content).size();
 		     Assert.assertNotEquals(actualStackPanelSize, 0);
 			    
@@ -242,7 +241,7 @@ public class Word_File_Full_RegressionTest extends pageObject.TestBase implement
 					 e.printStackTrace();	
 			}
       }
-			@Test (priority = 16 ,dependsOnMethods="SAVE_DATA_ON_word")
+			@Test (priority = 18 ,dependsOnMethods="SAVE_DATA_ON_word")
 			public void Refresh_After_Save_Anotation_On_word(Method method) throws InterruptedException {
 				
 			    try {

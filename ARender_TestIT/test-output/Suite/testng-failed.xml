@@ -6,16 +6,12 @@
       <class name="StandAlone.Word_File_Full_RegressionTest">
         <methods>
           <include name="setExtent"/>
-          <include name="tearDown"/>
-          <include name="Handel_Polygone_On_word"/>
-          <include name="endReport"/>
-          <include name="delete_Anotation_On_word" invocation-numbers="0"/>
-          <include name="startReport"/>
-          <include name="Refresh_After_Delete_Anotation_On_word"/>
           <include name="reporteResu"/>
-          <include name="Handle_StickyNote_On_word"/>
+          <include name="tearDown"/>
           <include name="Upload_word_File"/>
           <include name="Activate_Multiview_On_word"/>
+          <include name="endReport"/>
+          <include name="startReport"/>
           <include name="initialization"/>
           <include name="Desactivate_Multiview_On_word"/>
           <include name="Multi_Multiview_On_word"/>

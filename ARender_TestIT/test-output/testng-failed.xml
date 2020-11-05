@@ -3,48 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="StandAlone.Word_File_Full_RegressionTest">
+      <class name="StandAlone.ARender_Full_Fonction">
         <methods>
           <include name="setExtent"/>
-          <include name="Handel_Polygone_On_word"/>
-          <include name="Handle_FreeText_On_word"/>
-          <include name="Signature_Stamp_On_word"/>
-          <include name="endReport"/>
-          <include name="Refresh_After_Save_Anotation_On_word"/>
-          <include name="delete_Anotation_On_word"/>
-          <include name="startReport"/>
-          <include name="Refresh_After_Delete_Anotation_On_word"/>
-          <include name="Free_Stamp_On_word"/>
-          <include name="Draft_Stamp_On_word"/>
-          <include name="Handle_freeHand_On_word"/>
-          <include name="Activate_Multiview_On_word"/>
-          <include name="ADD_AN_ANCRE_On_word"/>
-          <include name="Handle_polyline_On_word"/>
-          <include name="initialization"/>
-          <include name="Desactivate_Multiview_On_word"/>
-          <include name="Zoom_Adjust_On_word"/>
-          <include name="ZoomIn_On_word"/>
-          <include name="Handle_Arrow_On_word"/>
-          <include name="Right_Rotation_Control_On_word"/>
-          <include name="Zoom_Text_Box_Control_On_word"/>
-          <include name="tearDown"/>
-          <include name="ZoomInZone_On_word"/>
-          <include name="Delete_a_Signet_On_word"/>
-          <include name="SKIP_AN_ANCRE_On_word"/>
-          <include name="Handle_Underline_On_word"/>
-          <include name="Left_Rotation_Control_On_word"/>
-          <include name="Urgent_Stamp_On_word"/>
+          <include name="logo_Test" invocation-numbers="0"/>
           <include name="reporteResu"/>
-          <include name="Handle_StickyNote_On_word"/>
-          <include name="Approved_Stamp_On_word"/>
-          <include name="Upload_word_File" invocation-numbers="0"/>
-          <include name="ZoomOut_On_word"/>
-          <include name="Add_a_Signet_On_word"/>
-          <include name="Multi_Multiview_On_word"/>
-          <include name="SAVE_DATA_ON_word"/>
-          <include name="Handle_Circle___On_word"/>
+          <include name="tearDown"/>
+          <include name="endReport"/>
+          <include name="startReport"/>
+          <include name="initialization"/>
         </methods>
-      </class> <!-- StandAlone.Word_File_Full_RegressionTest -->
+      </class> <!-- StandAlone.ARender_Full_Fonction -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
