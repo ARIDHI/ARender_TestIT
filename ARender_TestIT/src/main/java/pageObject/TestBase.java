@@ -144,30 +144,32 @@ public class TestBase {
 	
 	 @AfterMethod 
 	 public void reporteResu(ITestResult result) throws Exception {
-	   String screenshotPath = pageObject.MediaBase.takesScreenShots(driver, result.getName());
-	   
-		 if (result != null && result.getStatus()== ITestResult.SUCCESS) {
+	   String path = pageObject.MediaBase.takesScreenShots(driver,result.getMethod().getMethodName());
+	
+	   if (result != null && result.getStatus()== ITestResult.SUCCESS) {
 
 			 logger.log(Status.PASS,  result.getName() +"PASS : " );
-			 logger.pass("<b><font color=green>"+"Screenshot of Passed Test"+"</font></br>",
-	    				MediaEntityBuilder.createScreenCaptureFromPath(screenshotPath).build());
-			 logger.log(Status.PASS, "<a href='"+ result.getName()+ ".mov" +"'><spa, class='lable info'>Download gif</span></a>");
 		 }
 		 
 		 else if (result != null && result.getStatus()==ITestResult.FAILURE) {
 			 
 	    	 logger.log(Status.FAIL, result.getName() +"FAIL ! : "  );	
-	    	 logger.fail("<b><font color=red>"+"Screenshot of Failure Test"+"</font></br>",
-	    				MediaEntityBuilder.createScreenCaptureFromPath(screenshotPath).build());
-			 logger.log(Status.FAIL, "<a href='"+ result.getName()+ ".mov" +"'><spa, class='lable info'>Download gif</span></a>");
-			 logger.fail("TEST FAILED : " +result.getThrowable().getMessage());
+	    	 
+	    	 try {
+	    		 logger.fail("<b><font color=red>"+"Screenshot of failure"+"</font></br>",
+	    			MediaEntityBuilder.createScreenCaptureFromPath(path).build());
+	    		}
+	    		catch(IOException e) {
+	    			logger.fail("Test Failed, cannot attach screenshoot");
+	    		}
+	    	 logger.fail("TEST FAILED : " +result.getThrowable().getMessage());
 		 }
 		
 		 else {	
 			 
 			 logger.log(Status.SKIP, "TEST SKIPED : "+result.getName());
 			 logger.skip("<b><font color=yellow>"+"Screenshot of Skiped Test"+"</font></br>",
-	    				MediaEntityBuilder.createScreenCaptureFromPath(screenshotPath).build());
+	    				MediaEntityBuilder.createScreenCaptureFromPath(path).build());
 			 logger.log(Status.SKIP, "TEST FAILED : " +result.getSkipCausedBy());
 		 }	
 		 
